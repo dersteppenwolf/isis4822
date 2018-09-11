@@ -1,11 +1,11 @@
-// URL: https://beta.observablehq.com/d/e7cc7a2094faa56c
+// URL: https://beta.observablehq.com/@dersteppenwolf/a-visual-tool-for-data-quality-checking-of-geomagnetic-data
 // Title: A Visual tool for Data Quality Checking of  Geomagnetic Data
 // Author: Juan Carlos (@dersteppenwolf)
-// Version: 858
+// Version: 860
 // Runtime version: 1
 
 const m0 = {
-  id: "e7cc7a2094faa56c@858",
+  id: "e7cc7a2094faa56c@860",
   variables: [
     {
       inputs: ["md"],
@@ -27,6 +27,10 @@ md`# A Visual tool for Data Quality Checking of  Geomagnetic Data
 **Class**: ISIS 4822: Visual Analytics ,  Fall 2018 http://johnguerra.co/classes/visual_analytics_fall_2018/
 
 **Homework #2**
+
+**Github Repository**: https://github.com/dersteppenwolf/isis4822/tree/master/hw2
+
+**Slides**: (pdf) https://github.com/dersteppenwolf/isis4822/blob/master/hw2/slides.hw2.jc.mendez_fall_2018.pdf 
 
 ## Dataset Description
 
@@ -763,7 +767,7 @@ require("d3-format")
 };
 
 const notebook = {
-  id: "e7cc7a2094faa56c@858",
+  id: "e7cc7a2094faa56c@860",
   modules: [m0,m1]
 };
 
