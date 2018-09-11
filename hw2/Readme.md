@@ -4,7 +4,7 @@
 **Url**: https://beta.observablehq.com/d/e7cc7a2094faa56c 
 
 
-## About the Author 
+## About the Author 
 
 **Author**: Juan Carlos Méndez.   
 
@@ -15,7 +15,7 @@
 **Github**: https://github.com/dersteppenwolf
 
 
-## About the Class 
+## About the Class 
 
 **Class**: ISIS 4822: Visual Analytics ,  Fall 2018 http://johnguerra.co/classes/visual_analytics_fall_2018/
 
