@@ -1,8 +1,7 @@
 # A Visual tool for Data Quality Checking of  Geomagnetic Data
 
 
-**Url**: https://beta.observablehq.com/d/e7cc7a2094faa56c 
-
+**Url**:  https://beta.observablehq.com/@dersteppenwolf/a-visual-tool-for-data-quality-checking-of-geomagnetic-data
 
 ## About the Author 
 
