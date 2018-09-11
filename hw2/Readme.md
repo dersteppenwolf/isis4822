@@ -21,6 +21,8 @@
 
 **Homework**: 2
 
+**Slides**: (Pdf) https://github.com/dersteppenwolf/isis4822/blob/master/hw2/slides.hw2.jc.mendez_fall_2018.pdf
+
 
 ## Dataset Description
 
