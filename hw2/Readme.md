@@ -87,3 +87,14 @@ The dataset has a huge number of rows (525.960). The owner of data doesn't have 
 3. Teoría de Geomagnetismo http://www.ign.es/web/resources/docs/IGNCnig/GMT-Teoria-Geomagnetismo.pdf
 
 4. Automated Hardware and Software System for Monitoring the Earth’s Magnetic Environment https://datascience.codata.org/articles/10.5334/dsj-2016-018/
+
+
+# Screenshots
+
+![alt text](https://raw.githubusercontent.com/dersteppenwolf/isis4822/master/hw2/images/s1.png "Visualization")
+
+![alt text](https://raw.githubusercontent.com/dersteppenwolf/isis4822/master/hw2/images/s_filter.png "Visualization")
+
+![alt text](https://raw.githubusercontent.com/dersteppenwolf/isis4822/master/hw2/images/s2.png "Visualization")
+
+![alt text](https://raw.githubusercontent.com/dersteppenwolf/isis4822/master/hw2/images/s_detail.png "Visualization Detail")
