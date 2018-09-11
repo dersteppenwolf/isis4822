@@ -50,7 +50,7 @@ El campo magnético terrestre es una magnitud de carácter vectorial, por lo q
 ![alt text](https://raw.githubusercontent.com/dersteppenwolf/isis4822/master/hw2/campo.png "Descomposición vectorial del Campo Magnético")
 
 
-*** What is geomagnetism? ***
+***What is geomagnetism?***
 
 Geomagnetism is the science that studies the origin, properties and variations of the earth's magnetic field. The magnetic field that is observed in a point of the Earth has two origins, one internal and the other external. The field of external origin is mainly due to the activity of the Sun over the ionosphere and the magnetosphere. This external field presents periodic variations, the most important being the daily variation with a 24-hour period
 
