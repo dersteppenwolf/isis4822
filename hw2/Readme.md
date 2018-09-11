@@ -99,3 +99,7 @@ The dataset has a huge number of rows (525.960). The owner of data doesn't have 
 ![alt text](https://raw.githubusercontent.com/dersteppenwolf/isis4822/master/hw2/images/s2.png "Visualization")
 
 ![alt text](https://raw.githubusercontent.com/dersteppenwolf/isis4822/master/hw2/images/s_detail.png "Visualization Detail")
+
+Web page screenshot:
+
+![alt text](https://raw.githubusercontent.com/dersteppenwolf/isis4822/master/hw2/images/screencapture.png "Visualization web page Detail")
