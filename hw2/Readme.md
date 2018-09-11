@@ -1,5 +1,6 @@
 # A Visual tool for Data Quality Checking of  Geomagnetic Data
 
+**Url**: https://beta.observablehq.com/d/e7cc7a2094faa56c 
 
 ## About the Author
 
@@ -69,3 +70,15 @@ The dataset has a huge number of rows (525.960). The owner of data doesn't have 
 2. According to the owner of the data,  those anomalies were caused by errors during the process of the extraction and transformation  of  the original data.
 3. The owner of the data will publish in the following days a new corrected version of the dataset 
 4. The owner of data is considering to include visual tools like this in his daily work.
+
+
+
+# References
+
+1. D3 Line Chart by @mbostock  https://beta.observablehq.com/@mbostock/d3-line-chart 
+
+2. Line Chart with Circle Tooltip D3 V4 by @alandunning https://bl.ocks.org/alandunning/cfb7dcd7951826b9eacd54f0647f48d3
+
+3. Teoría de Geomagnetismo http://www.ign.es/web/resources/docs/IGNCnig/GMT-Teoria-Geomagnetismo.pdf
+
+4. Automated Hardware and Software System for Monitoring the Earth’s Magnetic Environment https://datascience.codata.org/articles/10.5334/dsj-2016-018/
