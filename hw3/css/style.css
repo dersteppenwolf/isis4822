@@ -11,6 +11,16 @@ h1{
   font-size: 24px;
 }
 
+.h1Title{
+  margin-top: 0px;
+  font-size: 40px;
+}
+
+.anchorDiv{
+  padding-top: 50px;
+}
+
+
 h2{
   font-weight: bold;
   font-size: 18px;
