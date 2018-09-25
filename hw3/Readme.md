@@ -1,15 +1,30 @@
-# Desarrollo cliente
+# How Violence is Killing Us : Violent Deaths in Colombia Between 2000 and 2012
 
-Dependencias
+## Description
+
+Use visualization to get a better understanding of violent deaths in Colombia.
+
+* Demo: http://jcmendez.gkudos.com/hw3/
+* Slides: 
+
+## Development
+
+Dependencies: 
 
   npm install gulp
   npm install
 
-Ejecutar en desarrollo:
+Run for local development:
 
   gulp watch
 
 
+## Screenshots
+
+![alt text](https://raw.githubusercontent.com/dersteppenwolf/isis4822/master/hw3/images/main.png "Visualization")
+
+
+![alt text](https://raw.githubusercontent.com/dersteppenwolf/isis4822/master/hw3/images/detail.png "Visualization")
 
   ## References
 
