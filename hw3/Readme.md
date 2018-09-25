@@ -5,7 +5,14 @@
 Use visualization to get a better understanding of violent deaths in Colombia.
 
 * Demo: http://jcmendez.gkudos.com/hw3/
-* Slides: 
+* Slides: https://github.com/dersteppenwolf/isis4822/blob/master/hw3/slides_hw3.jc.mendez_fall_2018.pdf
+
+## Tech Stuff
+
+* D3 v5.7.0 https://github.com/d3/d3/releases/tag/v5.7.0
+* AngularJS https://angularjs.org/
+* Bootstrap: http://getbootstrap.com/
+* Gulp: https://gulpjs.com/
 
 ## Development
 
@@ -26,10 +33,9 @@ Run for local development:
 
 ![alt text](https://raw.githubusercontent.com/dersteppenwolf/isis4822/master/hw3/images/detail.png "Visualization")
 
-  ## References
+## References
 
-
-binding
+Integrating d3 and AngularJS:
 
   https://stackoverflow.com/questions/13192829/integrating-angularjs-and-d3-simple-data-binding-example
   
@@ -43,20 +49,19 @@ binding
 
   https://github.com/EpiphanyMachine/d3AngularIntegration
      
+  https://bl.ocks.org/gordlea/27370d1eea8464b04538e6d8ced39e89
 
+  https://blog.rapid7.com/2017/05/31/how-to-combine-d3-with-angularjs/
 
-   https://bl.ocks.org/gordlea/27370d1eea8464b04538e6d8ced39e89
+  https://www.sitepoint.com/creating-charting-directives-using-angularjs-d3-js/
 
+Other stuff:
 
-
-   https://blog.rapid7.com/2017/05/31/how-to-combine-d3-with-angularjs/
-
-   https://www.sitepoint.com/creating-charting-directives-using-angularjs-d3-js/
-
-
-   https://www.w3schools.com/colors/colors_palettes.asp
-   https://www.w3schools.com/colors/tryit.asp?filename=trycolors_palettes11
-   https://www.w3schools.com/colors/colors_picker.asp?color=80ced6
+  https://www.w3schools.com/colors/colors_palettes.asp
+  
+  https://www.w3schools.com/colors/tryit.asp?filename=trycolors_palettes11
+  
+  https://www.w3schools.com/colors/colors_picker.asp?color=80ced6
 
 
 
