@@ -57,11 +57,11 @@ Integrating d3 and AngularJS:
 
 Other stuff:
 
-  https://www.w3schools.com/colors/colors_palettes.asp
-  
-  https://www.w3schools.com/colors/tryit.asp?filename=trycolors_palettes11
-  
-  https://www.w3schools.com/colors/colors_picker.asp?color=80ced6
+    https://www.w3schools.com/colors/colors_palettes.asp
+    
+    https://www.w3schools.com/colors/tryit.asp?filename=trycolors_palettes11
+    
+    https://www.w3schools.com/colors/colors_picker.asp?color=80ced6
 
 
 
