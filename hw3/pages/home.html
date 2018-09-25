@@ -1,0 +1,44 @@
+<div class="jumbotron text-center">
+
+
+	<h1>Total Deaths per Year</h1>
+	<div  class="chart-container"   line-chart chart-data="datasetYear"></div>
+
+	<br/>
+	<br/>
+	<h1>Stats per Sex</h1>
+	<br/>
+	<h2>Total Deaths per Year : Woman</h2>
+	<div  class="chart-container"   line-chart 
+		chart-data="datasetYearSexF"></div>
+
+	<br/>
+	<h2>Total Deaths per Year : Man</h2>
+	<div  class="chart-container"   line-chart 	chart-data="datasetYearSexM" ></div>
+
+	<br/>
+	<br/>
+	<h1>Stats per Age Group </h1>
+	<div ng-repeat="(key, value) in edades">
+		<br/>
+		<h2> {{key}} </h2>
+		<div  class="chart-container"   line-chart 	chart-data="value" ></div>
+	</div>
+
+
+	<br/>
+	<br/>
+	<h1>Stats per Cause </h1>
+	<div ng-repeat="(key, value) in causas">
+		<br/>
+		<h2> {{key}} </h2>
+		<div  class="chart-container"   line-chart 	chart-data="value" ></div>
+	</div>
+
+
+	
+	 
+
+	
+
+</div>
