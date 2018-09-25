@@ -6,6 +6,21 @@ Use visualization to get a better understanding of violent deaths in Colombia.
 
 * Demo: http://jcmendez.gkudos.com/hw3/
 * Slides: https://github.com/dersteppenwolf/isis4822/blob/master/hw3/slides_hw3.jc.mendez_fall_2018.pdf
+* Blog Entry: https://neogeografia.wordpress.com/2018/09/25/integrating-d3-v5-and-angularjs-how-violence-is-killing-us-a-visualization-of-violent-deaths-in-colombia-between-2000-and-2012/
+* Tweet: https://twitter.com/dersteppen/status/1044631144053051393
+![tweet](https://raw.githubusercontent.com/dersteppenwolf/isis4822/master/hw3/images/tweet.png "tweet")
+
+## About the Author 
+
+**Author**: Juan Carlos Méndez.   
+
+**Email**: jc.mendez[~at~]uniandes.edu.co , juan[~at~]gkudos.com
+
+**Twitter**: @dersteppen
+
+**Github**: https://github.com/dersteppenwolf
+
+**Web**: https://neogeografia.wordpress.com/
 
 ## Tech Stuff
 
