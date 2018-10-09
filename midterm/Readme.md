@@ -29,6 +29,7 @@ Use visualization to get a better understanding of climate change
 * D3 v5.7.0 https://github.com/d3/d3/releases/tag/v5.7.0  (data loading)
 * Vega lite https://vega.github.io/vega-lite/ (graphics)
 * Bootstrap: http://getbootstrap.com/
+* Carto https://carto.com/ (map)
 * Gulp: https://gulpjs.com/
 
 ## Development
