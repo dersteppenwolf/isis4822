@@ -58,7 +58,9 @@ Run for local development:
 ![alt text](https://raw.githubusercontent.com/dersteppenwolf/isis4822/master/midterm/images/4.png "Visualization")
 
 
+## References
 
+  https://www.skepticalscience.com/co2-temperature-correlation.htm
 
 
 
