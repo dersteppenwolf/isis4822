@@ -6,7 +6,7 @@
 It’s not your imagination, world is getting warmer.
 Use visualization to get a better understanding of climate change
 
-* Demo: http://jcmendez.gkudos.com/hw3/
+* Demo: http://jcmendez.gkudos.com/midterm/
 * Slides: 
 * Blog Entry: 
 * Tweet: 
@@ -45,10 +45,16 @@ Run for local development:
 
 ## Screenshots
 
-![alt text](https://raw.githubusercontent.com/dersteppenwolf/isis4822/master/midterm/images/main.png "Visualization")
+![alt text](https://raw.githubusercontent.com/dersteppenwolf/isis4822/master/midterm/images/1.png "Visualization")
 
 
-![alt text](https://raw.githubusercontent.com/dersteppenwolf/isis4822/master/midterm/images/detail.png "Visualization")
+![alt text](https://raw.githubusercontent.com/dersteppenwolf/isis4822/master/midterm/images/2.png "Visualization")
+
+
+![alt text](https://raw.githubusercontent.com/dersteppenwolf/isis4822/master/midterm/images/3.png "Visualization")
+
+
+![alt text](https://raw.githubusercontent.com/dersteppenwolf/isis4822/master/midterm/images/4.png "Visualization")
 
 
 
