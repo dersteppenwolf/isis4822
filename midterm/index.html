@@ -1,0 +1,172 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <title>We are getting hotter!!</title>
+  </head>
+  <body>
+
+
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="display-4">We are getting hotter!!</h1>
+            <p class="lead">It’s not your imagination, world is getting warmer.</p>
+            <p class="">Juan Carlos Méndez</p>
+            <p class="">jc.mendez at uniandes.edu.co</p>
+        </div>
+    </div>
+
+
+
+
+    <div class="container">
+            <div class="row">
+                    <div class="col">
+                    </div>
+                    <div class="col-10">
+             
+                        <p class="lead">Scientists have measured global temperatures for over a hundred years and see that the Earth is getting hotter. 
+                            The trend can be best visualized by comparing each year’s average temperature with the long-term average. 
+                            <br/><br/>
+                            The orange line in the following graphic shows the trend of Earth's heating up using 
+                            a  moving average of 11 years for  temperature value.
+
+                        </p>
+                    </div>
+                    <div class="col">
+                    </div>
+                </div>
+
+                <div class="row">
+
+                        <div class="col-12">
+                            <div id="vis_trends"></div>
+                        </div>
+                    </div>
+
+        <div class="row">
+
+        <div class="col ">
+            </div>
+            <div class="col-10 mt-5">
+                <h2>Looks like between 70's and 80's we not only got a <i>Saturday Night Fever</i> ...</h2>
+                
+           <i class="lead">According to an ongoing temperature analysis conducted by scientists at NASA’s Goddard Institute for Space Studies (GISS)…the average global temperature on Earth has increased by about 0.8°Celsius (1.4°Fahrenheit) since 1880. Two-thirds of the warming has occurred since 1975, at a rate of roughly 0.15-0.20°C per decade.
+           </i> 
+           <p style="text-align: justify;"><span>
+               <span class="skstip beginner" >Source</span>: </span>
+               <a href="http://earthobservatory.nasa.gov/Features/WorldOfChange/decadaltemp.php" 
+               target="_blank"><span><span class="skstip advanced" >NASA</span> Earth Observatory</span></a></p>
+             
+
+            </div>
+            <div class="col">
+            </div>
+        </div>
+
+        <div class="row">
+
+            <div class="col-12">
+                <div id="vis_decade"></div>
+            </div>
+        
+        </div>
+
+        <div class="row">
+
+            <div class="col">
+                </div>
+                <div class="col-10 mt-5">
+                    <h2>Are all months equal? </h2>
+
+                    <p class="lead">Some of them are colder, some others warmer, but it is getting hotter and hotter.
+    
+                    </p>
+
+                </div>
+                <div class="col">
+                </div>
+        </div>
+
+        <div class="row">
+
+            <div class="col-12">
+                <div id="vis"></div>
+            </div>
+        </div>
+
+        <div class="row">
+
+                <div class="col">
+                    </div>
+                    <div class="col-10 mt-5">
+                        <h2>What about  the position on earth? </h2>
+
+                        <p class="lead">According to the latitde , the problem gets worse...
+    
+                            </p>
+
+                    </div>
+                    <div class="col">
+                    </div>
+        </div>
+
+            
+
+        <div class="row">
+                <div class="col-4">
+                        <iframe   width="100%" height="420" 
+                        frameborder="0" 
+                        src="https://gkudos.carto.com/u/kudosg/builder/90d18011-d802-4c2c-9a5f-a40c14918c9f/embed" 
+                        allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+                </div>
+
+                <div class="col-8">
+                    <div id="vis_zones"></div>
+                </div>
+        </div>
+
+            
+
+
+    </div>
+
+    
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega@4.2.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@3.0.0-rc6"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@3.19.2"></script>
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="js/app.js"></script>
+
+    <script>
+            (function(i, s, o, g, r, a, m) {
+                i['GoogleAnalyticsObject'] = r;
+                i[r] = i[r] || function() {
+                    (i[r].q = i[r].q || []).push(arguments)
+                }, i[r].l = 1 * new Date();
+                a = s.createElement(o),
+                    m = s.getElementsByTagName(o)[0];
+                a.async = 1;
+                a.src = g;
+                m.parentNode.insertBefore(a, m)
+            })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+            ga('create', 'UA-4568727-3', 'auto');
+            ga('send', 'pageview');
+        </script>
+
+
+  </body>
+</html>

@@ -1,0 +1,43 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v3.0.0-rc6.json",
+    "data": {
+        "url": "data/decade_avg.csv"
+    },
+    "title": "Temperature Rate Change by Decade",
+    "width": 1200,
+    "height": 350,
+    "autosize": {
+      "type": "fit",
+      "contains": "padding"
+    },
+    "layer": [
+      {
+        "mark": "bar",
+        "encoding": {
+          "x": {"field": "decade", "type": "ordinal"},
+          "y": {"field": "change", "type": "quantitative"}
+        }
+      },
+      {
+        "mark": "line",
+        "encoding": {
+          "x": {"field": "decade", "type": "ordinal"},
+          "y": {"field": "change", "type": "quantitative"},
+          "color": {"value": "#ffffff"}
+        }
+      }
+      ,
+      {
+        "mark": "point",
+        "encoding": {
+          "x": {"field": "decade", "type": "ordinal"},
+          "y": {"field": "change", "type": "quantitative"},
+          "color": {"value": "#ffffff"}
+        }
+
+
+        
+      }
+
+    ]
+  }
