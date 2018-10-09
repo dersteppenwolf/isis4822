@@ -8,7 +8,7 @@ Use visualization to get a better understanding of climate change
 
 * Demo: http://jcmendez.gkudos.com/midterm/
 * Slides: 
-* Tweet: 
+* Tweet: https://twitter.com/dersteppen/status/1049564540709556224
 
 ![tweet](https://raw.githubusercontent.com/dersteppenwolf/isis4822/master/midterm/images/tweet.png "tweet")
 
