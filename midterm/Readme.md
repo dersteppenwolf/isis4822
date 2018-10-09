@@ -10,7 +10,7 @@ Use visualization to get a better understanding of climate change
 * Slides: 
 * Blog Entry: 
 * Tweet: 
-![tweet](https://raw.githubusercontent.com/dersteppenwolf/isis4822/master/hw3/images/tw_eet.png "tweet")
+![tweet](https://raw.githubusercontent.com/dersteppenwolf/isis4822/master/midterm/images/tweet.png "tweet")
 
 ## About the Author 
 
@@ -59,6 +59,8 @@ Run for local development:
 
 
 ## References
+
+  GISS Surface Temperature Analysis (GISTEMP)  https://data.giss.nasa.gov/gistemp/
 
   https://www.skepticalscience.com/co2-temperature-correlation.htm
 
