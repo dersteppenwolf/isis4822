@@ -6,7 +6,6 @@
     "title": "Montly Mean Temperature",
     "width": 1200,
     "height": 350,
-
     "layer": [
 
         {
@@ -114,6 +113,5 @@
         }
 
     ]
-
-    
+ 
   }
