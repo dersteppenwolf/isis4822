@@ -24,33 +24,89 @@
                 }
             ],
             "ignorePeers": false,
-            "groupby" : ["zone"],
+            "groupby": [
+                "zone"
+            ],
             "frame": [
                 11,
                 0
             ]
         }
     ],
-    "description": "Stock prices of 5 Tech Companies over Time.",
-    "mark": "line",
-    "width": 1200,
-    "height": 420,
-    "autosize": {
-        "type": "fit",
-        "contains": "padding"
-    },
-    "encoding": {
-        "x": {
-            "field": "year",
-            "type": "temporal"
+    "vconcat": [
+        {
+            "description": "Moving Average of Temperature per Zone",
+            "mark": {
+                "type": "line",
+                "strokeWidth": 3,
+                "opacity": 0.9
+            },
+            "width": 1100,
+            "height": 420,
+            "encoding": {
+                "x": {
+                    "field": "year",
+                    "type": "temporal",
+                    "title": "Year",
+                    "scale": {
+                        "domain": {
+                            "selection": "brush"
+                        }
+                    },
+                    "axis": {
+                        "labelAngle": -30,
+                        "format": "%Y"
+                    }
+                },
+                "y": {
+                    "field": "Average_Temp",
+                    "type": "quantitative"
+                },
+                "color": {
+                    "field": "zone",
+                    "type": "nominal",
+                    "title": "Zone",
+                    "legend": {
+                        "direction": "horizontal",
+                        "orient": "top",
+                        "padding": 5
+                    }
+                }
+            }
         },
-        "y": {
-            "field": "Average_Temp",
-            "type": "quantitative"
-        },
-        "color": {
-            "field": "zone",
-            "type": "nominal"
+        {
+            "width": 1100,
+            "height": 60,
+            "mark": "line",
+            "selection": {
+                "brush": {
+                    "type": "interval",
+                    "encodings": [
+                        "x"
+                    ]
+                }
+            },
+            "encoding": {
+                "x": {
+                    "field": "year",
+                    "timeUnit": "year",
+                    "type": "temporal",
+                    "title": "Year",
+                    "axis": {
+                        "labelAngle": -30,
+                        "format": "%Y"
+                    }
+                },
+                "y": {
+                    "field": "temp",
+                    "title": "Temperature",
+                    "type": "quantitative",
+                    "axis": {
+                        "tickCount": 3,
+                        "grid": true
+                    }
+                }
+            }
         }
-    }
+    ]
 }

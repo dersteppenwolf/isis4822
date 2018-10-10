@@ -15,10 +15,10 @@
     "vconcat": [
         {
             "mark": {
-                "type": "rect", 
-                "cornerRadius":0
+                "type": "rect",
+                "cornerRadius": 0
             },
-            "width": 1200,
+            "width": 1100,
             "height": 180,
             "encoding": {
                 "x": {
@@ -56,13 +56,16 @@
                         ]
                     },
                     "legend": {
-                        "title": "Avg Temp"
+                        "title": "Avg Temp",
+                        "direction": "horizontal",
+                        "orient": "top",
+                        "padding": 5
                     }
                 }
             }
         },
         {
-            "width": 1200,
+            "width": 1100,
             "height": 60,
             "mark": "line",
             "selection": {
