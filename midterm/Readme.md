@@ -57,6 +57,8 @@ Run for local development:
 
 ![alt text](https://raw.githubusercontent.com/dersteppenwolf/isis4822/master/midterm/images/4.png "Visualization")
 
+![alt text](https://raw.githubusercontent.com/dersteppenwolf/isis4822/master/midterm/images/5.png "Visualization")
+
 
 ## References
 
