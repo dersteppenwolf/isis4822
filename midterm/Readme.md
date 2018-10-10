@@ -64,5 +64,7 @@ Run for local development:
 
   https://www.skepticalscience.com/co2-temperature-correlation.htm
 
+  Brush - Vega-Lite Bike Counts with Dynamic Scale - https://bl.ocks.org/jakevdp/b511d09ed4e2797234bd6236d7b428f7
+
 
 

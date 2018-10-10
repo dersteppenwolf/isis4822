@@ -8,16 +8,18 @@
         "view": {
             "strokeWidth": 0
         },
-        
         "axis": {
             "domain": false
         }
     },
     "vconcat": [
         {
-            "mark": "rect",
+            "mark": {
+                "type": "rect", 
+                "cornerRadius":0
+            },
             "width": 1200,
-            "height": 250,
+            "height": 180,
             "encoding": {
                 "x": {
                     "field": "month_fmt",
