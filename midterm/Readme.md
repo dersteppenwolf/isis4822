@@ -49,10 +49,10 @@ Run for local development:
 ![alt text](https://raw.githubusercontent.com/dersteppenwolf/isis4822/master/midterm/images/1.png "Visualization")
 
 
-![alt text](https://raw.githubusercontent.com/dersteppenwolf/isis4822/master/midterm/images/2.png "Visualization")
+![alt text](https://raw.githubusercontent.com/dersteppenwolf/isis4822/master/midterm/images/2b.png "Visualization")
 
 
-![alt text](https://raw.githubusercontent.com/dersteppenwolf/isis4822/master/midterm/images/3.png "Visualization")
+![alt text](https://raw.githubusercontent.com/dersteppenwolf/isis4822/master/midterm/images/3b.png "Visualization")
 
 
 ![alt text](https://raw.githubusercontent.com/dersteppenwolf/isis4822/master/midterm/images/4b.png "Visualization")
