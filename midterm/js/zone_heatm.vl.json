@@ -8,9 +8,7 @@
         "view": {
             "strokeWidth": 0
         },
-        "scale": {
-            "rangeStep": 13
-        },
+       
         "axis": {
             "domain": false
         }

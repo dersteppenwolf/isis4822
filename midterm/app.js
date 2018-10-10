@@ -16,3 +16,11 @@ d3.json("js/zone_heatm.vl.json").then( (data) => {
     // console.log(data );
     vegaEmbed("#vis_zones", data, {theme: 'dark', actions:false});
 }); 
+
+d3.json("js/zone_line.vl.json").then( (data) => {
+    // console.log(data );
+    vegaEmbed("#vis_zones_lines", data, {theme: 'dark', actions:false});
+}); 
+
+
+
