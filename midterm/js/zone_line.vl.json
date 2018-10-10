@@ -69,7 +69,8 @@
                     "legend": {
                         "direction": "horizontal",
                         "orient": "top",
-                        "padding": 5
+                        "padding": 5,
+                        "labelFontSize": 16
                     }
                 }
             }

@@ -7,13 +7,11 @@
     "width": 1200,
     "height": 350,
     "layer": [
-
         {
             "mark": {
-                "type": "line", "opacity": 0.1
-                
-            },  
-            
+                "type": "line",
+                "opacity": 0.1
+            },
             "encoding": {
                 "x": {
                     "field": "month_fmt",
@@ -28,19 +26,17 @@
                 "y": {
                     "field": "temp",
                     "type": "quantitative"
-                }, 
-                "color": {"value": "#3690c0" }
-                
+                },
+                "color": {
+                    "value": "#3690c0"
+                }
             }
         },
-
-
         {
             "mark": {
-                "type": "line", "opacity": 0.6
-                
-            },  
-            
+                "type": "line",
+                "opacity": 0.6
+            },
             "encoding": {
                 "x": {
                     "field": "month_fmt",
@@ -55,17 +51,17 @@
                 "y": {
                     "field": "tma_6",
                     "type": "quantitative"
-                }, 
-                "color": {"value": "#2171b5" }
-                
+                },
+                "color": {
+                    "value": "#2171b5"
+                }
             }
         },
-
         {
             "mark": {
-                "type": "line", "opacity": 0.5
-            },  
-            
+                "type": "line",
+                "opacity": 0.5
+            },
             "encoding": {
                 "x": {
                     "field": "month_fmt",
@@ -80,17 +76,16 @@
                 "y": {
                     "field": "tma_60",
                     "type": "quantitative"
-                }, 
-                "color": {"value": "#eff3ff"}
+                },
+                "color": {
+                    "value": "#eff3ff"
+                }
             }
         },
-
         {
             "mark": {
                 "type": "line"
-                
-            },  
-            
+            },
             "encoding": {
                 "x": {
                     "field": "month_fmt",
@@ -106,12 +101,11 @@
                     "field": "tma_132",
                     "type": "quantitative",
                     "title": "Temperature"
-                }, 
-                "color": {"value": "#fd8d3c" }
-                
+                },
+                "color": {
+                    "value": "#fd8d3c"
+                }
             }
         }
-
     ]
- 
-  }
+}
