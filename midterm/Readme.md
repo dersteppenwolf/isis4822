@@ -7,6 +7,7 @@ It’s not your imagination, world is getting warmer.
 Use visualization to get a better understanding of climate change
 
 * Demo: http://jcmendez.gkudos.com/midterm/
+* Video: https://youtu.be/YHp56gx5d8M
 * Slides: https://github.com/dersteppenwolf/isis4822/blob/master/midterm/midterm.jc.mendez_fall_2018.pdf
 * Tweet: https://twitter.com/dersteppen/status/1049564540709556224
 
