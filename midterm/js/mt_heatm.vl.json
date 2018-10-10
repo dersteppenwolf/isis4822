@@ -8,47 +8,90 @@
         "view": {
             "strokeWidth": 0
         },
-        "scale": {
-            "rangeStep": 13
-        },
+        
         "axis": {
             "domain": false
         }
     },
-    "mark": "rect",   
-    "width": 1200,
-    "height": 250,
-    "autosize": {
-      "type": "fit",
-      "contains": "padding"
-    },
-    "encoding": {
-        "x": {
-            "field": "month_fmt",
-            "timeUnit": "year",
-            "type": "ordinal",
-            "title": "Year",
-            "axis": {
-                "labelAngle": -30,
-                "format": "%Y"
+    "vconcat": [
+        {
+            "mark": "rect",
+            "width": 1200,
+            "height": 250,
+            "encoding": {
+                "x": {
+                    "field": "month_fmt",
+                    "timeUnit": "year",
+                    "type": "ordinal",
+                    "title": "Year",
+                    "scale": {
+                        "domain": {
+                            "selection": "brush"
+                        }
+                    },
+                    "axis": {
+                        "labelAngle": -30,
+                        "format": "%Y"
+                    }
+                },
+                "y": {
+                    "field": "month_fmt",
+                    "timeUnit": "month",
+                    "type": "ordinal",
+                    "title": "Month"
+                },
+                "color": {
+                    "field": "temp",
+                    "aggregate": "mean",
+                    "type": "quantitative",
+                    "scale": {
+                        "range": [
+                            "#2166ac",
+                            "#67a9cf",
+                            "#f7f7f7",
+                            "#ef8a62",
+                            "#b2182b"
+                        ]
+                    },
+                    "legend": {
+                        "title": "Avg Temp"
+                    }
+                }
             }
         },
-        "y": {
-            "field": "month_fmt",
-            "timeUnit": "month",
-            "type": "ordinal",
-            "title": "Month"
-        },
-        "color": {
-            "field": "temp",
-            "aggregate": "mean",
-            "type": "quantitative",
-            "scale": {
-                "range": ["#2166ac","#67a9cf","#f7f7f7","#ef8a62","#b2182b"]
+        {
+            "width": 1200,
+            "height": 60,
+            "mark": "line",
+            "selection": {
+                "brush": {
+                    "type": "interval",
+                    "encodings": [
+                        "x"
+                    ]
+                }
             },
-            "legend": {
-                "title": "Avg Temp"
+            "encoding": {
+                "x": {
+                    "field": "month_fmt",
+                    "timeUnit": "year",
+                    "type": "ordinal",
+                    "title": "Year",
+                    "axis": {
+                        "labelAngle": -30,
+                        "format": "%Y"
+                    }
+                },
+                "y": {
+                    "field": "tma_132",
+                    "title": "Temp Trend  (MA132)",
+                    "type": "quantitative",
+                    "axis": {
+                        "tickCount": 3,
+                        "grid": true
+                    }
+                }
             }
         }
-    }
-  }
+    ]
+}
