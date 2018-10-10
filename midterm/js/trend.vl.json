@@ -4,7 +4,7 @@
         "url": "data/tmp_moving_average.csv"
     },
     "title": "Montly Mean Temperature",
-    "width": 1200,
+    "width": 1100,
     "height": 350,
     "layer": [
         {

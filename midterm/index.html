@@ -10,145 +10,189 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
         crossorigin="anonymous">
 
+    <link rel="stylesheet" href="css/style.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+        crossorigin="anonymous">
+
     <title>We are getting hotter!!</title>
 </head>
 
 <body>
 
+    <header>
+        <!-- Fixed navbar -->
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+            <a class="navbar-brand" href="#">We are getting hotter!!</a>
 
-    <div class="jumbotron jumbotron-fluid">
+        </nav>
+    </header>
+
+
+    <main role="main">
+
+
+        <div class="jumbotron jumbotron-fluid ">
+
+            <div class="container ">
+                <h1 class="display-4">We are getting hotter!!</h1>
+                <p class="lead">It’s not your imagination, world is getting warmer.</p>
+            </div>
+        </div>
+
+
+
+
         <div class="container">
-            <h1 class="display-4">We are getting hotter!!</h1>
-            <p class="lead">It’s not your imagination, world is getting warmer.</p>
-            <p class="">Juan Carlos Méndez ( jc.mendez[~at~]uniandes.edu.co , juan[~at~]gkudos.com)</p>
-        </div>
-    </div>
+            <div class="row">
+                <div class="col">
+                </div>
+                <div class="col-10">
+                    <center>
 
+                        <a data-flickr-embed="true" href="https://www.flickr.com/photos/nickless_agus/7133389011/in/photolist-bSmu2H-66xAaV-8zKKE-8mhw9v-8zV7du-bWxU1w-brLcQb-LRHk5J-5WiZBm-rzoVcQ-6hCsMy-mVUXX2-9nqGp9-7QADPk-mNvp3y-bSZf58-s2J11-djLRyd-X97g35-pdvWts-Yjr6ie-cPyBDN-9ENok-6JwKWt-a425Hv-eaW2XU-6gdZhA-8NfECn-anKc8L-84jqXr-5D2uXf-paeW6G-7WeWoJ-6C4zAB-psGzfX-7r9AyT-78kqVC-78gsEB-dTzEcC-563tYJ-2ZbZ1Y-bMA2EV-72v5Un-5jx4bc-6oNag7-292e9VF-8H6xCX-pbxfwf-Ab4xKk-3brbM"
+                            title="Desierto de Atacama"><img src="https://farm8.staticflickr.com/7108/7133389011_ea842ddd3c.jpg"
+                                width="500" height="375" alt="Desierto de Atacama"></a>
+                        <script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+                    </center>
 
+                    <p class="lead">Scientists have measured global temperatures for over a hundred years and see that
+                        the
+                        Earth is getting hotter.
+                        The trend can be best visualized by comparing each year’s average temperature with the
+                        long-term
+                        average.
+                        <br /><br />
+                        The orange line in the following graphic shows the trend of Earth's heating up using
+                        a moving average of 11 years for temperature value.
 
-
-    <div class="container">
-        <div class="row">
-            <div class="col">
+                    </p>
+                </div>
+                <div class="col">
+                </div>
             </div>
-            <div class="col-10">
 
-                <p class="lead">Scientists have measured global temperatures for over a hundred years and see that the
-                    Earth is getting hotter.
-                    The trend can be best visualized by comparing each year’s average temperature with the long-term
-                    average.
-                    <br /><br />
-                    The orange line in the following graphic shows the trend of Earth's heating up using
-                    a moving average of 11 years for temperature value.
+            <div class="row">
 
+                <div class="col-12">
+                    <div id="vis_trends"></div>
+                </div>
+            </div>
+
+            <div class="row">
+
+                <div class="col ">
+                </div>
+                <div class="col-10 mt-5">
+                    <h2>Looks like between 70's and 80's we not only got a <i>Saturday Night Fever</i> ...</h2>
+
+                    <i class="lead">According to an ongoing temperature analysis conducted by scientists at NASA’s
+                        Goddard
+                        Institute for Space Studies (GISS)…the average global temperature on Earth has increased by
+                        about
+                        0.8°Celsius (1.4°Fahrenheit) since 1880. Two-thirds of the warming has occurred since 1975, at
+                        a
+                        rate of roughly 0.15-0.20°C per decade.
+                    </i>
+                    <p style="text-align: justify;"><span>
+                            <span class="skstip beginner">Source</span>: </span>
+                        <a href="http://earthobservatory.nasa.gov/Features/WorldOfChange/decadaltemp.php" target="_blank"><span><span
+                                    class="skstip advanced">NASA</span> Earth Observatory</span></a></p>
+
+
+                </div>
+                <div class="col">
+                </div>
+            </div>
+
+            <div class="row">
+
+                <div class="col-12">
+                    <div id="vis_decade"></div>
+                </div>
+
+            </div>
+
+            <div class="row">
+
+                <div class="col">
+                </div>
+                <div class="col-10 mt-5">
+                    <h2>Are all months equal? </h2>
+
+                    <p class="lead">
+                        Some of them are colder, some others warmer, but it is getting hotter and hotter.
+
+
+                    </p>
+
+                </div>
+                <div class="col">
+                </div>
+            </div>
+
+            <div class="row">
+
+                <div class="col-12">
+                    <div id="vis"></div>
+                </div>
+            </div>
+
+            <div class="row">
+
+                <div class="col">
+                </div>
+                <div class="col-10 mt-5">
+                    <h2>What about the position on earth? </h2>
+
+                    <p class="lead">According to the latitude , the problem gets worse...
+
+                    </p>
+
+                </div>
+                <div class="col">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12">
+                    <div id="vis_zones_lines"></div>
+                </div>
+            </div>
+
+
+
+            <div class="row">
+                <div class="col-4">
+                    <iframe width="100%" height="420" frameborder="0" src="https://gkudos.carto.com/u/kudosg/builder/90d18011-d802-4c2c-9a5f-a40c14918c9f/embed"
+                        allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+                </div>
+
+                <div class="col-8">
+                    <div id="vis_zones"></div>
+                </div>
+            </div>
+
+
+
+
+        </div>
+
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <span class="text-muted">
+                <p class="">Juan Carlos Méndez ( jc.mendez[~at~]uniandes.edu.co , juan[~at~]gkudos.com)
+                    <a href="https://github.com/dersteppenwolf/isis4822/tree/master/midterm" target="_blank">
+                        <span style="font-size: 30px; color: black;">
+                            <i class="fab fa-github"> </i>
+                        </span> </a>
                 </p>
-            </div>
-            <div class="col">
-            </div>
+            </span>
         </div>
-
-        <div class="row">
-
-            <div class="col-12">
-                <div id="vis_trends"></div>
-            </div>
-        </div>
-
-        <div class="row">
-
-            <div class="col ">
-            </div>
-            <div class="col-10 mt-5">
-                <h2>Looks like between 70's and 80's we not only got a <i>Saturday Night Fever</i> ...</h2>
-
-                <i class="lead">According to an ongoing temperature analysis conducted by scientists at NASA’s Goddard
-                    Institute for Space Studies (GISS)…the average global temperature on Earth has increased by about
-                    0.8°Celsius (1.4°Fahrenheit) since 1880. Two-thirds of the warming has occurred since 1975, at a
-                    rate of roughly 0.15-0.20°C per decade.
-                </i>
-                <p style="text-align: justify;"><span>
-                        <span class="skstip beginner">Source</span>: </span>
-                    <a href="http://earthobservatory.nasa.gov/Features/WorldOfChange/decadaltemp.php" target="_blank"><span><span
-                                class="skstip advanced">NASA</span> Earth Observatory</span></a></p>
-
-
-            </div>
-            <div class="col">
-            </div>
-        </div>
-
-        <div class="row">
-
-            <div class="col-12">
-                <div id="vis_decade"></div>
-            </div>
-
-        </div>
-
-        <div class="row">
-
-            <div class="col">
-            </div>
-            <div class="col-10 mt-5">
-                <h2>Are all months equal? </h2>
-
-                <p class="lead">
-                    Some of them are colder, some others warmer, but it is getting hotter and hotter.
-                  
-
-                </p>
-
-            </div>
-            <div class="col">
-            </div>
-        </div>
-
-        <div class="row">
-
-            <div class="col-12">
-                <div id="vis"></div>
-            </div>
-        </div>
-
-        <div class="row">
-
-            <div class="col">
-            </div>
-            <div class="col-10 mt-5">
-                <h2>What about the position on earth? </h2>
-
-                <p class="lead">According to the latitde , the problem gets worse...
-
-                </p>
-
-            </div>
-            <div class="col">
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-12">
-                <div id="vis_zones_lines"></div>
-            </div>
-        </div>
-
-
-
-        <div class="row">
-            <div class="col-4">
-                <iframe width="100%" height="420" frameborder="0" src="https://gkudos.carto.com/u/kudosg/builder/90d18011-d802-4c2c-9a5f-a40c14918c9f/embed"
-                    allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
-            </div>
-
-            <div class="col-8">
-                <div id="vis_zones"></div>
-            </div>
-        </div>
-
-
-
-
-    </div>
+    </footer>
 
 
 
