@@ -13,15 +13,21 @@
 
 
 	<h1>Trends</h1>
-	<div>
-		<rzslider
-			 rz-slider-model="slider.value"
-			 rz-slider-options="slider.options"></rzslider>
+
+	<div class="row">
+		<div class="col-sm-3" >
+				<div>Window Size:</div>
+		</div>
+		<div class="col-sm-9" >
+				<rzslider rz-slider-model="slider.value" rz-slider-options="slider.options"></rzslider>
+		</div>
 	</div>
+
 	
+
 	<div id="chart" class="chart-container" line-chart chart-data="datasetTrends"></div>
 
-<!--
+	<!--
 
 	<br />
 	<br />
