@@ -1,60 +1,78 @@
-dataViz.directive('lineChart', function ($parse, $window) {
+dataViz.directive('lineChart', function ($parse,  $log) {
     return {
         restrict: 'EA',
-        template: "<svg width='800' height='200'></svg>",
+        template: "<svg></svg>",
         // https://stackoverflow.com/questions/20018507/angular-js-what-is-the-need-of-the-directive-s-link-function-when-we-already-ha
         link: function (scope, elem, attrs) {
 
-
             var exp = $parse(attrs.chartData);
 
-            var dataset = exp(scope);
+            scope.dataset = exp(scope);
             var xScale, yScale, xAxisGen, yAxisGen, line;
 
             var rawSvg = elem.find('svg');
             var svg = d3.select(rawSvg[0]);
 
-            var margin = { top: 20, right: 40, bottom: 10, left: 40 }
-            var width = window.innerWidth - margin.left - margin.right 
+            var margin = { top: 20, right: 40, bottom: 10, left: 20 }
+            var width = window.innerWidth - margin.left - margin.right
             //var height = window.innerHeight - margin.top - margin.bottom; 
-           // var width = 1024 - margin.left - margin.right
+            // var width = 1024 - margin.left - margin.right
             var height = 300 - margin.top - margin.bottom;
             var radius = 3;
 
-            var callDrawing = (d) => {
-                //console.log(d);
-                dataset = d;
-                //console.log(dataset);
-                if (dataset) {
-                    setChartParameters();
-                    redrawLineChart();
-                }
+
+            // on window resize, re-render d3 canvas
+            window.onresize = function () {
+                $log.log("onresize");
+                width = window.innerWidth - margin.left - margin.right;
+                $log.log(width);
+                return scope.$apply();
             };
+            
 
             ////////////////
-            scope.$watchCollection(exp, function (newVal, oldVal) {
+            scope.$watch(exp, function (newVal, oldVal) {
+                $log.log("watchCollection");
                 try {
-                    newVal.then(callDrawing);
+                    $log.log("to resolve");
+                    newVal.then(render);
                 }
                 catch (err) {
                     //already resolved
-                    callDrawing(newVal);
+                    $log.log("already resolved");
+                    render(newVal);
                 }
             });
 
+
+           
+
             ////////////////
 
-            function setChartParameters() {
+
+            function render(data) {
+
+                $log.log("render");
+
+                scope.dataset = data;
+
+                $log.log(width);
 
                 xScale = d3.scaleTime()
-                    .domain(d3.extent(dataset, d => d["date"]))
+                    .domain(d3.extent(scope.dataset, d => d["date"]))
                     .range([margin.left, width - margin.right])
 
-                var maxScale = d3.max(dataset, d => d["count"]);
+
+                var maxScale = d3.max(scope.dataset, d => d["count"]);
 
                 yScale = d3.scaleLinear()
                     .domain([0, maxScale]).nice()
                     .range([height - margin.bottom, margin.top])
+
+                line = d3.line()
+                    .x(function (d) { return xScale(d.date); }) // set the x values for the line generator
+                    .y(function (d) { return yScale(d.count); }) // set the y values for the line generator 
+                    .curve(d3.curveMonotoneX)
 
                 xAxisGen = g => g
                     .attr("transform", `translate(0,${height - margin.bottom})`)
@@ -68,19 +86,10 @@ dataViz.directive('lineChart', function ($parse, $window) {
                         .attr("x", 3)
                         .attr("text-anchor", "start")
                         .attr("font-weight", "bold")
-                        .text(dataset.count))
+                        .text(scope.dataset.count))
 
-                line = d3.line()
-                    .x(function (d) { return xScale(d.date); }) // set the x values for the line generator
-                    .y(function (d) { return yScale(d.count); }) // set the y values for the line generator 
-                    .curve(d3.curveMonotoneX)
-
-            }
-
-
-
-            function redrawLineChart() {
-                svg = svg.attr("width", width + margin.left + margin.right)
+                svg = svg
+                    .attr("width", width + margin.left + margin.right)
                     .attr("height", height + margin.top + margin.bottom)
                     .append("g")
                     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
@@ -123,14 +132,14 @@ dataViz.directive('lineChart', function ($parse, $window) {
                     )
 
                 svg.append("path")
-                    .datum(dataset)
+                    .datum(scope.dataset)
                     .attr("class", "line")
                     .attr("d", line);
 
                 // 12. Appends a circle for each datapoint 
                 svg.selectAll(".dot")
-                    .data(dataset)
-                    .enter().append("circle") // Uses the enter().append() method
+                    .data(scope.dataset)
+                    .enter().append("circle")
                     .attr("class", "dot") // Assign a class for styling
                     .attr("cx", function (d) { return xScale(d.date) })
                     .attr("cy", function (d) { return yScale(d.count) })

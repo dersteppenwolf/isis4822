@@ -13,7 +13,13 @@
 
 
 	<h1>Trends</h1>
-	<div class="chart-container" line-chart chart-data="datasetTrends"></div>
+	<div>
+		<rzslider
+			 rz-slider-model="slider.value"
+			 rz-slider-options="slider.options"></rzslider>
+	</div>
+	
+	<div id="chart" class="chart-container" line-chart chart-data="datasetTrends"></div>
 
 <!--
 

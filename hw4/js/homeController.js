@@ -2,77 +2,28 @@
 dataViz.controller('homeController', function (
   $scope, $interval, $rootScope, $http, $log, $filter) {
 
-  let remoteServiceUrl = "https://kudosg.carto.com/api/v2/sql?q="
+  $scope.remoteServiceUrl = "https://kudosg.carto.com/api/v2/sql?q="
 
-
-  $scope.parseData = (d) => {
-    //$log.log("parseData");
-    d.forEach(function (v) {
-      v.anio = $scope.parseYear(v.anio)
-      v.count = +v.count
-      //$log.log(v);
-    });
-    //$log.log(d);
-    return d
-  }
-
-  $scope.splitBySex = (d) => {
-    $scope.datasetYearSexF = d.filter(function (a) {
-      return a.sexo == "Femenino";
-    });
-
-    $scope.datasetYearSexM = d.filter(function (a) {
-      return a.sexo == "Masculino";
-    });
-  }
-
-  $scope.splitByAge = (d) => {
-    //$log.log(d)
-
-    $scope.edades = {}
-
-    for (var i in d) {
-      var o = d[i];
-      if (!o.categoria_edad) {
-        continue
+  $scope.slider = {
+    value: 1,
+    options: {
+      floor: 1,
+      ceil: 30,
+      onChange: function(id, newValue, highValue, pointerType) {
+        $log.log('change', id, newValue, pointerType)
+       // $scope.otherData.change = newValue * 10
+        //$log.log($scope.slider.value)
+        $scope.loadTrends();
       }
-
-      if (!$scope.edades[o.categoria_edad]) {
-        $scope.edades[o.categoria_edad] = []
-      }
-      $scope.edades[o.categoria_edad].push(o);
-    }
-
-    //$log.log($scope.edades)
+    },
   }
-
-
-  $scope.splitByCause = (d) => {
-    //$log.log(d)
-
-    $scope.causas = {}
-
-    for (var i in d) {
-      var o = d[i];
-      if (!o.dec10) {
-        continue
-      }
-
-      if (!$scope.causas[o.dec10]) {
-        $scope.causas[o.dec10] = []
-      }
-      $scope.causas[o.dec10].push(o);
-    }
-
-    //$log.log($scope.causas)
-  }
-
 
 
   $scope.parseDate = d3.timeParse("%Y-%m-%d");
   $scope.parseYear = d3.timeParse("%Y");
 
 
+    /*
   $scope.loadData = function () {
     $log.log("loadData - homeController");
 
@@ -89,32 +40,21 @@ dataViz.controller('homeController', function (
     $scope.datasetYearSex = d3.tsv(dataUrl)
       .then($scope.parseData)
       .then($scope.splitBySex);
-
-    var dataUrl = "data/defunciones_year_age.TSV";
-    $scope.datasetYearAge = d3.tsv(dataUrl)
-      .then($scope.parseData)
-      .then($scope.splitByAge);
-
-    var dataUrl = "data/defunciones_year_causa.TSV";
-    $scope.datasetYearCause = d3.tsv(dataUrl)
-      .then($scope.parseData)
-      .then($scope.splitByCause);
-
-
   }
+  */
 
 
   $scope.parseTrends = (d) => {
-    //$log.log("parseData");
+    $log.log("parseTrends");
     let rows = d.rows
-    $log.log(rows);
+    //$log.log(rows);
     rows.forEach(function (v) {
       v.date = $scope.parseDate(v.event_day)
       v.label = v.event_day
       v.count = v.total
       v.count = v.trend
     });
-    $log.log(rows);
+    //$log.log(rows);
     return rows
   }
 
@@ -130,19 +70,16 @@ dataViz.controller('homeController', function (
       order by event_day
       )
       select  event_day, total, avg(total) over 
-        (order by event_day rows between 7 preceding and 0 following )::float as trend
+        (order by event_day rows between ${$scope.slider.value} preceding and 0 following )::float as trend
       from events_agg
       order by 1 asc `
 
-    console.log(query);
-    $scope.datasetTrends  = d3.json(remoteServiceUrl + query).then($scope.parseTrends);
-
+    $log.log(query);
+    $scope.datasetTrends  = d3.json($scope.remoteServiceUrl + query).then($scope.parseTrends);
   }
 
   $scope.init = function () {
     $log.log("init - homeController");
-    $scope.loadData();
-
     $scope.loadTrends();
   }
 

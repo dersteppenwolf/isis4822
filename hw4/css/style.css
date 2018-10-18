@@ -75,6 +75,15 @@ p {
   margin-bottom: 0px;
 }
 
+/* Make the chart container fill the page using CSS. */
+#chart {
+  /* position: fixed; */
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+}
+
 .chart-container {
   padding: 0px;
   margin: 0 auto;
@@ -85,6 +94,8 @@ p {
   border-radius: 5px;
   box-shadow: 0px 0px 1px 0px #06060d;
 }
+
+
 
 .line {
   fill: none;

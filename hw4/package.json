@@ -4,6 +4,7 @@
   "description": "rec sys client",
   "main": "gulpfile.js",
   "dependencies": {
+    "angularjs-slider": "^6.6.1",
     "browser-sync": "^2.18.13",
     "d3": "^5.7.0"
   },
