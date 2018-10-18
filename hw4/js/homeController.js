@@ -9,10 +9,8 @@ dataViz.controller('homeController', function (
     options: {
       floor: 1,
       ceil: 30,
-      onChange: function(id, newValue, highValue, pointerType) {
+      onEnd: function(id, newValue, highValue, pointerType) {
         $log.log('change', id, newValue, pointerType)
-       // $scope.otherData.change = newValue * 10
-        //$log.log($scope.slider.value)
         $scope.loadTrends();
       }
     },

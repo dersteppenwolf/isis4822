@@ -1,4 +1,4 @@
-dataViz.directive('lineChart', function ($parse,  $log) {
+dataViz.directive('lineChart', function ($parse, $log) {
     return {
         restrict: 'EA',
         template: "<svg></svg>",
@@ -28,40 +28,64 @@ dataViz.directive('lineChart', function ($parse,  $log) {
                 $log.log(width);
                 return scope.$apply();
             };
-            
+
 
             ////////////////
             scope.$watch(exp, function (newVal, oldVal) {
-                $log.log("watchCollection");
+                $log.log("watch");
                 try {
                     $log.log("to resolve");
-                    newVal.then(render);
+                    if (!scope.initialized) {
+                        newVal.then(render);
+                    } else {
+                        newVal.then(redrawLineChart);
+                    }
+
                 }
                 catch (err) {
                     //already resolved
                     $log.log("already resolved");
-                    render(newVal);
+
+                    if (!scope.initialized) {
+                        render(newVal);
+                    } else {
+                        redrawLineChart(newVal);
+                    }
                 }
             });
 
 
-           
+
 
             ////////////////
 
+            function handleMouseOver(d, i) {
 
-            function render(data) {
+                d3.select(this)
+                    .attr("r", radius * 2)
+                    .attr("class", "dotPopups");
 
-                $log.log("render");
+                svg.append("text")
+                    .attr("id", "t" + d.x + "-" + d.y + "-" + i)
+                    .attr("x", function () { return xScale(d.date) - 30; })
+                    .attr("y", function () { return yScale(d.count) - 17; })
+                    .text(function () {
+                        return [d.label + " : " + d.count];  // Value of the text
+                    });
+            }
 
-                scope.dataset = data;
+            function handleMouseOut(d, i) {
+                d3.select(this)
+                    .attr("r", radius)
+                    .attr("class", "dot");
 
-                $log.log(width);
+                d3.select("#t" + d.x + "-" + d.y + "-" + i).remove();
+            }
 
+            function updateParameters() {
                 xScale = d3.scaleTime()
                     .domain(d3.extent(scope.dataset, d => d["date"]))
                     .range([margin.left, width - margin.right])
-
 
                 var maxScale = d3.max(scope.dataset, d => d["count"]);
 
@@ -87,6 +111,45 @@ dataViz.directive('lineChart', function ($parse,  $log) {
                         .attr("text-anchor", "start")
                         .attr("font-weight", "bold")
                         .text(scope.dataset.count))
+            }
+
+            function redrawLineChart(data) {
+                $log.log("redrawLineChart");
+
+                scope.dataset = data;
+
+                updateParameters();
+
+                // Select the section we want to apply our changes to
+                var t = svg.transition();
+
+                // Make the changes
+                t.select(".lineSeries")   // change the line
+                    .duration(750)
+                    .attr("d", line(scope.dataset));
+
+                t.select("g.x.axis") // change the x axis
+                    .duration(750)
+                    .call(xAxisGen);
+
+                t.select("g.y.axis") // change the y axis
+                    .duration(750)
+                    .call(yAxisGen);
+
+            }
+
+
+
+            function render(data) {
+
+                $log.log("render");
+
+                scope.dataset = data;
+
+                $log.log(width);
+
+                updateParameters()
+
 
                 svg = svg
                     .attr("width", width + margin.left + margin.right)
@@ -132,9 +195,18 @@ dataViz.directive('lineChart', function ($parse,  $log) {
                     )
 
                 svg.append("path")
-                    .datum(scope.dataset)
-                    .attr("class", "line")
+                    //.datum(scope.dataset)
+                    .attr("class", "lineSeries")
+                    .attr("d", line(scope.dataset));
+                /*
+                svg.append("g").selectAll("lineSeries")   
+                    .data(scope.dataset)
+                    .enter()
+                    .append("path")
+                    .attr("class", "lineSeries")
                     .attr("d", line);
+                
+                */
 
                 // 12. Appends a circle for each datapoint 
                 svg.selectAll(".dot")
@@ -147,28 +219,8 @@ dataViz.directive('lineChart', function ($parse,  $log) {
                     .on("mouseover", handleMouseOver)
                     .on("mouseout", handleMouseOut);
 
-                function handleMouseOver(d, i) {
+                scope.initialized = true;
 
-                    d3.select(this)
-                        .attr("r", radius * 2)
-                        .attr("class", "dotPopups");
-
-                    svg.append("text")
-                        .attr("id", "t" + d.x + "-" + d.y + "-" + i)
-                        .attr("x", function () { return xScale(d.date) - 30; })
-                        .attr("y", function () { return yScale(d.count) - 17; })
-                        .text(function () {
-                            return [d.label + " : " + d.count];  // Value of the text
-                        });
-                }
-
-                function handleMouseOut(d, i) {
-                    d3.select(this)
-                        .attr("r", radius)
-                        .attr("class", "dot");
-
-                    d3.select("#t" + d.x + "-" + d.y + "-" + i).remove();
-                }
             }
 
 
