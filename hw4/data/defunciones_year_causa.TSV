@@ -1,0 +1,824 @@
+	anio	dec10	count
+0	2000	Agresion con disparo de arma corta	1273
+51	2000	Evento no especificado de intencion no determinada	761
+50	2000	Envenenamiento por, y exposicion al alcohol intencion no determinada	30
+49	2000	Envenenamiento por, y exposicion a plaguicidas de intencion no determinada	35
+48	2000	Envenenamiento por, y exposicion a otros productos quimicos y sustancias nocivas, y los no especificados, de intencion no determinada	168
+47	2000	Envenenamiento por, y exposicion a otros gases y vapores, de intencion no determinada	11
+46	2000	Envenenamiento por, y exposicion a otras drogas, medicamentos y sustancias biologicas, y las no especificadas, de intencion no determinada	75
+52	2000	Exposicion a humo, fuego y llamas, de intencion no determinada	36
+45	2000	Envenenamiento por, y exposicion a otras drogas que actuan sobre el sistema nervioso autonomo, de intencion no determinada	3
+43	2000	Envenenamiento por, y exposicion a drogas antiepilepticas, sedantes, hipnoticas no clasificadas en otra parte, de intencion no determinada	3
+42	2000	Envenenamiento por, y exposicion a disolventes organicos e hidrocarburos halogenados y sus vapores, de intencion no determinada	1
+41	2000	Envenenamiento por, y exposicion a analgesicos, antipireticos y antirreumaticos, de intencion no determinada	2
+40	2000	Envenenamiento autoinflingido intencionalmente por, y exposicion a plaguicidas	238
+39	2000	Envenenamiento autoinflingido intencionalmente por, y exposicion a otros productos quimicos y sustancias nocivas y los no especificados	362
+38	2000	Envenenamiento autoinflingido intencionalmente por, y exposicion a otros gases y vapores	8
+44	2000	Envenenamiento por, y exposicion a narcoticos y psicodislepticos [alucinogenos], no clasificadas en otra parte, de intencion no determinada	11
+54	2000	Lesion autoinflingida intencionalmente al saltar desde un lugar elevado	90
+55	2000	Lesion autoinflingida intencionalmente por ahogamiento y sumersion	20
+56	2000	Lesion autoinflingida intencionalmente por ahorcamiento, estrangulamiento o sofocacion	663
+71	2000	Secuelas de lesiones autoinfligidas intencionalmente, agresiones y eventos de intencion no determinada	33
+70	2000	Otros sindromes de maltrato	16
+69	2000	Otros eventos especificados de intencion no determinada	88
+68	2000	Operaciones de guerra	269
+67	2000	Negligencia y abandono	24
+66	2000	Lesionion autoinflingida intencionalmente por disparo de arma corta	30
+65	2000	Lesion autoinflingida intencionalmente por otros medios especificados	2
+64	2000	Lesion autoinflingida intencionalmente por objeto romo o sin filo	1
+63	2000	Lesion autoinflingida intencionalmente por objeto cortante	40
+62	2000	Lesion autoinflingida intencionalmente por medios no especificados	24
+61	2000	Lesion autoinflingida intencionalmente por material explosivo	7
+60	2000	Lesion autoinflingida intencionalmente por humo, fuego y llamas	10
+59	2000	Lesion autoinflingida intencionalmente por disparo de rifle, escopeta y arma larga	38
+58	2000	Lesion autoinflingida intencionalmente por disparo de otras armas de fuego, y las no especificadas	656
+57	2000	Lesion autoinflingida intencionalmente por arrojarse o colocarse delante de objeto en movimiento	2
+37	2000	Envenenamiento autoinflingido intencionalmente por, y exposicion a otras drogas, medicamentos y sustancias biologicas y los no especificados	125
+36	2000	Envenenamiento autoinflingido intencionalmente por, y exposicion a otras drogas que actuan sobre el sistema nervioso autonomo	1
+53	2000	Intervencion legal	151
+34	2000	Envenenamiento autoinflingido intencionalmente por, y exposicion a drogas antiepilepticas, sedantes, hipnoticas, antiparinsonianas y psicotropicas, no clasificadas en otra parte	7
+15	2000	Agresion por ahorcamiento, estrangulamiento y sofocacion	233
+14	2000	Agresion por ahogamiento y sumersion	25
+13	2000	Agresion empuj o coloc delant objeto movimie	3
+12	2000	Agresion con vapor y objetos calientes	4
+11	2000	Agresion con productos quimicos y sustancias nocivas no especificados	11
+10	2000	Agresion con plaguicidas	1
+9	2000	Agresion con objeto romo o sin filo	249
+8	2000	Agresion con objeto cortante	3187
+7	2000	Agresion con material explosivo	157
+6	2000	Agresion con humo, fuego y llamas	21
+5	2000	Agresion con gases y vapores	1
+4	2000	Agresion con fuerza corporal	3
+3	2000	Agresion con drogas, medicamentos y sustancias biologicas	4
+2	2000	Agresion con disparo de rifle, escopeta y arma larga	517
+35	2000	Envenenamiento autoinflingido intencionalmente por, y exposicion a narcoticos y psicodislepticos [alucinogenos] no clasificados en otra parte	7
+16	2000	Agresion por colision vehiculo de motor	19
+17	2000	Agresion por empujon desde lugar elevado	9
+1	2000	Agresion con disparo de otras armas fuego y las no especificadas	22557
+29	2000	Disparo de arma corta de intencion no determinada	26
+33	2000	Envenenamiento autoinflingido intencionalmente por, y exposicion a disolventes organicos e hidrocarburos halogenados y sus vapores	5
+32	2000	Envenenamiento autoinflingido intencionalm por, y exposicion a alcohol	8
+31	2000	Disparo de rifle, escopeta y arma larga, de intencion no determinada	19
+30	2000	Disparo de otras armas de fuego y las no especificadas, de intencion no determinada	749
+18	2000	Agresion por medios no especificados	305
+28	2000	Contacto traumatico con objeto romo sin filo, de intencion no determinada	41
+27	2000	Contacto traumatico con objeto cortante, de intencion no determinada	72
+26	2000	Contacto traumatico con material explosivo, de intencion no determinada	17
+25	2000	Contacto con vapor de agua, vapores y objetos calientes, de intencion no determinada	3
+24	2000	Caida, salto o empujon desde lugar elevado, de intencion no determinada	41
+23	2000	Caida, permanencia o carrera delante o hacia objeto en movimiento, de intencion no determinada	1
+22	2000	Ahorcamiento, estrangulamiento y sofocacion, de intencion no determinada	46
+21	2000	Ahogamiento y sumersion de intencion no determinada	189
+20	2000	Agresion sexual con fuerza corporal	1
+19	2000	Agresion por otros medios especificados	2
+119	2001	Envenenamiento por, y exposicion a otros gases y vapores, de intencion no determinada	5
+121	2001	Envenenamiento por, y exposicion a plaguicidas de intencion no determinada	25
+109	2001	Envenenamiento autoinflingido intencionalmente por, y exposicion a narcoticos y psicodislepticos [alucinogenos] no clasificados en otra parte	1
+123	2001	Evento no especificado de intencion no determinada	718
+124	2001	Exposicion a humo, fuego y llamas, de intencion no determinada	32
+122	2001	Envenenamiento por, y exposicion al alcohol intencion no determinada	30
+118	2001	Envenenamiento por, y exposicion a otras drogas, medicamentos y sustancias biologicas, y las no especificadas, de intencion no determinada	24
+110	2001	Envenenamiento autoinflingido intencionalmente por, y exposicion a otras drogas, medicamentos y sustancias biologicas y los no especificados	36
+116	2001	Envenenamiento por, y exposicion a drogas antiepilepticas, sedantes, hipnoticas no clasificadas en otra parte, de intencion no determinada	4
+115	2001	Envenenamiento por, y exposicion a disolventes organicos e hidrocarburos halogenados y sus vapores, de intencion no determinada	1
+114	2001	Envenenamiento por, y exposicion a analgesicos, antipireticos y antirreumaticos, de intencion no determinada	2
+113	2001	Envenenamiento autoinflingido intencionalmente por, y exposicion a plaguicidas	311
+112	2001	Envenenamiento autoinflingido intencionalmente por, y exposicion a otros productos quimicos y sustancias nocivas y los no especificados	446
+111	2001	Envenenamiento autoinflingido intencionalmente por, y exposicion a otros gases y vapores	11
+125	2001	Intervencion legal	119
+117	2001	Envenenamiento por, y exposicion a narcoticos y psicodislepticos [alucinogenos], no clasificadas en otra parte, de intencion no determinada	14
+126	2001	Lesion autoinflingida intencionalmente al saltar desde un lugar elevado	83
+134	2001	Lesion autoinflingida intencionalmente por medios no especificados	19
+128	2001	Lesion autoinflingida intencionalmente por ahorcamiento, estrangulamiento o sofocacion	651
+143	2001	Secuelas de lesiones autoinfligidas intencionalmente, agresiones y eventos de intencion no determinada	27
+142	2001	Otros sindromes de maltrato	7
+141	2001	Otros eventos especificados de intencion no determinada	116
+140	2001	Operaciones de guerra	189
+139	2001	Negligencia y abandono	35
+138	2001	Lesionion autoinflingida intencionalmente por disparo de arma corta	35
+127	2001	Lesion autoinflingida intencionalmente por ahogamiento y sumersion	23
+137	2001	Lesion autoinflingida intencionalmente por otros medios especificados	3
+135	2001	Lesion autoinflingida intencionalmente por objeto cortante	41
+133	2001	Lesion autoinflingida intencionalmente por material explosivo	8
+132	2001	Lesion autoinflingida intencionalmente por humo, fuego y llamas	7
+131	2001	Lesion autoinflingida intencionalmente por disparo de rifle, escopeta y arma larga	60
+130	2001	Lesion autoinflingida intencionalmente por disparo de otras armas de fuego, y las no especificadas	621
+129	2001	Lesion autoinflingida intencionalmente por arrojarse o colocarse delante de objeto en movimiento	4
+136	2001	Lesion autoinflingida intencionalmente por objeto romo o sin filo	2
+108	2001	Envenenamiento autoinflingido intencionalmente por, y exposicion a drogas antiepilepticas, sedantes, hipnoticas, antiparinsonianas y psicotropicas, no clasificadas en otra parte	8
+120	2001	Envenenamiento por, y exposicion a otros productos quimicos y sustancias nocivas, y los no especificados, de intencion no determinada	157
+106	2001	Envenenamiento autoinflingido intencionalmente por, y exposicion a analgesicos no narcoticos, antipireticos y antirreumaticos	3
+86	2001	Agresion empuj o coloc delant objeto movimie	5
+85	2001	Agresion con vapor y objetos calientes	4
+84	2001	Agresion con productos quimicos y sustancias nocivas no especificados	6
+83	2001	Agresion con plaguicidas	2
+82	2001	Agresion con otros productos quimicos y sustancias nocivas especificadas	3
+80	2001	Agresion con objeto cortante	3246
+79	2001	Agresion con material explosivo	175
+78	2001	Agresion con humo, fuego y llamas	15
+77	2001	Agresion con gases y vapores	2
+76	2001	Agresion con fuerza corporal	11
+75	2001	Agresion con drogas, medicamentos y sustancias biologicas	1
+74	2001	Agresion con disparo de rifle, escopeta y arma larga	578
+73	2001	Agresion con disparo de otras armas fuego y las no especificadas	22978
+72	2001	Agresion con disparo de arma corta	2022
+107	2001	Envenenamiento autoinflingido intencionalmente por, y exposicion a disolventes organicos e hidrocarburos halogenados y sus vapores	5
+87	2001	Agresion por ahogamiento y sumersion	25
+88	2001	Agresion por ahorcamiento, estrangulamiento y sofocacion	280
+81	2001	Agresion con objeto romo o sin filo	162
+90	2001	Agresion por empujon desde lugar elevado	10
+105	2001	Envenenamiento autoinflingido intencionalm por, y exposicion a alcohol	6
+89	2001	Agresion por colision vehiculo de motor	13
+103	2001	Disparo de otras armas de fuego y las no especificadas, de intencion no determinada	738
+102	2001	Disparo de arma corta de intencion no determinada	25
+101	2001	Contacto traumatico con objeto romo sin filo, de intencion no determinada	19
+100	2001	Contacto traumatico con objeto cortante, de intencion no determinada	109
+99	2001	Contacto traumatico con material explosivo, de intencion no determinada	27
+98	2001	Colision de vehiculo de motor de intencion no determinadas	1
+104	2001	Disparo de rifle, escopeta y arma larga, de intencion no determinada	29
+96	2001	Caida, permanencia o carrera delante o hacia objeto en movimiento, de intencion no determinada	4
+95	2001	Ahorcamiento, estrangulamiento y sofocacion, de intencion no determinada	43
+94	2001	Ahogamiento y sumersion de intencion no determinada	139
+93	2001	Agresion sexual con fuerza corporal	4
+92	2001	Agresion por otros medios especificados	1
+91	2001	Agresion por medios no especificados	320
+97	2001	Caida, salto o empujon desde lugar elevado, de intencion no determinada	54
+198	2002	Intervencion legal	114
+197	2002	Exposicion a humo, fuego y llamas, de intencion no determinada	37
+196	2002	Evento no especificado de intencion no determinada	577
+195	2002	Envenenamiento por, y exposicion al alcohol intencion no determinada	27
+194	2002	Envenenamiento por, y exposicion a plaguicidas de intencion no determinada	24
+193	2002	Envenenamiento por, y exposicion a otros productos quimicos y sustancias nocivas, y los no especificados, de intencion no determinada	191
+192	2002	Envenenamiento por, y exposicion a otros gases y vapores, de intencion no determinada	7
+188	2002	Envenenamiento por, y exposicion a drogas antiepilepticas, sedantes, hipnoticas no clasificadas en otra parte, de intencion no determinada	3
+190	2002	Envenenamiento por, y exposicion a otras drogas que actuan sobre el sistema nervioso autonomo, de intencion no determinada	3
+189	2002	Envenenamiento por, y exposicion a narcoticos y psicodislepticos [alucinogenos], no clasificadas en otra parte, de intencion no determinada	11
+187	2002	Envenenamiento por, y exposicion a disolventes organicos e hidrocarburos halogenados y sus vapores, de intencion no determinada	3
+186	2002	Envenenamiento por, y exposicion a analgesicos, antipireticos y antirreumaticos, de intencion no determinada	1
+185	2002	Envenenamiento autoinflingido intencionalmente por, y exposicion a plaguicidas	345
+184	2002	Envenenamiento autoinflingido intencionalmente por, y exposicion a otros productos quimicos y sustancias nocivas y los no especificados	450
+199	2002	Lesion autoinflingida intencionalmente al saltar desde un lugar elevado	72
+191	2002	Envenenamiento por, y exposicion a otras drogas, medicamentos y sustancias biologicas, y las no especificadas, de intencion no determinada	15
+200	2002	Lesion autoinflingida intencionalmente por ahogamiento y sumersion	24
+217	2002	Otros sindromes de maltrato	17
+202	2002	Lesion autoinflingida intencionalmente por arrojarse o colocarse delante de objeto en movimiento	1
+218	2002	Secuelas de lesiones autoinfligidas intencionalmente, agresiones y eventos de intencion no determinada	26
+183	2002	Envenenamiento autoinflingido intencionalmente por, y exposicion a otros gases y vapores	7
+216	2002	Otros eventos especificados de intencion no determinada	47
+215	2002	Operaciones de guerra	175
+214	2002	Negligencia y abandono	26
+213	2002	Lesionion autoinflingida intencionalmente por disparo de arma corta	29
+212	2002	Lesion autoinflingida intencionalmente por vapor de agua, vapores y objetos calientes	1
+201	2002	Lesion autoinflingida intencionalmente por ahorcamiento, estrangulamiento o sofocacion	677
+211	2002	Lesion autoinflingida intencionalmente por otros medios especificados	3
+209	2002	Lesion autoinflingida intencionalmente por objeto cortante	38
+208	2002	Lesion autoinflingida intencionalmente por medios no especificados	18
+207	2002	Lesion autoinflingida intencionalmente por material explosivo	8
+206	2002	Lesion autoinflingida intencionalmente por humo, fuego y llamas	15
+205	2002	Lesion autoinflingida intencionalmente por disparo de rifle, escopeta y arma larga	60
+204	2002	Lesion autoinflingida intencionalmente por disparo de otras armas de fuego, y las no especificadas	565
+203	2002	Lesion autoinflingida intencionalmente por colision de vehiculo de motor	3
+210	2002	Lesion autoinflingida intencionalmente por objeto romo o sin filo	1
+182	2002	Envenenamiento autoinflingido intencionalmente por, y exposicion a otras drogas, medicamentos y sustancias biologicas y los no especificados	25
+174	2002	Disparo de otras armas de fuego y las no especificadas, de intencion no determinada	733
+180	2002	Envenenamiento autoinflingido intencionalmente por, y exposicion a narcoticos y psicodislepticos [alucinogenos] no clasificados en otra parte	5
+158	2002	Agresion con vapor y objetos calientes	3
+157	2002	Agresion con sustancia corrosiva	2
+156	2002	Agresion con productos quimicos y sustancias nocivas no especificados	7
+155	2002	Agresion con plaguicidas	2
+154	2002	Agresion con otros productos quimicos y sustancias nocivas especificadas	3
+153	2002	Agresion con objeto romo o sin filo	190
+152	2002	Agresion con objeto cortante	3087
+151	2002	Agresion con material explosivo	387
+181	2002	Envenenamiento autoinflingido intencionalmente por, y exposicion a otras drogas que actuan sobre el sistema nervioso autonomo	3
+149	2002	Agresion con gases y vapores	2
+148	2002	Agresion con fuerza corporal	16
+147	2002	Agresion con drogas, medicamentos y sustancias biologicas	4
+146	2002	Agresion con disparo de rifle, escopeta y arma larga	614
+145	2002	Agresion con disparo de otras armas fuego y las no especificadas	24613
+144	2002	Agresion con disparo de arma corta	1833
+159	2002	Agresion empuj o coloc delant objeto movimie	2
+160	2002	Agresion por ahogamiento y sumersion	33
+150	2002	Agresion con humo, fuego y llamas	36
+162	2002	Agresion por colision vehiculo de motor	9
+161	2002	Agresion por ahorcamiento, estrangulamiento y sofocacion	301
+179	2002	Envenenamiento autoinflingido intencionalmente por, y exposicion a drogas antiepilepticas, sedantes, hipnoticas, antiparinsonianas y psicotropicas, no clasificadas en otra parte	8
+178	2002	Envenenamiento autoinflingido intencionalmente por, y exposicion a disolventes organicos e hidrocarburos halogenados y sus vapores	3
+177	2002	Envenenamiento autoinflingido intencionalmente por, y exposicion a analgesicos no narcoticos, antipireticos y antirreumaticos	1
+175	2002	Disparo de rifle, escopeta y arma larga, de intencion no determinada	20
+173	2002	Disparo de arma corta de intencion no determinada	23
+172	2002	Contacto traumatico con objeto romo sin filo, de intencion no determinada	13
+171	2002	Contacto traumatico con objeto cortante, de intencion no determinada	83
+176	2002	Envenenamiento autoinflingido intencionalm por, y exposicion a alcohol	9
+169	2002	Colision de vehiculo de motor de intencion no determinadas	3
+168	2002	Caida, salto o empujon desde lugar elevado, de intencion no determinada	59
+167	2002	Caida, permanencia o carrera delante o hacia objeto en movimiento, de intencion no determinada	2
+166	2002	Ahorcamiento, estrangulamiento y sofocacion, de intencion no determinada	46
+165	2002	Ahogamiento y sumersion de intencion no determinada	154
+164	2002	Agresion por medios no especificados	430
+170	2002	Contacto traumatico con material explosivo, de intencion no determinada	27
+163	2002	Agresion por empujon desde lugar elevado	3
+251	2003	Lesion autoinflingida intencionalmente por colision de vehiculo de motor	2
+250	2003	Lesion autoinflingida intencionalmente por arrojarse o colocarse delante de objeto en movimiento	6
+249	2003	Lesion autoinflingida intencionalmente por ahorcamiento, estrangulamiento o sofocacion	629
+248	2003	Lesion autoinflingida intencionalmente por ahogamiento y sumersion	17
+245	2003	Envenenamiento autoinflingido intencionalmente por, y exposicion a plaguicidas	339
+246	2003	Intervencion legal	140
+244	2003	Envenenamiento autoinflingido intencionalmente por, y exposicion a otros productos quimicos y sustancias nocivas y los no especificados	404
+252	2003	Lesion autoinflingida intencionalmente por disparo de otras armas de fuego, y las no especificadas	519
+247	2003	Lesion autoinflingida intencionalmente al saltar desde un lugar elevado	72
+253	2003	Lesion autoinflingida intencionalmente por disparo de rifle, escopeta y arma larga	54
+262	2003	Otros sindromes de maltrato	7
+255	2003	Lesion autoinflingida intencionalmente por material explosivo	7
+256	2003	Lesion autoinflingida intencionalmente por medios no especificados	19
+257	2003	Lesion autoinflingida intencionalmente por objeto cortante	37
+258	2003	Lesion autoinflingida intencionalmente por objeto romo o sin filo	2
+259	2003	Lesionion autoinflingida intencionalmente por disparo de arma corta	65
+260	2003	Negligencia y abandono	22
+261	2003	Operaciones de guerra	312
+263	2003	Secuelas de lesiones autoinfligidas intencionalmente, agresiones y eventos de intencion no determinada	5
+243	2003	Envenenamiento autoinflingido intencionalmente por, y exposicion a otros gases y vapores	11
+254	2003	Lesion autoinflingida intencionalmente por humo, fuego y llamas	10
+242	2003	Envenenamiento autoinflingido intencionalmente por, y exposicion a otras drogas, medicamentos y sustancias biologicas y los no especificados	30
+221	2003	Agresion con disparo de rifle, escopeta y arma larga	458
+240	2003	Envenenamiento autoinflingido intencionalmente por, y exposicion a narcoticos y psicodislepticos [alucinogenos] no clasificados en otra parte	2
+219	2003	Agresion con disparo de arma corta	1862
+220	2003	Agresion con disparo de otras armas fuego y las no especificadas	18905
+222	2003	Agresion con drogas, medicamentos y sustancias biologicas	4
+223	2003	Agresion con fuerza corporal	16
+224	2003	Agresion con humo, fuego y llamas	36
+225	2003	Agresion con material explosivo	410
+226	2003	Agresion con objeto cortante	2740
+227	2003	Agresion con objeto romo o sin filo	215
+228	2003	Agresion con otros productos quimicos y sustancias nocivas especificadas	2
+229	2003	Agresion con productos quimicos y sustancias nocivas no especificados	11
+241	2003	Envenenamiento autoinflingido intencionalmente por, y exposicion a otras drogas que actuan sobre el sistema nervioso autonomo	2
+231	2003	Agresion por ahogamiento y sumersion	32
+230	2003	Agresion con vapor y objetos calientes	6
+239	2003	Envenenamiento autoinflingido intencionalmente por, y exposicion a drogas antiepilepticas, sedantes, hipnoticas, antiparinsonianas y psicotropicas, no clasificadas en otra parte	9
+237	2003	Envenenamiento autoinflingido intencionalm por, y exposicion a alcohol	5
+236	2003	Agresion sexual con fuerza corporal	1
+238	2003	Envenenamiento autoinflingido intencionalmente por, y exposicion a disolventes organicos e hidrocarburos halogenados y sus vapores	2
+234	2003	Agresion por empujon desde lugar elevado	9
+233	2003	Agresion por colision vehiculo de motor	16
+232	2003	Agresion por ahorcamiento, estrangulamiento y sofocacion	300
+235	2003	Agresion por medios no especificados	360
+317	2004	Intervencion legal	139
+312	2004	Envenenamiento por, y exposicion a otros productos quimicos y sustancias nocivas, y los no especificados, de intencion no determinada	109
+316	2004	Exposicion a humo, fuego y llamas, de intencion no determinada	31
+315	2004	Evento no especificado de intencion no determinada	686
+314	2004	Envenenamiento por, y exposicion al alcohol intencion no determinada	23
+313	2004	Envenenamiento por, y exposicion a plaguicidas de intencion no determinada	35
+311	2004	Envenenamiento por, y exposicion a otros gases y vapores, de intencion no determinada	5
+305	2004	Envenenamiento autoinflingido intencionalmente por, y exposicion a plaguicidas	282
+309	2004	Envenenamiento por, y exposicion a otras drogas que actuan sobre el sistema nervioso autonomo, de intencion no determinada	1
+308	2004	Envenenamiento por, y exposicion a narcoticos y psicodislepticos [alucinogenos], no clasificadas en otra parte, de intencion no determinada	4
+306	2004	Envenenamiento por, y exposicion a analgesicos, antipireticos y antirreumaticos, de intencion no determinada	1
+304	2004	Envenenamiento autoinflingido intencionalmente por, y exposicion a otros productos quimicos y sustancias nocivas y los no especificados	315
+303	2004	Envenenamiento autoinflingido intencionalmente por, y exposicion a otros gases y vapores	2
+302	2004	Envenenamiento autoinflingido intencionalmente por, y exposicion a otras drogas, medicamentos y sustancias biologicas y los no especificados	28
+318	2004	Lesion autoinflingida intencionalmente al saltar desde un lugar elevado	84
+310	2004	Envenenamiento por, y exposicion a otras drogas, medicamentos y sustancias biologicas, y las no especificadas, de intencion no determinada	17
+319	2004	Lesion autoinflingida intencionalmente por ahogamiento y sumersion	30
+330	2004	Lesion autoinflingida intencionalmente por otros medios especificados	2
+321	2004	Lesion autoinflingida intencionalmente por arrojarse o colocarse delante de objeto en movimiento	4
+336	2004	Secuelas de lesiones autoinfligidas intencionalmente, agresiones y eventos de intencion no determinada	26
+335	2004	Otros sindromes de maltrato	4
+334	2004	Otros eventos especificados de intencion no determinada	116
+333	2004	Operaciones de guerra	364
+332	2004	Negligencia y abandono	9
+331	2004	Lesionion autoinflingida intencionalmente por disparo de arma corta	49
+301	2004	Envenenamiento autoinflingido intencionalmente por, y exposicion a otras drogas que actuan sobre el sistema nervioso autonomo	1
+329	2004	Lesion autoinflingida intencionalmente por objeto romo o sin filo	4
+328	2004	Lesion autoinflingida intencionalmente por objeto cortante	46
+327	2004	Lesion autoinflingida intencionalmente por medios no especificados	19
+326	2004	Lesion autoinflingida intencionalmente por material explosivo	5
+325	2004	Lesion autoinflingida intencionalmente por humo, fuego y llamas	7
+324	2004	Lesion autoinflingida intencionalmente por disparo de rifle, escopeta y arma larga	49
+323	2004	Lesion autoinflingida intencionalmente por disparo de otras armas de fuego, y las no especificadas	516
+322	2004	Lesion autoinflingida intencionalmente por colision de vehiculo de motor	2
+320	2004	Lesion autoinflingida intencionalmente por ahorcamiento, estrangulamiento o sofocacion	756
+300	2004	Envenenamiento autoinflingido intencionalmente por, y exposicion a narcoticos y psicodislepticos [alucinogenos] no clasificados en otra parte	3
+307	2004	Envenenamiento por, y exposicion a drogas antiepilepticas, sedantes, hipnoticas no clasificadas en otra parte, de intencion no determinada	2
+298	2004	Envenenamiento autoinflingido intencionalmente por, y exposicion a disolventes organicos e hidrocarburos halogenados y sus vapores	2
+278	2004	Agresion por ahorcamiento, estrangulamiento y sofocacion	259
+277	2004	Agresion por ahogamiento y sumersion	27
+276	2004	Agresion empuj o coloc delant objeto movimie	2
+275	2004	Agresion con vapor y objetos calientes	3
+274	2004	Agresion con productos quimicos y sustancias nocivas no especificados	8
+273	2004	Agresion con otros productos quimicos y sustancias nocivas especificadas	1
+272	2004	Agresion con objeto romo o sin filo	199
+271	2004	Agresion con objeto cortante	2548
+270	2004	Agresion con material explosivo	273
+269	2004	Agresion con humo, fuego y llamas	7
+268	2004	Agresion con fuerza corporal	10
+267	2004	Agresion con drogas, medicamentos y sustancias biologicas	1
+266	2004	Agresion con disparo de rifle, escopeta y arma larga	361
+265	2004	Agresion con disparo de otras armas fuego y las no especificadas	17319
+299	2004	Envenenamiento autoinflingido intencionalmente por, y exposicion a drogas antiepilepticas, sedantes, hipnoticas, antiparinsonianas y psicotropicas, no clasificadas en otra parte	9
+279	2004	Agresion por colision vehiculo de motor	6
+280	2004	Agresion por empujon desde lugar elevado	9
+264	2004	Agresion con disparo de arma corta	881
+282	2004	Agresion por otros medios especificados	8
+281	2004	Agresion por medios no especificados	266
+296	2004	Envenenamiento autoinflingido intencionalm por, y exposicion a alcohol	9
+295	2004	Disparo de rifle, escopeta y arma larga, de intencion no determinada	7
+294	2004	Disparo de otras armas de fuego y las no especificadas, de intencion no determinada	584
+293	2004	Disparo de arma corta de intencion no determinada	3
+292	2004	Contacto traumatico con objeto romo sin filo, de intencion no determinada	22
+291	2004	Contacto traumatico con objeto cortante, de intencion no determinada	94
+297	2004	Envenenamiento autoinflingido intencionalmente por, y exposicion a analgesicos no narcoticos, antipireticos y antirreumaticos	2
+289	2004	Contacto con vapor de agua, vapores y objetos calientes, de intencion no determinada	2
+288	2004	Colision de vehiculo de motor de intencion no determinadas	1
+287	2004	Caida, salto o empujon desde lugar elevado, de intencion no determinada	97
+286	2004	Caida, permanencia o carrera delante o hacia objeto en movimiento, de intencion no determinada	1
+285	2004	Ahorcamiento, estrangulamiento y sofocacion, de intencion no determinada	72
+284	2004	Ahogamiento y sumersion de intencion no determinada	170
+283	2004	Agresion sexual con fuerza corporal	2
+290	2004	Contacto traumatico con material explosivo, de intencion no determinada	23
+389	2005	Lesion autoinflingida intencionalmente al saltar desde un lugar elevado	67
+388	2005	Intervencion legal	168
+387	2005	Exposicion a humo, fuego y llamas, de intencion no determinada	25
+386	2005	Evento no especificado de intencion no determinada	612
+385	2005	Envenenamiento por, y exposicion al alcohol intencion no determinada	27
+384	2005	Envenenamiento por, y exposicion a plaguicidas de intencion no determinada	40
+383	2005	Envenenamiento por, y exposicion a otros productos quimicos y sustancias nocivas, y los no especificados, de intencion no determinada	109
+380	2005	Envenenamiento por, y exposicion a narcoticos y psicodislepticos [alucinogenos], no clasificadas en otra parte, de intencion no determinada	12
+381	2005	Envenenamiento por, y exposicion a otras drogas, medicamentos y sustancias biologicas, y las no especificadas, de intencion no determinada	23
+379	2005	Envenenamiento por, y exposicion a analgesicos, antipireticos y antirreumaticos, de intencion no determinada	1
+378	2005	Envenenamiento autoinflingido intencionalmente por, y exposicion a plaguicidas	309
+377	2005	Envenenamiento autoinflingido intencionalmente por, y exposicion a otros productos quimicos y sustancias nocivas y los no especificados	243
+376	2005	Envenenamiento autoinflingido intencionalmente por, y exposicion a otros gases y vapores	6
+390	2005	Lesion autoinflingida intencionalmente por ahogamiento y sumersion	28
+375	2005	Envenenamiento autoinflingido intencionalmente por, y exposicion a otras drogas, medicamentos y sustancias biologicas y los no especificados	24
+382	2005	Envenenamiento por, y exposicion a otros gases y vapores, de intencion no determinada	9
+391	2005	Lesion autoinflingida intencionalmente por ahorcamiento, estrangulamiento o sofocacion	754
+399	2005	Lesion autoinflingida intencionalmente por objeto cortante	39
+393	2005	Lesion autoinflingida intencionalmente por colision de vehiculo de motor	2
+374	2005	Envenenamiento autoinflingido intencionalmente por, y exposicion a narcoticos y psicodislepticos [alucinogenos] no clasificados en otra parte	2
+407	2005	Otros sindromes de maltrato	7
+406	2005	Otros eventos especificados de intencion no determinada	156
+405	2005	Operaciones de guerra	633
+404	2005	Negligencia y abandono	11
+403	2005	Lesionion autoinflingida intencionalmente por disparo de arma corta	30
+408	2005	Secuelas de lesiones autoinfligidas intencionalmente, agresiones y eventos de intencion no determinada	43
+402	2005	Lesion autoinflingida intencionalmente por vapor de agua, vapores y objetos calientes	1
+401	2005	Lesion autoinflingida intencionalmente por otros medios especificados	3
+400	2005	Lesion autoinflingida intencionalmente por objeto romo o sin filo	2
+398	2005	Lesion autoinflingida intencionalmente por medios no especificados	12
+397	2005	Lesion autoinflingida intencionalmente por material explosivo	9
+396	2005	Lesion autoinflingida intencionalmente por humo, fuego y llamas	3
+395	2005	Lesion autoinflingida intencionalmente por disparo de rifle, escopeta y arma larga	44
+394	2005	Lesion autoinflingida intencionalmente por disparo de otras armas de fuego, y las no especificadas	471
+392	2005	Lesion autoinflingida intencionalmente por arrojarse o colocarse delante de objeto en movimiento	3
+373	2005	Envenenamiento autoinflingido intencionalmente por, y exposicion a drogas antiepilepticas, sedantes, hipnoticas, antiparinsonianas y psicotropicas, no clasificadas en otra parte	11
+342	2005	Agresion con gases y vapores	1
+371	2005	Envenenamiento autoinflingido intencionalmente por, y exposicion a analgesicos no narcoticos, antipireticos y antirreumaticos	3
+351	2005	Agresion por ahogamiento y sumersion	25
+350	2005	Agresion empuj o coloc delant objeto movimie	1
+349	2005	Agresion con vapor y objetos calientes	5
+348	2005	Agresion con productos quimicos y sustancias nocivas no especificados	8
+347	2005	Agresion con plaguicidas	2
+345	2005	Agresion con objeto cortante	2569
+352	2005	Agresion por ahorcamiento, estrangulamiento y sofocacion	275
+344	2005	Agresion con material explosivo	262
+341	2005	Agresion con fuerza corporal	10
+340	2005	Agresion con drogas, medicamentos y sustancias biologicas	3
+339	2005	Agresion con disparo de rifle, escopeta y arma larga	278
+338	2005	Agresion con disparo de otras armas fuego y las no especificadas	14294
+337	2005	Agresion con disparo de arma corta	551
+372	2005	Envenenamiento autoinflingido intencionalmente por, y exposicion a disolventes organicos e hidrocarburos halogenados y sus vapores	2
+343	2005	Agresion con humo, fuego y llamas	10
+353	2005	Agresion por colision vehiculo de motor	15
+346	2005	Agresion con objeto romo o sin filo	235
+355	2005	Agresion por medios no especificados	208
+354	2005	Agresion por empujon desde lugar elevado	2
+369	2005	Disparo de rifle, escopeta y arma larga, de intencion no determinada	9
+368	2005	Disparo de otras armas de fuego y las no especificadas, de intencion no determinada	394
+367	2005	Disparo de arma corta de intencion no determinada	4
+366	2005	Contacto traumatico con objeto romo sin filo, de intencion no determinada	29
+365	2005	Contacto traumatico con objeto cortante, de intencion no determinada	81
+364	2005	Contacto traumatico con material explosivo, de intencion no determinada	19
+363	2005	Contacto con vapor de agua, vapores y objetos calientes, de intencion no determinada	3
+370	2005	Envenenamiento autoinflingido intencionalm por, y exposicion a alcohol	7
+361	2005	Caida, salto o empujon desde lugar elevado, de intencion no determinada	63
+360	2005	Caida, permanencia o carrera delante o hacia objeto en movimiento, de intencion no determinada	1
+359	2005	Ahorcamiento, estrangulamiento y sofocacion, de intencion no determinada	61
+358	2005	Ahogamiento y sumersion de intencion no determinada	108
+357	2005	Agresion sexual con fuerza corporal	1
+356	2005	Agresion por otros medios especificados	4
+362	2005	Colision de vehiculo de motor de intencion no determinadas	4
+459	2006	Lesion autoinflingida intencionalmente por ahogamiento y sumersion	25
+458	2006	Lesion autoinflingida intencionalmente al saltar desde un lugar elevado	75
+457	2006	Intervencion legal	300
+456	2006	Exposicion a humo, fuego y llamas, de intencion no determinada	25
+455	2006	Evento no especificado de intencion no determinada	540
+454	2006	Envenenamiento por, y exposicion al alcohol intencion no determinada	42
+453	2006	Envenenamiento por, y exposicion a plaguicidas de intencion no determinada	33
+449	2006	Envenenamiento por, y exposicion a narcoticos y psicodislepticos [alucinogenos], no clasificadas en otra parte, de intencion no determinada	11
+451	2006	Envenenamiento por, y exposicion a otros gases y vapores, de intencion no determinada	8
+450	2006	Envenenamiento por, y exposicion a otras drogas, medicamentos y sustancias biologicas, y las no especificadas, de intencion no determinada	12
+448	2006	Envenenamiento por, y exposicion a drogas antiepilepticas, sedantes, hipnoticas no clasificadas en otra parte, de intencion no determinada	3
+447	2006	Envenenamiento por, y exposicion a analgesicos, antipireticos y antirreumaticos, de intencion no determinada	4
+446	2006	Envenenamiento autoinflingido intencionalmente por, y exposicion a plaguicidas	295
+445	2006	Envenenamiento autoinflingido intencionalmente por, y exposicion a otros productos quimicos y sustancias nocivas y los no especificados	281
+452	2006	Envenenamiento por, y exposicion a otros productos quimicos y sustancias nocivas, y los no especificados, de intencion no determinada	121
+460	2006	Lesion autoinflingida intencionalmente por ahorcamiento, estrangulamiento o sofocacion	794
+444	2006	Envenenamiento autoinflingido intencionalmente por, y exposicion a otros gases y vapores	5
+462	2006	Lesion autoinflingida intencionalmente por colision de vehiculo de motor	3
+476	2006	Secuelas de lesiones autoinfligidas intencionalmente, agresiones y eventos de intencion no determinada	41
+475	2006	Otros sindromes de maltrato	7
+474	2006	Otros eventos especificados de intencion no determinada	49
+473	2006	Operaciones de guerra	590
+472	2006	Negligencia y abandono	8
+471	2006	Lesionion autoinflingida intencionalmente por disparo de arma corta	23
+461	2006	Lesion autoinflingida intencionalmente por arrojarse o colocarse delante de objeto en movimiento	6
+470	2006	Lesion autoinflingida intencionalmente por otros medios especificados	1
+468	2006	Lesion autoinflingida intencionalmente por objeto cortante	39
+467	2006	Lesion autoinflingida intencionalmente por medios no especificados	5
+466	2006	Lesion autoinflingida intencionalmente por material explosivo	5
+465	2006	Lesion autoinflingida intencionalmente por humo, fuego y llamas	7
+464	2006	Lesion autoinflingida intencionalmente por disparo de rifle, escopeta y arma larga	55
+463	2006	Lesion autoinflingida intencionalmente por disparo de otras armas de fuego, y las no especificadas	485
+469	2006	Lesion autoinflingida intencionalmente por objeto romo o sin filo	8
+443	2006	Envenenamiento autoinflingido intencionalmente por, y exposicion a otras drogas, medicamentos y sustancias biologicas y los no especificados	14
+411	2006	Agresion con disparo de rifle, escopeta y arma larga	255
+441	2006	Envenenamiento autoinflingido intencionalmente por, y exposicion a drogas antiepilepticas, sedantes, hipnoticas, antiparinsonianas y psicotropicas, no clasificadas en otra parte	8
+409	2006	Agresion con disparo de arma corta	563
+410	2006	Agresion con disparo de otras armas fuego y las no especificadas	13520
+442	2006	Envenenamiento autoinflingido intencionalmente por, y exposicion a narcoticos y psicodislepticos [alucinogenos] no clasificados en otra parte	2
+412	2006	Agresion con drogas, medicamentos y sustancias biologicas	3
+413	2006	Agresion con fuerza corporal	15
+414	2006	Agresion con humo, fuego y llamas	12
+415	2006	Agresion con material explosivo	231
+416	2006	Agresion con objeto cortante	2695
+418	2006	Agresion con otros productos quimicos y sustancias nocivas especificadas	1
+419	2006	Agresion con productos quimicos y sustancias nocivas no especificados	11
+420	2006	Agresion empuj o coloc delant objeto movimie	2
+421	2006	Agresion por ahogamiento y sumersion	19
+422	2006	Agresion por ahorcamiento, estrangulamiento y sofocacion	242
+423	2006	Agresion por colision vehiculo de motor	3
+424	2006	Agresion por empujon desde lugar elevado	1
+417	2006	Agresion con objeto romo o sin filo	259
+426	2006	Agresion por otros medios especificados	6
+425	2006	Agresion por medios no especificados	187
+439	2006	Envenenamiento autoinflingido intencionalm por, y exposicion a alcohol	7
+438	2006	Disparo de rifle, escopeta y arma larga, de intencion no determinada	6
+437	2006	Disparo de otras armas de fuego y las no especificadas, de intencion no determinada	445
+436	2006	Disparo de arma corta de intencion no determinada	2
+435	2006	Contacto traumatico con objeto romo sin filo, de intencion no determinada	32
+434	2006	Contacto traumatico con objeto cortante, de intencion no determinada	91
+440	2006	Envenenamiento autoinflingido intencionalmente por, y exposicion a disolventes organicos e hidrocarburos halogenados y sus vapores	1
+432	2006	Contacto con vapor de agua, vapores y objetos calientes, de intencion no determinada	3
+431	2006	Caida, salto o empujon desde lugar elevado, de intencion no determinada	81
+430	2006	Caida, permanencia o carrera delante o hacia objeto en movimiento, de intencion no determinada	4
+429	2006	Ahorcamiento, estrangulamiento y sofocacion, de intencion no determinada	62
+428	2006	Ahogamiento y sumersion de intencion no determinada	135
+427	2006	Agresion sexual con fuerza corporal	2
+433	2006	Contacto traumatico con material explosivo, de intencion no determinada	42
+528	2007	Lesion autoinflingida intencionalmente por ahogamiento y sumersion	19
+527	2007	Lesion autoinflingida intencionalmente al saltar desde un lugar elevado	63
+526	2007	Intervencion legal	535
+525	2007	Exposicion a humo, fuego y llamas, de intencion no determinada	22
+524	2007	Evento no especificado de intencion no determinada	612
+523	2007	Envenenamiento por, y exposicion al alcohol intencion no determinada	29
+522	2007	Envenenamiento por, y exposicion a plaguicidas de intencion no determinada	44
+518	2007	Envenenamiento por, y exposicion a otras drogas que actuan sobre el sistema nervioso autonomo, de intencion no determinada	1
+520	2007	Envenenamiento por, y exposicion a otros gases y vapores, de intencion no determinada	5
+519	2007	Envenenamiento por, y exposicion a otras drogas, medicamentos y sustancias biologicas, y las no especificadas, de intencion no determinada	9
+517	2007	Envenenamiento por, y exposicion a narcoticos y psicodislepticos [alucinogenos], no clasificadas en otra parte, de intencion no determinada	14
+516	2007	Envenenamiento por, y exposicion a drogas antiepilepticas, sedantes, hipnoticas no clasificadas en otra parte, de intencion no determinada	4
+515	2007	Envenenamiento por, y exposicion a disolventes organicos e hidrocarburos halogenados y sus vapores, de intencion no determinada	2
+514	2007	Envenenamiento por, y exposicion a analgesicos, antipireticos y antirreumaticos, de intencion no determinada	2
+521	2007	Envenenamiento por, y exposicion a otros productos quimicos y sustancias nocivas, y los no especificados, de intencion no determinada	137
+529	2007	Lesion autoinflingida intencionalmente por ahorcamiento, estrangulamiento o sofocacion	849
+545	2007	Secuelas de lesiones autoinfligidas intencionalmente, agresiones y eventos de intencion no determinada	42
+531	2007	Lesion autoinflingida intencionalmente por colision de vehiculo de motor	1
+512	2007	Envenenamiento autoinflingido intencionalmente por, y exposicion a otros productos quimicos y sustancias nocivas y los no especificados	305
+544	2007	Otros sindromes de maltrato	2
+543	2007	Otros eventos especificados de intencion no determinada	99
+542	2007	Operaciones de guerra	318
+541	2007	Negligencia y abandono	2
+540	2007	Lesionion autoinflingida intencionalmente por disparo de arma corta	29
+530	2007	Lesion autoinflingida intencionalmente por arrojarse o colocarse delante de objeto en movimiento	1
+539	2007	Lesion autoinflingida intencionalmente por otros medios especificados	2
+537	2007	Lesion autoinflingida intencionalmente por objeto cortante	27
+536	2007	Lesion autoinflingida intencionalmente por medios no especificados	18
+535	2007	Lesion autoinflingida intencionalmente por material explosivo	6
+534	2007	Lesion autoinflingida intencionalmente por humo, fuego y llamas	4
+533	2007	Lesion autoinflingida intencionalmente por disparo de rifle, escopeta y arma larga	55
+532	2007	Lesion autoinflingida intencionalmente por disparo de otras armas de fuego, y las no especificadas	441
+538	2007	Lesion autoinflingida intencionalmente por objeto romo o sin filo	4
+511	2007	Envenenamiento autoinflingido intencionalmente por, y exposicion a otros gases y vapores	3
+513	2007	Envenenamiento autoinflingido intencionalmente por, y exposicion a plaguicidas	278
+509	2007	Envenenamiento autoinflingido intencionalmente por, y exposicion a narcoticos y psicodislepticos [alucinogenos] no clasificados en otra parte	3
+490	2007	Agresion por ahorcamiento, estrangulamiento y sofocacion	239
+489	2007	Agresion por ahogamiento y sumersion	24
+488	2007	Agresion con productos quimicos y sustancias nocivas no especificados	16
+487	2007	Agresion con otros productos quimicos y sustancias nocivas especificadas	13
+486	2007	Agresion con objeto romo o sin filo	270
+484	2007	Agresion con material explosivo	224
+491	2007	Agresion por colision vehiculo de motor	15
+483	2007	Agresion con humo, fuego y llamas	20
+481	2007	Agresion con fuerza corporal	12
+480	2007	Agresion con drogas, medicamentos y sustancias biologicas	3
+479	2007	Agresion con disparo de rifle, escopeta y arma larga	314
+478	2007	Agresion con disparo de otras armas fuego y las no especificadas	12847
+477	2007	Agresion con disparo de arma corta	839
+510	2007	Envenenamiento autoinflingido intencionalmente por, y exposicion a otras drogas, medicamentos y sustancias biologicas y los no especificados	26
+482	2007	Agresion con gases y vapores	3
+492	2007	Agresion por empujon desde lugar elevado	5
+485	2007	Agresion con objeto cortante	2718
+494	2007	Agresion por otros medios especificados	5
+493	2007	Agresion por medios no especificados	190
+508	2007	Envenenamiento autoinflingido intencionalmente por, y exposicion a drogas antiepilepticas, sedantes, hipnoticas, antiparinsonianas y psicotropicas, no clasificadas en otra parte	7
+507	2007	Envenenamiento autoinflingido intencionalmente por, y exposicion a disolventes organicos e hidrocarburos halogenados y sus vapores	3
+506	2007	Envenenamiento autoinflingido intencionalm por, y exposicion a alcohol	5
+505	2007	Disparo de rifle, escopeta y arma larga, de intencion no determinada	9
+503	2007	Disparo de arma corta de intencion no determinada	8
+502	2007	Contacto traumatico con objeto romo sin filo, de intencion no determinada	25
+504	2007	Disparo de otras armas de fuego y las no especificadas, de intencion no determinada	349
+500	2007	Contacto traumatico con material explosivo, de intencion no determinada	23
+499	2007	Caida, salto o empujon desde lugar elevado, de intencion no determinada	64
+498	2007	Caida, permanencia o carrera delante o hacia objeto en movimiento, de intencion no determinada	1
+497	2007	Ahorcamiento, estrangulamiento y sofocacion, de intencion no determinada	58
+496	2007	Ahogamiento y sumersion de intencion no determinada	114
+495	2007	Agresion sexual con fuerza corporal	1
+501	2007	Contacto traumatico con objeto cortante, de intencion no determinada	79
+599	2009	Exposicion a humo, fuego y llamas, de intencion no determinada	29
+594	2009	Envenenamiento por, y exposicion a otros gases y vapores, de intencion no determinada	19
+598	2009	Evento no especificado de intencion no determinada	771
+597	2009	Envenenamiento por, y exposicion al alcohol intencion no determinada	21
+596	2009	Envenenamiento por, y exposicion a plaguicidas de intencion no determinada	45
+595	2009	Envenenamiento por, y exposicion a otros productos quimicos y sustancias nocivas, y los no especificados, de intencion no determinada	98
+593	2009	Envenenamiento por, y exposicion a otras drogas, medicamentos y sustancias biologicas, y las no especificadas, de intencion no determinada	18
+586	2009	Envenenamiento autoinflingido intencionalmente por, y exposicion a otros gases y vapores	4
+591	2009	Envenenamiento por, y exposicion a drogas antiepilepticas, sedantes, hipnoticas no clasificadas en otra parte, de intencion no determinada	1
+590	2009	Envenenamiento por, y exposicion a disolventes organicos e hidrocarburos halogenados y sus vapores, de intencion no determinada	1
+589	2009	Envenenamiento por, y exposicion a analgesicos, antipireticos y antirreumaticos, de intencion no determinada	2
+588	2009	Envenenamiento autoinflingido intencionalmente por, y exposicion a plaguicidas	332
+587	2009	Envenenamiento autoinflingido intencionalmente por, y exposicion a otros productos quimicos y sustancias nocivas y los no especificados	177
+585	2009	Envenenamiento autoinflingido intencionalmente por, y exposicion a otras drogas, medicamentos y sustancias biologicas y los no especificados	19
+600	2009	Intervencion legal	247
+592	2009	Envenenamiento por, y exposicion a narcoticos y psicodislepticos [alucinogenos], no clasificadas en otra parte, de intencion no determinada	26
+601	2009	Lesion autoinflingida intencionalmente al saltar desde un lugar elevado	67
+618	2009	Otros sindromes de maltrato	2
+603	2009	Lesion autoinflingida intencionalmente por ahorcamiento, estrangulamiento o sofocacion	967
+584	2009	Envenenamiento autoinflingido intencionalmente por, y exposicion a otras drogas que actuan sobre el sistema nervioso autonomo	1
+619	2009	Secuelas de lesiones autoinfligidas intencionalmente, agresiones y eventos de intencion no determinada	66
+617	2009	Otros eventos especificados de intencion no determinada	169
+616	2009	Operaciones de guerra	113
+615	2009	Negligencia y abandono	7
+614	2009	Lesionion autoinflingida intencionalmente por disparo de arma corta	42
+613	2009	Lesion autoinflingida intencionalmente por otros medios especificados	4
+602	2009	Lesion autoinflingida intencionalmente por ahogamiento y sumersion	20
+612	2009	Lesion autoinflingida intencionalmente por objeto romo o sin filo	3
+610	2009	Lesion autoinflingida intencionalmente por medios no especificados	21
+609	2009	Lesion autoinflingida intencionalmente por material explosivo	4
+608	2009	Lesion autoinflingida intencionalmente por humo, fuego y llamas	8
+607	2009	Lesion autoinflingida intencionalmente por disparo de rifle, escopeta y arma larga	58
+606	2009	Lesion autoinflingida intencionalmente por disparo de otras armas de fuego, y las no especificadas	375
+605	2009	Lesion autoinflingida intencionalmente por colision de vehiculo de motor	8
+604	2009	Lesion autoinflingida intencionalmente por arrojarse o colocarse delante de objeto en movimiento	2
+611	2009	Lesion autoinflingida intencionalmente por objeto cortante	27
+583	2009	Envenenamiento autoinflingido intencionalmente por, y exposicion a narcoticos y psicodislepticos [alucinogenos] no clasificados en otra parte	3
+548	2009	Agresion con disparo de rifle, escopeta y arma larga	245
+581	2009	Envenenamiento autoinflingido intencionalmente por, y exposicion a disolventes organicos e hidrocarburos halogenados y sus vapores	3
+561	2009	Agresion por ahorcamiento, estrangulamiento y sofocacion	304
+560	2009	Agresion por ahogamiento y sumersion	33
+559	2009	Agresion empuj o coloc delant objeto movimie	1
+558	2009	Agresion con productos quimicos y sustancias nocivas no especificados	12
+557	2009	Agresion con plaguicidas	5
+556	2009	Agresion con otros productos quimicos y sustancias nocivas especificadas	6
+555	2009	Agresion con objeto romo o sin filo	175
+554	2009	Agresion con objeto cortante	2910
+553	2009	Agresion con material explosivo	207
+552	2009	Agresion con humo, fuego y llamas	10
+551	2009	Agresion con gases y vapores	2
+550	2009	Agresion con fuerza corporal	13
+549	2009	Agresion con drogas, medicamentos y sustancias biologicas	4
+582	2009	Envenenamiento autoinflingido intencionalmente por, y exposicion a drogas antiepilepticas, sedantes, hipnoticas, antiparinsonianas y psicotropicas, no clasificadas en otra parte	5
+546	2009	Agresion con disparo de arma corta	1090
+562	2009	Agresion por colision vehiculo de motor	20
+563	2009	Agresion por empujon desde lugar elevado	4
+547	2009	Agresion con disparo de otras armas fuego y las no especificadas	14072
+565	2009	Agresion por otros medios especificados	16
+564	2009	Agresion por medios no especificados	314
+579	2009	Envenenamiento autoinflingido intencionalm por, y exposicion a alcohol	1
+578	2009	Disparo de rifle, escopeta y arma larga, de intencion no determinada	19
+577	2009	Disparo de otras armas de fuego y las no especificadas, de intencion no determinada	369
+576	2009	Disparo de arma corta de intencion no determinada	10
+575	2009	Contacto traumatico con objeto romo sin filo, de intencion no determinada	33
+574	2009	Contacto traumatico con objeto cortante, de intencion no determinada	115
+580	2009	Envenenamiento autoinflingido intencionalmente por, y exposicion a analgesicos no narcoticos, antipireticos y antirreumaticos	1
+572	2009	Contacto con vapor de agua, vapores y objetos calientes, de intencion no determinada	1
+571	2009	Colision de vehiculo de motor de intencion no determinadas	1
+570	2009	Caida, salto o empujon desde lugar elevado, de intencion no determinada	58
+569	2009	Caida, permanencia o carrera delante o hacia objeto en movimiento, de intencion no determinada	1
+568	2009	Ahorcamiento, estrangulamiento y sofocacion, de intencion no determinada	57
+567	2009	Ahogamiento y sumersion de intencion no determinada	159
+573	2009	Contacto traumatico con material explosivo, de intencion no determinada	19
+566	2009	Agresion sexual con fuerza corporal	2
+670	2010	Lesion autoinflingida intencionalmente al saltar desde un lugar elevado	73
+669	2010	Intervencion legal	276
+668	2010	Exposicion a humo, fuego y llamas, de intencion no determinada	20
+667	2010	Evento no especificado de intencion no determinada	788
+666	2010	Envenenamiento por, y exposicion al alcohol intencion no determinada	40
+665	2010	Envenenamiento por, y exposicion a plaguicidas de intencion no determinada	53
+661	2010	Envenenamiento por, y exposicion a narcoticos y psicodislepticos [alucinogenos], no clasificadas en otra parte, de intencion no determinada	18
+663	2010	Envenenamiento por, y exposicion a otros gases y vapores, de intencion no determinada	7
+662	2010	Envenenamiento por, y exposicion a otras drogas, medicamentos y sustancias biologicas, y las no especificadas, de intencion no determinada	23
+660	2010	Envenenamiento por, y exposicion a drogas antiepilepticas, sedantes, hipnoticas no clasificadas en otra parte, de intencion no determinada	6
+659	2010	Envenenamiento por, y exposicion a analgesicos, antipireticos y antirreumaticos, de intencion no determinada	3
+658	2010	Envenenamiento autoinflingido intencionalmente por, y exposicion a plaguicidas	293
+671	2010	Lesion autoinflingida intencionalmente por ahogamiento y sumersion	25
+657	2010	Envenenamiento autoinflingido intencionalmente por, y exposicion a otros productos quimicos y sustancias nocivas y los no especificados	160
+664	2010	Envenenamiento por, y exposicion a otros productos quimicos y sustancias nocivas, y los no especificados, de intencion no determinada	111
+672	2010	Lesion autoinflingida intencionalmente por ahorcamiento, estrangulamiento o sofocacion	885
+679	2010	Lesion autoinflingida intencionalmente por medios no especificados	19
+674	2010	Lesion autoinflingida intencionalmente por colision de vehiculo de motor	6
+656	2010	Envenenamiento autoinflingido intencionalmente por, y exposicion a otros gases y vapores	8
+687	2010	Otros sindromes de maltrato	3
+686	2010	Otros eventos especificados de intencion no determinada	187
+685	2010	Operaciones de guerra	19
+684	2010	Negligencia y abandono	1
+683	2010	Lesionion autoinflingida intencionalmente por disparo de arma corta	42
+673	2010	Lesion autoinflingida intencionalmente por arrojarse o colocarse delante de objeto en movimiento	1
+682	2010	Lesion autoinflingida intencionalmente por vapor de agua, vapores y objetos calientes	1
+680	2010	Lesion autoinflingida intencionalmente por objeto cortante	32
+678	2010	Lesion autoinflingida intencionalmente por material explosivo	7
+677	2010	Lesion autoinflingida intencionalmente por humo, fuego y llamas	10
+676	2010	Lesion autoinflingida intencionalmente por disparo de rifle, escopeta y arma larga	70
+675	2010	Lesion autoinflingida intencionalmente por disparo de otras armas de fuego, y las no especificadas	352
+688	2010	Secuelas de lesiones autoinfligidas intencionalmente, agresiones y eventos de intencion no determinada	69
+681	2010	Lesion autoinflingida intencionalmente por otros medios especificados	3
+655	2010	Envenenamiento autoinflingido intencionalmente por, y exposicion a otras drogas, medicamentos y sustancias biologicas y los no especificados	23
+633	2010	Agresion por ahorcamiento, estrangulamiento y sofocacion	260
+653	2010	Envenenamiento autoinflingido intencionalmente por, y exposicion a drogas antiepilepticas, sedantes, hipnoticas, antiparinsonianas y psicotropicas, no clasificadas en otra parte	12
+634	2010	Agresion por colision vehiculo de motor	20
+632	2010	Agresion por ahogamiento y sumersion	28
+631	2010	Agresion empuj o coloc delant objeto movimie	2
+630	2010	Agresion con productos quimicos y sustancias nocivas no especificados	13
+629	2010	Agresion con otros productos quimicos y sustancias nocivas especificadas	4
+627	2010	Agresion con objeto cortante	2745
+635	2010	Agresion por empujon desde lugar elevado	4
+626	2010	Agresion con material explosivo	239
+624	2010	Agresion con fuerza corporal	11
+623	2010	Agresion con drogas, medicamentos y sustancias biologicas	3
+622	2010	Agresion con disparo de rifle, escopeta y arma larga	322
+621	2010	Agresion con disparo de otras armas fuego y las no especificadas	12689
+620	2010	Agresion con disparo de arma corta	1353
+654	2010	Envenenamiento autoinflingido intencionalmente por, y exposicion a narcoticos y psicodislepticos [alucinogenos] no clasificados en otra parte	2
+625	2010	Agresion con humo, fuego y llamas	10
+636	2010	Agresion por medios no especificados	261
+628	2010	Agresion con objeto romo o sin filo	194
+638	2010	Agresion sexual con fuerza corporal	2
+652	2010	Envenenamiento autoinflingido intencionalmente por, y exposicion a analgesicos no narcoticos, antipireticos y antirreumaticos	1
+637	2010	Agresion por otros medios especificados	13
+651	2010	Envenenamiento autoinflingido intencionalm por, y exposicion a alcohol	3
+650	2010	Disparo de rifle, escopeta y arma larga, de intencion no determinada	21
+649	2010	Disparo de otras armas de fuego y las no especificadas, de intencion no determinada	349
+648	2010	Disparo de arma corta de intencion no determinada	15
+646	2010	Contacto traumatico con objeto cortante, de intencion no determinada	122
+647	2010	Contacto traumatico con objeto romo sin filo, de intencion no determinada	32
+644	2010	Contacto con vapor de agua, vapores y objetos calientes, de intencion no determinada	2
+643	2010	Colision de vehiculo de motor de intencion no determinadas	4
+642	2010	Caida, salto o empujon desde lugar elevado, de intencion no determinada	80
+641	2010	Caida, permanencia o carrera delante o hacia objeto en movimiento, de intencion no determinada	6
+640	2010	Ahorcamiento, estrangulamiento y sofocacion, de intencion no determinada	90
+639	2010	Ahogamiento y sumersion de intencion no determinada	177
+645	2010	Contacto traumatico con material explosivo, de intencion no determinada	19
+734	2011	Envenenamiento por, y exposicion a otros gases y vapores, de intencion no determinada	10
+739	2011	Exposicion a humo, fuego y llamas, de intencion no determinada	33
+737	2011	Envenenamiento por, y exposicion al alcohol intencion no determinada	39
+736	2011	Envenenamiento por, y exposicion a plaguicidas de intencion no determinada	47
+735	2011	Envenenamiento por, y exposicion a otros productos quimicos y sustancias nocivas, y los no especificados, de intencion no determinada	101
+733	2011	Envenenamiento por, y exposicion a otras drogas, medicamentos y sustancias biologicas, y las no especificadas, de intencion no determinada	12
+726	2011	Envenenamiento autoinflingido intencionalmente por, y exposicion a otros gases y vapores	8
+731	2011	Envenenamiento por, y exposicion a drogas antiepilepticas, sedantes, hipnoticas no clasificadas en otra parte, de intencion no determinada	5
+730	2011	Envenenamiento por, y exposicion a disolventes organicos e hidrocarburos halogenados y sus vapores, de intencion no determinada	2
+729	2011	Envenenamiento por, y exposicion a analgesicos, antipireticos y antirreumaticos, de intencion no determinada	2
+728	2011	Envenenamiento autoinflingido intencionalmente por, y exposicion a plaguicidas	250
+727	2011	Envenenamiento autoinflingido intencionalmente por, y exposicion a otros productos quimicos y sustancias nocivas y los no especificados	157
+740	2011	Intervencion legal	292
+732	2011	Envenenamiento por, y exposicion a narcoticos y psicodislepticos [alucinogenos], no clasificadas en otra parte, de intencion no determinada	16
+741	2011	Lesion autoinflingida intencionalmente al saltar desde un lugar elevado	84
+758	2011	Secuelas de lesiones autoinfligidas intencionalmente, agresiones y eventos de intencion no determinada	63
+743	2011	Lesion autoinflingida intencionalmente por ahorcamiento, estrangulamiento o sofocacion	949
+725	2011	Envenenamiento autoinflingido intencionalmente por, y exposicion a otras drogas, medicamentos y sustancias biologicas y los no especificados	21
+757	2011	Otros sindromes de maltrato	8
+756	2011	Otros eventos especificados de intencion no determinada	137
+755	2011	Negligencia y abandono	4
+754	2011	Lesionion autoinflingida intencionalmente por disparo de arma corta	42
+753	2011	Lesion autoinflingida intencionalmente por vapor de agua, vapores y objetos calientes	1
+752	2011	Lesion autoinflingida intencionalmente por otros medios especificados	3
+751	2011	Lesion autoinflingida intencionalmente por objeto cortante	40
+750	2011	Lesion autoinflingida intencionalmente por medios no especificados	18
+749	2011	Lesion autoinflingida intencionalmente por material explosivo	1
+748	2011	Lesion autoinflingida intencionalmente por humo, fuego y llamas	5
+747	2011	Lesion autoinflingida intencionalmente por disparo de rifle, escopeta y arma larga	59
+746	2011	Lesion autoinflingida intencionalmente por disparo de otras armas de fuego, y las no especificadas	292
+745	2011	Lesion autoinflingida intencionalmente por colision de vehiculo de motor	6
+744	2011	Lesion autoinflingida intencionalmente por arrojarse o colocarse delante de objeto en movimiento	3
+742	2011	Lesion autoinflingida intencionalmente por ahogamiento y sumersion	18
+724	2011	Envenenamiento autoinflingido intencionalmente por, y exposicion a otras drogas que actuan sobre el sistema nervioso autonomo	1
+738	2011	Evento no especificado de intencion no determinada	851
+722	2011	Envenenamiento autoinflingido intencionalmente por, y exposicion a drogas antiepilepticas, sedantes, hipnoticas, antiparinsonianas y psicotropicas, no clasificadas en otra parte	7
+702	2011	Agresion por ahogamiento y sumersion	29
+701	2011	Agresion con vapor y objetos calientes	2
+700	2011	Agresion con productos quimicos y sustancias nocivas no especificados	3
+699	2011	Agresion con plaguicidas	1
+698	2011	Agresion con otros productos quimicos y sustancias nocivas especificadas	1
+697	2011	Agresion con objeto romo o sin filo	184
+703	2011	Agresion por ahorcamiento, estrangulamiento y sofocacion	202
+696	2011	Agresion con objeto cortante	2530
+694	2011	Agresion con humo, fuego y llamas	18
+693	2011	Agresion con fuerza corporal	9
+692	2011	Agresion con drogas, medicamentos y sustancias biologicas	1
+691	2011	Agresion con disparo de rifle, escopeta y arma larga	294
+689	2011	Agresion con disparo de arma corta	1167
+723	2011	Envenenamiento autoinflingido intencionalmente por, y exposicion a narcoticos y psicodislepticos [alucinogenos] no clasificados en otra parte	4
+695	2011	Agresion con material explosivo	258
+704	2011	Agresion por colision vehiculo de motor	12
+690	2011	Agresion con disparo de otras armas fuego y las no especificadas	11520
+706	2011	Agresion por medios no especificados	221
+705	2011	Agresion por empujon desde lugar elevado	8
+719	2011	Disparo de rifle, escopeta y arma larga, de intencion no determinada	15
+718	2011	Disparo de otras armas de fuego y las no especificadas, de intencion no determinada	289
+717	2011	Disparo de arma corta de intencion no determinada	15
+716	2011	Contacto traumatico con objeto romo sin filo, de intencion no determinada	15
+715	2011	Contacto traumatico con objeto cortante, de intencion no determinada	120
+714	2011	Contacto traumatico con material explosivo, de intencion no determinada	22
+720	2011	Envenenamiento autoinflingido intencionalm por, y exposicion a alcohol	4
+712	2011	Colision de vehiculo de motor de intencion no determinadas	1
+707	2011	Agresion por otros medios especificados	13
+713	2011	Contacto con vapor de agua, vapores y objetos calientes, de intencion no determinada	1
+708	2011	Agresion sexual con fuerza corporal	1
+721	2011	Envenenamiento autoinflingido intencionalmente por, y exposicion a disolventes organicos e hidrocarburos halogenados y sus vapores	3
+710	2011	Ahorcamiento, estrangulamiento y sofocacion, de intencion no determinada	66
+711	2011	Caida, salto o empujon desde lugar elevado, de intencion no determinada	70
+709	2011	Ahogamiento y sumersion de intencion no determinada	153
+792	2012	Envenenamiento autoinflingido intencionalmente por, y exposicion a otros gases y vapores	12
+804	2012	Envenenamiento por, y exposicion al alcohol intencion no determinada	32
+803	2012	Envenenamiento por, y exposicion a plaguicidas de intencion no determinada	55
+802	2012	Envenenamiento por, y exposicion a otros productos quimicos y sustancias nocivas, y los no especificados, de intencion no determinada	107
+801	2012	Envenenamiento por, y exposicion a otros gases y vapores, de intencion no determinada	5
+800	2012	Envenenamiento por, y exposicion a otras drogas, medicamentos y sustancias biologicas, y las no especificadas, de intencion no determinada	12
+799	2012	Envenenamiento por, y exposicion a otras drogas que actuan sobre el sistema nervioso autonomo, de intencion no determinada	1
+797	2012	Envenenamiento por, y exposicion a drogas antiepilepticas, sedantes, hipnoticas no clasificadas en otra parte, de intencion no determinada	26
+795	2012	Envenenamiento por, y exposicion a analgesicos, antipireticos y antirreumaticos, de intencion no determinada	1
+794	2012	Envenenamiento autoinflingido intencionalmente por, y exposicion a plaguicidas	236
+793	2012	Envenenamiento autoinflingido intencionalmente por, y exposicion a otros productos quimicos y sustancias nocivas y los no especificados	147
+805	2012	Evento no especificado de intencion no determinada	869
+798	2012	Envenenamiento por, y exposicion a narcoticos y psicodislepticos [alucinogenos], no clasificadas en otra parte, de intencion no determinada	13
+796	2012	Envenenamiento por, y exposicion a disolventes organicos e hidrocarburos halogenados y sus vapores, de intencion no determinada	3
+813	2012	Lesion autoinflingida intencionalmente por disparo de rifle, escopeta y arma larga	49
+807	2012	Intervencion legal	252
+808	2012	Lesion autoinflingida intencionalmente al saltar desde un lugar elevado	84
+809	2012	Lesion autoinflingida intencionalmente por ahogamiento y sumersion	20
+810	2012	Lesion autoinflingida intencionalmente por ahorcamiento, estrangulamiento o sofocacion	1017
+811	2012	Lesion autoinflingida intencionalmente por colision de vehiculo de motor	2
+812	2012	Lesion autoinflingida intencionalmente por disparo de otras armas de fuego, y las no especificadas	301
+814	2012	Lesion autoinflingida intencionalmente por humo, fuego y llamas	6
+815	2012	Lesion autoinflingida intencionalmente por material explosivo	5
+816	2012	Lesion autoinflingida intencionalmente por medios no especificados	20
+817	2012	Lesion autoinflingida intencionalmente por objeto cortante	57
+818	2012	Lesion autoinflingida intencionalmente por otros medios especificados	1
+819	2012	Lesionion autoinflingida intencionalmente por disparo de arma corta	32
+820	2012	Negligencia y abandono	3
+791	2012	Envenenamiento autoinflingido intencionalmente por, y exposicion a otras drogas, medicamentos y sustancias biologicas y los no especificados	20
+806	2012	Exposicion a humo, fuego y llamas, de intencion no determinada	27
+790	2012	Envenenamiento autoinflingido intencionalmente por, y exposicion a narcoticos y psicodislepticos [alucinogenos] no clasificados en otra parte	2
+773	2012	Agresion por empujon desde lugar elevado	4
+788	2012	Envenenamiento autoinflingido intencionalm por, y exposicion a alcohol	1
+821	2012	Otros eventos especificados de intencion no determinada	181
+759	2012	Agresion con disparo de arma corta	1124
+760	2012	Agresion con disparo de otras armas fuego y las no especificadas	10905
+761	2012	Agresion con disparo de rifle, escopeta y arma larga	203
+762	2012	Agresion con fuerza corporal	6
+763	2012	Agresion con humo, fuego y llamas	11
+764	2012	Agresion con material explosivo	291
+765	2012	Agresion con objeto cortante	2419
+766	2012	Agresion con objeto romo o sin filo	206
+767	2012	Agresion con plaguicidas	2
+768	2012	Agresion con productos quimicos y sustancias nocivas no especificados	11
+769	2012	Agresion con sustancia corrosiva	1
+770	2012	Agresion por ahogamiento y sumersion	25
+771	2012	Agresion por ahorcamiento, estrangulamiento y sofocacion	218
+772	2012	Agresion por colision vehiculo de motor	4
+774	2012	Agresion por medios no especificados	170
+775	2012	Agresion por otros medios especificados	17
+776	2012	Agresion sexual con fuerza corporal	2
+777	2012	Ahogamiento y sumersion de intencion no determinada	189
+778	2012	Ahorcamiento, estrangulamiento y sofocacion, de intencion no determinada	115
+779	2012	Caida, permanencia o carrera delante o hacia objeto en movimiento, de intencion no determinada	2
+780	2012	Caida, salto o empujon desde lugar elevado, de intencion no determinada	97
+781	2012	Colision de vehiculo de motor de intencion no determinadas	1
+782	2012	Contacto traumatico con material explosivo, de intencion no determinada	15
+783	2012	Contacto traumatico con objeto cortante, de intencion no determinada	73
+784	2012	Contacto traumatico con objeto romo sin filo, de intencion no determinada	38
+785	2012	Disparo de arma corta de intencion no determinada	10
+786	2012	Disparo de otras armas de fuego y las no especificadas, de intencion no determinada	243
+787	2012	Disparo de rifle, escopeta y arma larga, de intencion no determinada	18
+789	2012	Envenenamiento autoinflingido intencionalmente por, y exposicion a drogas antiepilepticas, sedantes, hipnoticas, antiparinsonianas y psicotropicas, no clasificadas en otra parte	7
+822	2012	Secuelas de lesiones autoinfligidas intencionalmente, agresiones y eventos de intencion no determinada	73

@@ -1,0 +1,140 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+  font-family: 'Comfortaa', cursive;
+  color: black;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  line-height: 60px;
+  /* Vertically center the text there */
+  background-color: #000000;
+  color: white;
+}
+
+body>.container {
+  padding: 60px 15px 0;
+}
+
+.footer>.container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.jumbotron {
+  padding-top: 60px;
+  padding-bottom: 10px;
+}
+
+img {
+  padding: 15px;
+}
+
+h1 {
+  margin-top: 25px;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.h1Title {
+  margin-top: 0px;
+  font-size: 40px;
+}
+
+.anchorDiv {
+  padding-top: 50px;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+
+
+.bold-span {
+  font-weight: 1000;
+}
+
+.bold-span a {
+  color: #000000;
+}
+
+p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.chart-container {
+  padding: 0px;
+  margin: 0 auto;
+  background: #f0f0f0;
+  border: 1px;
+  border-style: solid;
+  border-color: #9fa9a3;
+  border-radius: 5px;
+  box-shadow: 0px 0px 1px 0px #06060d;
+}
+
+.line {
+  fill: none;
+  stroke: #c9c39c;
+  stroke-width: 3;
+}
+
+.overlay {
+  fill: none;
+  pointer-events: all;
+}
+
+.dot {
+  fill: #c9c39c;
+  stroke: #fff;
+}
+
+.dotPopups {
+  fill: #ddc73c;
+  stroke: #000000;
+}
+
+.focus circle {
+  fill: none;
+  stroke: steelblue;
+}
+
+.shadow {
+  -webkit-filter: drop-shadow( 0px 3px 3px rgba(0, 0, 0, .5));
+  filter: drop-shadow( 0px 3px 3px rgba(0, 0, 0, .5));
+}
+
+.axis path, .axis line {
+  fill: none;
+  stroke: black;
+  shape-rendering: crispEdge;
+}
+
+.axis text {
+  /* font-family: sans-serif; */
+  font-size: 10px;
+  text-anchor: middle;
+}
+
+.grid line {
+  stroke: lightgrey;
+  stroke-opacity: 0.7;
+  shape-rendering: crispEdges;
+}
+
+.grid path {
+  stroke-width: 0;
+}
