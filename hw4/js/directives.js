@@ -15,11 +15,11 @@ dataViz.directive('lineChart', function ($parse, $window) {
             var svg = d3.select(rawSvg[0]);
 
             var margin = { top: 20, right: 40, bottom: 10, left: 40 }
-            //var width = window.innerWidth - margin.left - margin.right 
+            var width = window.innerWidth - margin.left - margin.right 
             //var height = window.innerHeight - margin.top - margin.bottom; 
-            var width = 1024 - margin.left - margin.right
+           // var width = 1024 - margin.left - margin.right
             var height = 300 - margin.top - margin.bottom;
-            var radius = 5;
+            var radius = 3;
 
             var callDrawing = (d) => {
                 //console.log(d);
@@ -149,7 +149,7 @@ dataViz.directive('lineChart', function ($parse, $window) {
                         .attr("x", function () { return xScale(d.date) - 30; })
                         .attr("y", function () { return yScale(d.count) - 17; })
                         .text(function () {
-                            return [d.date.getFullYear() + " : " + d.count];  // Value of the text
+                            return [d.label + " : " + d.count];  // Value of the text
                         });
                 }
 

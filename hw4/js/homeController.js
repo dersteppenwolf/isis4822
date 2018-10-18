@@ -110,17 +110,29 @@ dataViz.controller('homeController', function (
     $log.log(rows);
     rows.forEach(function (v) {
       v.date = $scope.parseDate(v.event_day)
-      v.count = v.count
+      v.label = v.event_day
+      v.count = v.total
+      v.count = v.trend
     });
     $log.log(rows);
     return rows
   }
 
   $scope.loadTrends = function () {
-    let query = ` with d as ( 
-                    SELECT to_char(event_time, 'YYYY-MM-DD')  as event_day, cartodb_id as id  
-                    FROM kudosg.accidentes_bta  )  
-                  select event_day, count(id)  from d  group by event_day order by event_day `
+    let query = ` with events as (
+      SELECT to_char(event_time, 'YYYY-MM-DD')  as event_day, cartodb_id as id
+      FROM kudosg.accidentes_bta
+        )
+      , events_agg as ( 
+       select event_day, count(id) as total 
+       from events 
+      group by event_day
+      order by event_day
+      )
+      select  event_day, total, avg(total) over 
+        (order by event_day rows between 7 preceding and 0 following )::float as trend
+      from events_agg
+      order by 1 asc `
 
     console.log(query);
     $scope.datasetTrends  = d3.json(remoteServiceUrl + query).then($scope.parseTrends);
