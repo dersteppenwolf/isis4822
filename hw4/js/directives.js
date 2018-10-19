@@ -26,6 +26,7 @@ dataViz.directive('lineChart', function ($parse, $log) {
                 $log.log("onresize");
                 width = window.innerWidth - margin.left - margin.right;
                 $log.log(width);
+                redrawLineChart(scope.dataset);
                 return scope.$apply();
             };
 
@@ -98,23 +99,21 @@ dataViz.directive('lineChart', function ($parse, $log) {
                     .y(function (d) { return yScale(d.count); }) // set the y values for the line generator 
                     .curve(d3.curveMonotoneX)
 
-
-
-
-
                 xAxisGen = g => g
                     .attr("transform", `translate(0,${height - margin.bottom})`)
-                    .call(d3.axisBottom(xScale).ticks(width / 45).tickSizeOuter(0))
+                    .call(d3.axisBottom(xScale)
+                    .ticks(d3.timeMonth.every(1))
+                    .tickSizeOuter(0))
 
                 yAxisGen = g => g
                     .attr("transform", `translate(${margin.left - 20},0)`)
                     .call(d3.axisLeft(yScale))
                     .call(g => g.select(".domain").remove())
-                    .call(g => g.select(".tick:last-of-type text")//.clone()
-                        .attr("x", 3)
-                        .attr("text-anchor", "start")
-                        .attr("font-weight", "bold")
-                        .text(scope.dataset.count))
+                    .call(g => g.select(".tick:last-of-type text")
+                    .attr("x", 3)
+                    .attr("text-anchor", "start")
+                    .attr("font-weight", "bold")
+                    .text(scope.dataset.count))
             }
 
             function redrawLineChart(data) {
@@ -127,23 +126,24 @@ dataViz.directive('lineChart', function ($parse, $log) {
                 // Select the section we want to apply our changes to
                 var t = svg.transition();
 
-                t.select("g.x.axis") // change the x axis
+                t.select("g.x.axis")
                     .duration(750)
                     .call(xAxisGen);
 
-                t.select("g.y.axis") // change the y axis
+                t.select("g.y.axis")
                     .duration(750)
                     .call(yAxisGen);
 
                 // Make the changes
-                t.select(".lineSeries")   // change the line
+                t.select(".lineSeries")
                     .duration(750)
                     .attr("d", line(scope.dataset));
 
-             
+
 
                 svg.selectAll(".dot")
                     .remove()
+
                 var circle = svg.selectAll(".dot")
                     .data(scope.dataset)
                     .enter().append("circle")
@@ -154,12 +154,10 @@ dataViz.directive('lineChart', function ($parse, $log) {
                     .style("opacity", 0)
                     .on("mouseover", handleMouseOver)
                     .on("mouseout", handleMouseOut)
-                    
 
-                //update all circles to new positions
-                //t.select(".dot") 
+
                 circle.transition()
-                    .duration(750*3)
+                    .duration(750 * 3)
                     .attr("cy", function (d) { return yScale(d.count) })
                     .attr("r", radius)
                     .style("opacity", 0.7)
@@ -197,7 +195,7 @@ dataViz.directive('lineChart', function ($parse, $log) {
                 // gridlines in x axis function
                 function make_x_gridlines() {
                     return d3.axisBottom(xScale)
-                        .ticks(5)
+                        .ticks(13)
                 }
 
                 // gridlines in y axis function
