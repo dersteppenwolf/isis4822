@@ -6,8 +6,11 @@ dataViz.controller('homeController', function (
   $scope.localities = []
   $scope.selectedLocality = ""
   $scope.selectedSeverity = ""
+  $scope.heatmapOver  = {}
+  var margin = { top: 20, right: 40, bottom: 10, left: 20 }
+  $scope.width = 800
 
-  
+
 
   $scope.remoteServiceUrl = "https://kudosg.carto.com/api/v2/sql?q="
 
@@ -26,21 +29,21 @@ dataViz.controller('homeController', function (
     },
   }
 
-  
-  $scope.selectLocality = function(){
+
+  $scope.selectLocality = function () {
     $log.log("selectLocality");
     $log.log($scope.selectedLocality);
     $scope.loadTrends()
   }
 
-  $scope.selectSeverity = function(){
+  $scope.selectSeverity = function () {
     $log.log("selectSeverity");
     $log.log($scope.selectedSeverity);
     $scope.loadTrends()
   }
 
 
-  
+
 
 
   $scope.parseTrends = (d) => {
@@ -85,11 +88,27 @@ dataViz.controller('homeController', function (
     return rows
   }
 
+  $scope.parseHeatmapData = (d) => {
+    $log.log("parseHeatmapData");
+    let rows = d.rows
+    //$log.log(rows);
+    rows.forEach(function (v) {
+      v.end = v.start + 1
+    });
+    
+    $scope.heatmapData = rows
+    $log.log($scope.heatmapData);
+    return rows
+  }
+
+
   
 
+
+
   $scope.loadTrends = function () {
-    var localityFilter = ( $scope.selectedLocality == "")? "" : "  and localidad = '"+$scope.selectedLocality+"' "
-    var severityFilter = ( $scope.selectedSeverity == "")? "" : "  and gravedadnombre = '"+$scope.selectedSeverity+"' "
+    var localityFilter = ($scope.selectedLocality == "") ? "" : "  and localidad = '" + $scope.selectedLocality + "' "
+    var severityFilter = ($scope.selectedSeverity == "") ? "" : "  and gravedadnombre = '" + $scope.selectedSeverity + "' "
 
 
     let query = ` with events as (
@@ -107,27 +126,44 @@ dataViz.controller('homeController', function (
       from events_agg
       order by 1 asc `
 
-    $log.log(query);
+    //$log.log(query);
     $scope.trends = d3.json($scope.remoteServiceUrl + query).then($scope.parseTrends);
   }
 
   $scope.loadLocalities = function () {
     let query = ` SELECT localidad, count(cartodb_id) as total FROM kudosg.accidentes_bta
     group by localidad order by count(cartodb_id) desc `
-    $log.log(query);
+    //$log.log(query);
     d3.json($scope.remoteServiceUrl + query)
-      .then($scope.parseLocalities).then( (d) => $scope.$apply() )
+      .then($scope.parseLocalities)
   }
 
-  $scope.loadLSeverity= function () {
+  $scope.loadLSeverity = function () {
     let query = ` SELECT gravedadnombre, count(cartodb_id) as total FROM kudosg.accidentes_bta
     group by gravedadnombre order by count(cartodb_id) desc `
-    $log.log(query);
+    //$log.log(query);
     d3.json($scope.remoteServiceUrl + query)
-      .then($scope.parseSeverity).then( (d) => $scope.$apply() )
+      .then($scope.parseSeverity)
   }
 
-  
+  $scope.loadHeatmapData = function (){
+
+    let query = ` with data as (
+          SELECT cartodb_id, 
+          to_char(event_time, 'YYYY-MM-DD') as event_date  , event_day_name, 
+          lower(event_month_name) as block_id,
+          date_part('day', event_time) as start
+          FROM kudosg.accidentes_bta  )
+      select block_id, event_date, count(cartodb_id) as value , start, event_day_name
+      from data  group by block_id, event_date, event_day_name, start order by event_date  `
+    $log.log(query);
+    d3.json($scope.remoteServiceUrl + query)
+      .then($scope.parseHeatmapData)
+      .then($scope.drawHeatmap)
+
+  }
+
+
 
 
 
@@ -138,8 +174,93 @@ dataViz.controller('homeController', function (
     $scope.loadLocalities()
     $scope.loadTrends()
     $scope.loadLSeverity()
+    $scope.loadHeatmapData() 
+    //$scope.drawRadial()
+
+
+
 
   }
+
+  window.onresize = function () {
+    $log.log("onresize");
+    $scope.width = window.innerWidth - margin.left - margin.right;
+    $log.log($scope.width);
+    return scope.$apply();
+  };
+
+
+  $scope.drawHeatmap = function () {
+
+    var width = $scope.width
+
+
+    var circosHeatmap = new Circos({
+      container: '#heatmapChart',
+      width: width,
+      height: width
+    });
+
+    var months = [
+      { "len": 31, "color": "#8dd3c7", "label": "January", "id": "january" },
+      { "len": 28, "color": "#ffffb3", "label": "February", "id": "february" },
+      { "len": 31, "color": "#bebada", "label": "March", "id": "march" },
+      { "len": 30, "color": "#fb8072", "label": "April", "id": "april" },
+      { "len": 31, "color": "#80b1d3", "label": "May", "id": "may" },
+      { "len": 30, "color": "#fdb462", "label": "June", "id": "june" },
+      { "len": 31, "color": "#b3de69", "label": "July", "id": "july" },
+      { "len": 31, "color": "#fccde5", "label": "August", "id": "august" },
+      { "len": 30, "color": "#d9d9d9", "label": "September", "id": "september" },
+      { "len": 31, "color": "#bc80bd", "label": "October", "id": "october" },
+      { "len": 30, "color": "#ccebc5", "label": "November", "id": "november" },
+      { "len": 31, "color": "#ffed6f", "label": "December", "id": "december" }
+    ]
+
+
+
+    var heatmapData = $scope.heatmapData 
+    
+    
+
+    circosHeatmap
+      .layout(
+        months,
+        {
+          innerRadius: width / 2 - 80,
+          outerRadius: width / 2 - 30,
+          ticks: { display: false },
+          labels: {
+            position: 'center',
+            display: true,
+            size: 14,
+            color: '#000',
+            radialOffset: 25
+          }
+        }
+      )
+      .heatmap('electricalConsumption', heatmapData, {
+        innerRadius: 0.6,
+        outerRadius: 0.98,
+        logScale: false,
+        color: 'YlOrRd',
+        events: {
+          'mouseover.demo': function (d, i, nodes, event) {
+            console.log(d, i, nodes, event)
+            $scope.heatmapOver = d;
+            $log.log($scope.heatmapOver );
+            $scope.$apply()
+          }
+        }, tooltipContent: function (d) {
+          return d.event_day_name  +"  " +  d.event_date +" : " + d.value 
+        }
+      })
+      .render()
+
+
+  }
+
+
+
 
   $scope.init();
 

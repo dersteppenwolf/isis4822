@@ -6,6 +6,7 @@
   "dependencies": {
     "angularjs-slider": "^6.6.1",
     "browser-sync": "^2.18.13",
+    "circos": "^2.1.0",
     "d3": "^5.7.0"
   },
   "devDependencies": {

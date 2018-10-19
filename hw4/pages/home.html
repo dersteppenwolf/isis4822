@@ -4,7 +4,11 @@
 
 	<div id="total" class="anchorDiv"></div>
 
-	<h1>Traffic Accidents Trends </h1>
+
+
+	<div class="row">
+		<h1>Traffic Accidents Trends </h1>
+	</div>
 
 	<div class="row">
 		<div class="w-30 p-3">
@@ -25,18 +29,34 @@
 		</div>
 
 		<div class="w-40 p-3">
-				<label>Severity:
-					<select name="sSeverity" id="sSeverity" ng-model="selectedSeverity" ng-change="selectSeverity()">
-						<option value="">---Please select---</option> <!-- not selected / blank option -->
-						<option ng-repeat="option in severity" value="{{option.id}}">{{option.label}}</option>
-					</select>
-				</label>
-			</div>
+			<label>Severity:
+				<select name="sSeverity" id="sSeverity" ng-model="selectedSeverity" ng-change="selectSeverity()">
+					<option value="">---Please select---</option> <!-- not selected / blank option -->
+					<option ng-repeat="option in severity" value="{{option.id}}">{{option.label}}</option>
+				</select>
+			</label>
+		</div>
 
 
 	</div>
 	<div class="row">
-		<div id="chart" class="chart-container" line-chart chart-data="trends"></div>
+		<div id="chart" class="chart-container " line-chart chart-data="trends"></div>
+	</div>
+
+
+	<div class="row">
+			<h1 class="col-12">Heatmap </h1>
+	</div>
+
+
+
+	<div class="row">
+		<div class="col-3">
+			<h1>{{heatmapOver.event_date}} : {{heatmapOver.value}} </h1>
+			<h1>{{heatmapOver.event_day_name}} </h1>
+
+		</div>
+		<div id='heatmapChart' class="chart-container col-9"></div>
 	</div>
 
 	<!--
