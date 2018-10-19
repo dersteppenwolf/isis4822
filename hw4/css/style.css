@@ -117,6 +117,12 @@ p {
   fill: #ddc73c;
   stroke: #000000;
 }
+.dotPopupsText {
+  color: black;
+  font-size: 13pt;
+  text-shadow: 2px 2px white;
+  
+}
 
 .focus circle {
   fill: none;

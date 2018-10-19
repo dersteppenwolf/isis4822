@@ -8,7 +8,7 @@ dataViz.directive('lineChart', function ($parse, $log) {
             var exp = $parse(attrs.chartData);
 
             scope.dataset = exp(scope);
-            var xScale, yScale, xAxisGen, yAxisGen, line;
+            var xScale, yScale, rScale, xAxisGen, yAxisGen, line;
 
             var rawSvg = elem.find('svg');
             var svg = d3.select(rawSvg[0]);
@@ -63,21 +63,22 @@ dataViz.directive('lineChart', function ($parse, $log) {
             function handleMouseOver(d, i) {
 
                 d3.select(this)
-                    .attr("r", radius * 2)
+                    .attr("r", function (d) { return rScale(d.radius) * 2 })
                     .attr("class", "dotPopups");
 
                 svg.append("text")
                     .attr("id", "t" + d.x + "-" + d.y + "-" + i)
-                    .attr("x", function () { return xScale(d.date) - 30; })
+                    .attr("x", function () { return xScale(d.date) - 50; })
                     .attr("y", function () { return yScale(d.count) - 17; })
+                    .attr("class", "dotPopupsText")
                     .text(function () {
-                        return [d.label + " : " + d.count];  // Value of the text
-                    });
+                        return [d.label + "  Deaths : " + d.radius + " ,  Events : " + d.count ];
+                    })
             }
 
             function handleMouseOut(d, i) {
                 d3.select(this)
-                    .attr("r", radius)
+                    .attr("r", function (d) { return rScale(d.radius) })
                     .attr("class", "dot");
 
                 d3.select("#t" + d.x + "-" + d.y + "-" + i).remove();
@@ -88,10 +89,15 @@ dataViz.directive('lineChart', function ($parse, $log) {
                     .domain(d3.extent(scope.dataset, d => d["date"]))
                     .range([margin.left, width - margin.right])
 
-                var maxScale = d3.max(scope.dataset, d => d["count"]);
+                var maxYScale = d3.max(scope.dataset, d => d["count"]);
+                var maxRscale = d3.max(scope.dataset, d => d["radius"]);
+
+                rScale = d3.scaleLinear()
+                    .domain([0, maxRscale]).nice()
+                    .range([2, 10])
 
                 yScale = d3.scaleLinear()
-                    .domain([0, maxScale]).nice()
+                    .domain([0, maxYScale]).nice()
                     .range([height - margin.bottom, margin.top])
 
                 line = d3.line()
@@ -102,18 +108,18 @@ dataViz.directive('lineChart', function ($parse, $log) {
                 xAxisGen = g => g
                     .attr("transform", `translate(0,${height - margin.bottom})`)
                     .call(d3.axisBottom(xScale)
-                    .ticks(d3.timeMonth.every(1))
-                    .tickSizeOuter(0))
+                        .ticks(d3.timeMonth.every(1))
+                        .tickSizeOuter(0))
 
                 yAxisGen = g => g
                     .attr("transform", `translate(${margin.left - 20},0)`)
                     .call(d3.axisLeft(yScale))
                     .call(g => g.select(".domain").remove())
                     .call(g => g.select(".tick:last-of-type text")
-                    .attr("x", 3)
-                    .attr("text-anchor", "start")
-                    .attr("font-weight", "bold")
-                    .text(scope.dataset.count))
+                        .attr("x", 3)
+                        .attr("text-anchor", "start")
+                        .attr("font-weight", "bold")
+                        .text(scope.dataset.count))
             }
 
             function redrawLineChart(data) {
@@ -159,7 +165,7 @@ dataViz.directive('lineChart', function ($parse, $log) {
                 circle.transition()
                     .duration(750 * 3)
                     .attr("cy", function (d) { return yScale(d.count) })
-                    .attr("r", radius)
+                    .attr("r", function (d) { return rScale(d.radius) })
                     .style("opacity", 0.7)
 
 
@@ -235,7 +241,7 @@ dataViz.directive('lineChart', function ($parse, $log) {
                     .attr("class", "dot") // Assign a class for styling
                     .attr("cx", function (d) { return xScale(d.date) })
                     .attr("cy", function (d) { return yScale(d.count) })
-                    .attr("r", radius)
+                    .attr("r", function (d) { return rScale(d.radius) })
                     .style("opacity", 0.7)
                     .on("mouseover", handleMouseOver)
                     .on("mouseout", handleMouseOut);

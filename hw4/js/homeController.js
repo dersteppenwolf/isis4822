@@ -4,9 +4,13 @@ dataViz.controller('homeController', function (
 
   $scope.trends = []
   $scope.localities = []
+  $scope.days= []
   $scope.selectedLocality = ""
   $scope.selectedSeverity = ""
-  $scope.heatmapOver  = {}
+  $scope.selectedDay = ""
+
+  
+  $scope.heatmapOver = {}
   var margin = { top: 20, right: 40, bottom: 10, left: 20 }
   $scope.width = 800
 
@@ -34,13 +38,25 @@ dataViz.controller('homeController', function (
     $log.log("selectLocality");
     $log.log($scope.selectedLocality);
     $scope.loadTrends()
+    $scope.loadHeatmapData()
   }
 
   $scope.selectSeverity = function () {
     $log.log("selectSeverity");
     $log.log($scope.selectedSeverity);
     $scope.loadTrends()
+    $scope.loadHeatmapData()
   }
+
+  $scope.selectDay = function () {
+    $log.log("selectDay");
+    $log.log($scope.selectedDay);
+    $scope.loadTrends()
+    $scope.loadHeatmapData()
+  }
+
+
+  
 
 
 
@@ -53,10 +69,11 @@ dataViz.controller('homeController', function (
     rows.forEach(function (v) {
       v.date = $scope.parseDate(v.event_day)
       v.label = v.event_day
-      v.count = v.total
+      //v.count = v.total
       v.count = v.trend
+      v.radius = v.totalmuertos 
     });
-    //$log.log(rows);
+    $log.log(rows);
     return rows
   }
 
@@ -88,6 +105,22 @@ dataViz.controller('homeController', function (
     return rows
   }
 
+  $scope.parseDays = (d) => {
+    $log.log("parseDays");
+    let rows = d.rows
+    //$log.log(rows);
+    rows.forEach(function (v) {
+      v.label = v.event_day_name + " (" + v.total + ")"
+      v.id = v.event_day_name
+      v.value = v.total
+    });
+    //$log.log(rows);
+    $scope.days = rows
+    return rows
+  }
+
+  
+
   $scope.parseHeatmapData = (d) => {
     $log.log("parseHeatmapData");
     let rows = d.rows
@@ -95,33 +128,35 @@ dataViz.controller('homeController', function (
     rows.forEach(function (v) {
       v.end = v.start + 1
     });
-    
+
     $scope.heatmapData = rows
-    $log.log($scope.heatmapData);
+    //$log.log($scope.heatmapData);
     return rows
   }
 
 
-  
+
 
 
 
   $scope.loadTrends = function () {
     var localityFilter = ($scope.selectedLocality == "") ? "" : "  and localidad = '" + $scope.selectedLocality + "' "
     var severityFilter = ($scope.selectedSeverity == "") ? "" : "  and gravedadnombre = '" + $scope.selectedSeverity + "' "
+    var dayFilter = ($scope.selectedDay == "") ? "" : "  and event_day_name = '" + $scope.selectedDay + "' "
 
+    
 
     let query = ` with events as (
-      SELECT to_char(event_time, 'YYYY-MM-DD')  as event_day, cartodb_id as id
-      FROM kudosg.accidentes_bta where 1 = 1 ${localityFilter}  ${severityFilter} 
+      SELECT to_char(event_time, 'YYYY-MM-DD')  as event_day, cartodb_id as id, totalmuertos
+      FROM kudosg.accidentes_bta where 1 = 1 ${localityFilter}  ${severityFilter} ${dayFilter} 
         )
       , events_agg as ( 
-       select event_day, count(id) as total 
+       select event_day, count(id) as total , sum(totalmuertos) as totalmuertos
        from events 
       group by event_day
       order by event_day
       )
-      select  event_day, total, avg(total) over 
+      select  event_day, total, totalmuertos, avg(total) over 
         (order by event_day rows between ${$scope.slider.value} preceding and 0 following )::float as trend
       from events_agg
       order by 1 asc `
@@ -146,14 +181,26 @@ dataViz.controller('homeController', function (
       .then($scope.parseSeverity)
   }
 
-  $scope.loadHeatmapData = function (){
+  $scope.loadLDays = function () {
+    let query = ` SELECT event_day_name, count(cartodb_id) as total FROM kudosg.accidentes_bta
+    group by event_day_name, event_day order by event_day asc `
+    //$log.log(query);
+    d3.json($scope.remoteServiceUrl + query)
+      .then($scope.parseDays)
+  }
+
+  $scope.loadHeatmapData = function () {
+
+    var localityFilter = ($scope.selectedLocality == "") ? "" : "  and localidad = '" + $scope.selectedLocality + "' "
+    var severityFilter = ($scope.selectedSeverity == "") ? "" : "  and gravedadnombre = '" + $scope.selectedSeverity + "' "
+    var dayFilter = ($scope.selectedDay == "") ? "" : "  and event_day_name = '" + $scope.selectedDay + "' "
 
     let query = ` with data as (
           SELECT cartodb_id, 
           to_char(event_time, 'YYYY-MM-DD') as event_date  , event_day_name, 
           lower(event_month_name) as block_id,
           date_part('day', event_time) as start
-          FROM kudosg.accidentes_bta  )
+          FROM kudosg.accidentes_bta  where 1 = 1 ${localityFilter}  ${severityFilter}  ${dayFilter}   )
       select block_id, event_date, count(cartodb_id) as value , start, event_day_name
       from data  group by block_id, event_date, event_day_name, start order by event_date  `
     $log.log(query);
@@ -174,11 +221,8 @@ dataViz.controller('homeController', function (
     $scope.loadLocalities()
     $scope.loadTrends()
     $scope.loadLSeverity()
-    $scope.loadHeatmapData() 
-    //$scope.drawRadial()
-
-
-
+    $scope.loadLDays() 
+    $scope.loadHeatmapData()
 
   }
 
@@ -192,10 +236,14 @@ dataViz.controller('homeController', function (
 
   $scope.drawHeatmap = function () {
 
+    $log.log("drawHeatmap");
+
     var width = $scope.width
 
+    // http://bl.ocks.org/nimezhu/6f679379fdd56bb8eb31
+    d3.select('#heatmapChart').text('')
 
-    var circosHeatmap = new Circos({
+    $scope.circosHeatmap = new Circos({
       container: '#heatmapChart',
       width: width,
       height: width
@@ -218,43 +266,43 @@ dataViz.controller('homeController', function (
 
 
 
-    var heatmapData = $scope.heatmapData 
-    
-    
+    var heatmapData = $scope.heatmapData
 
-    circosHeatmap
-      .layout(
-        months,
-        {
-          innerRadius: width / 2 - 80,
-          outerRadius: width / 2 - 30,
-          ticks: { display: false },
-          labels: {
-            position: 'center',
-            display: true,
-            size: 14,
-            color: '#000',
-            radialOffset: 25
-          }
+    var layoutConfig = {
+      innerRadius: width / 2 - 80,
+      outerRadius: width / 2 - 30,
+      ticks: { display: false },
+      labels: {
+        position: 'center',
+        display: true,
+        size: 14,
+        color: '#000',
+        radialOffset: 15
+      }
+    }
+
+    var heatmapConfig = {
+      innerRadius: 0.8,
+      outerRadius: 0.98,
+      logScale: false,
+      color: 'YlOrRd',
+      events: {
+        'mouseover.demo': function (d, i, nodes, event) {
+          //console.log(d, i, nodes, event)
+          $scope.heatmapOver = d;
+          //$log.log($scope.heatmapOver);
+          $scope.$apply()
         }
-      )
-      .heatmap('electricalConsumption', heatmapData, {
-        innerRadius: 0.6,
-        outerRadius: 0.98,
-        logScale: false,
-        color: 'YlOrRd',
-        events: {
-          'mouseover.demo': function (d, i, nodes, event) {
-            console.log(d, i, nodes, event)
-            $scope.heatmapOver = d;
-            $log.log($scope.heatmapOver );
-            $scope.$apply()
-          }
-        }, tooltipContent: function (d) {
-          return d.event_day_name  +"  " +  d.event_date +" : " + d.value 
-        }
-      })
-      .render()
+      }, tooltipContent: function (d) {
+        return d.event_day_name + "  " + d.event_date + " : " + d.value
+      }
+    }
+
+
+
+    $scope.circosHeatmap.layout(  months,  layoutConfig)
+    $scope.circosHeatmap.heatmap('electricalConsumption', heatmapData, heatmapConfig)
+    $scope.circosHeatmap.render()
 
 
   }
