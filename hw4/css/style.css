@@ -109,8 +109,8 @@ p {
 }
 
 .dot {
-  fill: #c9c39c;
-  stroke: #fff;
+  fill: #fff;
+  stroke: #000;
 }
 
 .dotPopups {

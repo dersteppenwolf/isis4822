@@ -57,6 +57,11 @@ Responsive
 
   http://eyeseast.github.io/visible-data/2013/08/28/responsive-charts-with-d3/
 
+Reload data
+
+  http://bl.ocks.org/d3noob/7030f35b72de721622b8
+  http://bl.ocks.org/alansmithy/e984477a741bc56db5a5
+
 
 
 

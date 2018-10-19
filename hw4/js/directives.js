@@ -98,6 +98,10 @@ dataViz.directive('lineChart', function ($parse, $log) {
                     .y(function (d) { return yScale(d.count); }) // set the y values for the line generator 
                     .curve(d3.curveMonotoneX)
 
+
+
+
+
                 xAxisGen = g => g
                     .attr("transform", `translate(0,${height - margin.bottom})`)
                     .call(d3.axisBottom(xScale).ticks(width / 45).tickSizeOuter(0))
@@ -106,7 +110,7 @@ dataViz.directive('lineChart', function ($parse, $log) {
                     .attr("transform", `translate(${margin.left - 20},0)`)
                     .call(d3.axisLeft(yScale))
                     .call(g => g.select(".domain").remove())
-                    .call(g => g.select(".tick:last-of-type text").clone()
+                    .call(g => g.select(".tick:last-of-type text")//.clone()
                         .attr("x", 3)
                         .attr("text-anchor", "start")
                         .attr("font-weight", "bold")
@@ -123,11 +127,6 @@ dataViz.directive('lineChart', function ($parse, $log) {
                 // Select the section we want to apply our changes to
                 var t = svg.transition();
 
-                // Make the changes
-                t.select(".lineSeries")   // change the line
-                    .duration(750)
-                    .attr("d", line(scope.dataset));
-
                 t.select("g.x.axis") // change the x axis
                     .duration(750)
                     .call(xAxisGen);
@@ -135,6 +134,37 @@ dataViz.directive('lineChart', function ($parse, $log) {
                 t.select("g.y.axis") // change the y axis
                     .duration(750)
                     .call(yAxisGen);
+
+                // Make the changes
+                t.select(".lineSeries")   // change the line
+                    .duration(750)
+                    .attr("d", line(scope.dataset));
+
+             
+
+                svg.selectAll(".dot")
+                    .remove()
+                var circle = svg.selectAll(".dot")
+                    .data(scope.dataset)
+                    .enter().append("circle")
+                    .attr("class", "dot") // Assign a class for styling
+                    .attr("cx", function (d) { return xScale(d.date) })
+                    .attr("cy", 0)
+                    .attr("r", 0)
+                    .style("opacity", 0)
+                    .on("mouseover", handleMouseOver)
+                    .on("mouseout", handleMouseOut)
+                    
+
+                //update all circles to new positions
+                //t.select(".dot") 
+                circle.transition()
+                    .duration(750*3)
+                    .attr("cy", function (d) { return yScale(d.count) })
+                    .attr("r", radius)
+                    .style("opacity", 0.7)
+
+
 
             }
 
@@ -149,7 +179,6 @@ dataViz.directive('lineChart', function ($parse, $log) {
                 $log.log(width);
 
                 updateParameters()
-
 
                 svg = svg
                     .attr("width", width + margin.left + margin.right)
@@ -195,29 +224,24 @@ dataViz.directive('lineChart', function ($parse, $log) {
                     )
 
                 svg.append("path")
-                    //.datum(scope.dataset)
                     .attr("class", "lineSeries")
                     .attr("d", line(scope.dataset));
-                /*
-                svg.append("g").selectAll("lineSeries")   
-                    .data(scope.dataset)
-                    .enter()
-                    .append("path")
-                    .attr("class", "lineSeries")
-                    .attr("d", line);
-                
-                */
+
+
 
                 // 12. Appends a circle for each datapoint 
                 svg.selectAll(".dot")
                     .data(scope.dataset)
-                    .enter().append("circle")
+                    .enter()
+                    .append("circle")
                     .attr("class", "dot") // Assign a class for styling
                     .attr("cx", function (d) { return xScale(d.date) })
                     .attr("cy", function (d) { return yScale(d.count) })
                     .attr("r", radius)
+                    .style("opacity", 0.7)
                     .on("mouseover", handleMouseOver)
                     .on("mouseout", handleMouseOut);
+
 
                 scope.initialized = true;
 
