@@ -27,6 +27,7 @@ The following dashboard allows to explore some facts about traffic accidents in 
 ## Tech Stuff
 
 * D3 v5.7.0 https://github.com/d3/d3/releases/tag/v5.7.0
+* circosJS
 * AngularJS https://angularjs.org/
 * Bootstrap: http://getbootstrap.com/
 * Gulp: https://gulpjs.com/
@@ -45,10 +46,18 @@ Run for local development:
 
 ## Screenshots
 
-![alt text](https://raw.githubusercontent.com/dersteppenwolf/isis4822/master/hw3/images/main.png "Visualization")
+![alt text](https://raw.githubusercontent.com/dersteppenwolf/isis4822/master/hw4/images/timeline.png "Visualization")
+
+![alt text](https://raw.githubusercontent.com/dersteppenwolf/isis4822/master/hw4/images/timeline_filtered.png "Visualization")
+
+![alt text](https://raw.githubusercontent.com/dersteppenwolf/isis4822/master/hw4/images/radial_timeline_heatmap.png "Visualization")
+
+![alt text](https://raw.githubusercontent.com/dersteppenwolf/isis4822/master/hw4/images/filter.png "Visualization")
+
+![alt text](https://raw.githubusercontent.com/dersteppenwolf/isis4822/master/hw4/images/page_screenshot.png "Visualization")
 
 
-![alt text](https://raw.githubusercontent.com/dersteppenwolf/isis4822/master/hw3/images/detail.png "Visualization")
+
 
 ## Other links
 
