@@ -1,12 +1,13 @@
-# How Violence is Killing Us : Violent Deaths in Colombia Between 2000 and 2012
+# Driving in Bogotá, How did we do it in 2017?
 
 ## Description
 
-Use visualization to get a better understanding of violent deaths in Colombia.
+According to World Health Organization, road traffic crashes are predicted to become the seventh leading cause of death by 2030. Moreover road traffic crashes cost most countries 3% of their gross domestic product.
 
-* Demo: http://jcmendez.gkudos.com/hw3/
+How are we driving in Bogotá? The following dashboard allows to explore some facts about when traffic accidents ocurred in 2017
+
+* Demo: http://jcmendez.gkudos.com/hw4/
 * Slides: https://github.com/dersteppenwolf/isis4822/blob/master/hw3/slides_hw3.jc.mendez_fall_2018.pdf
-* Blog Entry: https://neogeografia.wordpress.com/2018/09/25/integrating-d3-v5-and-angularjs-how-violence-is-killing-us-a-visualization-of-violent-deaths-in-colombia-between-2000-and-2012/
 * Tweet: https://twitter.com/dersteppen/status/1044631144053051393
 ![tweet](https://raw.githubusercontent.com/dersteppenwolf/isis4822/master/hw3/images/tweet.png "tweet")
 
@@ -48,16 +49,13 @@ Run for local development:
 
 ![alt text](https://raw.githubusercontent.com/dersteppenwolf/isis4822/master/hw3/images/detail.png "Visualization")
 
-## References
+## Other links
 
-
-
-
-Responsive
+D3 Responsive
 
   http://eyeseast.github.io/visible-data/2013/08/28/responsive-charts-with-d3/
 
-Reload data
+D3 Reload data
 
   http://bl.ocks.org/d3noob/7030f35b72de721622b8
   http://bl.ocks.org/alansmithy/e984477a741bc56db5a5
