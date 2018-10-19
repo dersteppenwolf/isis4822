@@ -7,7 +7,6 @@ According to World Health Organization, road traffic crashes are predicted to be
 How are we driving in Bogotá? 
 The following dashboard allows to explore some facts about traffic accidents in Bogotá using temporal data from 2017.
 
-
 * Demo: http://jcmendez.gkudos.com/hw4/
 * Slides: https://github.com/dersteppenwolf/isis4822/blob/master/hw4/slides_hw4.jc.mendez_fall_2018.pdf
 * Tweet: https://twitter.com/dersteppen/status/1044631144053051393
