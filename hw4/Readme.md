@@ -44,6 +44,10 @@ Run for local development:
   gulp watch
 
 
+## Architecture
+
+![alt text](https://raw.githubusercontent.com/dersteppenwolf/isis4822/master/hw4/images/architecture.png "Architecture")
+
 ## Screenshots
 
 ![alt text](https://raw.githubusercontent.com/dersteppenwolf/isis4822/master/hw4/images/timeline.png "Visualization")
