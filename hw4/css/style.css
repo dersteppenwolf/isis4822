@@ -70,9 +70,14 @@ h2 {
   color: #000000;
 }
 
-p {
-  margin-top: 0px;
-  margin-bottom: 0px;
+.subtitle {
+  margin-left: 40px;
+  margin-right: 40px;
+  padding: 0px;
+  font-size: 18px;
+  width: 90%;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 /* Make the chart container fill the page using CSS. */

@@ -1,8 +1,19 @@
 <div class="jumbotron text-center">
-
-	<h1 class="h1Title">How </h1>
-
 	<div id="total" class="anchorDiv"></div>
+	<h2 class="h1Title">Bogotá, the city of traffic jams and </h2>
+	<a data-flickr-embed="true" href="https://www.flickr.com/photos/cabhc/27718099217/in/photolist-mJvm2i-ocU4pM-oeU2sG-ow9oF3-otDe7R-oucbXE-ovFjnr-27Ssq1S-Jemvdn-r7UzCG-h8Ccj5-r6obJP-57Mpaz-NfnKDW-MkHUye-oeUfjT-os9kQE-bZjaSU-owc5fZ-3bdNss-65cVVC-pRQ7Rj-ouuNtd-ouviwd-owibD7-ocSAhp-rabhno-oeTmvy-oeWBgg-owdwbx-ocHGCZ-ounFQC-rry9wg-os8VvC-odb1Mo-otV6RM-oumZJW-qviBre-ocMox3-oy6FZz-ocUbHM-rqH8vs-27aXb2Y-LpWUry-MksGeP-KHi3Eo-rpqC4P-ocG71o-rpUoBg-NaX9t2"
+	 title="HC03840"><img src="https://farm2.staticflickr.com/1756/27718099217_86e2014ed8.jpg" width="500" height="249"
+		 alt="HC03840"></a>
+	<script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+	<h2 class="h1Title"> accidents... </h2>
+	<div id="total" class="anchorDiv"></div>
+
+	<p class="subtitle">According to World Health Organization, road traffic crashes are
+		predicted to become the seventh leading cause of death by 2030. Moreover
+		road traffic crashes cost most countries 3% of their gross domestic product.</p>
+
+	<p class="subtitle">How are we driving in Bogotá?  The following dashboard allows to explore some facts about when  
+		traffic accidents ocurred in   2017 </p>
 
 
 
@@ -11,13 +22,7 @@
 	</div>
 
 	<div class="row">
-		<div class="w-30 p-3">
-			<label>Sliding Window Size (Days):
-			</label>
-		</div>
-		<div class="w-40 p-3">
-			<rzslider style="width:250px" rz-slider-model="slider.value" rz-slider-options="slider.options"></rzslider>
-		</div>
+
 
 		<div class="w-40 p-3">
 			<label>Localities:
@@ -38,16 +43,29 @@
 		</div>
 
 		<div class="w-40 p-3">
-				<label>Day of Week :
-					<select name="sday" id="sday" ng-model="selectedDay" ng-change="selectDay()">
-						<option value="">---Please select---</option> <!-- not selected / blank option -->
-						<option ng-repeat="option in days" value="{{option.id}}">{{option.label}}</option>
-					</select>
-				</label>
-			</div>
+			<label>Day of Week :
+				<select name="sday" id="sday" ng-model="selectedDay" ng-change="selectDay()">
+					<option value="">---Please select---</option> <!-- not selected / blank option -->
+					<option ng-repeat="option in days" value="{{option.id}}">{{option.label}}</option>
+				</select>
+			</label>
+		</div>
 
 
 	</div>
+	<div class="row">
+		<div class="w-30 p-3">
+			<label>Sliding Window Size (Days):
+			</label>
+		</div>
+
+		<div class="w-70 p-3">
+			<rzslider style="width:250px" rz-slider-model="slider.value" rz-slider-options="slider.options"></rzslider>
+		</div>
+
+	</div>
+
+
 	<div class="row">
 		<div id="chart" class="chart-container " line-chart chart-data="trends"></div>
 	</div>
