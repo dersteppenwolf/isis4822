@@ -5,6 +5,9 @@ dataViz.controller('homeController', function (
   $scope.trends = []
   $scope.localities = []
   $scope.selectedLocality = ""
+  $scope.selectedSeverity = ""
+
+  
 
   $scope.remoteServiceUrl = "https://kudosg.carto.com/api/v2/sql?q="
 
@@ -30,6 +33,14 @@ dataViz.controller('homeController', function (
     $scope.loadTrends()
   }
 
+  $scope.selectSeverity = function(){
+    $log.log("selectSeverity");
+    $log.log($scope.selectedSeverity);
+    $scope.loadTrends()
+  }
+
+
+  
 
 
   $scope.parseTrends = (d) => {
@@ -60,11 +71,30 @@ dataViz.controller('homeController', function (
     return rows
   }
 
+  $scope.parseSeverity = (d) => {
+    $log.log("parseSeverity");
+    let rows = d.rows
+    //$log.log(rows);
+    rows.forEach(function (v) {
+      v.label = v.gravedadnombre + " (" + v.total + ")"
+      v.id = v.gravedadnombre
+      v.value = v.total
+    });
+    //$log.log(rows);
+    $scope.severity = rows
+    return rows
+  }
+
+  
+
   $scope.loadTrends = function () {
-    var localityFilter = ( $scope.selectedLocality == "")? "" : "  where localidad = '"+$scope.selectedLocality+"' "
+    var localityFilter = ( $scope.selectedLocality == "")? "" : "  and localidad = '"+$scope.selectedLocality+"' "
+    var severityFilter = ( $scope.selectedSeverity == "")? "" : "  and gravedadnombre = '"+$scope.selectedSeverity+"' "
+
+
     let query = ` with events as (
       SELECT to_char(event_time, 'YYYY-MM-DD')  as event_day, cartodb_id as id
-      FROM kudosg.accidentes_bta ${localityFilter} 
+      FROM kudosg.accidentes_bta where 1 = 1 ${localityFilter}  ${severityFilter} 
         )
       , events_agg as ( 
        select event_day, count(id) as total 
@@ -85,8 +115,16 @@ dataViz.controller('homeController', function (
     let query = ` SELECT localidad, count(cartodb_id) as total FROM kudosg.accidentes_bta
     group by localidad order by count(cartodb_id) desc `
     $log.log(query);
-    $scope.localities = d3.json($scope.remoteServiceUrl + query)
+    d3.json($scope.remoteServiceUrl + query)
       .then($scope.parseLocalities).then( (d) => $scope.$apply() )
+  }
+
+  $scope.loadLSeverity= function () {
+    let query = ` SELECT gravedadnombre, count(cartodb_id) as total FROM kudosg.accidentes_bta
+    group by gravedadnombre order by count(cartodb_id) desc `
+    $log.log(query);
+    d3.json($scope.remoteServiceUrl + query)
+      .then($scope.parseSeverity).then( (d) => $scope.$apply() )
   }
 
   
@@ -97,8 +135,9 @@ dataViz.controller('homeController', function (
 
   $scope.init = function () {
     $log.log("init - homeController");
-    $scope.loadLocalities();
-    $scope.loadTrends();
+    $scope.loadLocalities()
+    $scope.loadTrends()
+    $scope.loadLSeverity()
 
   }
 
