@@ -9,7 +9,7 @@ The following dashboard allows to explore some facts about traffic accidents in 
 
 * Demo: http://jcmendez.gkudos.com/hw4/
 * Slides: https://github.com/dersteppenwolf/isis4822/blob/master/hw4/slides_hw4.jc.mendez_fall_2018.pdf
-
+* Video: https://youtu.be/8T0eAf4_CHw
 
 ## About the Author 
 
