@@ -8,120 +8,96 @@
     "value": 7266
   },
   {
-    "id": "dant",
+    "id": "d",
     "parent": 0,
+    "label": "departamentos",
+    "type": "depto",
+    "code": "d",
+    "value": 7266
+  },
+  {
+    "id": "dbog",
+    "parent": "d",
+    "label": "Bogotá D.C.",
+    "type": "depto",
+    "code": "dbog",
+    "value": 2238
+  },
+  {
+    "id": "dval",
+    "parent": "d",
+    "label": "Valle del Cauca",
+    "type": "depto",
+    "code": "dval",
+    "value": 680
+  },
+  {
+    "id": "dant",
+    "parent": "d",
     "label": "Antioquia",
     "type": "depto",
     "code": "dant",
     "value": 530
   },
   {
-    "id": "dput",
-    "parent": 0,
-    "label": "Putumayo",
+    "id": "dboy",
+    "parent": "d",
+    "label": "Boyacá",
     "type": "depto",
-    "code": "dput",
-    "value": 39
-  },
-  {
-    "id": "dbol",
-    "parent": 0,
-    "label": "Bolívar",
-    "type": "depto",
-    "code": "dbol",
-    "value": 36
-  },
-  {
-    "id": "dnar",
-    "parent": 0,
-    "label": "Nariño",
-    "type": "depto",
-    "code": "dnar",
-    "value": 147
-  },
-  {
-    "id": "dbog",
-    "parent": 0,
-    "label": "Bogotá D.C",
-    "type": "depto",
-    "code": "dbog",
-    "value": 2
-  },
-  {
-    "id": "dris",
-    "parent": 0,
-    "label": "Risaralda",
-    "type": "depto",
-    "code": "dris",
-    "value": 261
-  },
-  {
-    "id": "dgua",
-    "parent": 0,
-    "label": "Guaviare",
-    "type": "depto",
-    "code": "dgua",
-    "value": 37
-  },
-  {
-    "id": "dsan",
-    "parent": 0,
-    "label": "Santander",
-    "type": "depto",
-    "code": "dsan",
-    "value": 221
+    "code": "dboy",
+    "value": 436
   },
   {
     "id": "dcun",
-    "parent": 0,
+    "parent": "d",
     "label": "Cundinamarca",
     "type": "depto",
     "code": "dcun",
     "value": 428
   },
   {
-    "id": "dcas",
-    "parent": 0,
-    "label": "Casanare",
+    "id": "dtol",
+    "parent": "d",
+    "label": "Tolima",
     "type": "depto",
-    "code": "dcas",
-    "value": 131
+    "code": "dtol",
+    "value": 317
   },
   {
-    "id": "dcór",
-    "parent": 0,
-    "label": "Córdoba",
+    "id": "dnor",
+    "parent": "d",
+    "label": "Norte de Santander",
     "type": "depto",
-    "code": "dcór",
-    "value": 42
+    "code": "dnor",
+    "value": 309
   },
   {
-    "id": "dcho",
-    "parent": 0,
-    "label": "Chocó",
+    "id": "dris",
+    "parent": "d",
+    "label": "Risaralda",
     "type": "depto",
-    "code": "dcho",
-    "value": 9
+    "code": "dris",
+    "value": 261
   },
   {
-    "id": "dces",
-    "parent": 0,
-    "label": "Cesar",
+    "id": "dmet",
+    "parent": "d",
+    "label": "Meta",
     "type": "depto",
-    "code": "dces",
-    "value": 58
+    "code": "dmet",
+    "value": 230
   },
   {
-    "id": "dvic",
-    "parent": 0,
-    "label": "Vichada",
+    "id": "dsan",
+    "parent": "d",
+    "label": "Santander",
     "type": "depto",
-    "code": "dvic",
-    "value": 9
+    "code": "dsan",
+    "value": 221
   },
   {
     "id": "datl",
-    "parent": 0,
+    "parent": "d",
     "label": "Atlántico",
     "type": "depto",
     "code": "datl",
@@ -129,47 +105,119 @@
   },
   {
     "id": "dcal",
-    "parent": 0,
+    "parent": "d",
     "label": "Caldas",
     "type": "depto",
     "code": "dcal",
     "value": 170
   },
   {
-    "id": "dcaq",
-    "parent": 0,
-    "label": "Caquetá",
+    "id": "dnar",
+    "parent": "d",
+    "label": "Nariño",
     "type": "depto",
-    "code": "dcaq",
-    "value": 32
+    "code": "dnar",
+    "value": 147
+  },
+  {
+    "id": "dcas",
+    "parent": "d",
+    "label": "Casanare",
+    "type": "depto",
+    "code": "dcas",
+    "value": 131
+  },
+  {
+    "id": "dqui",
+    "parent": "d",
+    "label": "Quindío",
+    "type": "depto",
+    "code": "dqui",
+    "value": 129
+  },
+  {
+    "id": "dcau",
+    "parent": "d",
+    "label": "Cauca",
+    "type": "depto",
+    "code": "dcau",
+    "value": 97
+  },
+  {
+    "id": "dhui",
+    "parent": "d",
+    "label": "Huila",
+    "type": "depto",
+    "code": "dhui",
+    "value": 80
   },
   {
     "id": "dsuc",
-    "parent": 0,
+    "parent": "d",
     "label": "Sucre",
     "type": "depto",
     "code": "dsuc",
     "value": 79
   },
   {
-    "id": "dnor",
-    "parent": 0,
-    "label": "Norte de Santander",
+    "id": "dces",
+    "parent": "d",
+    "label": "Cesar",
     "type": "depto",
-    "code": "dnor",
-    "value": 309
+    "code": "dces",
+    "value": 58
+  },
+  {
+    "id": "dmag",
+    "parent": "d",
+    "label": "Magdalena",
+    "type": "depto",
+    "code": "dmag",
+    "value": 46
+  },
+  {
+    "id": "dcór",
+    "parent": "d",
+    "label": "Córdoba",
+    "type": "depto",
+    "code": "dcór",
+    "value": 42
   },
   {
     "id": "dara",
-    "parent": 0,
+    "parent": "d",
     "label": "Arauca",
     "type": "depto",
     "code": "dara",
     "value": 40
   },
   {
+    "id": "dput",
+    "parent": "d",
+    "label": "Putumayo",
+    "type": "depto",
+    "code": "dput",
+    "value": 39
+  },
+  {
+    "id": "darc",
+    "parent": "d",
+    "label": "Archipiélago de San Andrés, Providencia y Santa Catalina",
+    "type": "depto",
+    "code": "darc",
+    "value": 39
+  },
+  {
+    "id": "dgua",
+    "parent": "d",
+    "label": "Guaviare",
+    "type": "depto",
+    "code": "dgua",
+    "value": 37
+  },
+  {
     "id": "dama",
-    "parent": 0,
+    "parent": "d",
     "label": "Amazonas",
     "type": "depto",
     "code": "dama",
@@ -177,98 +225,290 @@
   },
   {
     "id": "dla",
-    "parent": 0,
+    "parent": "d",
     "label": "La Guajira",
     "type": "depto",
     "code": "dla",
     "value": 37
   },
   {
-    "id": "dboy",
-    "parent": 0,
-    "label": "Boyacá",
+    "id": "dbol",
+    "parent": "d",
+    "label": "Bolívar",
     "type": "depto",
-    "code": "dboy",
-    "value": 436
+    "code": "dbol",
+    "value": 36
   },
   {
-    "id": "dtol",
-    "parent": 0,
-    "label": "Tolima",
+    "id": "dcaq",
+    "parent": "d",
+    "label": "Caquetá",
     "type": "depto",
-    "code": "dtol",
-    "value": 317
+    "code": "dcaq",
+    "value": 32
+  },
+  {
+    "id": "dvic",
+    "parent": "d",
+    "label": "Vichada",
+    "type": "depto",
+    "code": "dvic",
+    "value": 9
+  },
+  {
+    "id": "dcho",
+    "parent": "d",
+    "label": "Chocó",
+    "type": "depto",
+    "code": "dcho",
+    "value": 9
   },
   {
     "id": "dbog",
-    "parent": 0,
-    "label": "Bogotá D.C.",
+    "parent": "d",
+    "label": "Bogotá D.C",
     "type": "depto",
     "code": "dbog",
-    "value": 2238
-  },
-  {
-    "id": "darc",
-    "parent": 0,
-    "label": "Archipiélago de San Andrés, Providencia y Santa Catalina",
-    "type": "depto",
-    "code": "darc",
-    "value": 39
-  },
-  {
-    "id": "dqui",
-    "parent": 0,
-    "label": "Quindío",
-    "type": "depto",
-    "code": "dqui",
-    "value": 129
-  },
-  {
-    "id": "dval",
-    "parent": 0,
-    "label": "Valle del Cauca",
-    "type": "depto",
-    "code": "dval",
-    "value": 680
-  },
-  {
-    "id": "dhui",
-    "parent": 0,
-    "label": "Huila",
-    "type": "depto",
-    "code": "dhui",
-    "value": 80
-  },
-  {
-    "id": "dcau",
-    "parent": 0,
-    "label": "Cauca",
-    "type": "depto",
-    "code": "dcau",
-    "value": 97
-  },
-  {
-    "id": "dmag",
-    "parent": 0,
-    "label": "Magdalena",
-    "type": "depto",
-    "code": "dmag",
-    "value": 46
+    "value": 2
   },
   {
     "id": "dgua",
-    "parent": 0,
+    "parent": "d",
     "label": "Guainía",
     "type": "depto",
     "code": "dgua",
     "value": 2
   },
   {
-    "id": "dmet",
+    "id": "c",
     "parent": 0,
-    "label": "Meta",
-    "type": "depto",
-    "code": "dmet",
-    "value": 230
+    "label": "categorias",
+    "type": "category",
+    "code": "d",
+    "value": 7266
+  },
+  {
+    "id": "cat_4",
+    "parent": "c",
+    "label": "Educación",
+    "type": "category",
+    "code": "cat_4",
+    "value": 874
+  },
+  {
+    "id": "cat_2",
+    "parent": "c",
+    "label": "Salud y Protección Social",
+    "type": "category",
+    "code": "cat_2",
+    "value": 795
+  },
+  {
+    "id": "cat_7",
+    "parent": "c",
+    "label": "Función pública",
+    "type": "category",
+    "code": "cat_7",
+    "value": 670
+  },
+  {
+    "id": "cat_18",
+    "parent": "c",
+    "label": "Agricultura y Desarrollo Rural",
+    "type": "category",
+    "code": "cat_18",
+    "value": 435
+  },
+  {
+    "id": "cat_5",
+    "parent": "c",
+    "label": "Inclusión Social y Reconciliación",
+    "type": "category",
+    "code": "cat_5",
+    "value": 335
+  },
+  {
+    "id": "cat_16",
+    "parent": "c",
+    "label": "Seguridad y Defensa",
+    "type": "category",
+    "code": "cat_16",
+    "value": 334
+  },
+  {
+    "id": "cat_10",
+    "parent": "c",
+    "label": "Comercio, Industria y Turismo",
+    "type": "category",
+    "code": "cat_10",
+    "value": 321
+  },
+  {
+    "id": "cat_17",
+    "parent": "c",
+    "label": "Ciencia, Tecnología e Innovación",
+    "type": "category",
+    "code": "cat_17",
+    "value": 308
+  },
+  {
+    "id": "cat_22",
+    "parent": "c",
+    "label": "Transporte",
+    "type": "category",
+    "code": "cat_22",
+    "value": 296
+  },
+  {
+    "id": "cat_11",
+    "parent": "c",
+    "label": "",
+    "type": "category",
+    "code": "cat_11",
+    "value": 271
+  },
+  {
+    "id": "cat_1",
+    "parent": "c",
+    "label": "Ambiente y Desarrollo Sostenible",
+    "type": "category",
+    "code": "cat_1",
+    "value": 268
+  },
+  {
+    "id": "cat_21",
+    "parent": "c",
+    "label": "Economía y Finanzas",
+    "type": "category",
+    "code": "cat_21",
+    "value": 239
+  },
+  {
+    "id": "cat_13",
+    "parent": "c",
+    "label": "Ordenamiento Territorial",
+    "type": "category",
+    "code": "cat_13",
+    "value": 237
+  },
+  {
+    "id": "cat_26",
+    "parent": "c",
+    "label": "Hacienda y Crédito Público",
+    "type": "category",
+    "code": "cat_26",
+    "value": 235
+  },
+  {
+    "id": "cat_8",
+    "parent": "c",
+    "label": "Estadísticas Nacionales",
+    "type": "category",
+    "code": "cat_8",
+    "value": 218
+  },
+  {
+    "id": "cat_25",
+    "parent": "c",
+    "label": "Cultura",
+    "type": "category",
+    "code": "cat_25",
+    "value": 207
+  },
+  {
+    "id": "cat_6",
+    "parent": "c",
+    "label": "Minas y Energía",
+    "type": "category",
+    "code": "cat_6",
+    "value": 182
+  },
+  {
+    "id": "cat_15",
+    "parent": "c",
+    "label": "Vivienda, Ciudad y Territorio",
+    "type": "category",
+    "code": "cat_15",
+    "value": 181
+  },
+  {
+    "id": "cat_19",
+    "parent": "c",
+    "label": "Organismos de Control",
+    "type": "category",
+    "code": "cat_19",
+    "value": 179
+  },
+  {
+    "id": "cat_28",
+    "parent": "c",
+    "label": "Participación ciudadana",
+    "type": "category",
+    "code": "cat_28",
+    "value": 154
+  },
+  {
+    "id": "cat_12",
+    "parent": "c",
+    "label": "Mapas Nacionales",
+    "type": "category",
+    "code": "cat_12",
+    "value": 144
+  },
+  {
+    "id": "cat_27",
+    "parent": "c",
+    "label": "Justicia y Derecho",
+    "type": "category",
+    "code": "cat_27",
+    "value": 131
+  },
+  {
+    "id": "cat_14",
+    "parent": "c",
+    "label": "Gastos Gubernamentales",
+    "type": "category",
+    "code": "cat_14",
+    "value": 117
+  },
+  {
+    "id": "cat_20",
+    "parent": "c",
+    "label": "Deporte y Recreación",
+    "type": "category",
+    "code": "cat_20",
+    "value": 57
+  },
+  {
+    "id": "cat_24",
+    "parent": "c",
+    "label": "Presupuestos Gubernamentales",
+    "type": "category",
+    "code": "cat_24",
+    "value": 35
+  },
+  {
+    "id": "cat_9",
+    "parent": "c",
+    "label": "Trabajo",
+    "type": "category",
+    "code": "cat_9",
+    "value": 32
+  },
+  {
+    "id": "cat_3",
+    "parent": "c",
+    "label": "Resultados Electorales",
+    "type": "category",
+    "code": "cat_3",
+    "value": 10
+  },
+  {
+    "id": "cat_23",
+    "parent": "c",
+    "label": "cobertura:Nacional",
+    "type": "category",
+    "code": "cat_23",
+    "value": 1
   }
 ]

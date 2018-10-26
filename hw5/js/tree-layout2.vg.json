@@ -20,7 +20,7 @@
         "options": ["line", "curve", "diagonal", "orthogonal"]
       }
     } 
-  ],
+  ], 
 
   "data": [
     {
@@ -35,9 +35,10 @@
         {
           "type": "tree",
           "method": {"signal": "layout"},
-          "size": [{"signal": "height"}, {"signal": "width - 100"}],
+          "size": [{"signal": "height"}, {"signal": "width - 80"}],
           "as": ["y", "x", "depth", "children"]
-        }
+        },
+        {"type": "formula", "as": "label2", "expr": " '-  ' +   datum.label + ' (' + datum.value + ')'"}
       ]
     },
     {
@@ -67,7 +68,7 @@
       "name": "x2",
       "type": "linear",
       "domain": {"data": "tree", "field": "value"},
-      "range": [0, 1200], 
+      "range": [0, 1000], 
       "nice": true
     }
 
@@ -101,7 +102,7 @@
           "shape": {"value": "circle"},
           "fill": {"scale": "color", "field": "depth"},
           "stroke": {"value": "#85929E"} ,
-          "opacity": {"signal": "datum.depth < 1 ? 1 : 0"}
+          "opacity": {"signal": "datum.depth < 2 ? 1 : 0"}
         }
       }
     },
@@ -111,16 +112,42 @@
       "from": {"data": "tree"},
       "encode": {
         "update": {
-          "y": {"field": "y"}, 
+          "yc": {"field": "y"}, 
+          "dy": {"signal": "datum.children ? 0 : 10"},
           "height": {"value":  10},
           "width": {"scale": "x2", "field": "value"},
           "x": {"field": "x"} ,
-          "opacity": {"signal": "datum.depth < 1 ? 0 : 1"}
+          "opacity": {"signal": "datum.depth < 2 ? 0 : 1"}, 
+          "fillOpacity": {"signal": "datum.depth < 2 ? 0 : 0.3"},
+          "stroke": {"value":  "#85929E"},
+          "fill": {"value":  "#2874A6"},
+          "strokeWidth": {"value":  1}, 
+          "tooltip" : {"field": "value"} 
 
         }
       }
     }
-,       
+,        
+    {
+      "type": "text",
+      "from": {"data": "tree"},
+      "encode": {
+        "enter": {
+          "text": {"field": "label2"},
+          "baseline": {"value": "middle"}
+        },
+        "update": {
+          "x": {"field": "x"},
+          "y": {"field": "y"},
+          "dx": {"scale": "x2", "field": "value"},
+          "align": {"signal": "datum.children ? 'right' : 'left'"},
+          "opacity": {"signal": "datum.depth >= 2 ? 1 : 0"},
+          "fontSize": {"signal": "datum.depth >= 2 ? 10 : 0"}
+        }  
+      }
+    }
+
+    ,        
     {
       "type": "text",
       "from": {"data": "tree"},
@@ -131,14 +158,17 @@
         },
         "update": {
           "x": {"field": "x"},
+         
           "y": {"field": "y"},
-          "dx": {"signal": "datum.children ? -7 : 0"},
-          "dy": {"signal": "datum.children ? -7 : -5"},
+          "dx": {"signal": "datum.children ? -10 : 5"},
+          "dy": {"signal": "datum.children ? 0 : 0"},
           "align": {"signal": "datum.children ? 'right' : 'left'"},
-          "opacity": {"signal": "datum.depth < 3 ? 1 : 0"},
-          "fontSize": {"signal": "datum.depth < 2 ? 10 : 7"}
+          "opacity": {"signal": "datum.depth < 2 ? 1 : 0"},
+          "fontSize": {"signal": "datum.depth < 2 ? 12 : 9"}
         }  
       }
     }
+
+
   ]
 }
