@@ -1,0 +1,274 @@
+[
+  {
+    "id": 0,
+    "parent": "",
+    "label": "datos.gov.co",
+    "type": "center",
+    "code": 0,
+    "value": 7266
+  },
+  {
+    "id": "dant",
+    "parent": 0,
+    "label": "Antioquia",
+    "type": "depto",
+    "code": "dant",
+    "value": 530
+  },
+  {
+    "id": "dput",
+    "parent": 0,
+    "label": "Putumayo",
+    "type": "depto",
+    "code": "dput",
+    "value": 39
+  },
+  {
+    "id": "dbol",
+    "parent": 0,
+    "label": "Bolívar",
+    "type": "depto",
+    "code": "dbol",
+    "value": 36
+  },
+  {
+    "id": "dnar",
+    "parent": 0,
+    "label": "Nariño",
+    "type": "depto",
+    "code": "dnar",
+    "value": 147
+  },
+  {
+    "id": "dbog",
+    "parent": 0,
+    "label": "Bogotá D.C",
+    "type": "depto",
+    "code": "dbog",
+    "value": 2
+  },
+  {
+    "id": "dris",
+    "parent": 0,
+    "label": "Risaralda",
+    "type": "depto",
+    "code": "dris",
+    "value": 261
+  },
+  {
+    "id": "dgua",
+    "parent": 0,
+    "label": "Guaviare",
+    "type": "depto",
+    "code": "dgua",
+    "value": 37
+  },
+  {
+    "id": "dsan",
+    "parent": 0,
+    "label": "Santander",
+    "type": "depto",
+    "code": "dsan",
+    "value": 221
+  },
+  {
+    "id": "dcun",
+    "parent": 0,
+    "label": "Cundinamarca",
+    "type": "depto",
+    "code": "dcun",
+    "value": 428
+  },
+  {
+    "id": "dcas",
+    "parent": 0,
+    "label": "Casanare",
+    "type": "depto",
+    "code": "dcas",
+    "value": 131
+  },
+  {
+    "id": "dcór",
+    "parent": 0,
+    "label": "Córdoba",
+    "type": "depto",
+    "code": "dcór",
+    "value": 42
+  },
+  {
+    "id": "dcho",
+    "parent": 0,
+    "label": "Chocó",
+    "type": "depto",
+    "code": "dcho",
+    "value": 9
+  },
+  {
+    "id": "dces",
+    "parent": 0,
+    "label": "Cesar",
+    "type": "depto",
+    "code": "dces",
+    "value": 58
+  },
+  {
+    "id": "dvic",
+    "parent": 0,
+    "label": "Vichada",
+    "type": "depto",
+    "code": "dvic",
+    "value": 9
+  },
+  {
+    "id": "datl",
+    "parent": 0,
+    "label": "Atlántico",
+    "type": "depto",
+    "code": "datl",
+    "value": 211
+  },
+  {
+    "id": "dcal",
+    "parent": 0,
+    "label": "Caldas",
+    "type": "depto",
+    "code": "dcal",
+    "value": 170
+  },
+  {
+    "id": "dcaq",
+    "parent": 0,
+    "label": "Caquetá",
+    "type": "depto",
+    "code": "dcaq",
+    "value": 32
+  },
+  {
+    "id": "dsuc",
+    "parent": 0,
+    "label": "Sucre",
+    "type": "depto",
+    "code": "dsuc",
+    "value": 79
+  },
+  {
+    "id": "dnor",
+    "parent": 0,
+    "label": "Norte de Santander",
+    "type": "depto",
+    "code": "dnor",
+    "value": 309
+  },
+  {
+    "id": "dara",
+    "parent": 0,
+    "label": "Arauca",
+    "type": "depto",
+    "code": "dara",
+    "value": 40
+  },
+  {
+    "id": "dama",
+    "parent": 0,
+    "label": "Amazonas",
+    "type": "depto",
+    "code": "dama",
+    "value": 37
+  },
+  {
+    "id": "dla",
+    "parent": 0,
+    "label": "La Guajira",
+    "type": "depto",
+    "code": "dla",
+    "value": 37
+  },
+  {
+    "id": "dboy",
+    "parent": 0,
+    "label": "Boyacá",
+    "type": "depto",
+    "code": "dboy",
+    "value": 436
+  },
+  {
+    "id": "dtol",
+    "parent": 0,
+    "label": "Tolima",
+    "type": "depto",
+    "code": "dtol",
+    "value": 317
+  },
+  {
+    "id": "dbog",
+    "parent": 0,
+    "label": "Bogotá D.C.",
+    "type": "depto",
+    "code": "dbog",
+    "value": 2238
+  },
+  {
+    "id": "darc",
+    "parent": 0,
+    "label": "Archipiélago de San Andrés, Providencia y Santa Catalina",
+    "type": "depto",
+    "code": "darc",
+    "value": 39
+  },
+  {
+    "id": "dqui",
+    "parent": 0,
+    "label": "Quindío",
+    "type": "depto",
+    "code": "dqui",
+    "value": 129
+  },
+  {
+    "id": "dval",
+    "parent": 0,
+    "label": "Valle del Cauca",
+    "type": "depto",
+    "code": "dval",
+    "value": 680
+  },
+  {
+    "id": "dhui",
+    "parent": 0,
+    "label": "Huila",
+    "type": "depto",
+    "code": "dhui",
+    "value": 80
+  },
+  {
+    "id": "dcau",
+    "parent": 0,
+    "label": "Cauca",
+    "type": "depto",
+    "code": "dcau",
+    "value": 97
+  },
+  {
+    "id": "dmag",
+    "parent": 0,
+    "label": "Magdalena",
+    "type": "depto",
+    "code": "dmag",
+    "value": 46
+  },
+  {
+    "id": "dgua",
+    "parent": 0,
+    "label": "Guainía",
+    "type": "depto",
+    "code": "dgua",
+    "value": 2
+  },
+  {
+    "id": "dmet",
+    "parent": 0,
+    "label": "Meta",
+    "type": "depto",
+    "code": "dmet",
+    "value": 230
+  }
+]

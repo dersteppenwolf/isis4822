@@ -1,0 +1,145 @@
+{
+  "$schema": "https://vega.github.io/schema/vega/v4.json",
+  "width": 400,
+  "height": 1000,
+  "padding": 5,
+
+  "signals": [
+    {
+      "name": "labels", "value": true,
+      "bind": {"input": "checkbox"}
+    },
+    {
+      "name": "layout", "value": "cluster",
+      "bind": {"input": "radio", "options": ["tidy", "cluster"]}
+    },
+    {
+      "name": "links", "value": "diagonal",
+      "bind": {
+        "input": "select",
+        "options": ["line", "curve", "diagonal", "orthogonal"]
+      }
+    } 
+  ],
+
+  "data": [
+    {
+      "name": "tree",
+      "url": "hierarchy2.json",
+      "transform": [
+        {
+          "type": "stratify",
+          "key": "id",
+          "parentKey": "parent"
+        },
+        {
+          "type": "tree",
+          "method": {"signal": "layout"},
+          "size": [{"signal": "height"}, {"signal": "width - 100"}],
+          "as": ["y", "x", "depth", "children"]
+        }
+      ]
+    },
+    {
+      "name": "links",
+      "source": "tree",
+      "transform": [
+        { "type": "treelinks" },
+        {
+          "type": "linkpath",
+          "orient": "horizontal",
+          "shape": {"signal": "links"}
+        }
+      ]
+    }
+  ],
+
+  "scales": [
+    {
+      "name": "color",
+      "type": "ordinal",
+      "range": {"scheme": "tableau10"},
+      "domain": {"data": "tree", "field": "depth"},
+      "zero": true
+    }
+,
+    {
+      "name": "x2",
+      "type": "linear",
+      "domain": {"data": "tree", "field": "value"},
+      "range": [0, 3000], 
+      "nice": true
+    }
+
+   
+  ],
+
+ 
+
+  "marks": [
+    {
+      "type": "path",
+      "from": {"data": "links"},
+      "encode": {
+        "update": {
+          "path": {"field": "path"},
+          "stroke": {"value": "#000"}, 
+          "strokeWidth" : {"value": 0.1}
+        }
+      }
+    },
+    {
+      "type": "symbol",
+      "from": {"data": "tree"},
+      "encode": {
+        "enter": {
+        },
+        "update": {
+          "x": {"field": "x"},
+          "y": {"field": "y"},
+          "size": {"value": 100},
+          "shape": {"value": "circle"},
+          "fill": {"scale": "color", "field": "depth"},
+          "stroke": {"value": "#85929E"} ,
+          "opacity": {"signal": "datum.depth < 2 ? 1 : 0"}
+        }
+      }
+    },
+
+    {
+      "type": "rect",
+      "from": {"data": "tree"},
+      "encode": {
+        "update": {
+          "y": {"field": "y"}, 
+          "dy": {"signal": "datum.children ? -7 : -10"},
+          "height": {"value":  10},
+          "width": {"scale": "x2", "field": "value"},
+          "x": {"field": "x"} ,
+          "opacity": {"signal": "datum.depth < 1 ? 0 : 1"}
+
+        }
+      }
+    }
+,       
+    {
+      "type": "text",
+      "from": {"data": "tree"},
+      "encode": {
+        "enter": {
+          "text": {"field": "label"},
+          "baseline": {"value": "middle"}
+        },
+        "update": {
+          "x": {"field": "x"},
+          "y": {"field": "y"},
+          "dx": {"signal": "datum.children ? -7 : 7"},
+          "dy": {"signal": "datum.children ? -7 : -10"},
+          "align": {"signal": "datum.children ? 'right' : 'left'"},
+          "opacity": {"signal": "datum.depth < 3 ? 1 : 0"},
+          "fontSize": {"signal": "datum.depth < 2 ? 12 : 7"}
+        }  
+      }
+    }
+  ]
+}

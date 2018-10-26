@@ -1,0 +1,598 @@
+id,parent,label,type,code,value
+0,,datos.gov.co,center,0,7266
+dant,0,Antioquia,depto,dant,530
+dput,0,Putumayo,depto,dput,39
+dbol,0,Bolívar,depto,dbol,36
+dnar,0,Nariño,depto,dnar,147
+dbog,0,Bogotá D.C,depto,dbog,2
+dris,0,Risaralda,depto,dris,261
+dgua,0,Guaviare,depto,dgua,37
+dsan,0,Santander,depto,dsan,221
+dcun,0,Cundinamarca,depto,dcun,428
+dcas,0,Casanare,depto,dcas,131
+dcór,0,Córdoba,depto,dcór,42
+dcho,0,Chocó,depto,dcho,9
+dces,0,Cesar,depto,dces,58
+dvic,0,Vichada,depto,dvic,9
+datl,0,Atlántico,depto,datl,211
+dcal,0,Caldas,depto,dcal,170
+dcaq,0,Caquetá,depto,dcaq,32
+dsuc,0,Sucre,depto,dsuc,79
+dnor,0,Norte de Santander,depto,dnor,309
+dara,0,Arauca,depto,dara,40
+dama,0,Amazonas,depto,dama,37
+dla ,0,La Guajira,depto,dla ,37
+dboy,0,Boyacá,depto,dboy,436
+dtol,0,Tolima,depto,dtol,317
+dbog,0,Bogotá D.C.,depto,dbog,2238
+darc,0,"Archipiélago de San Andrés, Providencia y Santa Catalina",depto,darc,39
+dqui,0,Quindío,depto,dqui,129
+dval,0,Valle del Cauca,depto,dval,680
+dhui,0,Huila,depto,dhui,80
+dcau,0,Cauca,depto,dcau,97
+dmag,0,Magdalena,depto,dmag,46
+dgua,0,Guainía,depto,dgua,2
+dmet,0,Meta,depto,dmet,230
+dchocat_25,dcho,Cultura,category,cat_25,1
+driscat_28,dris,Participación ciudadana,category,cat_28,5
+datlcat_25,datl,Cultura,category,cat_25,19
+dhuicat_17,dhui,"Ciencia, Tecnología e Innovación",category,cat_17,1
+driscat_10,dris,"Comercio, Industria y Turismo",category,cat_10,16
+datlcat_12,datl,Mapas Nacionales,category,cat_12,5
+daracat_7,dara,Función pública,category,cat_7,4
+dcalcat_7,dcal,Función pública,category,cat_7,5
+dquicat_11,dqui,,category,cat_11,2
+dquicat_27,dqui,Justicia y Derecho,category,cat_27,1
+dtolcat_28,dtol,Participación ciudadana,category,cat_28,5
+dcuncat_15,dcun,"Vivienda, Ciudad y Territorio",category,cat_15,11
+dcalcat_5,dcal,Inclusión Social y Reconciliación,category,cat_5,16
+dantcat_25,dant,Cultura,category,cat_25,4
+daracat_5,dara,Inclusión Social y Reconciliación,category,cat_5,1
+damacat_28,dama,Participación ciudadana,category,cat_28,1
+dguacat_2,dgua,Salud y Protección Social,category,cat_2,2
+dhuicat_13,dhui,Ordenamiento Territorial,category,cat_13,6
+damacat_10,dama,"Comercio, Industria y Turismo",category,cat_10,4
+dantcat_12,dant,Mapas Nacionales,category,cat_12,1
+dtolcat_10,dtol,"Comercio, Industria y Turismo",category,cat_10,50
+dbogcat_9,dbog,Trabajo,category,cat_9,19
+dla cat_19,dla ,Organismos de Control,category,cat_19,1
+dputcat_15,dput,"Vivienda, Ciudad y Territorio",category,cat_15,5
+dhuicat_4,dhui,Educación,category,cat_4,17
+dquicat_1,dqui,Ambiente y Desarrollo Sostenible,category,cat_1,1
+dcuncat_1,dcun,Ambiente y Desarrollo Sostenible,category,cat_1,34
+dguacat_4,dgua,Educación,category,cat_4,4
+dnorcat_16,dnor,Seguridad y Defensa,category,cat_16,39
+dcórcat_7,dcór,Función pública,category,cat_7,1
+darccat_10,darc,"Comercio, Industria y Turismo",category,cat_10,8
+dantcat_24,dant,Presupuestos Gubernamentales,category,cat_24,10
+dvalcat_5,dval,Inclusión Social y Reconciliación,category,cat_5,34
+dmetcat_7,dmet,Función pública,category,cat_7,36
+dcaqcat_24,dcaq,Presupuestos Gubernamentales,category,cat_24,1
+dguacat_13,dgua,Ordenamiento Territorial,category,cat_13,2
+dhuicat_2,dhui,Salud y Protección Social,category,cat_2,25
+dviccat_25,dvic,Cultura,category,cat_25,1
+dboycat_5,dboy,Inclusión Social y Reconciliación,category,cat_5,26
+dcaucat_5,dcau,Inclusión Social y Reconciliación,category,cat_5,14
+dquicat_15,dqui,"Vivienda, Ciudad y Territorio",category,cat_15,3
+dcuncat_27,dcun,Justicia y Derecho,category,cat_27,15
+dnarcat_26,dnar,Hacienda y Crédito Público,category,cat_26,2
+dhuicat_18,dhui,Agricultura y Desarrollo Rural,category,cat_18,5
+dcuncat_11,dcun,,category,cat_11,36
+dmetcat_5,dmet,Inclusión Social y Reconciliación,category,cat_5,28
+dvalcat_7,dval,Función pública,category,cat_7,50
+dcascat_21,dcas,Economía y Finanzas,category,cat_21,2
+dboycat_7,dboy,Función pública,category,cat_7,35
+dbogcat_21,dbog,Economía y Finanzas,category,cat_21,83
+dcaucat_7,dcau,Función pública,category,cat_7,31
+dsancat_28,dsan,Participación ciudadana,category,cat_28,7
+dbogcat_19,dbog,Organismos de Control,category,cat_19,35
+dguacat_17,dgua,"Ciencia, Tecnología e Innovación",category,cat_17,2
+datlcat_24,datl,Presupuestos Gubernamentales,category,cat_24,2
+dsancat_10,dsan,"Comercio, Industria y Turismo",category,cat_10,5
+dsuccat_7,dsuc,Función pública,category,cat_7,5
+dnorcat_22,dnor,Transporte,category,cat_22,13
+dputcat_11,dput,,category,cat_11,1
+dnarcat_15,dnar,"Vivienda, Ciudad y Territorio",category,cat_15,1
+driscat_2,dris,Salud y Protección Social,category,cat_2,8
+dsancat_13,dsan,Ordenamiento Territorial,category,cat_13,3
+dla cat_7,dla ,Función pública,category,cat_7,7
+dmagcat_11,dmag,,category,cat_11,1
+dsancat_4,dsan,Educación,category,cat_4,54
+dcuncat_6,dcun,Minas y Energía,category,cat_6,1
+dtolcat_18,dtol,Agricultura y Desarrollo Rural,category,cat_18,34
+dantcat_14,dant,Gastos Gubernamentales,category,cat_14,17
+damacat_18,dama,Agricultura y Desarrollo Rural,category,cat_18,1
+dvalcat_9,dval,Trabajo,category,cat_9,2
+damacat_2,dama,Salud y Protección Social,category,cat_2,5
+dtolcat_2,dtol,Salud y Protección Social,category,cat_2,37
+dsancat_17,dsan,"Ciencia, Tecnología e Innovación",category,cat_17,5
+dguacat_28,dgua,Participación ciudadana,category,cat_28,4
+dguacat_10,dgua,"Comercio, Industria y Turismo",category,cat_10,2
+dmetcat_9,dmet,Trabajo,category,cat_9,1
+dcalcat_19,dcal,Organismos de Control,category,cat_19,4
+dtolcat_8,dtol,Estadísticas Nacionales,category,cat_8,4
+dnorcat_12,dnor,Mapas Nacionales,category,cat_12,1
+dmagcat_1,dmag,Ambiente y Desarrollo Sostenible,category,cat_1,6
+dcalcat_21,dcal,Economía y Finanzas,category,cat_21,10
+dquicat_26,dqui,Hacienda y Crédito Público,category,cat_26,5
+dla cat_5,dla ,Inclusión Social y Reconciliación,category,cat_5,12
+driscat_18,dris,Agricultura y Desarrollo Rural,category,cat_18,27
+datlcat_14,datl,Gastos Gubernamentales,category,cat_14,1
+darccat_4,darc,Educación,category,cat_4,8
+dnorcat_25,dnor,Cultura,category,cat_25,4
+damacat_4,dama,Educación,category,cat_4,3
+dvalcat_21,dval,Economía y Finanzas,category,cat_21,13
+datlcat_22,datl,Transporte,category,cat_22,3
+dnarcat_11,dnar,,category,cat_11,10
+dtolcat_4,dtol,Educación,category,cat_4,42
+dcuncat_26,dcun,Hacienda y Crédito Público,category,cat_26,7
+dbogcat_7,dbog,Función pública,category,cat_7,109
+dcaucat_21,dcau,Economía y Finanzas,category,cat_21,17
+driscat_20,dris,Deporte y Recreación,category,cat_20,2
+dsancat_18,dsan,Agricultura y Desarrollo Rural,category,cat_18,5
+dcascat_7,dcas,Función pública,category,cat_7,8
+dboycat_21,dboy,Economía y Finanzas,category,cat_21,17
+dnorcat_24,dnor,Presupuestos Gubernamentales,category,cat_24,3
+dcescat_12,dces,Mapas Nacionales,category,cat_12,2
+driscat_17,dris,"Ciencia, Tecnología e Innovación",category,cat_17,7
+dhuicat_10,dhui,"Comercio, Industria y Turismo",category,cat_10,1
+dboycat_19,dboy,Organismos de Control,category,cat_19,6
+dmagcat_15,dmag,"Vivienda, Ciudad y Territorio",category,cat_15,1
+dhuicat_28,dhui,Participación ciudadana,category,cat_28,1
+dvalcat_19,dval,Organismos de Control,category,cat_19,14
+dantcat_16,dant,Seguridad y Defensa,category,cat_16,3
+dputcat_26,dput,Hacienda y Crédito Público,category,cat_26,1
+damacat_13,dama,Ordenamiento Territorial,category,cat_13,4
+dtolcat_13,dtol,Ordenamiento Territorial,category,cat_13,12
+dsuccat_21,dsuc,Economía y Finanzas,category,cat_21,2
+dcescat_25,dces,Cultura,category,cat_25,1
+darccat_2,darc,Salud y Protección Social,category,cat_2,9
+darccat_18,darc,Agricultura y Desarrollo Rural,category,cat_18,2
+dantcat_22,dant,Transporte,category,cat_22,47
+driscat_4,dris,Educación,category,cat_4,28
+dmetcat_19,dmet,Organismos de Control,category,cat_19,5
+dquicat_6,dqui,Minas y Energía,category,cat_6,9
+dcalcat_9,dcal,Trabajo,category,cat_9,1
+dbolcat_11,dbol,,category,cat_11,1
+dtolcat_20,dtol,Deporte y Recreación,category,cat_20,3
+dcórcat_19,dcór,Organismos de Control,category,cat_19,3
+dmetcat_21,dmet,Economía y Finanzas,category,cat_21,3
+dtolcat_17,dtol,"Ciencia, Tecnología e Innovación",category,cat_17,3
+damacat_17,dama,"Ciencia, Tecnología e Innovación",category,cat_17,1
+dsancat_2,dsan,Salud y Protección Social,category,cat_2,27
+dcórcat_21,dcór,Economía y Finanzas,category,cat_21,2
+dsancat_8,dsan,Estadísticas Nacionales,category,cat_8,2
+dbogcat_5,dbog,Inclusión Social y Reconciliación,category,cat_5,87
+driscat_13,dris,Ordenamiento Territorial,category,cat_13,3
+dcascat_5,dcas,Inclusión Social y Reconciliación,category,cat_5,7
+datlcat_16,datl,Seguridad y Defensa,category,cat_16,1
+dtolcat_15,dtol,"Vivienda, Ciudad y Territorio",category,cat_15,28
+dsuccat_25,dsuc,Cultura,category,cat_25,3
+dcuncat_28,dcun,Participación ciudadana,category,cat_28,9
+dbogcat_14,dbog,Gastos Gubernamentales,category,cat_14,70
+dbolcat_2,dbol,Salud y Protección Social,category,cat_2,16
+dmagcat_13,dmag,Ordenamiento Territorial,category,cat_13,4
+dcuncat_10,dcun,"Comercio, Industria y Turismo",category,cat_10,39
+dboycat_25,dboy,Cultura,category,cat_25,23
+dsancat_11,dsan,,category,cat_11,21
+dvalcat_12,dval,Mapas Nacionales,category,cat_12,9
+dmagcat_4,dmag,Educación,category,cat_4,4
+dputcat_10,dput,"Comercio, Industria y Turismo",category,cat_10,1
+dboycat_12,dboy,Mapas Nacionales,category,cat_12,2
+dnarcat_18,dnar,Agricultura y Desarrollo Rural,category,cat_18,2
+dvalcat_25,dval,Cultura,category,cat_25,14
+darccat_1,darc,Ambiente y Desarrollo Sostenible,category,cat_1,3
+dviccat_7,dvic,Función pública,category,cat_7,3
+driscat_15,dris,"Vivienda, Ciudad y Territorio",category,cat_15,3
+dmagcat_17,dmag,"Ciencia, Tecnología e Innovación",category,cat_17,2
+dnarcat_2,dnar,Salud y Protección Social,category,cat_2,24
+dcórcat_25,dcór,Cultura,category,cat_25,2
+dnarcat_8,dnar,Estadísticas Nacionales,category,cat_8,2
+dmetcat_25,dmet,Cultura,category,cat_25,5
+dbolcat_18,dbol,Agricultura y Desarrollo Rural,category,cat_18,3
+dsancat_1,dsan,Ambiente y Desarrollo Sostenible,category,cat_1,16
+dmagcat_20,dmag,Deporte y Recreación,category,cat_20,1
+dnorcat_9,dnor,Trabajo,category,cat_9,1
+damacat_11,dama,,category,cat_11,1
+dtolcat_11,dtol,,category,cat_11,6
+dnarcat_4,dnar,Educación,category,cat_4,14
+driscat_1,dris,Ambiente y Desarrollo Sostenible,category,cat_1,10
+dchocat_5,dcho,Inclusión Social y Reconciliación,category,cat_5,1
+dbogcat_16,dbog,Seguridad y Defensa,category,cat_16,254
+datlcat_5,datl,Inclusión Social y Reconciliación,category,cat_5,11
+dcascat_16,dcas,Seguridad y Defensa,category,cat_16,1
+dmagcat_18,dmag,Agricultura y Desarrollo Rural,category,cat_18,1
+dsancat_15,dsan,"Vivienda, Ciudad y Territorio",category,cat_15,1
+dantcat_7,dant,Función pública,category,cat_7,47
+dnarcat_13,dnar,Ordenamiento Territorial,category,cat_13,10
+dcescat_9,dces,Trabajo,category,cat_9,1
+dmetcat_24,dmet,Presupuestos Gubernamentales,category,cat_24,3
+dboycat_24,dboy,Presupuestos Gubernamentales,category,cat_24,1
+dnorcat_21,dnor,Economía y Finanzas,category,cat_21,3
+driscat_11,dris,,category,cat_11,8
+dtolcat_1,dtol,Ambiente y Desarrollo Sostenible,category,cat_1,6
+dcalcat_12,dcal,Mapas Nacionales,category,cat_12,1
+dcaucat_24,dcau,Presupuestos Gubernamentales,category,cat_24,2
+dantcat_5,dant,Inclusión Social y Reconciliación,category,cat_5,27
+daracat_25,dara,Cultura,category,cat_25,2
+dcalcat_25,dcal,Cultura,category,cat_25,2
+dbolcat_4,dbol,Educación,category,cat_4,4
+dquicat_10,dqui,"Comercio, Industria y Turismo",category,cat_10,4
+dcascat_22,dcas,Transporte,category,cat_22,2
+dbolcat_13,dbol,Ordenamiento Territorial,category,cat_13,3
+dbogcat_22,dbog,Transporte,category,cat_22,83
+dmagcat_2,dmag,Salud y Protección Social,category,cat_2,9
+dnarcat_17,dnar,"Ciencia, Tecnología e Innovación",category,cat_17,4
+dnorcat_19,dnor,Organismos de Control,category,cat_19,5
+dchocat_7,dcho,Función pública,category,cat_7,1
+dquicat_28,dqui,Participación ciudadana,category,cat_28,2
+damacat_27,dama,Justicia y Derecho,category,cat_27,1
+datlcat_7,datl,Función pública,category,cat_7,31
+dcuncat_2,dcun,Salud y Protección Social,category,cat_2,34
+dquicat_13,dqui,Ordenamiento Territorial,category,cat_13,2
+dviccat_21,dvic,Economía y Finanzas,category,cat_21,1
+dbolcat_10,dbol,"Comercio, Industria y Turismo",category,cat_10,1
+dguacat_15,dgua,"Vivienda, Ciudad y Territorio",category,cat_15,1
+dcuncat_8,dcun,Estadísticas Nacionales,category,cat_8,82
+daracat_16,dara,Seguridad y Defensa,category,cat_16,1
+dcescat_5,dces,Inclusión Social y Reconciliación,category,cat_5,2
+dputcat_8,dput,Estadísticas Nacionales,category,cat_8,1
+dmetcat_14,dmet,Gastos Gubernamentales,category,cat_14,3
+dhuicat_1,dhui,Ambiente y Desarrollo Sostenible,category,cat_1,4
+dputcat_2,dput,Salud y Protección Social,category,cat_2,6
+dquicat_4,dqui,Educación,category,cat_4,23
+dnarcat_28,dnar,Participación ciudadana,category,cat_28,1
+dvalcat_14,dval,Gastos Gubernamentales,category,cat_14,3
+dcescat_7,dces,Función pública,category,cat_7,7
+dboycat_14,dboy,Gastos Gubernamentales,category,cat_14,2
+dnarcat_10,dnar,"Comercio, Industria y Turismo",category,cat_10,4
+dcaqcat_9,dcaq,Trabajo,category,cat_9,1
+dquicat_17,dqui,"Ciencia, Tecnología e Innovación",category,cat_17,2
+dcalcat_22,dcal,Transporte,category,cat_22,28
+daracat_22,dara,Transporte,category,cat_22,2
+dcaucat_14,dcau,Gastos Gubernamentales,category,cat_14,1
+dbogcat_25,dbog,Cultura,category,cat_25,37
+dtolcat_6,dtol,Minas y Energía,category,cat_6,1
+dcascat_25,dcas,Cultura,category,cat_25,5
+dsuccat_14,dsuc,Gastos Gubernamentales,category,cat_14,4
+dcascat_12,dcas,Mapas Nacionales,category,cat_12,1
+dcuncat_18,dcun,Agricultura y Desarrollo Rural,category,cat_18,20
+dbogcat_12,dbog,Mapas Nacionales,category,cat_12,34
+dhuicat_11,dhui,,category,cat_11,1
+dguacat_11,dgua,,category,cat_11,1
+datlcat_19,datl,Organismos de Control,category,cat_19,7
+dbogcat_24,dbog,Presupuestos Gubernamentales,category,cat_24,2
+driscat_26,dris,Hacienda y Crédito Público,category,cat_26,4
+dsuccat_22,dsuc,Transporte,category,cat_22,3
+dquicat_18,dqui,Agricultura y Desarrollo Rural,category,cat_18,2
+dcascat_24,dcas,Presupuestos Gubernamentales,category,cat_24,2
+dnorcat_7,dnor,Función pública,category,cat_7,19
+dcuncat_20,dcun,Deporte y Recreación,category,cat_20,6
+daracat_14,dara,Gastos Gubernamentales,category,cat_14,2
+dcórcat_16,dcór,Seguridad y Defensa,category,cat_16,1
+dcalcat_14,dcal,Gastos Gubernamentales,category,cat_14,1
+dcuncat_17,dcun,"Ciencia, Tecnología e Innovación",category,cat_17,3
+dtolcat_3,dtol,Resultados Electorales,category,cat_3,1
+dboycat_22,dboy,Transporte,category,cat_22,16
+dmetcat_16,dmet,Seguridad y Defensa,category,cat_16,3
+damacat_3,dama,Resultados Electorales,category,cat_3,2
+datlcat_21,datl,Economía y Finanzas,category,cat_21,3
+dvalcat_22,dval,Transporte,category,cat_22,39
+dchocat_21,dcho,Economía y Finanzas,category,cat_21,1
+dcuncat_4,dcun,Educación,category,cat_4,31
+dsancat_6,dsan,Minas y Energía,category,cat_6,9
+dtolcat_26,dtol,Hacienda y Crédito Público,category,cat_26,3
+dantcat_19,dant,Organismos de Control,category,cat_19,70
+dputcat_13,dput,Ordenamiento Territorial,category,cat_13,3
+dvalcat_16,dval,Seguridad y Defensa,category,cat_16,8
+dmetcat_22,dmet,Transporte,category,cat_22,2
+dcórcat_22,dcór,Transporte,category,cat_22,2
+dquicat_8,dqui,Estadísticas Nacionales,category,cat_8,2
+dla cat_25,dla ,Cultura,category,cat_25,1
+dnorcat_5,dnor,Inclusión Social y Reconciliación,category,cat_5,22
+dsuccat_16,dsuc,Seguridad y Defensa,category,cat_16,1
+dputcat_4,dput,Educación,category,cat_4,8
+dcuncat_13,dcun,Ordenamiento Territorial,category,cat_13,5
+dantcat_21,dant,Economía y Finanzas,category,cat_21,8
+dquicat_2,dqui,Salud y Protección Social,category,cat_2,11
+darccat_16,darc,Seguridad y Defensa,category,cat_16,2
+dguacat_25,dgua,Cultura,category,cat_25,2
+dcaqcat_8,dcaq,Estadísticas Nacionales,category,cat_8,1
+dantcat_2,dant,Salud y Protección Social,category,cat_2,77
+dquicat_21,dqui,Economía y Finanzas,category,cat_21,8
+daracat_26,dara,Hacienda y Crédito Público,category,cat_26,2
+dantcat_8,dant,Estadísticas Nacionales,category,cat_8,7
+dcaqcat_2,dcaq,Salud y Protección Social,category,cat_2,3
+dnorcat_10,dnor,"Comercio, Industria y Turismo",category,cat_10,4
+dsancat_22,dsan,Transporte,category,cat_22,12
+driscat_14,dris,Gastos Gubernamentales,category,cat_14,1
+dmagcat_5,dmag,Inclusión Social y Reconciliación,category,cat_5,1
+dnorcat_28,dnor,Participación ciudadana,category,cat_28,4
+datlcat_18,datl,Agricultura y Desarrollo Rural,category,cat_18,3
+dviccat_4,dvic,Educación,category,cat_4,1
+dquicat_19,dqui,Organismos de Control,category,cat_19,5
+datlcat_2,datl,Salud y Protección Social,category,cat_2,10
+dboycat_6,dboy,Minas y Energía,category,cat_6,1
+dchocat_2,dcho,Salud y Protección Social,category,cat_2,1
+dcuncat_9,dcun,Trabajo,category,cat_9,2
+dmagcat_7,dmag,Función pública,category,cat_7,11
+dsancat_16,dsan,Seguridad y Defensa,category,cat_16,1
+datlcat_8,datl,Estadísticas Nacionales,category,cat_8,1
+dsuccat_6,dsuc,Minas y Energía,category,cat_6,1
+dla cat_11,dla ,,category,cat_11,4
+dcascat_15,dcas,"Vivienda, Ciudad y Territorio",category,cat_15,2
+dbogcat_15,dbog,"Vivienda, Ciudad y Territorio",category,cat_15,44
+dcaqcat_18,dcaq,Agricultura y Desarrollo Rural,category,cat_18,1
+darccat_22,darc,Transporte,category,cat_22,1
+dtolcat_14,dtol,Gastos Gubernamentales,category,cat_14,1
+dantcat_18,dant,Agricultura y Desarrollo Rural,category,cat_18,22
+dtolcat_22,dtol,Transporte,category,cat_22,14
+datlcat_4,datl,Educación,category,cat_4,40
+dcaqcat_20,dcaq,Deporte y Recreación,category,cat_20,4
+damacat_22,dama,Transporte,category,cat_22,1
+dchocat_4,dcho,Educación,category,cat_4,1
+dantcat_20,dant,Deporte y Recreación,category,cat_20,7
+dcórcat_26,dcór,Hacienda y Crédito Público,category,cat_26,3
+dbogcat_27,dbog,Justicia y Derecho,category,cat_27,68
+dnarcat_5,dnar,Inclusión Social y Reconciliación,category,cat_5,3
+dmetcat_26,dmet,Hacienda y Crédito Público,category,cat_26,2
+dcascat_1,dcas,Ambiente y Desarrollo Sostenible,category,cat_1,7
+dantcat_17,dant,"Ciencia, Tecnología e Innovación",category,cat_17,8
+dbogcat_1,dbog,Ambiente y Desarrollo Sostenible,category,cat_1,72
+dbolcat_7,dbol,Función pública,category,cat_7,1
+dcalcat_6,dcal,Minas y Energía,category,cat_6,1
+dquicat_9,dqui,Trabajo,category,cat_9,1
+datlcat_13,datl,Ordenamiento Territorial,category,cat_13,10
+dcuncat_19,dcun,Organismos de Control,category,cat_19,5
+dsuccat_26,dsuc,Hacienda y Crédito Público,category,cat_26,8
+driscat_22,dris,Transporte,category,cat_22,3
+dbolcat_5,dbol,Inclusión Social y Reconciliación,category,cat_5,3
+dantcat_4,dant,Educación,category,cat_4,74
+dsancat_14,dsan,Gastos Gubernamentales,category,cat_14,3
+datlcat_20,datl,Deporte y Recreación,category,cat_20,8
+dcaqcat_4,dcaq,Educación,category,cat_4,7
+dboycat_26,dboy,Hacienda y Crédito Público,category,cat_26,1
+datlcat_17,datl,"Ciencia, Tecnología e Innovación",category,cat_17,15
+dbogcat_11,dbog,,category,cat_11,51
+dcascat_11,dcas,,category,cat_11,10
+dcescat_10,dces,"Comercio, Industria y Turismo",category,cat_10,5
+dcaucat_26,dcau,Hacienda y Crédito Público,category,cat_26,5
+dantcat_13,dant,Ordenamiento Territorial,category,cat_13,14
+dnarcat_7,dnar,Función pública,category,cat_7,55
+dcuncat_21,dcun,Economía y Finanzas,category,cat_21,5
+dputcat_19,dput,Organismos de Control,category,cat_19,1
+dcescat_28,dces,Participación ciudadana,category,cat_28,5
+dtolcat_16,dtol,Seguridad y Defensa,category,cat_16,3
+dhuicat_25,dhui,Cultura,category,cat_25,7
+dvalcat_26,dval,Hacienda y Crédito Público,category,cat_26,24
+dbogcat_6,dbog,Minas y Energía,category,cat_6,152
+dcaqcat_10,dcaq,"Comercio, Industria y Turismo",category,cat_10,3
+dcescat_13,dces,Ordenamiento Territorial,category,cat_13,1
+dtolcat_25,dtol,Cultura,category,cat_25,16
+dsuccat_15,dsuc,"Vivienda, Ciudad y Territorio",category,cat_15,5
+dantcat_28,dant,Participación ciudadana,category,cat_28,6
+damacat_25,dama,Cultura,category,cat_25,1
+dcascat_6,dcas,Minas y Energía,category,cat_6,1
+dtolcat_12,dtol,Mapas Nacionales,category,cat_12,1
+dantcat_10,dant,"Comercio, Industria y Turismo",category,cat_10,12
+damacat_12,dama,Mapas Nacionales,category,cat_12,2
+dcaqcat_28,dcaq,Participación ciudadana,category,cat_28,1
+dcalcat_1,dcal,Ambiente y Desarrollo Sostenible,category,cat_1,6
+daracat_27,dara,Justicia y Derecho,category,cat_27,1
+dcalcat_27,dcal,Justicia y Derecho,category,cat_27,2
+dcaucat_15,dcau,"Vivienda, Ciudad y Territorio",category,cat_15,1
+dquicat_5,dqui,Inclusión Social y Reconciliación,category,cat_5,10
+dboycat_15,dboy,"Vivienda, Ciudad y Territorio",category,cat_15,15
+dnorcat_8,dnor,Estadísticas Nacionales,category,cat_8,1
+dmagcat_19,dmag,Organismos de Control,category,cat_19,3
+dnorcat_2,dnor,Salud y Protección Social,category,cat_2,60
+dcescat_4,dces,Educación,category,cat_4,7
+dvalcat_15,dval,"Vivienda, Ciudad y Territorio",category,cat_15,17
+dquicat_7,dqui,Función pública,category,cat_7,11
+driscat_25,dris,Cultura,category,cat_25,2
+datlcat_28,datl,Participación ciudadana,category,cat_28,6
+dnorcat_18,dnor,Agricultura y Desarrollo Rural,category,cat_18,22
+dsancat_24,dsan,Presupuestos Gubernamentales,category,cat_24,1
+dchocat_28,dcho,Participación ciudadana,category,cat_28,1
+dchocat_10,dcho,"Comercio, Industria y Turismo",category,cat_10,1
+dcalcat_11,dcal,,category,cat_11,2
+dmetcat_15,dmet,"Vivienda, Ciudad y Territorio",category,cat_15,2
+dcescat_17,dces,"Ciencia, Tecnología e Innovación",category,cat_17,1
+datlcat_10,datl,"Comercio, Industria y Turismo",category,cat_10,15
+dcórcat_15,dcór,"Vivienda, Ciudad y Territorio",category,cat_15,1
+dhuicat_22,dhui,Transporte,category,cat_22,1
+dguacat_14,dgua,Gastos Gubernamentales,category,cat_14,1
+dcescat_18,dces,Agricultura y Desarrollo Rural,category,cat_18,8
+dputcat_7,dput,Función pública,category,cat_7,3
+dnarcat_19,dnar,Organismos de Control,category,cat_19,2
+dguacat_22,dgua,Transporte,category,cat_22,1
+dmetcat_1,dmet,Ambiente y Desarrollo Sostenible,category,cat_1,2
+dnorcat_17,dnor,"Ciencia, Tecnología e Innovación",category,cat_17,11
+dcórcat_1,dcór,Ambiente y Desarrollo Sostenible,category,cat_1,6
+dbogcat_26,dbog,Hacienda y Crédito Público,category,cat_26,145
+dboycat_11,dboy,,category,cat_11,24
+dsancat_25,dsan,Cultura,category,cat_25,12
+dcaucat_11,dcau,,category,cat_11,2
+dnorcat_20,dnor,Deporte y Recreación,category,cat_20,3
+dmetcat_27,dmet,Justicia y Derecho,category,cat_27,3
+dcascat_26,dcas,Hacienda y Crédito Público,category,cat_26,2
+dvalcat_11,dval,,category,cat_11,19
+dnarcat_21,dnar,Economía y Finanzas,category,cat_21,3
+dsancat_12,dsan,Mapas Nacionales,category,cat_12,2
+dcuncat_7,dcun,Función pública,category,cat_7,32
+dbogcat_3,dbog,Resultados Electorales,category,cat_3,2
+dnorcat_13,dnor,Ordenamiento Territorial,category,cat_13,16
+dsuccat_1,dsuc,Ambiente y Desarrollo Sostenible,category,cat_1,2
+dvalcat_27,dval,Justicia y Derecho,category,cat_27,24
+dboycat_27,dboy,Justicia y Derecho,category,cat_27,2
+dcórcat_11,dcór,,category,cat_11,2
+dcalcat_15,dcal,"Vivienda, Ciudad y Territorio",category,cat_15,2
+dmetcat_11,dmet,,category,cat_11,8
+daracat_15,dara,"Vivienda, Ciudad y Territorio",category,cat_15,1
+dcuncat_5,dcun,Inclusión Social y Reconciliación,category,cat_5,7
+dcaucat_27,dcau,Justicia y Derecho,category,cat_27,1
+dcaucat_1,dcau,Ambiente y Desarrollo Sostenible,category,cat_1,1
+darccat_12,darc,Mapas Nacionales,category,cat_12,2
+dtolcat_24,dtol,Presupuestos Gubernamentales,category,cat_24,4
+dputcat_5,dput,Inclusión Social y Reconciliación,category,cat_5,1
+dboycat_1,dboy,Ambiente y Desarrollo Sostenible,category,cat_1,31
+dvalcat_1,dval,Ambiente y Desarrollo Sostenible,category,cat_1,32
+dcescat_2,dces,Salud y Protección Social,category,cat_2,10
+dsuccat_27,dsuc,Justicia y Derecho,category,cat_27,1
+dnorcat_4,dnor,Educación,category,cat_4,26
+dviccat_28,dvic,Participación ciudadana,category,cat_28,2
+dnarcat_25,dnar,Cultura,category,cat_25,2
+dvalcat_18,dval,Agricultura y Desarrollo Rural,category,cat_18,48
+dcalcat_20,dcal,Deporte y Recreación,category,cat_20,2
+daracat_20,dara,Deporte y Recreación,category,cat_20,1
+dhuicat_7,dhui,Función pública,category,cat_7,6
+dputcat_14,dput,Gastos Gubernamentales,category,cat_14,1
+dtolcat_9,dtol,Trabajo,category,cat_9,1
+dmetcat_2,dmet,Salud y Protección Social,category,cat_2,19
+dsancat_21,dsan,Economía y Finanzas,category,cat_21,14
+dnarcat_12,dnar,Mapas Nacionales,category,cat_12,1
+dboycat_18,dboy,Agricultura y Desarrollo Rural,category,cat_18,28
+dcórcat_2,dcór,Salud y Protección Social,category,cat_2,6
+dantcat_6,dant,Minas y Energía,category,cat_6,2
+dcascat_28,dcas,Participación ciudadana,category,cat_28,7
+dbogcat_28,dbog,Participación ciudadana,category,cat_28,44
+dsancat_19,dsan,Organismos de Control,category,cat_19,2
+dbogcat_10,dbog,"Comercio, Industria y Turismo",category,cat_10,38
+dcescat_11,dces,,category,cat_11,1
+dsuccat_18,dsuc,Agricultura y Desarrollo Rural,category,cat_18,18
+daracat_17,dara,"Ciencia, Tecnología e Innovación",category,cat_17,1
+dcascat_10,dcas,"Comercio, Industria y Turismo",category,cat_10,25
+dquicat_22,dqui,Transporte,category,cat_22,9
+dcalcat_17,dcal,"Ciencia, Tecnología e Innovación",category,cat_17,4
+dquicat_16,dqui,Seguridad y Defensa,category,cat_16,2
+driscat_9,dris,Trabajo,category,cat_9,1
+dsuccat_2,dsuc,Salud y Protección Social,category,cat_2,9
+dcescat_27,dces,Justicia y Derecho,category,cat_27,1
+darccat_21,darc,Economía y Finanzas,category,cat_21,1
+daracat_4,dara,Educación,category,cat_4,7
+dcalcat_4,dcal,Educación,category,cat_4,8
+dcaucat_2,dcau,Salud y Protección Social,category,cat_2,5
+dcalcat_13,dcal,Ordenamiento Territorial,category,cat_13,6
+daracat_13,dara,Ordenamiento Territorial,category,cat_13,9
+dmetcat_18,dmet,Agricultura y Desarrollo Rural,category,cat_18,40
+dcórcat_18,dcór,Agricultura y Desarrollo Rural,category,cat_18,2
+dvalcat_8,dval,Estadísticas Nacionales,category,cat_8,6
+dboycat_2,dboy,Salud y Protección Social,category,cat_2,38
+dvalcat_2,dval,Salud y Protección Social,category,cat_2,94
+dcescat_1,dces,Ambiente y Desarrollo Sostenible,category,cat_1,1
+dboycat_8,dboy,Estadísticas Nacionales,category,cat_8,4
+dnorcat_15,dnor,"Vivienda, Ciudad y Territorio",category,cat_15,14
+darccat_19,darc,Organismos de Control,category,cat_19,3
+damacat_19,dama,Organismos de Control,category,cat_19,7
+dtolcat_19,dtol,Organismos de Control,category,cat_19,1
+dcalcat_8,dcal,Estadísticas Nacionales,category,cat_8,1
+dantcat_26,dant,Hacienda y Crédito Público,category,cat_26,13
+dputcat_16,dput,Seguridad y Defensa,category,cat_16,1
+dmetcat_20,dmet,Deporte y Recreación,category,cat_20,1
+dvalcat_13,dval,Ordenamiento Territorial,category,cat_13,78
+dsuccat_4,dsuc,Educación,category,cat_4,8
+dnorcat_27,dnor,Justicia y Derecho,category,cat_27,6
+dguacat_5,dgua,Inclusión Social y Reconciliación,category,cat_5,1
+dboycat_13,dboy,Ordenamiento Territorial,category,cat_13,8
+dcaucat_13,dcau,Ordenamiento Territorial,category,cat_13,1
+dcalcat_2,dcal,Salud y Protección Social,category,cat_2,61
+daracat_2,dara,Salud y Protección Social,category,cat_2,3
+dsancat_9,dsan,Trabajo,category,cat_9,1
+dcaucat_4,dcau,Educación,category,cat_4,13
+dmagcat_25,dmag,Cultura,category,cat_25,2
+dboycat_4,dboy,Educación,category,cat_4,119
+datlcat_3,datl,Resultados Electorales,category,cat_3,2
+dla cat_10,dla ,"Comercio, Industria y Turismo",category,cat_10,1
+dnorcat_1,dnor,Ambiente y Desarrollo Sostenible,category,cat_1,18
+dvalcat_4,dval,Educación,category,cat_4,67
+dcescat_15,dces,"Vivienda, Ciudad y Territorio",category,cat_15,3
+dsuccat_13,dsuc,Ordenamiento Territorial,category,cat_13,1
+dmetcat_17,dmet,"Ciencia, Tecnología e Innovación",category,cat_17,14
+dtolcat_21,dtol,Economía y Finanzas,category,cat_21,24
+dcuncat_16,dcun,Seguridad y Defensa,category,cat_16,7
+dquicat_14,dqui,Gastos Gubernamentales,category,cat_14,5
+dcuncat_22,dcun,Transporte,category,cat_22,11
+dboycat_17,dboy,"Ciencia, Tecnología e Innovación",category,cat_17,5
+datlcat_26,datl,Hacienda y Crédito Público,category,cat_26,2
+dmetcat_4,dmet,Educación,category,cat_4,22
+dvalcat_17,dval,"Ciencia, Tecnología e Innovación",category,cat_17,19
+dcórcat_4,dcór,Educación,category,cat_4,8
+dnarcat_24,dnar,Presupuestos Gubernamentales,category,cat_24,2
+dmetcat_13,dmet,Ordenamiento Territorial,category,cat_13,8
+dsuccat_17,dsuc,"Ciencia, Tecnología e Innovación",category,cat_17,3
+daracat_18,dara,Agricultura y Desarrollo Rural,category,cat_18,3
+dvalcat_20,dval,Deporte y Recreación,category,cat_20,7
+dcalcat_18,dcal,Agricultura y Desarrollo Rural,category,cat_18,2
+dcaqcat_3,dcaq,Resultados Electorales,category,cat_3,1
+dboycat_20,dboy,Deporte y Recreación,category,cat_20,2
+dguacat_7,dgua,Función pública,category,cat_7,15
+dnorcat_11,dnor,,category,cat_11,4
+driscat_21,dris,Economía y Finanzas,category,cat_21,13
+dcórcat_10,dcór,"Comercio, Industria y Turismo",category,cat_10,2
+datlcat_15,datl,"Vivienda, Ciudad y Territorio",category,cat_15,5
+dmetcat_10,dmet,"Comercio, Industria y Turismo",category,cat_10,11
+dmetcat_28,dmet,Participación ciudadana,category,cat_28,9
+dcórcat_28,dcór,Participación ciudadana,category,cat_28,1
+dnorcat_6,dnor,Minas y Energía,category,cat_6,3
+dcascat_2,dcas,Salud y Protección Social,category,cat_2,16
+dbogcat_2,dbog,Salud y Protección Social,category,cat_2,169
+dsancat_5,dsan,Inclusión Social y Reconciliación,category,cat_5,7
+dviccat_11,dvic,,category,cat_11,1
+dbogcat_8,dbog,Estadísticas Nacionales,category,cat_8,99
+dcascat_8,dcas,Estadísticas Nacionales,category,cat_8,1
+dhuicat_21,dhui,Economía y Finanzas,category,cat_21,5
+dsuccat_28,dsuc,Participación ciudadana,category,cat_28,2
+dcuncat_25,dcun,Cultura,category,cat_25,26
+dantcat_15,dant,"Vivienda, Ciudad y Territorio",category,cat_15,14
+dquicat_24,dqui,Presupuestos Gubernamentales,category,cat_24,2
+dla cat_13,dla ,Ordenamiento Territorial,category,cat_13,1
+dsancat_7,dsan,Función pública,category,cat_7,11
+dsuccat_10,dsuc,"Comercio, Industria y Turismo",category,cat_10,3
+dcascat_18,dcas,Agricultura y Desarrollo Rural,category,cat_18,4
+dcaqcat_15,dcaq,"Vivienda, Ciudad y Territorio",category,cat_15,1
+dbogcat_18,dbog,Agricultura y Desarrollo Rural,category,cat_18,131
+dcaucat_28,dcau,Participación ciudadana,category,cat_28,1
+dvalcat_10,dval,"Comercio, Industria y Turismo",category,cat_10,38
+dla cat_4,dla ,Educación,category,cat_4,7
+dboycat_28,dboy,Participación ciudadana,category,cat_28,7
+dnarcat_14,dnar,Gastos Gubernamentales,category,cat_14,1
+dvalcat_28,dval,Participación ciudadana,category,cat_28,21
+dboycat_10,dboy,"Comercio, Industria y Turismo",category,cat_10,23
+dputcat_25,dput,Cultura,category,cat_25,6
+dcaucat_10,dcau,"Comercio, Industria y Turismo",category,cat_10,2
+dcescat_26,dces,Hacienda y Crédito Público,category,cat_26,1
+dchocat_11,dcho,,category,cat_11,1
+dcascat_17,dcas,"Ciencia, Tecnología e Innovación",category,cat_17,2
+dcalcat_10,dcal,"Comercio, Industria y Turismo",category,cat_10,3
+dantcat_1,dant,Ambiente y Desarrollo Sostenible,category,cat_1,3
+dbogcat_17,dbog,"Ciencia, Tecnología e Innovación",category,cat_17,195
+datlcat_11,datl,,category,cat_11,9
+dnarcat_22,dnar,Transporte,category,cat_22,1
+dcalcat_28,dcal,Participación ciudadana,category,cat_28,2
+dtolcat_5,dtol,Inclusión Social y Reconciliación,category,cat_5,6
+dla cat_2,dla ,Salud y Protección Social,category,cat_2,1
+dbolcat_16,dbol,Seguridad y Defensa,category,cat_16,3
+dquicat_25,dqui,Cultura,category,cat_25,7
+driscat_7,dris,Función pública,category,cat_7,112
+dla cat_8,dla ,Estadísticas Nacionales,category,cat_8,1
+dbogcat_20,dbog,Deporte y Recreación,category,cat_20,6
+dantcat_27,dant,Justicia y Derecho,category,cat_27,4
+dcascat_20,dcas,Deporte y Recreación,category,cat_20,4
+dguacat_21,dgua,Economía y Finanzas,category,cat_21,1
+dnorcat_26,dnor,Hacienda y Crédito Público,category,cat_26,5
+datlcat_1,datl,Ambiente y Desarrollo Sostenible,category,cat_1,1
+dantcat_11,dant,,category,cat_11,33
+dcaqcat_11,dcaq,,category,cat_11,8
+driscat_5,dris,Inclusión Social y Reconciliación,category,cat_5,8
+dbogcat_13,dbog,Ordenamiento Territorial,category,cat_13,10
+dbolcat_22,dbol,Transporte,category,cat_22,1
+dcascat_13,dcas,Ordenamiento Territorial,category,cat_13,4
+dla cat_18,dla ,Agricultura y Desarrollo Rural,category,cat_18,1
+dnorcat_3,dnor,Resultados Electorales,category,cat_3,2
+dcescat_6,dces,Minas y Energía,category,cat_6,1
+dcascat_4,dcas,Educación,category,cat_4,18
+dbogcat_4,dbog,Educación,category,cat_4,201
+dnarcat_16,dnar,Seguridad y Defensa,category,cat_16,3
+dtolcat_7,dtol,Función pública,category,cat_7,11
+damacat_7,dama,Función pública,category,cat_7,3
+datlcat_27,datl,Justicia y Derecho,category,cat_27,1
