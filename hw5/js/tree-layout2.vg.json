@@ -1,7 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega/v4.json",
   "width": 400,
-  "height": 1000,
+  "height": 800,
   "padding": 5,
 
   "signals": [
@@ -67,7 +67,7 @@
       "name": "x2",
       "type": "linear",
       "domain": {"data": "tree", "field": "value"},
-      "range": [0, 3000], 
+      "range": [0, 1200], 
       "nice": true
     }
 
@@ -84,7 +84,7 @@
         "update": {
           "path": {"field": "path"},
           "stroke": {"value": "#000"}, 
-          "strokeWidth" : {"value": 0.1}
+          "strokeWidth" : {"value": 0.4}
         }
       }
     },
@@ -101,7 +101,7 @@
           "shape": {"value": "circle"},
           "fill": {"scale": "color", "field": "depth"},
           "stroke": {"value": "#85929E"} ,
-          "opacity": {"signal": "datum.depth < 2 ? 1 : 0"}
+          "opacity": {"signal": "datum.depth < 1 ? 1 : 0"}
         }
       }
     },
@@ -112,7 +112,6 @@
       "encode": {
         "update": {
           "y": {"field": "y"}, 
-          "dy": {"signal": "datum.children ? -7 : -10"},
           "height": {"value":  10},
           "width": {"scale": "x2", "field": "value"},
           "x": {"field": "x"} ,
@@ -133,11 +132,11 @@
         "update": {
           "x": {"field": "x"},
           "y": {"field": "y"},
-          "dx": {"signal": "datum.children ? -7 : 7"},
-          "dy": {"signal": "datum.children ? -7 : -10"},
+          "dx": {"signal": "datum.children ? -7 : 0"},
+          "dy": {"signal": "datum.children ? -7 : -5"},
           "align": {"signal": "datum.children ? 'right' : 'left'"},
           "opacity": {"signal": "datum.depth < 3 ? 1 : 0"},
-          "fontSize": {"signal": "datum.depth < 2 ? 12 : 7"}
+          "fontSize": {"signal": "datum.depth < 2 ? 10 : 7"}
         }  
       }
     }
