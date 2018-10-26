@@ -1,0 +1,596 @@
+id,parent,label,type,code,value
+0,,datos.gov.co,center,0,7266
+cat_1,0,Ambiente y Desarrollo Sostenible,category,cat_1,268
+cat_10,0,"Comercio, Industria y Turismo",category,cat_10,321
+cat_10dama,cat_10,Amazonas,depto,dama,4
+cat_10dant,cat_10,Antioquia,depto,dant,12
+cat_10darc,cat_10,"Archipiélago de San Andrés, Providencia y Santa Catalina",depto,darc,8
+cat_10datl,cat_10,Atlántico,depto,datl,15
+cat_10dbog,cat_10,Bogotá D.C.,depto,dbog,38
+cat_10dbol,cat_10,Bolívar,depto,dbol,1
+cat_10dboy,cat_10,Boyacá,depto,dboy,23
+cat_10dcal,cat_10,Caldas,depto,dcal,3
+cat_10dcaq,cat_10,Caquetá,depto,dcaq,3
+cat_10dcas,cat_10,Casanare,depto,dcas,25
+cat_10dcau,cat_10,Cauca,depto,dcau,2
+cat_10dces,cat_10,Cesar,depto,dces,5
+cat_10dcho,cat_10,Chocó,depto,dcho,1
+cat_10dcór,cat_10,Córdoba,depto,dcór,2
+cat_10dcun,cat_10,Cundinamarca,depto,dcun,39
+cat_10dgua,cat_10,Guaviare,depto,dgua,2
+cat_10dhui,cat_10,Huila,depto,dhui,1
+cat_10dla ,cat_10,La Guajira,depto,dla ,1
+cat_10dmet,cat_10,Meta,depto,dmet,11
+cat_10dnar,cat_10,Nariño,depto,dnar,4
+cat_10dnor,cat_10,Norte de Santander,depto,dnor,4
+cat_10dput,cat_10,Putumayo,depto,dput,1
+cat_10dqui,cat_10,Quindío,depto,dqui,4
+cat_10dris,cat_10,Risaralda,depto,dris,16
+cat_10dsan,cat_10,Santander,depto,dsan,5
+cat_10dsuc,cat_10,Sucre,depto,dsuc,3
+cat_10dtol,cat_10,Tolima,depto,dtol,50
+cat_10dval,cat_10,Valle del Cauca,depto,dval,38
+cat_11,0,,category,cat_11,271
+cat_11dama,cat_11,Amazonas,depto,dama,1
+cat_11dant,cat_11,Antioquia,depto,dant,33
+cat_11datl,cat_11,Atlántico,depto,datl,9
+cat_11dbog,cat_11,Bogotá D.C.,depto,dbog,51
+cat_11dbol,cat_11,Bolívar,depto,dbol,1
+cat_11dboy,cat_11,Boyacá,depto,dboy,24
+cat_11dcal,cat_11,Caldas,depto,dcal,2
+cat_11dcaq,cat_11,Caquetá,depto,dcaq,8
+cat_11dcas,cat_11,Casanare,depto,dcas,10
+cat_11dcau,cat_11,Cauca,depto,dcau,2
+cat_11dces,cat_11,Cesar,depto,dces,1
+cat_11dcho,cat_11,Chocó,depto,dcho,1
+cat_11dcór,cat_11,Córdoba,depto,dcór,2
+cat_11dcun,cat_11,Cundinamarca,depto,dcun,36
+cat_11dgua,cat_11,Guainía,depto,dgua,1
+cat_11dhui,cat_11,Huila,depto,dhui,1
+cat_11dla ,cat_11,La Guajira,depto,dla ,4
+cat_11dmag,cat_11,Magdalena,depto,dmag,1
+cat_11dmet,cat_11,Meta,depto,dmet,8
+cat_11dnar,cat_11,Nariño,depto,dnar,10
+cat_11dnor,cat_11,Norte de Santander,depto,dnor,4
+cat_11dput,cat_11,Putumayo,depto,dput,1
+cat_11dqui,cat_11,Quindío,depto,dqui,2
+cat_11dris,cat_11,Risaralda,depto,dris,8
+cat_11dsan,cat_11,Santander,depto,dsan,21
+cat_11dtol,cat_11,Tolima,depto,dtol,6
+cat_11dval,cat_11,Valle del Cauca,depto,dval,19
+cat_11dvic,cat_11,Vichada,depto,dvic,1
+cat_12,0,Mapas Nacionales,category,cat_12,144
+cat_12dama,cat_12,Amazonas,depto,dama,2
+cat_12dant,cat_12,Antioquia,depto,dant,1
+cat_12darc,cat_12,"Archipiélago de San Andrés, Providencia y Santa Catalina",depto,darc,2
+cat_12datl,cat_12,Atlántico,depto,datl,5
+cat_12dbog,cat_12,Bogotá D.C.,depto,dbog,34
+cat_12dboy,cat_12,Boyacá,depto,dboy,2
+cat_12dcal,cat_12,Caldas,depto,dcal,1
+cat_12dcas,cat_12,Casanare,depto,dcas,1
+cat_12dces,cat_12,Cesar,depto,dces,2
+cat_12dnar,cat_12,Nariño,depto,dnar,1
+cat_12dnor,cat_12,Norte de Santander,depto,dnor,1
+cat_12dsan,cat_12,Santander,depto,dsan,2
+cat_12dtol,cat_12,Tolima,depto,dtol,1
+cat_12dval,cat_12,Valle del Cauca,depto,dval,9
+cat_13,0,Ordenamiento Territorial,category,cat_13,237
+cat_13dama,cat_13,Amazonas,depto,dama,4
+cat_13dant,cat_13,Antioquia,depto,dant,14
+cat_13dara,cat_13,Arauca,depto,dara,9
+cat_13datl,cat_13,Atlántico,depto,datl,10
+cat_13dbog,cat_13,Bogotá D.C.,depto,dbog,10
+cat_13dbol,cat_13,Bolívar,depto,dbol,3
+cat_13dboy,cat_13,Boyacá,depto,dboy,8
+cat_13dcal,cat_13,Caldas,depto,dcal,6
+cat_13dcas,cat_13,Casanare,depto,dcas,4
+cat_13dcau,cat_13,Cauca,depto,dcau,1
+cat_13dces,cat_13,Cesar,depto,dces,1
+cat_13dcun,cat_13,Cundinamarca,depto,dcun,5
+cat_13dgua,cat_13,Guaviare,depto,dgua,2
+cat_13dhui,cat_13,Huila,depto,dhui,6
+cat_13dla ,cat_13,La Guajira,depto,dla ,1
+cat_13dmag,cat_13,Magdalena,depto,dmag,4
+cat_13dmet,cat_13,Meta,depto,dmet,8
+cat_13dnar,cat_13,Nariño,depto,dnar,10
+cat_13dnor,cat_13,Norte de Santander,depto,dnor,16
+cat_13dput,cat_13,Putumayo,depto,dput,3
+cat_13dqui,cat_13,Quindío,depto,dqui,2
+cat_13dris,cat_13,Risaralda,depto,dris,3
+cat_13dsan,cat_13,Santander,depto,dsan,3
+cat_13dsuc,cat_13,Sucre,depto,dsuc,1
+cat_13dtol,cat_13,Tolima,depto,dtol,12
+cat_13dval,cat_13,Valle del Cauca,depto,dval,78
+cat_14,0,Gastos Gubernamentales,category,cat_14,117
+cat_14dant,cat_14,Antioquia,depto,dant,17
+cat_14dara,cat_14,Arauca,depto,dara,2
+cat_14datl,cat_14,Atlántico,depto,datl,1
+cat_14dbog,cat_14,Bogotá D.C.,depto,dbog,70
+cat_14dboy,cat_14,Boyacá,depto,dboy,2
+cat_14dcal,cat_14,Caldas,depto,dcal,1
+cat_14dcau,cat_14,Cauca,depto,dcau,1
+cat_14dgua,cat_14,Guaviare,depto,dgua,1
+cat_14dmet,cat_14,Meta,depto,dmet,3
+cat_14dnar,cat_14,Nariño,depto,dnar,1
+cat_14dput,cat_14,Putumayo,depto,dput,1
+cat_14dqui,cat_14,Quindío,depto,dqui,5
+cat_14dris,cat_14,Risaralda,depto,dris,1
+cat_14dsan,cat_14,Santander,depto,dsan,3
+cat_14dsuc,cat_14,Sucre,depto,dsuc,4
+cat_14dtol,cat_14,Tolima,depto,dtol,1
+cat_14dval,cat_14,Valle del Cauca,depto,dval,3
+cat_15,0,"Vivienda, Ciudad y Territorio",category,cat_15,181
+cat_15dant,cat_15,Antioquia,depto,dant,14
+cat_15dara,cat_15,Arauca,depto,dara,1
+cat_15datl,cat_15,Atlántico,depto,datl,5
+cat_15dbog,cat_15,Bogotá D.C.,depto,dbog,44
+cat_15dboy,cat_15,Boyacá,depto,dboy,15
+cat_15dcal,cat_15,Caldas,depto,dcal,2
+cat_15dcaq,cat_15,Caquetá,depto,dcaq,1
+cat_15dcas,cat_15,Casanare,depto,dcas,2
+cat_15dcau,cat_15,Cauca,depto,dcau,1
+cat_15dces,cat_15,Cesar,depto,dces,3
+cat_15dcór,cat_15,Córdoba,depto,dcór,1
+cat_15dcun,cat_15,Cundinamarca,depto,dcun,11
+cat_15dgua,cat_15,Guaviare,depto,dgua,1
+cat_15dmag,cat_15,Magdalena,depto,dmag,1
+cat_15dmet,cat_15,Meta,depto,dmet,2
+cat_15dnar,cat_15,Nariño,depto,dnar,1
+cat_15dnor,cat_15,Norte de Santander,depto,dnor,14
+cat_15dput,cat_15,Putumayo,depto,dput,5
+cat_15dqui,cat_15,Quindío,depto,dqui,3
+cat_15dris,cat_15,Risaralda,depto,dris,3
+cat_15dsan,cat_15,Santander,depto,dsan,1
+cat_15dsuc,cat_15,Sucre,depto,dsuc,5
+cat_15dtol,cat_15,Tolima,depto,dtol,28
+cat_15dval,cat_15,Valle del Cauca,depto,dval,17
+cat_16,0,Seguridad y Defensa,category,cat_16,334
+cat_16dant,cat_16,Antioquia,depto,dant,3
+cat_16dara,cat_16,Arauca,depto,dara,1
+cat_16darc,cat_16,"Archipiélago de San Andrés, Providencia y Santa Catalina",depto,darc,2
+cat_16datl,cat_16,Atlántico,depto,datl,1
+cat_16dbog,cat_16,Bogotá D.C.,depto,dbog,253
+cat_16dbog,cat_16,Bogotá D.C,depto,dbog,1
+cat_16dbol,cat_16,Bolívar,depto,dbol,3
+cat_16dcas,cat_16,Casanare,depto,dcas,1
+cat_16dcór,cat_16,Córdoba,depto,dcór,1
+cat_16dcun,cat_16,Cundinamarca,depto,dcun,7
+cat_16dmet,cat_16,Meta,depto,dmet,3
+cat_16dnar,cat_16,Nariño,depto,dnar,3
+cat_16dnor,cat_16,Norte de Santander,depto,dnor,39
+cat_16dput,cat_16,Putumayo,depto,dput,1
+cat_16dqui,cat_16,Quindío,depto,dqui,2
+cat_16dsan,cat_16,Santander,depto,dsan,1
+cat_16dsuc,cat_16,Sucre,depto,dsuc,1
+cat_16dtol,cat_16,Tolima,depto,dtol,3
+cat_16dval,cat_16,Valle del Cauca,depto,dval,8
+cat_17,0,"Ciencia, Tecnología e Innovación",category,cat_17,308
+cat_17dama,cat_17,Amazonas,depto,dama,1
+cat_17dant,cat_17,Antioquia,depto,dant,8
+cat_17dara,cat_17,Arauca,depto,dara,1
+cat_17datl,cat_17,Atlántico,depto,datl,15
+cat_17dbog,cat_17,Bogotá D.C.,depto,dbog,194
+cat_17dbog,cat_17,Bogotá D.C,depto,dbog,1
+cat_17dboy,cat_17,Boyacá,depto,dboy,5
+cat_17dcal,cat_17,Caldas,depto,dcal,4
+cat_17dcas,cat_17,Casanare,depto,dcas,2
+cat_17dces,cat_17,Cesar,depto,dces,1
+cat_17dcun,cat_17,Cundinamarca,depto,dcun,3
+cat_17dgua,cat_17,Guaviare,depto,dgua,2
+cat_17dhui,cat_17,Huila,depto,dhui,1
+cat_17dmag,cat_17,Magdalena,depto,dmag,2
+cat_17dmet,cat_17,Meta,depto,dmet,14
+cat_17dnar,cat_17,Nariño,depto,dnar,4
+cat_17dnor,cat_17,Norte de Santander,depto,dnor,11
+cat_17dqui,cat_17,Quindío,depto,dqui,2
+cat_17dris,cat_17,Risaralda,depto,dris,7
+cat_17dsan,cat_17,Santander,depto,dsan,5
+cat_17dsuc,cat_17,Sucre,depto,dsuc,3
+cat_17dtol,cat_17,Tolima,depto,dtol,3
+cat_17dval,cat_17,Valle del Cauca,depto,dval,19
+cat_18,0,Agricultura y Desarrollo Rural,category,cat_18,435
+cat_18dama,cat_18,Amazonas,depto,dama,1
+cat_18dant,cat_18,Antioquia,depto,dant,22
+cat_18dara,cat_18,Arauca,depto,dara,3
+cat_18darc,cat_18,"Archipiélago de San Andrés, Providencia y Santa Catalina",depto,darc,2
+cat_18datl,cat_18,Atlántico,depto,datl,3
+cat_18dbog,cat_18,Bogotá D.C.,depto,dbog,131
+cat_18dbol,cat_18,Bolívar,depto,dbol,3
+cat_18dboy,cat_18,Boyacá,depto,dboy,28
+cat_18dcal,cat_18,Caldas,depto,dcal,2
+cat_18dcaq,cat_18,Caquetá,depto,dcaq,1
+cat_18dcas,cat_18,Casanare,depto,dcas,4
+cat_18dces,cat_18,Cesar,depto,dces,8
+cat_18dcór,cat_18,Córdoba,depto,dcór,2
+cat_18dcun,cat_18,Cundinamarca,depto,dcun,20
+cat_18dhui,cat_18,Huila,depto,dhui,5
+cat_18dla ,cat_18,La Guajira,depto,dla ,1
+cat_18dmag,cat_18,Magdalena,depto,dmag,1
+cat_18dmet,cat_18,Meta,depto,dmet,40
+cat_18dnar,cat_18,Nariño,depto,dnar,2
+cat_18dnor,cat_18,Norte de Santander,depto,dnor,22
+cat_18dqui,cat_18,Quindío,depto,dqui,2
+cat_18dris,cat_18,Risaralda,depto,dris,27
+cat_18dsan,cat_18,Santander,depto,dsan,5
+cat_18dsuc,cat_18,Sucre,depto,dsuc,18
+cat_18dtol,cat_18,Tolima,depto,dtol,34
+cat_18dval,cat_18,Valle del Cauca,depto,dval,48
+cat_19,0,Organismos de Control,category,cat_19,179
+cat_19dama,cat_19,Amazonas,depto,dama,7
+cat_19dant,cat_19,Antioquia,depto,dant,70
+cat_19darc,cat_19,"Archipiélago de San Andrés, Providencia y Santa Catalina",depto,darc,3
+cat_19datl,cat_19,Atlántico,depto,datl,7
+cat_19dbog,cat_19,Bogotá D.C.,depto,dbog,35
+cat_19dboy,cat_19,Boyacá,depto,dboy,6
+cat_19dcal,cat_19,Caldas,depto,dcal,4
+cat_19dcór,cat_19,Córdoba,depto,dcór,3
+cat_19dcun,cat_19,Cundinamarca,depto,dcun,5
+cat_19dla ,cat_19,La Guajira,depto,dla ,1
+cat_19dmag,cat_19,Magdalena,depto,dmag,3
+cat_19dmet,cat_19,Meta,depto,dmet,5
+cat_19dnar,cat_19,Nariño,depto,dnar,2
+cat_19dnor,cat_19,Norte de Santander,depto,dnor,5
+cat_19dput,cat_19,Putumayo,depto,dput,1
+cat_19dqui,cat_19,Quindío,depto,dqui,5
+cat_19dsan,cat_19,Santander,depto,dsan,2
+cat_19dtol,cat_19,Tolima,depto,dtol,1
+cat_19dval,cat_19,Valle del Cauca,depto,dval,14
+cat_1dant,cat_1,Antioquia,depto,dant,3
+cat_1darc,cat_1,"Archipiélago de San Andrés, Providencia y Santa Catalina",depto,darc,3
+cat_1datl,cat_1,Atlántico,depto,datl,1
+cat_1dbog,cat_1,Bogotá D.C.,depto,dbog,72
+cat_1dboy,cat_1,Boyacá,depto,dboy,31
+cat_1dcal,cat_1,Caldas,depto,dcal,6
+cat_1dcas,cat_1,Casanare,depto,dcas,7
+cat_1dcau,cat_1,Cauca,depto,dcau,1
+cat_1dces,cat_1,Cesar,depto,dces,1
+cat_1dcór,cat_1,Córdoba,depto,dcór,6
+cat_1dcun,cat_1,Cundinamarca,depto,dcun,34
+cat_1dhui,cat_1,Huila,depto,dhui,4
+cat_1dmag,cat_1,Magdalena,depto,dmag,6
+cat_1dmet,cat_1,Meta,depto,dmet,2
+cat_1dnor,cat_1,Norte de Santander,depto,dnor,18
+cat_1dqui,cat_1,Quindío,depto,dqui,1
+cat_1dris,cat_1,Risaralda,depto,dris,10
+cat_1dsan,cat_1,Santander,depto,dsan,16
+cat_1dsuc,cat_1,Sucre,depto,dsuc,2
+cat_1dtol,cat_1,Tolima,depto,dtol,6
+cat_1dval,cat_1,Valle del Cauca,depto,dval,32
+cat_2,0,Salud y Protección Social,category,cat_2,795
+cat_20,0,Deporte y Recreación,category,cat_20,57
+cat_20dant,cat_20,Antioquia,depto,dant,7
+cat_20dara,cat_20,Arauca,depto,dara,1
+cat_20datl,cat_20,Atlántico,depto,datl,8
+cat_20dbog,cat_20,Bogotá D.C.,depto,dbog,6
+cat_20dboy,cat_20,Boyacá,depto,dboy,2
+cat_20dcal,cat_20,Caldas,depto,dcal,2
+cat_20dcaq,cat_20,Caquetá,depto,dcaq,4
+cat_20dcas,cat_20,Casanare,depto,dcas,4
+cat_20dcun,cat_20,Cundinamarca,depto,dcun,6
+cat_20dmag,cat_20,Magdalena,depto,dmag,1
+cat_20dmet,cat_20,Meta,depto,dmet,1
+cat_20dnor,cat_20,Norte de Santander,depto,dnor,3
+cat_20dris,cat_20,Risaralda,depto,dris,2
+cat_20dtol,cat_20,Tolima,depto,dtol,3
+cat_20dval,cat_20,Valle del Cauca,depto,dval,7
+cat_21,0,Economía y Finanzas,category,cat_21,239
+cat_21dant,cat_21,Antioquia,depto,dant,8
+cat_21darc,cat_21,"Archipiélago de San Andrés, Providencia y Santa Catalina",depto,darc,1
+cat_21datl,cat_21,Atlántico,depto,datl,3
+cat_21dbog,cat_21,Bogotá D.C.,depto,dbog,83
+cat_21dboy,cat_21,Boyacá,depto,dboy,17
+cat_21dcal,cat_21,Caldas,depto,dcal,10
+cat_21dcas,cat_21,Casanare,depto,dcas,2
+cat_21dcau,cat_21,Cauca,depto,dcau,17
+cat_21dcho,cat_21,Chocó,depto,dcho,1
+cat_21dcór,cat_21,Córdoba,depto,dcór,2
+cat_21dcun,cat_21,Cundinamarca,depto,dcun,5
+cat_21dgua,cat_21,Guaviare,depto,dgua,1
+cat_21dhui,cat_21,Huila,depto,dhui,5
+cat_21dmet,cat_21,Meta,depto,dmet,3
+cat_21dnar,cat_21,Nariño,depto,dnar,3
+cat_21dnor,cat_21,Norte de Santander,depto,dnor,3
+cat_21dqui,cat_21,Quindío,depto,dqui,8
+cat_21dris,cat_21,Risaralda,depto,dris,13
+cat_21dsan,cat_21,Santander,depto,dsan,14
+cat_21dsuc,cat_21,Sucre,depto,dsuc,2
+cat_21dtol,cat_21,Tolima,depto,dtol,24
+cat_21dval,cat_21,Valle del Cauca,depto,dval,13
+cat_21dvic,cat_21,Vichada,depto,dvic,1
+cat_22,0,Transporte,category,cat_22,296
+cat_22dama,cat_22,Amazonas,depto,dama,1
+cat_22dant,cat_22,Antioquia,depto,dant,47
+cat_22dara,cat_22,Arauca,depto,dara,2
+cat_22darc,cat_22,"Archipiélago de San Andrés, Providencia y Santa Catalina",depto,darc,1
+cat_22datl,cat_22,Atlántico,depto,datl,3
+cat_22dbog,cat_22,Bogotá D.C.,depto,dbog,83
+cat_22dbol,cat_22,Bolívar,depto,dbol,1
+cat_22dboy,cat_22,Boyacá,depto,dboy,16
+cat_22dcal,cat_22,Caldas,depto,dcal,28
+cat_22dcas,cat_22,Casanare,depto,dcas,2
+cat_22dcór,cat_22,Córdoba,depto,dcór,2
+cat_22dcun,cat_22,Cundinamarca,depto,dcun,11
+cat_22dgua,cat_22,Guaviare,depto,dgua,1
+cat_22dhui,cat_22,Huila,depto,dhui,1
+cat_22dmet,cat_22,Meta,depto,dmet,2
+cat_22dnar,cat_22,Nariño,depto,dnar,1
+cat_22dnor,cat_22,Norte de Santander,depto,dnor,13
+cat_22dqui,cat_22,Quindío,depto,dqui,9
+cat_22dris,cat_22,Risaralda,depto,dris,3
+cat_22dsan,cat_22,Santander,depto,dsan,12
+cat_22dsuc,cat_22,Sucre,depto,dsuc,3
+cat_22dtol,cat_22,Tolima,depto,dtol,14
+cat_22dval,cat_22,Valle del Cauca,depto,dval,39
+cat_23,0,cobertura:Nacional,category,cat_23,1
+cat_24,0,Presupuestos Gubernamentales,category,cat_24,35
+cat_24dant,cat_24,Antioquia,depto,dant,10
+cat_24datl,cat_24,Atlántico,depto,datl,2
+cat_24dbog,cat_24,Bogotá D.C.,depto,dbog,2
+cat_24dboy,cat_24,Boyacá,depto,dboy,1
+cat_24dcaq,cat_24,Caquetá,depto,dcaq,1
+cat_24dcas,cat_24,Casanare,depto,dcas,2
+cat_24dcau,cat_24,Cauca,depto,dcau,2
+cat_24dmet,cat_24,Meta,depto,dmet,3
+cat_24dnar,cat_24,Nariño,depto,dnar,2
+cat_24dnor,cat_24,Norte de Santander,depto,dnor,3
+cat_24dqui,cat_24,Quindío,depto,dqui,2
+cat_24dsan,cat_24,Santander,depto,dsan,1
+cat_24dtol,cat_24,Tolima,depto,dtol,4
+cat_25,0,Cultura,category,cat_25,207
+cat_25dama,cat_25,Amazonas,depto,dama,1
+cat_25dant,cat_25,Antioquia,depto,dant,4
+cat_25dara,cat_25,Arauca,depto,dara,2
+cat_25datl,cat_25,Atlántico,depto,datl,19
+cat_25dbog,cat_25,Bogotá D.C.,depto,dbog,37
+cat_25dboy,cat_25,Boyacá,depto,dboy,23
+cat_25dcal,cat_25,Caldas,depto,dcal,2
+cat_25dcas,cat_25,Casanare,depto,dcas,5
+cat_25dces,cat_25,Cesar,depto,dces,1
+cat_25dcho,cat_25,Chocó,depto,dcho,1
+cat_25dcór,cat_25,Córdoba,depto,dcór,2
+cat_25dcun,cat_25,Cundinamarca,depto,dcun,26
+cat_25dgua,cat_25,Guainía,depto,dgua,1
+cat_25dgua,cat_25,Guaviare,depto,dgua,1
+cat_25dhui,cat_25,Huila,depto,dhui,7
+cat_25dla ,cat_25,La Guajira,depto,dla ,1
+cat_25dmag,cat_25,Magdalena,depto,dmag,2
+cat_25dmet,cat_25,Meta,depto,dmet,5
+cat_25dnar,cat_25,Nariño,depto,dnar,2
+cat_25dnor,cat_25,Norte de Santander,depto,dnor,4
+cat_25dput,cat_25,Putumayo,depto,dput,6
+cat_25dqui,cat_25,Quindío,depto,dqui,7
+cat_25dris,cat_25,Risaralda,depto,dris,2
+cat_25dsan,cat_25,Santander,depto,dsan,12
+cat_25dsuc,cat_25,Sucre,depto,dsuc,3
+cat_25dtol,cat_25,Tolima,depto,dtol,16
+cat_25dval,cat_25,Valle del Cauca,depto,dval,14
+cat_25dvic,cat_25,Vichada,depto,dvic,1
+cat_26,0,Hacienda y Crédito Público,category,cat_26,235
+cat_26dant,cat_26,Antioquia,depto,dant,13
+cat_26dara,cat_26,Arauca,depto,dara,2
+cat_26datl,cat_26,Atlántico,depto,datl,2
+cat_26dbog,cat_26,Bogotá D.C.,depto,dbog,145
+cat_26dboy,cat_26,Boyacá,depto,dboy,1
+cat_26dcas,cat_26,Casanare,depto,dcas,2
+cat_26dcau,cat_26,Cauca,depto,dcau,5
+cat_26dces,cat_26,Cesar,depto,dces,1
+cat_26dcór,cat_26,Córdoba,depto,dcór,3
+cat_26dcun,cat_26,Cundinamarca,depto,dcun,7
+cat_26dmet,cat_26,Meta,depto,dmet,2
+cat_26dnar,cat_26,Nariño,depto,dnar,2
+cat_26dnor,cat_26,Norte de Santander,depto,dnor,5
+cat_26dput,cat_26,Putumayo,depto,dput,1
+cat_26dqui,cat_26,Quindío,depto,dqui,5
+cat_26dris,cat_26,Risaralda,depto,dris,4
+cat_26dsuc,cat_26,Sucre,depto,dsuc,8
+cat_26dtol,cat_26,Tolima,depto,dtol,3
+cat_26dval,cat_26,Valle del Cauca,depto,dval,24
+cat_27,0,Justicia y Derecho,category,cat_27,131
+cat_27dama,cat_27,Amazonas,depto,dama,1
+cat_27dant,cat_27,Antioquia,depto,dant,4
+cat_27dara,cat_27,Arauca,depto,dara,1
+cat_27datl,cat_27,Atlántico,depto,datl,1
+cat_27dbog,cat_27,Bogotá D.C.,depto,dbog,68
+cat_27dboy,cat_27,Boyacá,depto,dboy,2
+cat_27dcal,cat_27,Caldas,depto,dcal,2
+cat_27dcau,cat_27,Cauca,depto,dcau,1
+cat_27dces,cat_27,Cesar,depto,dces,1
+cat_27dcun,cat_27,Cundinamarca,depto,dcun,15
+cat_27dmet,cat_27,Meta,depto,dmet,3
+cat_27dnor,cat_27,Norte de Santander,depto,dnor,6
+cat_27dqui,cat_27,Quindío,depto,dqui,1
+cat_27dsuc,cat_27,Sucre,depto,dsuc,1
+cat_27dval,cat_27,Valle del Cauca,depto,dval,24
+cat_28,0,Participación ciudadana,category,cat_28,154
+cat_28dama,cat_28,Amazonas,depto,dama,1
+cat_28dant,cat_28,Antioquia,depto,dant,6
+cat_28datl,cat_28,Atlántico,depto,datl,6
+cat_28dbog,cat_28,Bogotá D.C.,depto,dbog,44
+cat_28dboy,cat_28,Boyacá,depto,dboy,7
+cat_28dcal,cat_28,Caldas,depto,dcal,2
+cat_28dcaq,cat_28,Caquetá,depto,dcaq,1
+cat_28dcas,cat_28,Casanare,depto,dcas,7
+cat_28dcau,cat_28,Cauca,depto,dcau,1
+cat_28dces,cat_28,Cesar,depto,dces,5
+cat_28dcho,cat_28,Chocó,depto,dcho,1
+cat_28dcór,cat_28,Córdoba,depto,dcór,1
+cat_28dcun,cat_28,Cundinamarca,depto,dcun,9
+cat_28dgua,cat_28,Guaviare,depto,dgua,4
+cat_28dhui,cat_28,Huila,depto,dhui,1
+cat_28dmet,cat_28,Meta,depto,dmet,9
+cat_28dnar,cat_28,Nariño,depto,dnar,1
+cat_28dnor,cat_28,Norte de Santander,depto,dnor,4
+cat_28dqui,cat_28,Quindío,depto,dqui,2
+cat_28dris,cat_28,Risaralda,depto,dris,5
+cat_28dsan,cat_28,Santander,depto,dsan,7
+cat_28dsuc,cat_28,Sucre,depto,dsuc,2
+cat_28dtol,cat_28,Tolima,depto,dtol,5
+cat_28dval,cat_28,Valle del Cauca,depto,dval,21
+cat_28dvic,cat_28,Vichada,depto,dvic,2
+cat_2dama,cat_2,Amazonas,depto,dama,5
+cat_2dant,cat_2,Antioquia,depto,dant,77
+cat_2dara,cat_2,Arauca,depto,dara,3
+cat_2darc,cat_2,"Archipiélago de San Andrés, Providencia y Santa Catalina",depto,darc,9
+cat_2datl,cat_2,Atlántico,depto,datl,10
+cat_2dbog,cat_2,Bogotá D.C.,depto,dbog,169
+cat_2dbol,cat_2,Bolívar,depto,dbol,16
+cat_2dboy,cat_2,Boyacá,depto,dboy,38
+cat_2dcal,cat_2,Caldas,depto,dcal,61
+cat_2dcaq,cat_2,Caquetá,depto,dcaq,3
+cat_2dcas,cat_2,Casanare,depto,dcas,16
+cat_2dcau,cat_2,Cauca,depto,dcau,5
+cat_2dces,cat_2,Cesar,depto,dces,10
+cat_2dcho,cat_2,Chocó,depto,dcho,1
+cat_2dcór,cat_2,Córdoba,depto,dcór,6
+cat_2dcun,cat_2,Cundinamarca,depto,dcun,34
+cat_2dgua,cat_2,Guaviare,depto,dgua,2
+cat_2dhui,cat_2,Huila,depto,dhui,25
+cat_2dla ,cat_2,La Guajira,depto,dla ,1
+cat_2dmag,cat_2,Magdalena,depto,dmag,9
+cat_2dmet,cat_2,Meta,depto,dmet,19
+cat_2dnar,cat_2,Nariño,depto,dnar,24
+cat_2dnor,cat_2,Norte de Santander,depto,dnor,60
+cat_2dput,cat_2,Putumayo,depto,dput,6
+cat_2dqui,cat_2,Quindío,depto,dqui,11
+cat_2dris,cat_2,Risaralda,depto,dris,8
+cat_2dsan,cat_2,Santander,depto,dsan,27
+cat_2dsuc,cat_2,Sucre,depto,dsuc,9
+cat_2dtol,cat_2,Tolima,depto,dtol,37
+cat_2dval,cat_2,Valle del Cauca,depto,dval,94
+cat_3,0,Resultados Electorales,category,cat_3,10
+cat_3dama,cat_3,Amazonas,depto,dama,2
+cat_3datl,cat_3,Atlántico,depto,datl,2
+cat_3dbog,cat_3,Bogotá D.C.,depto,dbog,2
+cat_3dcaq,cat_3,Caquetá,depto,dcaq,1
+cat_3dnor,cat_3,Norte de Santander,depto,dnor,2
+cat_3dtol,cat_3,Tolima,depto,dtol,1
+cat_4,0,Educación,category,cat_4,874
+cat_4dama,cat_4,Amazonas,depto,dama,3
+cat_4dant,cat_4,Antioquia,depto,dant,74
+cat_4dara,cat_4,Arauca,depto,dara,7
+cat_4darc,cat_4,"Archipiélago de San Andrés, Providencia y Santa Catalina",depto,darc,8
+cat_4datl,cat_4,Atlántico,depto,datl,40
+cat_4dbog,cat_4,Bogotá D.C.,depto,dbog,201
+cat_4dbol,cat_4,Bolívar,depto,dbol,4
+cat_4dboy,cat_4,Boyacá,depto,dboy,119
+cat_4dcal,cat_4,Caldas,depto,dcal,8
+cat_4dcaq,cat_4,Caquetá,depto,dcaq,7
+cat_4dcas,cat_4,Casanare,depto,dcas,18
+cat_4dcau,cat_4,Cauca,depto,dcau,13
+cat_4dces,cat_4,Cesar,depto,dces,7
+cat_4dcho,cat_4,Chocó,depto,dcho,1
+cat_4dcór,cat_4,Córdoba,depto,dcór,8
+cat_4dcun,cat_4,Cundinamarca,depto,dcun,31
+cat_4dgua,cat_4,Guaviare,depto,dgua,4
+cat_4dhui,cat_4,Huila,depto,dhui,17
+cat_4dla ,cat_4,La Guajira,depto,dla ,7
+cat_4dmag,cat_4,Magdalena,depto,dmag,4
+cat_4dmet,cat_4,Meta,depto,dmet,22
+cat_4dnar,cat_4,Nariño,depto,dnar,14
+cat_4dnor,cat_4,Norte de Santander,depto,dnor,26
+cat_4dput,cat_4,Putumayo,depto,dput,8
+cat_4dqui,cat_4,Quindío,depto,dqui,23
+cat_4dris,cat_4,Risaralda,depto,dris,28
+cat_4dsan,cat_4,Santander,depto,dsan,54
+cat_4dsuc,cat_4,Sucre,depto,dsuc,8
+cat_4dtol,cat_4,Tolima,depto,dtol,42
+cat_4dval,cat_4,Valle del Cauca,depto,dval,67
+cat_4dvic,cat_4,Vichada,depto,dvic,1
+cat_5,0,Inclusión Social y Reconciliación,category,cat_5,335
+cat_5dant,cat_5,Antioquia,depto,dant,27
+cat_5dara,cat_5,Arauca,depto,dara,1
+cat_5datl,cat_5,Atlántico,depto,datl,11
+cat_5dbog,cat_5,Bogotá D.C.,depto,dbog,87
+cat_5dbol,cat_5,Bolívar,depto,dbol,3
+cat_5dboy,cat_5,Boyacá,depto,dboy,26
+cat_5dcal,cat_5,Caldas,depto,dcal,16
+cat_5dcas,cat_5,Casanare,depto,dcas,7
+cat_5dcau,cat_5,Cauca,depto,dcau,14
+cat_5dces,cat_5,Cesar,depto,dces,2
+cat_5dcho,cat_5,Chocó,depto,dcho,1
+cat_5dcun,cat_5,Cundinamarca,depto,dcun,7
+cat_5dgua,cat_5,Guaviare,depto,dgua,1
+cat_5dla ,cat_5,La Guajira,depto,dla ,12
+cat_5dmag,cat_5,Magdalena,depto,dmag,1
+cat_5dmet,cat_5,Meta,depto,dmet,28
+cat_5dnar,cat_5,Nariño,depto,dnar,3
+cat_5dnor,cat_5,Norte de Santander,depto,dnor,22
+cat_5dput,cat_5,Putumayo,depto,dput,1
+cat_5dqui,cat_5,Quindío,depto,dqui,10
+cat_5dris,cat_5,Risaralda,depto,dris,8
+cat_5dsan,cat_5,Santander,depto,dsan,7
+cat_5dtol,cat_5,Tolima,depto,dtol,6
+cat_5dval,cat_5,Valle del Cauca,depto,dval,34
+cat_6,0,Minas y Energía,category,cat_6,182
+cat_6dant,cat_6,Antioquia,depto,dant,2
+cat_6dbog,cat_6,Bogotá D.C.,depto,dbog,152
+cat_6dboy,cat_6,Boyacá,depto,dboy,1
+cat_6dcal,cat_6,Caldas,depto,dcal,1
+cat_6dcas,cat_6,Casanare,depto,dcas,1
+cat_6dces,cat_6,Cesar,depto,dces,1
+cat_6dcun,cat_6,Cundinamarca,depto,dcun,1
+cat_6dnor,cat_6,Norte de Santander,depto,dnor,3
+cat_6dqui,cat_6,Quindío,depto,dqui,9
+cat_6dsan,cat_6,Santander,depto,dsan,9
+cat_6dsuc,cat_6,Sucre,depto,dsuc,1
+cat_6dtol,cat_6,Tolima,depto,dtol,1
+cat_7,0,Función pública,category,cat_7,670
+cat_7dama,cat_7,Amazonas,depto,dama,3
+cat_7dant,cat_7,Antioquia,depto,dant,47
+cat_7dara,cat_7,Arauca,depto,dara,4
+cat_7datl,cat_7,Atlántico,depto,datl,31
+cat_7dbog,cat_7,Bogotá D.C.,depto,dbog,109
+cat_7dbol,cat_7,Bolívar,depto,dbol,1
+cat_7dboy,cat_7,Boyacá,depto,dboy,35
+cat_7dcal,cat_7,Caldas,depto,dcal,5
+cat_7dcas,cat_7,Casanare,depto,dcas,8
+cat_7dcau,cat_7,Cauca,depto,dcau,31
+cat_7dces,cat_7,Cesar,depto,dces,7
+cat_7dcho,cat_7,Chocó,depto,dcho,1
+cat_7dcór,cat_7,Córdoba,depto,dcór,1
+cat_7dcun,cat_7,Cundinamarca,depto,dcun,32
+cat_7dgua,cat_7,Guaviare,depto,dgua,15
+cat_7dhui,cat_7,Huila,depto,dhui,6
+cat_7dla ,cat_7,La Guajira,depto,dla ,7
+cat_7dmag,cat_7,Magdalena,depto,dmag,11
+cat_7dmet,cat_7,Meta,depto,dmet,36
+cat_7dnar,cat_7,Nariño,depto,dnar,55
+cat_7dnor,cat_7,Norte de Santander,depto,dnor,19
+cat_7dput,cat_7,Putumayo,depto,dput,3
+cat_7dqui,cat_7,Quindío,depto,dqui,11
+cat_7dris,cat_7,Risaralda,depto,dris,112
+cat_7dsan,cat_7,Santander,depto,dsan,11
+cat_7dsuc,cat_7,Sucre,depto,dsuc,5
+cat_7dtol,cat_7,Tolima,depto,dtol,11
+cat_7dval,cat_7,Valle del Cauca,depto,dval,50
+cat_7dvic,cat_7,Vichada,depto,dvic,3
+cat_8,0,Estadísticas Nacionales,category,cat_8,218
+cat_8dant,cat_8,Antioquia,depto,dant,7
+cat_8datl,cat_8,Atlántico,depto,datl,1
+cat_8dbog,cat_8,Bogotá D.C.,depto,dbog,99
+cat_8dboy,cat_8,Boyacá,depto,dboy,4
+cat_8dcal,cat_8,Caldas,depto,dcal,1
+cat_8dcaq,cat_8,Caquetá,depto,dcaq,1
+cat_8dcas,cat_8,Casanare,depto,dcas,1
+cat_8dcun,cat_8,Cundinamarca,depto,dcun,82
+cat_8dla ,cat_8,La Guajira,depto,dla ,1
+cat_8dnar,cat_8,Nariño,depto,dnar,2
+cat_8dnor,cat_8,Norte de Santander,depto,dnor,1
+cat_8dput,cat_8,Putumayo,depto,dput,1
+cat_8dqui,cat_8,Quindío,depto,dqui,2
+cat_8dsan,cat_8,Santander,depto,dsan,2
+cat_8dtol,cat_8,Tolima,depto,dtol,4
+cat_8dval,cat_8,Valle del Cauca,depto,dval,6
+cat_9,0,Trabajo,category,cat_9,32
+cat_9dbog,cat_9,Bogotá D.C.,depto,dbog,19
+cat_9dcal,cat_9,Caldas,depto,dcal,1
+cat_9dcaq,cat_9,Caquetá,depto,dcaq,1
+cat_9dces,cat_9,Cesar,depto,dces,1
+cat_9dcun,cat_9,Cundinamarca,depto,dcun,2
+cat_9dmet,cat_9,Meta,depto,dmet,1
+cat_9dnor,cat_9,Norte de Santander,depto,dnor,1
+cat_9dqui,cat_9,Quindío,depto,dqui,1
+cat_9dris,cat_9,Risaralda,depto,dris,1
+cat_9dsan,cat_9,Santander,depto,dsan,1
+cat_9dtol,cat_9,Tolima,depto,dtol,1
+cat_9dval,cat_9,Valle del Cauca,depto,dval,2

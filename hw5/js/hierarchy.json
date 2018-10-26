@@ -1,0 +1,4762 @@
+[
+  {
+    "id": 0,
+    "parent": "",
+    "label": "datos.gov.co",
+    "type": "center",
+    "code": 0,
+    "value": 7266
+  },
+  {
+    "id": "cat_1",
+    "parent": 0,
+    "label": "Ambiente y Desarrollo Sostenible",
+    "type": "category",
+    "code": "cat_1",
+    "value": 268
+  },
+  {
+    "id": "cat_10",
+    "parent": 0,
+    "label": "Comercio, Industria y Turismo",
+    "type": "category",
+    "code": "cat_10",
+    "value": 321
+  },
+  {
+    "id": "cat_10dama",
+    "parent": "cat_10",
+    "label": "Amazonas",
+    "type": "depto",
+    "code": "dama",
+    "value": 4
+  },
+  {
+    "id": "cat_10dant",
+    "parent": "cat_10",
+    "label": "Antioquia",
+    "type": "depto",
+    "code": "dant",
+    "value": 12
+  },
+  {
+    "id": "cat_10darc",
+    "parent": "cat_10",
+    "label": "Archipiélago de San Andrés, Providencia y Santa Catalina",
+    "type": "depto",
+    "code": "darc",
+    "value": 8
+  },
+  {
+    "id": "cat_10datl",
+    "parent": "cat_10",
+    "label": "Atlántico",
+    "type": "depto",
+    "code": "datl",
+    "value": 15
+  },
+  {
+    "id": "cat_10dbog",
+    "parent": "cat_10",
+    "label": "Bogotá D.C.",
+    "type": "depto",
+    "code": "dbog",
+    "value": 38
+  },
+  {
+    "id": "cat_10dbol",
+    "parent": "cat_10",
+    "label": "Bolívar",
+    "type": "depto",
+    "code": "dbol",
+    "value": 1
+  },
+  {
+    "id": "cat_10dboy",
+    "parent": "cat_10",
+    "label": "Boyacá",
+    "type": "depto",
+    "code": "dboy",
+    "value": 23
+  },
+  {
+    "id": "cat_10dcal",
+    "parent": "cat_10",
+    "label": "Caldas",
+    "type": "depto",
+    "code": "dcal",
+    "value": 3
+  },
+  {
+    "id": "cat_10dcaq",
+    "parent": "cat_10",
+    "label": "Caquetá",
+    "type": "depto",
+    "code": "dcaq",
+    "value": 3
+  },
+  {
+    "id": "cat_10dcas",
+    "parent": "cat_10",
+    "label": "Casanare",
+    "type": "depto",
+    "code": "dcas",
+    "value": 25
+  },
+  {
+    "id": "cat_10dcau",
+    "parent": "cat_10",
+    "label": "Cauca",
+    "type": "depto",
+    "code": "dcau",
+    "value": 2
+  },
+  {
+    "id": "cat_10dces",
+    "parent": "cat_10",
+    "label": "Cesar",
+    "type": "depto",
+    "code": "dces",
+    "value": 5
+  },
+  {
+    "id": "cat_10dcho",
+    "parent": "cat_10",
+    "label": "Chocó",
+    "type": "depto",
+    "code": "dcho",
+    "value": 1
+  },
+  {
+    "id": "cat_10dcór",
+    "parent": "cat_10",
+    "label": "Córdoba",
+    "type": "depto",
+    "code": "dcór",
+    "value": 2
+  },
+  {
+    "id": "cat_10dcun",
+    "parent": "cat_10",
+    "label": "Cundinamarca",
+    "type": "depto",
+    "code": "dcun",
+    "value": 39
+  },
+  {
+    "id": "cat_10dgua",
+    "parent": "cat_10",
+    "label": "Guaviare",
+    "type": "depto",
+    "code": "dgua",
+    "value": 2
+  },
+  {
+    "id": "cat_10dhui",
+    "parent": "cat_10",
+    "label": "Huila",
+    "type": "depto",
+    "code": "dhui",
+    "value": 1
+  },
+  {
+    "id": "cat_10dla",
+    "parent": "cat_10",
+    "label": "La Guajira",
+    "type": "depto",
+    "code": "dla",
+    "value": 1
+  },
+  {
+    "id": "cat_10dmet",
+    "parent": "cat_10",
+    "label": "Meta",
+    "type": "depto",
+    "code": "dmet",
+    "value": 11
+  },
+  {
+    "id": "cat_10dnar",
+    "parent": "cat_10",
+    "label": "Nariño",
+    "type": "depto",
+    "code": "dnar",
+    "value": 4
+  },
+  {
+    "id": "cat_10dnor",
+    "parent": "cat_10",
+    "label": "Norte de Santander",
+    "type": "depto",
+    "code": "dnor",
+    "value": 4
+  },
+  {
+    "id": "cat_10dput",
+    "parent": "cat_10",
+    "label": "Putumayo",
+    "type": "depto",
+    "code": "dput",
+    "value": 1
+  },
+  {
+    "id": "cat_10dqui",
+    "parent": "cat_10",
+    "label": "Quindío",
+    "type": "depto",
+    "code": "dqui",
+    "value": 4
+  },
+  {
+    "id": "cat_10dris",
+    "parent": "cat_10",
+    "label": "Risaralda",
+    "type": "depto",
+    "code": "dris",
+    "value": 16
+  },
+  {
+    "id": "cat_10dsan",
+    "parent": "cat_10",
+    "label": "Santander",
+    "type": "depto",
+    "code": "dsan",
+    "value": 5
+  },
+  {
+    "id": "cat_10dsuc",
+    "parent": "cat_10",
+    "label": "Sucre",
+    "type": "depto",
+    "code": "dsuc",
+    "value": 3
+  },
+  {
+    "id": "cat_10dtol",
+    "parent": "cat_10",
+    "label": "Tolima",
+    "type": "depto",
+    "code": "dtol",
+    "value": 50
+  },
+  {
+    "id": "cat_10dval",
+    "parent": "cat_10",
+    "label": "Valle del Cauca",
+    "type": "depto",
+    "code": "dval",
+    "value": 38
+  },
+  {
+    "id": "cat_11",
+    "parent": 0,
+    "label": "",
+    "type": "category",
+    "code": "cat_11",
+    "value": 271
+  },
+  {
+    "id": "cat_11dama",
+    "parent": "cat_11",
+    "label": "Amazonas",
+    "type": "depto",
+    "code": "dama",
+    "value": 1
+  },
+  {
+    "id": "cat_11dant",
+    "parent": "cat_11",
+    "label": "Antioquia",
+    "type": "depto",
+    "code": "dant",
+    "value": 33
+  },
+  {
+    "id": "cat_11datl",
+    "parent": "cat_11",
+    "label": "Atlántico",
+    "type": "depto",
+    "code": "datl",
+    "value": 9
+  },
+  {
+    "id": "cat_11dbog",
+    "parent": "cat_11",
+    "label": "Bogotá D.C.",
+    "type": "depto",
+    "code": "dbog",
+    "value": 51
+  },
+  {
+    "id": "cat_11dbol",
+    "parent": "cat_11",
+    "label": "Bolívar",
+    "type": "depto",
+    "code": "dbol",
+    "value": 1
+  },
+  {
+    "id": "cat_11dboy",
+    "parent": "cat_11",
+    "label": "Boyacá",
+    "type": "depto",
+    "code": "dboy",
+    "value": 24
+  },
+  {
+    "id": "cat_11dcal",
+    "parent": "cat_11",
+    "label": "Caldas",
+    "type": "depto",
+    "code": "dcal",
+    "value": 2
+  },
+  {
+    "id": "cat_11dcaq",
+    "parent": "cat_11",
+    "label": "Caquetá",
+    "type": "depto",
+    "code": "dcaq",
+    "value": 8
+  },
+  {
+    "id": "cat_11dcas",
+    "parent": "cat_11",
+    "label": "Casanare",
+    "type": "depto",
+    "code": "dcas",
+    "value": 10
+  },
+  {
+    "id": "cat_11dcau",
+    "parent": "cat_11",
+    "label": "Cauca",
+    "type": "depto",
+    "code": "dcau",
+    "value": 2
+  },
+  {
+    "id": "cat_11dces",
+    "parent": "cat_11",
+    "label": "Cesar",
+    "type": "depto",
+    "code": "dces",
+    "value": 1
+  },
+  {
+    "id": "cat_11dcho",
+    "parent": "cat_11",
+    "label": "Chocó",
+    "type": "depto",
+    "code": "dcho",
+    "value": 1
+  },
+  {
+    "id": "cat_11dcór",
+    "parent": "cat_11",
+    "label": "Córdoba",
+    "type": "depto",
+    "code": "dcór",
+    "value": 2
+  },
+  {
+    "id": "cat_11dcun",
+    "parent": "cat_11",
+    "label": "Cundinamarca",
+    "type": "depto",
+    "code": "dcun",
+    "value": 36
+  },
+  {
+    "id": "cat_11dgua",
+    "parent": "cat_11",
+    "label": "Guainía",
+    "type": "depto",
+    "code": "dgua",
+    "value": 1
+  },
+  {
+    "id": "cat_11dhui",
+    "parent": "cat_11",
+    "label": "Huila",
+    "type": "depto",
+    "code": "dhui",
+    "value": 1
+  },
+  {
+    "id": "cat_11dla",
+    "parent": "cat_11",
+    "label": "La Guajira",
+    "type": "depto",
+    "code": "dla",
+    "value": 4
+  },
+  {
+    "id": "cat_11dmag",
+    "parent": "cat_11",
+    "label": "Magdalena",
+    "type": "depto",
+    "code": "dmag",
+    "value": 1
+  },
+  {
+    "id": "cat_11dmet",
+    "parent": "cat_11",
+    "label": "Meta",
+    "type": "depto",
+    "code": "dmet",
+    "value": 8
+  },
+  {
+    "id": "cat_11dnar",
+    "parent": "cat_11",
+    "label": "Nariño",
+    "type": "depto",
+    "code": "dnar",
+    "value": 10
+  },
+  {
+    "id": "cat_11dnor",
+    "parent": "cat_11",
+    "label": "Norte de Santander",
+    "type": "depto",
+    "code": "dnor",
+    "value": 4
+  },
+  {
+    "id": "cat_11dput",
+    "parent": "cat_11",
+    "label": "Putumayo",
+    "type": "depto",
+    "code": "dput",
+    "value": 1
+  },
+  {
+    "id": "cat_11dqui",
+    "parent": "cat_11",
+    "label": "Quindío",
+    "type": "depto",
+    "code": "dqui",
+    "value": 2
+  },
+  {
+    "id": "cat_11dris",
+    "parent": "cat_11",
+    "label": "Risaralda",
+    "type": "depto",
+    "code": "dris",
+    "value": 8
+  },
+  {
+    "id": "cat_11dsan",
+    "parent": "cat_11",
+    "label": "Santander",
+    "type": "depto",
+    "code": "dsan",
+    "value": 21
+  },
+  {
+    "id": "cat_11dtol",
+    "parent": "cat_11",
+    "label": "Tolima",
+    "type": "depto",
+    "code": "dtol",
+    "value": 6
+  },
+  {
+    "id": "cat_11dval",
+    "parent": "cat_11",
+    "label": "Valle del Cauca",
+    "type": "depto",
+    "code": "dval",
+    "value": 19
+  },
+  {
+    "id": "cat_11dvic",
+    "parent": "cat_11",
+    "label": "Vichada",
+    "type": "depto",
+    "code": "dvic",
+    "value": 1
+  },
+  {
+    "id": "cat_12",
+    "parent": 0,
+    "label": "Mapas Nacionales",
+    "type": "category",
+    "code": "cat_12",
+    "value": 144
+  },
+  {
+    "id": "cat_12dama",
+    "parent": "cat_12",
+    "label": "Amazonas",
+    "type": "depto",
+    "code": "dama",
+    "value": 2
+  },
+  {
+    "id": "cat_12dant",
+    "parent": "cat_12",
+    "label": "Antioquia",
+    "type": "depto",
+    "code": "dant",
+    "value": 1
+  },
+  {
+    "id": "cat_12darc",
+    "parent": "cat_12",
+    "label": "Archipiélago de San Andrés, Providencia y Santa Catalina",
+    "type": "depto",
+    "code": "darc",
+    "value": 2
+  },
+  {
+    "id": "cat_12datl",
+    "parent": "cat_12",
+    "label": "Atlántico",
+    "type": "depto",
+    "code": "datl",
+    "value": 5
+  },
+  {
+    "id": "cat_12dbog",
+    "parent": "cat_12",
+    "label": "Bogotá D.C.",
+    "type": "depto",
+    "code": "dbog",
+    "value": 34
+  },
+  {
+    "id": "cat_12dboy",
+    "parent": "cat_12",
+    "label": "Boyacá",
+    "type": "depto",
+    "code": "dboy",
+    "value": 2
+  },
+  {
+    "id": "cat_12dcal",
+    "parent": "cat_12",
+    "label": "Caldas",
+    "type": "depto",
+    "code": "dcal",
+    "value": 1
+  },
+  {
+    "id": "cat_12dcas",
+    "parent": "cat_12",
+    "label": "Casanare",
+    "type": "depto",
+    "code": "dcas",
+    "value": 1
+  },
+  {
+    "id": "cat_12dces",
+    "parent": "cat_12",
+    "label": "Cesar",
+    "type": "depto",
+    "code": "dces",
+    "value": 2
+  },
+  {
+    "id": "cat_12dnar",
+    "parent": "cat_12",
+    "label": "Nariño",
+    "type": "depto",
+    "code": "dnar",
+    "value": 1
+  },
+  {
+    "id": "cat_12dnor",
+    "parent": "cat_12",
+    "label": "Norte de Santander",
+    "type": "depto",
+    "code": "dnor",
+    "value": 1
+  },
+  {
+    "id": "cat_12dsan",
+    "parent": "cat_12",
+    "label": "Santander",
+    "type": "depto",
+    "code": "dsan",
+    "value": 2
+  },
+  {
+    "id": "cat_12dtol",
+    "parent": "cat_12",
+    "label": "Tolima",
+    "type": "depto",
+    "code": "dtol",
+    "value": 1
+  },
+  {
+    "id": "cat_12dval",
+    "parent": "cat_12",
+    "label": "Valle del Cauca",
+    "type": "depto",
+    "code": "dval",
+    "value": 9
+  },
+  {
+    "id": "cat_13",
+    "parent": 0,
+    "label": "Ordenamiento Territorial",
+    "type": "category",
+    "code": "cat_13",
+    "value": 237
+  },
+  {
+    "id": "cat_13dama",
+    "parent": "cat_13",
+    "label": "Amazonas",
+    "type": "depto",
+    "code": "dama",
+    "value": 4
+  },
+  {
+    "id": "cat_13dant",
+    "parent": "cat_13",
+    "label": "Antioquia",
+    "type": "depto",
+    "code": "dant",
+    "value": 14
+  },
+  {
+    "id": "cat_13dara",
+    "parent": "cat_13",
+    "label": "Arauca",
+    "type": "depto",
+    "code": "dara",
+    "value": 9
+  },
+  {
+    "id": "cat_13datl",
+    "parent": "cat_13",
+    "label": "Atlántico",
+    "type": "depto",
+    "code": "datl",
+    "value": 10
+  },
+  {
+    "id": "cat_13dbog",
+    "parent": "cat_13",
+    "label": "Bogotá D.C.",
+    "type": "depto",
+    "code": "dbog",
+    "value": 10
+  },
+  {
+    "id": "cat_13dbol",
+    "parent": "cat_13",
+    "label": "Bolívar",
+    "type": "depto",
+    "code": "dbol",
+    "value": 3
+  },
+  {
+    "id": "cat_13dboy",
+    "parent": "cat_13",
+    "label": "Boyacá",
+    "type": "depto",
+    "code": "dboy",
+    "value": 8
+  },
+  {
+    "id": "cat_13dcal",
+    "parent": "cat_13",
+    "label": "Caldas",
+    "type": "depto",
+    "code": "dcal",
+    "value": 6
+  },
+  {
+    "id": "cat_13dcas",
+    "parent": "cat_13",
+    "label": "Casanare",
+    "type": "depto",
+    "code": "dcas",
+    "value": 4
+  },
+  {
+    "id": "cat_13dcau",
+    "parent": "cat_13",
+    "label": "Cauca",
+    "type": "depto",
+    "code": "dcau",
+    "value": 1
+  },
+  {
+    "id": "cat_13dces",
+    "parent": "cat_13",
+    "label": "Cesar",
+    "type": "depto",
+    "code": "dces",
+    "value": 1
+  },
+  {
+    "id": "cat_13dcun",
+    "parent": "cat_13",
+    "label": "Cundinamarca",
+    "type": "depto",
+    "code": "dcun",
+    "value": 5
+  },
+  {
+    "id": "cat_13dgua",
+    "parent": "cat_13",
+    "label": "Guaviare",
+    "type": "depto",
+    "code": "dgua",
+    "value": 2
+  },
+  {
+    "id": "cat_13dhui",
+    "parent": "cat_13",
+    "label": "Huila",
+    "type": "depto",
+    "code": "dhui",
+    "value": 6
+  },
+  {
+    "id": "cat_13dla",
+    "parent": "cat_13",
+    "label": "La Guajira",
+    "type": "depto",
+    "code": "dla",
+    "value": 1
+  },
+  {
+    "id": "cat_13dmag",
+    "parent": "cat_13",
+    "label": "Magdalena",
+    "type": "depto",
+    "code": "dmag",
+    "value": 4
+  },
+  {
+    "id": "cat_13dmet",
+    "parent": "cat_13",
+    "label": "Meta",
+    "type": "depto",
+    "code": "dmet",
+    "value": 8
+  },
+  {
+    "id": "cat_13dnar",
+    "parent": "cat_13",
+    "label": "Nariño",
+    "type": "depto",
+    "code": "dnar",
+    "value": 10
+  },
+  {
+    "id": "cat_13dnor",
+    "parent": "cat_13",
+    "label": "Norte de Santander",
+    "type": "depto",
+    "code": "dnor",
+    "value": 16
+  },
+  {
+    "id": "cat_13dput",
+    "parent": "cat_13",
+    "label": "Putumayo",
+    "type": "depto",
+    "code": "dput",
+    "value": 3
+  },
+  {
+    "id": "cat_13dqui",
+    "parent": "cat_13",
+    "label": "Quindío",
+    "type": "depto",
+    "code": "dqui",
+    "value": 2
+  },
+  {
+    "id": "cat_13dris",
+    "parent": "cat_13",
+    "label": "Risaralda",
+    "type": "depto",
+    "code": "dris",
+    "value": 3
+  },
+  {
+    "id": "cat_13dsan",
+    "parent": "cat_13",
+    "label": "Santander",
+    "type": "depto",
+    "code": "dsan",
+    "value": 3
+  },
+  {
+    "id": "cat_13dsuc",
+    "parent": "cat_13",
+    "label": "Sucre",
+    "type": "depto",
+    "code": "dsuc",
+    "value": 1
+  },
+  {
+    "id": "cat_13dtol",
+    "parent": "cat_13",
+    "label": "Tolima",
+    "type": "depto",
+    "code": "dtol",
+    "value": 12
+  },
+  {
+    "id": "cat_13dval",
+    "parent": "cat_13",
+    "label": "Valle del Cauca",
+    "type": "depto",
+    "code": "dval",
+    "value": 78
+  },
+  {
+    "id": "cat_14",
+    "parent": 0,
+    "label": "Gastos Gubernamentales",
+    "type": "category",
+    "code": "cat_14",
+    "value": 117
+  },
+  {
+    "id": "cat_14dant",
+    "parent": "cat_14",
+    "label": "Antioquia",
+    "type": "depto",
+    "code": "dant",
+    "value": 17
+  },
+  {
+    "id": "cat_14dara",
+    "parent": "cat_14",
+    "label": "Arauca",
+    "type": "depto",
+    "code": "dara",
+    "value": 2
+  },
+  {
+    "id": "cat_14datl",
+    "parent": "cat_14",
+    "label": "Atlántico",
+    "type": "depto",
+    "code": "datl",
+    "value": 1
+  },
+  {
+    "id": "cat_14dbog",
+    "parent": "cat_14",
+    "label": "Bogotá D.C.",
+    "type": "depto",
+    "code": "dbog",
+    "value": 70
+  },
+  {
+    "id": "cat_14dboy",
+    "parent": "cat_14",
+    "label": "Boyacá",
+    "type": "depto",
+    "code": "dboy",
+    "value": 2
+  },
+  {
+    "id": "cat_14dcal",
+    "parent": "cat_14",
+    "label": "Caldas",
+    "type": "depto",
+    "code": "dcal",
+    "value": 1
+  },
+  {
+    "id": "cat_14dcau",
+    "parent": "cat_14",
+    "label": "Cauca",
+    "type": "depto",
+    "code": "dcau",
+    "value": 1
+  },
+  {
+    "id": "cat_14dgua",
+    "parent": "cat_14",
+    "label": "Guaviare",
+    "type": "depto",
+    "code": "dgua",
+    "value": 1
+  },
+  {
+    "id": "cat_14dmet",
+    "parent": "cat_14",
+    "label": "Meta",
+    "type": "depto",
+    "code": "dmet",
+    "value": 3
+  },
+  {
+    "id": "cat_14dnar",
+    "parent": "cat_14",
+    "label": "Nariño",
+    "type": "depto",
+    "code": "dnar",
+    "value": 1
+  },
+  {
+    "id": "cat_14dput",
+    "parent": "cat_14",
+    "label": "Putumayo",
+    "type": "depto",
+    "code": "dput",
+    "value": 1
+  },
+  {
+    "id": "cat_14dqui",
+    "parent": "cat_14",
+    "label": "Quindío",
+    "type": "depto",
+    "code": "dqui",
+    "value": 5
+  },
+  {
+    "id": "cat_14dris",
+    "parent": "cat_14",
+    "label": "Risaralda",
+    "type": "depto",
+    "code": "dris",
+    "value": 1
+  },
+  {
+    "id": "cat_14dsan",
+    "parent": "cat_14",
+    "label": "Santander",
+    "type": "depto",
+    "code": "dsan",
+    "value": 3
+  },
+  {
+    "id": "cat_14dsuc",
+    "parent": "cat_14",
+    "label": "Sucre",
+    "type": "depto",
+    "code": "dsuc",
+    "value": 4
+  },
+  {
+    "id": "cat_14dtol",
+    "parent": "cat_14",
+    "label": "Tolima",
+    "type": "depto",
+    "code": "dtol",
+    "value": 1
+  },
+  {
+    "id": "cat_14dval",
+    "parent": "cat_14",
+    "label": "Valle del Cauca",
+    "type": "depto",
+    "code": "dval",
+    "value": 3
+  },
+  {
+    "id": "cat_15",
+    "parent": 0,
+    "label": "Vivienda, Ciudad y Territorio",
+    "type": "category",
+    "code": "cat_15",
+    "value": 181
+  },
+  {
+    "id": "cat_15dant",
+    "parent": "cat_15",
+    "label": "Antioquia",
+    "type": "depto",
+    "code": "dant",
+    "value": 14
+  },
+  {
+    "id": "cat_15dara",
+    "parent": "cat_15",
+    "label": "Arauca",
+    "type": "depto",
+    "code": "dara",
+    "value": 1
+  },
+  {
+    "id": "cat_15datl",
+    "parent": "cat_15",
+    "label": "Atlántico",
+    "type": "depto",
+    "code": "datl",
+    "value": 5
+  },
+  {
+    "id": "cat_15dbog",
+    "parent": "cat_15",
+    "label": "Bogotá D.C.",
+    "type": "depto",
+    "code": "dbog",
+    "value": 44
+  },
+  {
+    "id": "cat_15dboy",
+    "parent": "cat_15",
+    "label": "Boyacá",
+    "type": "depto",
+    "code": "dboy",
+    "value": 15
+  },
+  {
+    "id": "cat_15dcal",
+    "parent": "cat_15",
+    "label": "Caldas",
+    "type": "depto",
+    "code": "dcal",
+    "value": 2
+  },
+  {
+    "id": "cat_15dcaq",
+    "parent": "cat_15",
+    "label": "Caquetá",
+    "type": "depto",
+    "code": "dcaq",
+    "value": 1
+  },
+  {
+    "id": "cat_15dcas",
+    "parent": "cat_15",
+    "label": "Casanare",
+    "type": "depto",
+    "code": "dcas",
+    "value": 2
+  },
+  {
+    "id": "cat_15dcau",
+    "parent": "cat_15",
+    "label": "Cauca",
+    "type": "depto",
+    "code": "dcau",
+    "value": 1
+  },
+  {
+    "id": "cat_15dces",
+    "parent": "cat_15",
+    "label": "Cesar",
+    "type": "depto",
+    "code": "dces",
+    "value": 3
+  },
+  {
+    "id": "cat_15dcór",
+    "parent": "cat_15",
+    "label": "Córdoba",
+    "type": "depto",
+    "code": "dcór",
+    "value": 1
+  },
+  {
+    "id": "cat_15dcun",
+    "parent": "cat_15",
+    "label": "Cundinamarca",
+    "type": "depto",
+    "code": "dcun",
+    "value": 11
+  },
+  {
+    "id": "cat_15dgua",
+    "parent": "cat_15",
+    "label": "Guaviare",
+    "type": "depto",
+    "code": "dgua",
+    "value": 1
+  },
+  {
+    "id": "cat_15dmag",
+    "parent": "cat_15",
+    "label": "Magdalena",
+    "type": "depto",
+    "code": "dmag",
+    "value": 1
+  },
+  {
+    "id": "cat_15dmet",
+    "parent": "cat_15",
+    "label": "Meta",
+    "type": "depto",
+    "code": "dmet",
+    "value": 2
+  },
+  {
+    "id": "cat_15dnar",
+    "parent": "cat_15",
+    "label": "Nariño",
+    "type": "depto",
+    "code": "dnar",
+    "value": 1
+  },
+  {
+    "id": "cat_15dnor",
+    "parent": "cat_15",
+    "label": "Norte de Santander",
+    "type": "depto",
+    "code": "dnor",
+    "value": 14
+  },
+  {
+    "id": "cat_15dput",
+    "parent": "cat_15",
+    "label": "Putumayo",
+    "type": "depto",
+    "code": "dput",
+    "value": 5
+  },
+  {
+    "id": "cat_15dqui",
+    "parent": "cat_15",
+    "label": "Quindío",
+    "type": "depto",
+    "code": "dqui",
+    "value": 3
+  },
+  {
+    "id": "cat_15dris",
+    "parent": "cat_15",
+    "label": "Risaralda",
+    "type": "depto",
+    "code": "dris",
+    "value": 3
+  },
+  {
+    "id": "cat_15dsan",
+    "parent": "cat_15",
+    "label": "Santander",
+    "type": "depto",
+    "code": "dsan",
+    "value": 1
+  },
+  {
+    "id": "cat_15dsuc",
+    "parent": "cat_15",
+    "label": "Sucre",
+    "type": "depto",
+    "code": "dsuc",
+    "value": 5
+  },
+  {
+    "id": "cat_15dtol",
+    "parent": "cat_15",
+    "label": "Tolima",
+    "type": "depto",
+    "code": "dtol",
+    "value": 28
+  },
+  {
+    "id": "cat_15dval",
+    "parent": "cat_15",
+    "label": "Valle del Cauca",
+    "type": "depto",
+    "code": "dval",
+    "value": 17
+  },
+  {
+    "id": "cat_16",
+    "parent": 0,
+    "label": "Seguridad y Defensa",
+    "type": "category",
+    "code": "cat_16",
+    "value": 334
+  },
+  {
+    "id": "cat_16dant",
+    "parent": "cat_16",
+    "label": "Antioquia",
+    "type": "depto",
+    "code": "dant",
+    "value": 3
+  },
+  {
+    "id": "cat_16dara",
+    "parent": "cat_16",
+    "label": "Arauca",
+    "type": "depto",
+    "code": "dara",
+    "value": 1
+  },
+  {
+    "id": "cat_16darc",
+    "parent": "cat_16",
+    "label": "Archipiélago de San Andrés, Providencia y Santa Catalina",
+    "type": "depto",
+    "code": "darc",
+    "value": 2
+  },
+  {
+    "id": "cat_16datl",
+    "parent": "cat_16",
+    "label": "Atlántico",
+    "type": "depto",
+    "code": "datl",
+    "value": 1
+  },
+  {
+    "id": "cat_16dbog",
+    "parent": "cat_16",
+    "label": "Bogotá D.C.",
+    "type": "depto",
+    "code": "dbog",
+    "value": 253
+  },
+  {
+    "id": "cat_16dbog",
+    "parent": "cat_16",
+    "label": "Bogotá D.C",
+    "type": "depto",
+    "code": "dbog",
+    "value": 1
+  },
+  {
+    "id": "cat_16dbol",
+    "parent": "cat_16",
+    "label": "Bolívar",
+    "type": "depto",
+    "code": "dbol",
+    "value": 3
+  },
+  {
+    "id": "cat_16dcas",
+    "parent": "cat_16",
+    "label": "Casanare",
+    "type": "depto",
+    "code": "dcas",
+    "value": 1
+  },
+  {
+    "id": "cat_16dcór",
+    "parent": "cat_16",
+    "label": "Córdoba",
+    "type": "depto",
+    "code": "dcór",
+    "value": 1
+  },
+  {
+    "id": "cat_16dcun",
+    "parent": "cat_16",
+    "label": "Cundinamarca",
+    "type": "depto",
+    "code": "dcun",
+    "value": 7
+  },
+  {
+    "id": "cat_16dmet",
+    "parent": "cat_16",
+    "label": "Meta",
+    "type": "depto",
+    "code": "dmet",
+    "value": 3
+  },
+  {
+    "id": "cat_16dnar",
+    "parent": "cat_16",
+    "label": "Nariño",
+    "type": "depto",
+    "code": "dnar",
+    "value": 3
+  },
+  {
+    "id": "cat_16dnor",
+    "parent": "cat_16",
+    "label": "Norte de Santander",
+    "type": "depto",
+    "code": "dnor",
+    "value": 39
+  },
+  {
+    "id": "cat_16dput",
+    "parent": "cat_16",
+    "label": "Putumayo",
+    "type": "depto",
+    "code": "dput",
+    "value": 1
+  },
+  {
+    "id": "cat_16dqui",
+    "parent": "cat_16",
+    "label": "Quindío",
+    "type": "depto",
+    "code": "dqui",
+    "value": 2
+  },
+  {
+    "id": "cat_16dsan",
+    "parent": "cat_16",
+    "label": "Santander",
+    "type": "depto",
+    "code": "dsan",
+    "value": 1
+  },
+  {
+    "id": "cat_16dsuc",
+    "parent": "cat_16",
+    "label": "Sucre",
+    "type": "depto",
+    "code": "dsuc",
+    "value": 1
+  },
+  {
+    "id": "cat_16dtol",
+    "parent": "cat_16",
+    "label": "Tolima",
+    "type": "depto",
+    "code": "dtol",
+    "value": 3
+  },
+  {
+    "id": "cat_16dval",
+    "parent": "cat_16",
+    "label": "Valle del Cauca",
+    "type": "depto",
+    "code": "dval",
+    "value": 8
+  },
+  {
+    "id": "cat_17",
+    "parent": 0,
+    "label": "Ciencia, Tecnología e Innovación",
+    "type": "category",
+    "code": "cat_17",
+    "value": 308
+  },
+  {
+    "id": "cat_17dama",
+    "parent": "cat_17",
+    "label": "Amazonas",
+    "type": "depto",
+    "code": "dama",
+    "value": 1
+  },
+  {
+    "id": "cat_17dant",
+    "parent": "cat_17",
+    "label": "Antioquia",
+    "type": "depto",
+    "code": "dant",
+    "value": 8
+  },
+  {
+    "id": "cat_17dara",
+    "parent": "cat_17",
+    "label": "Arauca",
+    "type": "depto",
+    "code": "dara",
+    "value": 1
+  },
+  {
+    "id": "cat_17datl",
+    "parent": "cat_17",
+    "label": "Atlántico",
+    "type": "depto",
+    "code": "datl",
+    "value": 15
+  },
+  {
+    "id": "cat_17dbog",
+    "parent": "cat_17",
+    "label": "Bogotá D.C.",
+    "type": "depto",
+    "code": "dbog",
+    "value": 194
+  },
+  {
+    "id": "cat_17dbog",
+    "parent": "cat_17",
+    "label": "Bogotá D.C",
+    "type": "depto",
+    "code": "dbog",
+    "value": 1
+  },
+  {
+    "id": "cat_17dboy",
+    "parent": "cat_17",
+    "label": "Boyacá",
+    "type": "depto",
+    "code": "dboy",
+    "value": 5
+  },
+  {
+    "id": "cat_17dcal",
+    "parent": "cat_17",
+    "label": "Caldas",
+    "type": "depto",
+    "code": "dcal",
+    "value": 4
+  },
+  {
+    "id": "cat_17dcas",
+    "parent": "cat_17",
+    "label": "Casanare",
+    "type": "depto",
+    "code": "dcas",
+    "value": 2
+  },
+  {
+    "id": "cat_17dces",
+    "parent": "cat_17",
+    "label": "Cesar",
+    "type": "depto",
+    "code": "dces",
+    "value": 1
+  },
+  {
+    "id": "cat_17dcun",
+    "parent": "cat_17",
+    "label": "Cundinamarca",
+    "type": "depto",
+    "code": "dcun",
+    "value": 3
+  },
+  {
+    "id": "cat_17dgua",
+    "parent": "cat_17",
+    "label": "Guaviare",
+    "type": "depto",
+    "code": "dgua",
+    "value": 2
+  },
+  {
+    "id": "cat_17dhui",
+    "parent": "cat_17",
+    "label": "Huila",
+    "type": "depto",
+    "code": "dhui",
+    "value": 1
+  },
+  {
+    "id": "cat_17dmag",
+    "parent": "cat_17",
+    "label": "Magdalena",
+    "type": "depto",
+    "code": "dmag",
+    "value": 2
+  },
+  {
+    "id": "cat_17dmet",
+    "parent": "cat_17",
+    "label": "Meta",
+    "type": "depto",
+    "code": "dmet",
+    "value": 14
+  },
+  {
+    "id": "cat_17dnar",
+    "parent": "cat_17",
+    "label": "Nariño",
+    "type": "depto",
+    "code": "dnar",
+    "value": 4
+  },
+  {
+    "id": "cat_17dnor",
+    "parent": "cat_17",
+    "label": "Norte de Santander",
+    "type": "depto",
+    "code": "dnor",
+    "value": 11
+  },
+  {
+    "id": "cat_17dqui",
+    "parent": "cat_17",
+    "label": "Quindío",
+    "type": "depto",
+    "code": "dqui",
+    "value": 2
+  },
+  {
+    "id": "cat_17dris",
+    "parent": "cat_17",
+    "label": "Risaralda",
+    "type": "depto",
+    "code": "dris",
+    "value": 7
+  },
+  {
+    "id": "cat_17dsan",
+    "parent": "cat_17",
+    "label": "Santander",
+    "type": "depto",
+    "code": "dsan",
+    "value": 5
+  },
+  {
+    "id": "cat_17dsuc",
+    "parent": "cat_17",
+    "label": "Sucre",
+    "type": "depto",
+    "code": "dsuc",
+    "value": 3
+  },
+  {
+    "id": "cat_17dtol",
+    "parent": "cat_17",
+    "label": "Tolima",
+    "type": "depto",
+    "code": "dtol",
+    "value": 3
+  },
+  {
+    "id": "cat_17dval",
+    "parent": "cat_17",
+    "label": "Valle del Cauca",
+    "type": "depto",
+    "code": "dval",
+    "value": 19
+  },
+  {
+    "id": "cat_18",
+    "parent": 0,
+    "label": "Agricultura y Desarrollo Rural",
+    "type": "category",
+    "code": "cat_18",
+    "value": 435
+  },
+  {
+    "id": "cat_18dama",
+    "parent": "cat_18",
+    "label": "Amazonas",
+    "type": "depto",
+    "code": "dama",
+    "value": 1
+  },
+  {
+    "id": "cat_18dant",
+    "parent": "cat_18",
+    "label": "Antioquia",
+    "type": "depto",
+    "code": "dant",
+    "value": 22
+  },
+  {
+    "id": "cat_18dara",
+    "parent": "cat_18",
+    "label": "Arauca",
+    "type": "depto",
+    "code": "dara",
+    "value": 3
+  },
+  {
+    "id": "cat_18darc",
+    "parent": "cat_18",
+    "label": "Archipiélago de San Andrés, Providencia y Santa Catalina",
+    "type": "depto",
+    "code": "darc",
+    "value": 2
+  },
+  {
+    "id": "cat_18datl",
+    "parent": "cat_18",
+    "label": "Atlántico",
+    "type": "depto",
+    "code": "datl",
+    "value": 3
+  },
+  {
+    "id": "cat_18dbog",
+    "parent": "cat_18",
+    "label": "Bogotá D.C.",
+    "type": "depto",
+    "code": "dbog",
+    "value": 131
+  },
+  {
+    "id": "cat_18dbol",
+    "parent": "cat_18",
+    "label": "Bolívar",
+    "type": "depto",
+    "code": "dbol",
+    "value": 3
+  },
+  {
+    "id": "cat_18dboy",
+    "parent": "cat_18",
+    "label": "Boyacá",
+    "type": "depto",
+    "code": "dboy",
+    "value": 28
+  },
+  {
+    "id": "cat_18dcal",
+    "parent": "cat_18",
+    "label": "Caldas",
+    "type": "depto",
+    "code": "dcal",
+    "value": 2
+  },
+  {
+    "id": "cat_18dcaq",
+    "parent": "cat_18",
+    "label": "Caquetá",
+    "type": "depto",
+    "code": "dcaq",
+    "value": 1
+  },
+  {
+    "id": "cat_18dcas",
+    "parent": "cat_18",
+    "label": "Casanare",
+    "type": "depto",
+    "code": "dcas",
+    "value": 4
+  },
+  {
+    "id": "cat_18dces",
+    "parent": "cat_18",
+    "label": "Cesar",
+    "type": "depto",
+    "code": "dces",
+    "value": 8
+  },
+  {
+    "id": "cat_18dcór",
+    "parent": "cat_18",
+    "label": "Córdoba",
+    "type": "depto",
+    "code": "dcór",
+    "value": 2
+  },
+  {
+    "id": "cat_18dcun",
+    "parent": "cat_18",
+    "label": "Cundinamarca",
+    "type": "depto",
+    "code": "dcun",
+    "value": 20
+  },
+  {
+    "id": "cat_18dhui",
+    "parent": "cat_18",
+    "label": "Huila",
+    "type": "depto",
+    "code": "dhui",
+    "value": 5
+  },
+  {
+    "id": "cat_18dla",
+    "parent": "cat_18",
+    "label": "La Guajira",
+    "type": "depto",
+    "code": "dla",
+    "value": 1
+  },
+  {
+    "id": "cat_18dmag",
+    "parent": "cat_18",
+    "label": "Magdalena",
+    "type": "depto",
+    "code": "dmag",
+    "value": 1
+  },
+  {
+    "id": "cat_18dmet",
+    "parent": "cat_18",
+    "label": "Meta",
+    "type": "depto",
+    "code": "dmet",
+    "value": 40
+  },
+  {
+    "id": "cat_18dnar",
+    "parent": "cat_18",
+    "label": "Nariño",
+    "type": "depto",
+    "code": "dnar",
+    "value": 2
+  },
+  {
+    "id": "cat_18dnor",
+    "parent": "cat_18",
+    "label": "Norte de Santander",
+    "type": "depto",
+    "code": "dnor",
+    "value": 22
+  },
+  {
+    "id": "cat_18dqui",
+    "parent": "cat_18",
+    "label": "Quindío",
+    "type": "depto",
+    "code": "dqui",
+    "value": 2
+  },
+  {
+    "id": "cat_18dris",
+    "parent": "cat_18",
+    "label": "Risaralda",
+    "type": "depto",
+    "code": "dris",
+    "value": 27
+  },
+  {
+    "id": "cat_18dsan",
+    "parent": "cat_18",
+    "label": "Santander",
+    "type": "depto",
+    "code": "dsan",
+    "value": 5
+  },
+  {
+    "id": "cat_18dsuc",
+    "parent": "cat_18",
+    "label": "Sucre",
+    "type": "depto",
+    "code": "dsuc",
+    "value": 18
+  },
+  {
+    "id": "cat_18dtol",
+    "parent": "cat_18",
+    "label": "Tolima",
+    "type": "depto",
+    "code": "dtol",
+    "value": 34
+  },
+  {
+    "id": "cat_18dval",
+    "parent": "cat_18",
+    "label": "Valle del Cauca",
+    "type": "depto",
+    "code": "dval",
+    "value": 48
+  },
+  {
+    "id": "cat_19",
+    "parent": 0,
+    "label": "Organismos de Control",
+    "type": "category",
+    "code": "cat_19",
+    "value": 179
+  },
+  {
+    "id": "cat_19dama",
+    "parent": "cat_19",
+    "label": "Amazonas",
+    "type": "depto",
+    "code": "dama",
+    "value": 7
+  },
+  {
+    "id": "cat_19dant",
+    "parent": "cat_19",
+    "label": "Antioquia",
+    "type": "depto",
+    "code": "dant",
+    "value": 70
+  },
+  {
+    "id": "cat_19darc",
+    "parent": "cat_19",
+    "label": "Archipiélago de San Andrés, Providencia y Santa Catalina",
+    "type": "depto",
+    "code": "darc",
+    "value": 3
+  },
+  {
+    "id": "cat_19datl",
+    "parent": "cat_19",
+    "label": "Atlántico",
+    "type": "depto",
+    "code": "datl",
+    "value": 7
+  },
+  {
+    "id": "cat_19dbog",
+    "parent": "cat_19",
+    "label": "Bogotá D.C.",
+    "type": "depto",
+    "code": "dbog",
+    "value": 35
+  },
+  {
+    "id": "cat_19dboy",
+    "parent": "cat_19",
+    "label": "Boyacá",
+    "type": "depto",
+    "code": "dboy",
+    "value": 6
+  },
+  {
+    "id": "cat_19dcal",
+    "parent": "cat_19",
+    "label": "Caldas",
+    "type": "depto",
+    "code": "dcal",
+    "value": 4
+  },
+  {
+    "id": "cat_19dcór",
+    "parent": "cat_19",
+    "label": "Córdoba",
+    "type": "depto",
+    "code": "dcór",
+    "value": 3
+  },
+  {
+    "id": "cat_19dcun",
+    "parent": "cat_19",
+    "label": "Cundinamarca",
+    "type": "depto",
+    "code": "dcun",
+    "value": 5
+  },
+  {
+    "id": "cat_19dla",
+    "parent": "cat_19",
+    "label": "La Guajira",
+    "type": "depto",
+    "code": "dla",
+    "value": 1
+  },
+  {
+    "id": "cat_19dmag",
+    "parent": "cat_19",
+    "label": "Magdalena",
+    "type": "depto",
+    "code": "dmag",
+    "value": 3
+  },
+  {
+    "id": "cat_19dmet",
+    "parent": "cat_19",
+    "label": "Meta",
+    "type": "depto",
+    "code": "dmet",
+    "value": 5
+  },
+  {
+    "id": "cat_19dnar",
+    "parent": "cat_19",
+    "label": "Nariño",
+    "type": "depto",
+    "code": "dnar",
+    "value": 2
+  },
+  {
+    "id": "cat_19dnor",
+    "parent": "cat_19",
+    "label": "Norte de Santander",
+    "type": "depto",
+    "code": "dnor",
+    "value": 5
+  },
+  {
+    "id": "cat_19dput",
+    "parent": "cat_19",
+    "label": "Putumayo",
+    "type": "depto",
+    "code": "dput",
+    "value": 1
+  },
+  {
+    "id": "cat_19dqui",
+    "parent": "cat_19",
+    "label": "Quindío",
+    "type": "depto",
+    "code": "dqui",
+    "value": 5
+  },
+  {
+    "id": "cat_19dsan",
+    "parent": "cat_19",
+    "label": "Santander",
+    "type": "depto",
+    "code": "dsan",
+    "value": 2
+  },
+  {
+    "id": "cat_19dtol",
+    "parent": "cat_19",
+    "label": "Tolima",
+    "type": "depto",
+    "code": "dtol",
+    "value": 1
+  },
+  {
+    "id": "cat_19dval",
+    "parent": "cat_19",
+    "label": "Valle del Cauca",
+    "type": "depto",
+    "code": "dval",
+    "value": 14
+  },
+  {
+    "id": "cat_1dant",
+    "parent": "cat_1",
+    "label": "Antioquia",
+    "type": "depto",
+    "code": "dant",
+    "value": 3
+  },
+  {
+    "id": "cat_1darc",
+    "parent": "cat_1",
+    "label": "Archipiélago de San Andrés, Providencia y Santa Catalina",
+    "type": "depto",
+    "code": "darc",
+    "value": 3
+  },
+  {
+    "id": "cat_1datl",
+    "parent": "cat_1",
+    "label": "Atlántico",
+    "type": "depto",
+    "code": "datl",
+    "value": 1
+  },
+  {
+    "id": "cat_1dbog",
+    "parent": "cat_1",
+    "label": "Bogotá D.C.",
+    "type": "depto",
+    "code": "dbog",
+    "value": 72
+  },
+  {
+    "id": "cat_1dboy",
+    "parent": "cat_1",
+    "label": "Boyacá",
+    "type": "depto",
+    "code": "dboy",
+    "value": 31
+  },
+  {
+    "id": "cat_1dcal",
+    "parent": "cat_1",
+    "label": "Caldas",
+    "type": "depto",
+    "code": "dcal",
+    "value": 6
+  },
+  {
+    "id": "cat_1dcas",
+    "parent": "cat_1",
+    "label": "Casanare",
+    "type": "depto",
+    "code": "dcas",
+    "value": 7
+  },
+  {
+    "id": "cat_1dcau",
+    "parent": "cat_1",
+    "label": "Cauca",
+    "type": "depto",
+    "code": "dcau",
+    "value": 1
+  },
+  {
+    "id": "cat_1dces",
+    "parent": "cat_1",
+    "label": "Cesar",
+    "type": "depto",
+    "code": "dces",
+    "value": 1
+  },
+  {
+    "id": "cat_1dcór",
+    "parent": "cat_1",
+    "label": "Córdoba",
+    "type": "depto",
+    "code": "dcór",
+    "value": 6
+  },
+  {
+    "id": "cat_1dcun",
+    "parent": "cat_1",
+    "label": "Cundinamarca",
+    "type": "depto",
+    "code": "dcun",
+    "value": 34
+  },
+  {
+    "id": "cat_1dhui",
+    "parent": "cat_1",
+    "label": "Huila",
+    "type": "depto",
+    "code": "dhui",
+    "value": 4
+  },
+  {
+    "id": "cat_1dmag",
+    "parent": "cat_1",
+    "label": "Magdalena",
+    "type": "depto",
+    "code": "dmag",
+    "value": 6
+  },
+  {
+    "id": "cat_1dmet",
+    "parent": "cat_1",
+    "label": "Meta",
+    "type": "depto",
+    "code": "dmet",
+    "value": 2
+  },
+  {
+    "id": "cat_1dnor",
+    "parent": "cat_1",
+    "label": "Norte de Santander",
+    "type": "depto",
+    "code": "dnor",
+    "value": 18
+  },
+  {
+    "id": "cat_1dqui",
+    "parent": "cat_1",
+    "label": "Quindío",
+    "type": "depto",
+    "code": "dqui",
+    "value": 1
+  },
+  {
+    "id": "cat_1dris",
+    "parent": "cat_1",
+    "label": "Risaralda",
+    "type": "depto",
+    "code": "dris",
+    "value": 10
+  },
+  {
+    "id": "cat_1dsan",
+    "parent": "cat_1",
+    "label": "Santander",
+    "type": "depto",
+    "code": "dsan",
+    "value": 16
+  },
+  {
+    "id": "cat_1dsuc",
+    "parent": "cat_1",
+    "label": "Sucre",
+    "type": "depto",
+    "code": "dsuc",
+    "value": 2
+  },
+  {
+    "id": "cat_1dtol",
+    "parent": "cat_1",
+    "label": "Tolima",
+    "type": "depto",
+    "code": "dtol",
+    "value": 6
+  },
+  {
+    "id": "cat_1dval",
+    "parent": "cat_1",
+    "label": "Valle del Cauca",
+    "type": "depto",
+    "code": "dval",
+    "value": 32
+  },
+  {
+    "id": "cat_2",
+    "parent": 0,
+    "label": "Salud y Protección Social",
+    "type": "category",
+    "code": "cat_2",
+    "value": 795
+  },
+  {
+    "id": "cat_20",
+    "parent": 0,
+    "label": "Deporte y Recreación",
+    "type": "category",
+    "code": "cat_20",
+    "value": 57
+  },
+  {
+    "id": "cat_20dant",
+    "parent": "cat_20",
+    "label": "Antioquia",
+    "type": "depto",
+    "code": "dant",
+    "value": 7
+  },
+  {
+    "id": "cat_20dara",
+    "parent": "cat_20",
+    "label": "Arauca",
+    "type": "depto",
+    "code": "dara",
+    "value": 1
+  },
+  {
+    "id": "cat_20datl",
+    "parent": "cat_20",
+    "label": "Atlántico",
+    "type": "depto",
+    "code": "datl",
+    "value": 8
+  },
+  {
+    "id": "cat_20dbog",
+    "parent": "cat_20",
+    "label": "Bogotá D.C.",
+    "type": "depto",
+    "code": "dbog",
+    "value": 6
+  },
+  {
+    "id": "cat_20dboy",
+    "parent": "cat_20",
+    "label": "Boyacá",
+    "type": "depto",
+    "code": "dboy",
+    "value": 2
+  },
+  {
+    "id": "cat_20dcal",
+    "parent": "cat_20",
+    "label": "Caldas",
+    "type": "depto",
+    "code": "dcal",
+    "value": 2
+  },
+  {
+    "id": "cat_20dcaq",
+    "parent": "cat_20",
+    "label": "Caquetá",
+    "type": "depto",
+    "code": "dcaq",
+    "value": 4
+  },
+  {
+    "id": "cat_20dcas",
+    "parent": "cat_20",
+    "label": "Casanare",
+    "type": "depto",
+    "code": "dcas",
+    "value": 4
+  },
+  {
+    "id": "cat_20dcun",
+    "parent": "cat_20",
+    "label": "Cundinamarca",
+    "type": "depto",
+    "code": "dcun",
+    "value": 6
+  },
+  {
+    "id": "cat_20dmag",
+    "parent": "cat_20",
+    "label": "Magdalena",
+    "type": "depto",
+    "code": "dmag",
+    "value": 1
+  },
+  {
+    "id": "cat_20dmet",
+    "parent": "cat_20",
+    "label": "Meta",
+    "type": "depto",
+    "code": "dmet",
+    "value": 1
+  },
+  {
+    "id": "cat_20dnor",
+    "parent": "cat_20",
+    "label": "Norte de Santander",
+    "type": "depto",
+    "code": "dnor",
+    "value": 3
+  },
+  {
+    "id": "cat_20dris",
+    "parent": "cat_20",
+    "label": "Risaralda",
+    "type": "depto",
+    "code": "dris",
+    "value": 2
+  },
+  {
+    "id": "cat_20dtol",
+    "parent": "cat_20",
+    "label": "Tolima",
+    "type": "depto",
+    "code": "dtol",
+    "value": 3
+  },
+  {
+    "id": "cat_20dval",
+    "parent": "cat_20",
+    "label": "Valle del Cauca",
+    "type": "depto",
+    "code": "dval",
+    "value": 7
+  },
+  {
+    "id": "cat_21",
+    "parent": 0,
+    "label": "Economía y Finanzas",
+    "type": "category",
+    "code": "cat_21",
+    "value": 239
+  },
+  {
+    "id": "cat_21dant",
+    "parent": "cat_21",
+    "label": "Antioquia",
+    "type": "depto",
+    "code": "dant",
+    "value": 8
+  },
+  {
+    "id": "cat_21darc",
+    "parent": "cat_21",
+    "label": "Archipiélago de San Andrés, Providencia y Santa Catalina",
+    "type": "depto",
+    "code": "darc",
+    "value": 1
+  },
+  {
+    "id": "cat_21datl",
+    "parent": "cat_21",
+    "label": "Atlántico",
+    "type": "depto",
+    "code": "datl",
+    "value": 3
+  },
+  {
+    "id": "cat_21dbog",
+    "parent": "cat_21",
+    "label": "Bogotá D.C.",
+    "type": "depto",
+    "code": "dbog",
+    "value": 83
+  },
+  {
+    "id": "cat_21dboy",
+    "parent": "cat_21",
+    "label": "Boyacá",
+    "type": "depto",
+    "code": "dboy",
+    "value": 17
+  },
+  {
+    "id": "cat_21dcal",
+    "parent": "cat_21",
+    "label": "Caldas",
+    "type": "depto",
+    "code": "dcal",
+    "value": 10
+  },
+  {
+    "id": "cat_21dcas",
+    "parent": "cat_21",
+    "label": "Casanare",
+    "type": "depto",
+    "code": "dcas",
+    "value": 2
+  },
+  {
+    "id": "cat_21dcau",
+    "parent": "cat_21",
+    "label": "Cauca",
+    "type": "depto",
+    "code": "dcau",
+    "value": 17
+  },
+  {
+    "id": "cat_21dcho",
+    "parent": "cat_21",
+    "label": "Chocó",
+    "type": "depto",
+    "code": "dcho",
+    "value": 1
+  },
+  {
+    "id": "cat_21dcór",
+    "parent": "cat_21",
+    "label": "Córdoba",
+    "type": "depto",
+    "code": "dcór",
+    "value": 2
+  },
+  {
+    "id": "cat_21dcun",
+    "parent": "cat_21",
+    "label": "Cundinamarca",
+    "type": "depto",
+    "code": "dcun",
+    "value": 5
+  },
+  {
+    "id": "cat_21dgua",
+    "parent": "cat_21",
+    "label": "Guaviare",
+    "type": "depto",
+    "code": "dgua",
+    "value": 1
+  },
+  {
+    "id": "cat_21dhui",
+    "parent": "cat_21",
+    "label": "Huila",
+    "type": "depto",
+    "code": "dhui",
+    "value": 5
+  },
+  {
+    "id": "cat_21dmet",
+    "parent": "cat_21",
+    "label": "Meta",
+    "type": "depto",
+    "code": "dmet",
+    "value": 3
+  },
+  {
+    "id": "cat_21dnar",
+    "parent": "cat_21",
+    "label": "Nariño",
+    "type": "depto",
+    "code": "dnar",
+    "value": 3
+  },
+  {
+    "id": "cat_21dnor",
+    "parent": "cat_21",
+    "label": "Norte de Santander",
+    "type": "depto",
+    "code": "dnor",
+    "value": 3
+  },
+  {
+    "id": "cat_21dqui",
+    "parent": "cat_21",
+    "label": "Quindío",
+    "type": "depto",
+    "code": "dqui",
+    "value": 8
+  },
+  {
+    "id": "cat_21dris",
+    "parent": "cat_21",
+    "label": "Risaralda",
+    "type": "depto",
+    "code": "dris",
+    "value": 13
+  },
+  {
+    "id": "cat_21dsan",
+    "parent": "cat_21",
+    "label": "Santander",
+    "type": "depto",
+    "code": "dsan",
+    "value": 14
+  },
+  {
+    "id": "cat_21dsuc",
+    "parent": "cat_21",
+    "label": "Sucre",
+    "type": "depto",
+    "code": "dsuc",
+    "value": 2
+  },
+  {
+    "id": "cat_21dtol",
+    "parent": "cat_21",
+    "label": "Tolima",
+    "type": "depto",
+    "code": "dtol",
+    "value": 24
+  },
+  {
+    "id": "cat_21dval",
+    "parent": "cat_21",
+    "label": "Valle del Cauca",
+    "type": "depto",
+    "code": "dval",
+    "value": 13
+  },
+  {
+    "id": "cat_21dvic",
+    "parent": "cat_21",
+    "label": "Vichada",
+    "type": "depto",
+    "code": "dvic",
+    "value": 1
+  },
+  {
+    "id": "cat_22",
+    "parent": 0,
+    "label": "Transporte",
+    "type": "category",
+    "code": "cat_22",
+    "value": 296
+  },
+  {
+    "id": "cat_22dama",
+    "parent": "cat_22",
+    "label": "Amazonas",
+    "type": "depto",
+    "code": "dama",
+    "value": 1
+  },
+  {
+    "id": "cat_22dant",
+    "parent": "cat_22",
+    "label": "Antioquia",
+    "type": "depto",
+    "code": "dant",
+    "value": 47
+  },
+  {
+    "id": "cat_22dara",
+    "parent": "cat_22",
+    "label": "Arauca",
+    "type": "depto",
+    "code": "dara",
+    "value": 2
+  },
+  {
+    "id": "cat_22darc",
+    "parent": "cat_22",
+    "label": "Archipiélago de San Andrés, Providencia y Santa Catalina",
+    "type": "depto",
+    "code": "darc",
+    "value": 1
+  },
+  {
+    "id": "cat_22datl",
+    "parent": "cat_22",
+    "label": "Atlántico",
+    "type": "depto",
+    "code": "datl",
+    "value": 3
+  },
+  {
+    "id": "cat_22dbog",
+    "parent": "cat_22",
+    "label": "Bogotá D.C.",
+    "type": "depto",
+    "code": "dbog",
+    "value": 83
+  },
+  {
+    "id": "cat_22dbol",
+    "parent": "cat_22",
+    "label": "Bolívar",
+    "type": "depto",
+    "code": "dbol",
+    "value": 1
+  },
+  {
+    "id": "cat_22dboy",
+    "parent": "cat_22",
+    "label": "Boyacá",
+    "type": "depto",
+    "code": "dboy",
+    "value": 16
+  },
+  {
+    "id": "cat_22dcal",
+    "parent": "cat_22",
+    "label": "Caldas",
+    "type": "depto",
+    "code": "dcal",
+    "value": 28
+  },
+  {
+    "id": "cat_22dcas",
+    "parent": "cat_22",
+    "label": "Casanare",
+    "type": "depto",
+    "code": "dcas",
+    "value": 2
+  },
+  {
+    "id": "cat_22dcór",
+    "parent": "cat_22",
+    "label": "Córdoba",
+    "type": "depto",
+    "code": "dcór",
+    "value": 2
+  },
+  {
+    "id": "cat_22dcun",
+    "parent": "cat_22",
+    "label": "Cundinamarca",
+    "type": "depto",
+    "code": "dcun",
+    "value": 11
+  },
+  {
+    "id": "cat_22dgua",
+    "parent": "cat_22",
+    "label": "Guaviare",
+    "type": "depto",
+    "code": "dgua",
+    "value": 1
+  },
+  {
+    "id": "cat_22dhui",
+    "parent": "cat_22",
+    "label": "Huila",
+    "type": "depto",
+    "code": "dhui",
+    "value": 1
+  },
+  {
+    "id": "cat_22dmet",
+    "parent": "cat_22",
+    "label": "Meta",
+    "type": "depto",
+    "code": "dmet",
+    "value": 2
+  },
+  {
+    "id": "cat_22dnar",
+    "parent": "cat_22",
+    "label": "Nariño",
+    "type": "depto",
+    "code": "dnar",
+    "value": 1
+  },
+  {
+    "id": "cat_22dnor",
+    "parent": "cat_22",
+    "label": "Norte de Santander",
+    "type": "depto",
+    "code": "dnor",
+    "value": 13
+  },
+  {
+    "id": "cat_22dqui",
+    "parent": "cat_22",
+    "label": "Quindío",
+    "type": "depto",
+    "code": "dqui",
+    "value": 9
+  },
+  {
+    "id": "cat_22dris",
+    "parent": "cat_22",
+    "label": "Risaralda",
+    "type": "depto",
+    "code": "dris",
+    "value": 3
+  },
+  {
+    "id": "cat_22dsan",
+    "parent": "cat_22",
+    "label": "Santander",
+    "type": "depto",
+    "code": "dsan",
+    "value": 12
+  },
+  {
+    "id": "cat_22dsuc",
+    "parent": "cat_22",
+    "label": "Sucre",
+    "type": "depto",
+    "code": "dsuc",
+    "value": 3
+  },
+  {
+    "id": "cat_22dtol",
+    "parent": "cat_22",
+    "label": "Tolima",
+    "type": "depto",
+    "code": "dtol",
+    "value": 14
+  },
+  {
+    "id": "cat_22dval",
+    "parent": "cat_22",
+    "label": "Valle del Cauca",
+    "type": "depto",
+    "code": "dval",
+    "value": 39
+  },
+  {
+    "id": "cat_23",
+    "parent": 0,
+    "label": "cobertura:Nacional",
+    "type": "category",
+    "code": "cat_23",
+    "value": 1
+  },
+  {
+    "id": "cat_24",
+    "parent": 0,
+    "label": "Presupuestos Gubernamentales",
+    "type": "category",
+    "code": "cat_24",
+    "value": 35
+  },
+  {
+    "id": "cat_24dant",
+    "parent": "cat_24",
+    "label": "Antioquia",
+    "type": "depto",
+    "code": "dant",
+    "value": 10
+  },
+  {
+    "id": "cat_24datl",
+    "parent": "cat_24",
+    "label": "Atlántico",
+    "type": "depto",
+    "code": "datl",
+    "value": 2
+  },
+  {
+    "id": "cat_24dbog",
+    "parent": "cat_24",
+    "label": "Bogotá D.C.",
+    "type": "depto",
+    "code": "dbog",
+    "value": 2
+  },
+  {
+    "id": "cat_24dboy",
+    "parent": "cat_24",
+    "label": "Boyacá",
+    "type": "depto",
+    "code": "dboy",
+    "value": 1
+  },
+  {
+    "id": "cat_24dcaq",
+    "parent": "cat_24",
+    "label": "Caquetá",
+    "type": "depto",
+    "code": "dcaq",
+    "value": 1
+  },
+  {
+    "id": "cat_24dcas",
+    "parent": "cat_24",
+    "label": "Casanare",
+    "type": "depto",
+    "code": "dcas",
+    "value": 2
+  },
+  {
+    "id": "cat_24dcau",
+    "parent": "cat_24",
+    "label": "Cauca",
+    "type": "depto",
+    "code": "dcau",
+    "value": 2
+  },
+  {
+    "id": "cat_24dmet",
+    "parent": "cat_24",
+    "label": "Meta",
+    "type": "depto",
+    "code": "dmet",
+    "value": 3
+  },
+  {
+    "id": "cat_24dnar",
+    "parent": "cat_24",
+    "label": "Nariño",
+    "type": "depto",
+    "code": "dnar",
+    "value": 2
+  },
+  {
+    "id": "cat_24dnor",
+    "parent": "cat_24",
+    "label": "Norte de Santander",
+    "type": "depto",
+    "code": "dnor",
+    "value": 3
+  },
+  {
+    "id": "cat_24dqui",
+    "parent": "cat_24",
+    "label": "Quindío",
+    "type": "depto",
+    "code": "dqui",
+    "value": 2
+  },
+  {
+    "id": "cat_24dsan",
+    "parent": "cat_24",
+    "label": "Santander",
+    "type": "depto",
+    "code": "dsan",
+    "value": 1
+  },
+  {
+    "id": "cat_24dtol",
+    "parent": "cat_24",
+    "label": "Tolima",
+    "type": "depto",
+    "code": "dtol",
+    "value": 4
+  },
+  {
+    "id": "cat_25",
+    "parent": 0,
+    "label": "Cultura",
+    "type": "category",
+    "code": "cat_25",
+    "value": 207
+  },
+  {
+    "id": "cat_25dama",
+    "parent": "cat_25",
+    "label": "Amazonas",
+    "type": "depto",
+    "code": "dama",
+    "value": 1
+  },
+  {
+    "id": "cat_25dant",
+    "parent": "cat_25",
+    "label": "Antioquia",
+    "type": "depto",
+    "code": "dant",
+    "value": 4
+  },
+  {
+    "id": "cat_25dara",
+    "parent": "cat_25",
+    "label": "Arauca",
+    "type": "depto",
+    "code": "dara",
+    "value": 2
+  },
+  {
+    "id": "cat_25datl",
+    "parent": "cat_25",
+    "label": "Atlántico",
+    "type": "depto",
+    "code": "datl",
+    "value": 19
+  },
+  {
+    "id": "cat_25dbog",
+    "parent": "cat_25",
+    "label": "Bogotá D.C.",
+    "type": "depto",
+    "code": "dbog",
+    "value": 37
+  },
+  {
+    "id": "cat_25dboy",
+    "parent": "cat_25",
+    "label": "Boyacá",
+    "type": "depto",
+    "code": "dboy",
+    "value": 23
+  },
+  {
+    "id": "cat_25dcal",
+    "parent": "cat_25",
+    "label": "Caldas",
+    "type": "depto",
+    "code": "dcal",
+    "value": 2
+  },
+  {
+    "id": "cat_25dcas",
+    "parent": "cat_25",
+    "label": "Casanare",
+    "type": "depto",
+    "code": "dcas",
+    "value": 5
+  },
+  {
+    "id": "cat_25dces",
+    "parent": "cat_25",
+    "label": "Cesar",
+    "type": "depto",
+    "code": "dces",
+    "value": 1
+  },
+  {
+    "id": "cat_25dcho",
+    "parent": "cat_25",
+    "label": "Chocó",
+    "type": "depto",
+    "code": "dcho",
+    "value": 1
+  },
+  {
+    "id": "cat_25dcór",
+    "parent": "cat_25",
+    "label": "Córdoba",
+    "type": "depto",
+    "code": "dcór",
+    "value": 2
+  },
+  {
+    "id": "cat_25dcun",
+    "parent": "cat_25",
+    "label": "Cundinamarca",
+    "type": "depto",
+    "code": "dcun",
+    "value": 26
+  },
+  {
+    "id": "cat_25dgua",
+    "parent": "cat_25",
+    "label": "Guainía",
+    "type": "depto",
+    "code": "dgua",
+    "value": 1
+  },
+  {
+    "id": "cat_25dgua",
+    "parent": "cat_25",
+    "label": "Guaviare",
+    "type": "depto",
+    "code": "dgua",
+    "value": 1
+  },
+  {
+    "id": "cat_25dhui",
+    "parent": "cat_25",
+    "label": "Huila",
+    "type": "depto",
+    "code": "dhui",
+    "value": 7
+  },
+  {
+    "id": "cat_25dla",
+    "parent": "cat_25",
+    "label": "La Guajira",
+    "type": "depto",
+    "code": "dla",
+    "value": 1
+  },
+  {
+    "id": "cat_25dmag",
+    "parent": "cat_25",
+    "label": "Magdalena",
+    "type": "depto",
+    "code": "dmag",
+    "value": 2
+  },
+  {
+    "id": "cat_25dmet",
+    "parent": "cat_25",
+    "label": "Meta",
+    "type": "depto",
+    "code": "dmet",
+    "value": 5
+  },
+  {
+    "id": "cat_25dnar",
+    "parent": "cat_25",
+    "label": "Nariño",
+    "type": "depto",
+    "code": "dnar",
+    "value": 2
+  },
+  {
+    "id": "cat_25dnor",
+    "parent": "cat_25",
+    "label": "Norte de Santander",
+    "type": "depto",
+    "code": "dnor",
+    "value": 4
+  },
+  {
+    "id": "cat_25dput",
+    "parent": "cat_25",
+    "label": "Putumayo",
+    "type": "depto",
+    "code": "dput",
+    "value": 6
+  },
+  {
+    "id": "cat_25dqui",
+    "parent": "cat_25",
+    "label": "Quindío",
+    "type": "depto",
+    "code": "dqui",
+    "value": 7
+  },
+  {
+    "id": "cat_25dris",
+    "parent": "cat_25",
+    "label": "Risaralda",
+    "type": "depto",
+    "code": "dris",
+    "value": 2
+  },
+  {
+    "id": "cat_25dsan",
+    "parent": "cat_25",
+    "label": "Santander",
+    "type": "depto",
+    "code": "dsan",
+    "value": 12
+  },
+  {
+    "id": "cat_25dsuc",
+    "parent": "cat_25",
+    "label": "Sucre",
+    "type": "depto",
+    "code": "dsuc",
+    "value": 3
+  },
+  {
+    "id": "cat_25dtol",
+    "parent": "cat_25",
+    "label": "Tolima",
+    "type": "depto",
+    "code": "dtol",
+    "value": 16
+  },
+  {
+    "id": "cat_25dval",
+    "parent": "cat_25",
+    "label": "Valle del Cauca",
+    "type": "depto",
+    "code": "dval",
+    "value": 14
+  },
+  {
+    "id": "cat_25dvic",
+    "parent": "cat_25",
+    "label": "Vichada",
+    "type": "depto",
+    "code": "dvic",
+    "value": 1
+  },
+  {
+    "id": "cat_26",
+    "parent": 0,
+    "label": "Hacienda y Crédito Público",
+    "type": "category",
+    "code": "cat_26",
+    "value": 235
+  },
+  {
+    "id": "cat_26dant",
+    "parent": "cat_26",
+    "label": "Antioquia",
+    "type": "depto",
+    "code": "dant",
+    "value": 13
+  },
+  {
+    "id": "cat_26dara",
+    "parent": "cat_26",
+    "label": "Arauca",
+    "type": "depto",
+    "code": "dara",
+    "value": 2
+  },
+  {
+    "id": "cat_26datl",
+    "parent": "cat_26",
+    "label": "Atlántico",
+    "type": "depto",
+    "code": "datl",
+    "value": 2
+  },
+  {
+    "id": "cat_26dbog",
+    "parent": "cat_26",
+    "label": "Bogotá D.C.",
+    "type": "depto",
+    "code": "dbog",
+    "value": 145
+  },
+  {
+    "id": "cat_26dboy",
+    "parent": "cat_26",
+    "label": "Boyacá",
+    "type": "depto",
+    "code": "dboy",
+    "value": 1
+  },
+  {
+    "id": "cat_26dcas",
+    "parent": "cat_26",
+    "label": "Casanare",
+    "type": "depto",
+    "code": "dcas",
+    "value": 2
+  },
+  {
+    "id": "cat_26dcau",
+    "parent": "cat_26",
+    "label": "Cauca",
+    "type": "depto",
+    "code": "dcau",
+    "value": 5
+  },
+  {
+    "id": "cat_26dces",
+    "parent": "cat_26",
+    "label": "Cesar",
+    "type": "depto",
+    "code": "dces",
+    "value": 1
+  },
+  {
+    "id": "cat_26dcór",
+    "parent": "cat_26",
+    "label": "Córdoba",
+    "type": "depto",
+    "code": "dcór",
+    "value": 3
+  },
+  {
+    "id": "cat_26dcun",
+    "parent": "cat_26",
+    "label": "Cundinamarca",
+    "type": "depto",
+    "code": "dcun",
+    "value": 7
+  },
+  {
+    "id": "cat_26dmet",
+    "parent": "cat_26",
+    "label": "Meta",
+    "type": "depto",
+    "code": "dmet",
+    "value": 2
+  },
+  {
+    "id": "cat_26dnar",
+    "parent": "cat_26",
+    "label": "Nariño",
+    "type": "depto",
+    "code": "dnar",
+    "value": 2
+  },
+  {
+    "id": "cat_26dnor",
+    "parent": "cat_26",
+    "label": "Norte de Santander",
+    "type": "depto",
+    "code": "dnor",
+    "value": 5
+  },
+  {
+    "id": "cat_26dput",
+    "parent": "cat_26",
+    "label": "Putumayo",
+    "type": "depto",
+    "code": "dput",
+    "value": 1
+  },
+  {
+    "id": "cat_26dqui",
+    "parent": "cat_26",
+    "label": "Quindío",
+    "type": "depto",
+    "code": "dqui",
+    "value": 5
+  },
+  {
+    "id": "cat_26dris",
+    "parent": "cat_26",
+    "label": "Risaralda",
+    "type": "depto",
+    "code": "dris",
+    "value": 4
+  },
+  {
+    "id": "cat_26dsuc",
+    "parent": "cat_26",
+    "label": "Sucre",
+    "type": "depto",
+    "code": "dsuc",
+    "value": 8
+  },
+  {
+    "id": "cat_26dtol",
+    "parent": "cat_26",
+    "label": "Tolima",
+    "type": "depto",
+    "code": "dtol",
+    "value": 3
+  },
+  {
+    "id": "cat_26dval",
+    "parent": "cat_26",
+    "label": "Valle del Cauca",
+    "type": "depto",
+    "code": "dval",
+    "value": 24
+  },
+  {
+    "id": "cat_27",
+    "parent": 0,
+    "label": "Justicia y Derecho",
+    "type": "category",
+    "code": "cat_27",
+    "value": 131
+  },
+  {
+    "id": "cat_27dama",
+    "parent": "cat_27",
+    "label": "Amazonas",
+    "type": "depto",
+    "code": "dama",
+    "value": 1
+  },
+  {
+    "id": "cat_27dant",
+    "parent": "cat_27",
+    "label": "Antioquia",
+    "type": "depto",
+    "code": "dant",
+    "value": 4
+  },
+  {
+    "id": "cat_27dara",
+    "parent": "cat_27",
+    "label": "Arauca",
+    "type": "depto",
+    "code": "dara",
+    "value": 1
+  },
+  {
+    "id": "cat_27datl",
+    "parent": "cat_27",
+    "label": "Atlántico",
+    "type": "depto",
+    "code": "datl",
+    "value": 1
+  },
+  {
+    "id": "cat_27dbog",
+    "parent": "cat_27",
+    "label": "Bogotá D.C.",
+    "type": "depto",
+    "code": "dbog",
+    "value": 68
+  },
+  {
+    "id": "cat_27dboy",
+    "parent": "cat_27",
+    "label": "Boyacá",
+    "type": "depto",
+    "code": "dboy",
+    "value": 2
+  },
+  {
+    "id": "cat_27dcal",
+    "parent": "cat_27",
+    "label": "Caldas",
+    "type": "depto",
+    "code": "dcal",
+    "value": 2
+  },
+  {
+    "id": "cat_27dcau",
+    "parent": "cat_27",
+    "label": "Cauca",
+    "type": "depto",
+    "code": "dcau",
+    "value": 1
+  },
+  {
+    "id": "cat_27dces",
+    "parent": "cat_27",
+    "label": "Cesar",
+    "type": "depto",
+    "code": "dces",
+    "value": 1
+  },
+  {
+    "id": "cat_27dcun",
+    "parent": "cat_27",
+    "label": "Cundinamarca",
+    "type": "depto",
+    "code": "dcun",
+    "value": 15
+  },
+  {
+    "id": "cat_27dmet",
+    "parent": "cat_27",
+    "label": "Meta",
+    "type": "depto",
+    "code": "dmet",
+    "value": 3
+  },
+  {
+    "id": "cat_27dnor",
+    "parent": "cat_27",
+    "label": "Norte de Santander",
+    "type": "depto",
+    "code": "dnor",
+    "value": 6
+  },
+  {
+    "id": "cat_27dqui",
+    "parent": "cat_27",
+    "label": "Quindío",
+    "type": "depto",
+    "code": "dqui",
+    "value": 1
+  },
+  {
+    "id": "cat_27dsuc",
+    "parent": "cat_27",
+    "label": "Sucre",
+    "type": "depto",
+    "code": "dsuc",
+    "value": 1
+  },
+  {
+    "id": "cat_27dval",
+    "parent": "cat_27",
+    "label": "Valle del Cauca",
+    "type": "depto",
+    "code": "dval",
+    "value": 24
+  },
+  {
+    "id": "cat_28",
+    "parent": 0,
+    "label": "Participación ciudadana",
+    "type": "category",
+    "code": "cat_28",
+    "value": 154
+  },
+  {
+    "id": "cat_28dama",
+    "parent": "cat_28",
+    "label": "Amazonas",
+    "type": "depto",
+    "code": "dama",
+    "value": 1
+  },
+  {
+    "id": "cat_28dant",
+    "parent": "cat_28",
+    "label": "Antioquia",
+    "type": "depto",
+    "code": "dant",
+    "value": 6
+  },
+  {
+    "id": "cat_28datl",
+    "parent": "cat_28",
+    "label": "Atlántico",
+    "type": "depto",
+    "code": "datl",
+    "value": 6
+  },
+  {
+    "id": "cat_28dbog",
+    "parent": "cat_28",
+    "label": "Bogotá D.C.",
+    "type": "depto",
+    "code": "dbog",
+    "value": 44
+  },
+  {
+    "id": "cat_28dboy",
+    "parent": "cat_28",
+    "label": "Boyacá",
+    "type": "depto",
+    "code": "dboy",
+    "value": 7
+  },
+  {
+    "id": "cat_28dcal",
+    "parent": "cat_28",
+    "label": "Caldas",
+    "type": "depto",
+    "code": "dcal",
+    "value": 2
+  },
+  {
+    "id": "cat_28dcaq",
+    "parent": "cat_28",
+    "label": "Caquetá",
+    "type": "depto",
+    "code": "dcaq",
+    "value": 1
+  },
+  {
+    "id": "cat_28dcas",
+    "parent": "cat_28",
+    "label": "Casanare",
+    "type": "depto",
+    "code": "dcas",
+    "value": 7
+  },
+  {
+    "id": "cat_28dcau",
+    "parent": "cat_28",
+    "label": "Cauca",
+    "type": "depto",
+    "code": "dcau",
+    "value": 1
+  },
+  {
+    "id": "cat_28dces",
+    "parent": "cat_28",
+    "label": "Cesar",
+    "type": "depto",
+    "code": "dces",
+    "value": 5
+  },
+  {
+    "id": "cat_28dcho",
+    "parent": "cat_28",
+    "label": "Chocó",
+    "type": "depto",
+    "code": "dcho",
+    "value": 1
+  },
+  {
+    "id": "cat_28dcór",
+    "parent": "cat_28",
+    "label": "Córdoba",
+    "type": "depto",
+    "code": "dcór",
+    "value": 1
+  },
+  {
+    "id": "cat_28dcun",
+    "parent": "cat_28",
+    "label": "Cundinamarca",
+    "type": "depto",
+    "code": "dcun",
+    "value": 9
+  },
+  {
+    "id": "cat_28dgua",
+    "parent": "cat_28",
+    "label": "Guaviare",
+    "type": "depto",
+    "code": "dgua",
+    "value": 4
+  },
+  {
+    "id": "cat_28dhui",
+    "parent": "cat_28",
+    "label": "Huila",
+    "type": "depto",
+    "code": "dhui",
+    "value": 1
+  },
+  {
+    "id": "cat_28dmet",
+    "parent": "cat_28",
+    "label": "Meta",
+    "type": "depto",
+    "code": "dmet",
+    "value": 9
+  },
+  {
+    "id": "cat_28dnar",
+    "parent": "cat_28",
+    "label": "Nariño",
+    "type": "depto",
+    "code": "dnar",
+    "value": 1
+  },
+  {
+    "id": "cat_28dnor",
+    "parent": "cat_28",
+    "label": "Norte de Santander",
+    "type": "depto",
+    "code": "dnor",
+    "value": 4
+  },
+  {
+    "id": "cat_28dqui",
+    "parent": "cat_28",
+    "label": "Quindío",
+    "type": "depto",
+    "code": "dqui",
+    "value": 2
+  },
+  {
+    "id": "cat_28dris",
+    "parent": "cat_28",
+    "label": "Risaralda",
+    "type": "depto",
+    "code": "dris",
+    "value": 5
+  },
+  {
+    "id": "cat_28dsan",
+    "parent": "cat_28",
+    "label": "Santander",
+    "type": "depto",
+    "code": "dsan",
+    "value": 7
+  },
+  {
+    "id": "cat_28dsuc",
+    "parent": "cat_28",
+    "label": "Sucre",
+    "type": "depto",
+    "code": "dsuc",
+    "value": 2
+  },
+  {
+    "id": "cat_28dtol",
+    "parent": "cat_28",
+    "label": "Tolima",
+    "type": "depto",
+    "code": "dtol",
+    "value": 5
+  },
+  {
+    "id": "cat_28dval",
+    "parent": "cat_28",
+    "label": "Valle del Cauca",
+    "type": "depto",
+    "code": "dval",
+    "value": 21
+  },
+  {
+    "id": "cat_28dvic",
+    "parent": "cat_28",
+    "label": "Vichada",
+    "type": "depto",
+    "code": "dvic",
+    "value": 2
+  },
+  {
+    "id": "cat_2dama",
+    "parent": "cat_2",
+    "label": "Amazonas",
+    "type": "depto",
+    "code": "dama",
+    "value": 5
+  },
+  {
+    "id": "cat_2dant",
+    "parent": "cat_2",
+    "label": "Antioquia",
+    "type": "depto",
+    "code": "dant",
+    "value": 77
+  },
+  {
+    "id": "cat_2dara",
+    "parent": "cat_2",
+    "label": "Arauca",
+    "type": "depto",
+    "code": "dara",
+    "value": 3
+  },
+  {
+    "id": "cat_2darc",
+    "parent": "cat_2",
+    "label": "Archipiélago de San Andrés, Providencia y Santa Catalina",
+    "type": "depto",
+    "code": "darc",
+    "value": 9
+  },
+  {
+    "id": "cat_2datl",
+    "parent": "cat_2",
+    "label": "Atlántico",
+    "type": "depto",
+    "code": "datl",
+    "value": 10
+  },
+  {
+    "id": "cat_2dbog",
+    "parent": "cat_2",
+    "label": "Bogotá D.C.",
+    "type": "depto",
+    "code": "dbog",
+    "value": 169
+  },
+  {
+    "id": "cat_2dbol",
+    "parent": "cat_2",
+    "label": "Bolívar",
+    "type": "depto",
+    "code": "dbol",
+    "value": 16
+  },
+  {
+    "id": "cat_2dboy",
+    "parent": "cat_2",
+    "label": "Boyacá",
+    "type": "depto",
+    "code": "dboy",
+    "value": 38
+  },
+  {
+    "id": "cat_2dcal",
+    "parent": "cat_2",
+    "label": "Caldas",
+    "type": "depto",
+    "code": "dcal",
+    "value": 61
+  },
+  {
+    "id": "cat_2dcaq",
+    "parent": "cat_2",
+    "label": "Caquetá",
+    "type": "depto",
+    "code": "dcaq",
+    "value": 3
+  },
+  {
+    "id": "cat_2dcas",
+    "parent": "cat_2",
+    "label": "Casanare",
+    "type": "depto",
+    "code": "dcas",
+    "value": 16
+  },
+  {
+    "id": "cat_2dcau",
+    "parent": "cat_2",
+    "label": "Cauca",
+    "type": "depto",
+    "code": "dcau",
+    "value": 5
+  },
+  {
+    "id": "cat_2dces",
+    "parent": "cat_2",
+    "label": "Cesar",
+    "type": "depto",
+    "code": "dces",
+    "value": 10
+  },
+  {
+    "id": "cat_2dcho",
+    "parent": "cat_2",
+    "label": "Chocó",
+    "type": "depto",
+    "code": "dcho",
+    "value": 1
+  },
+  {
+    "id": "cat_2dcór",
+    "parent": "cat_2",
+    "label": "Córdoba",
+    "type": "depto",
+    "code": "dcór",
+    "value": 6
+  },
+  {
+    "id": "cat_2dcun",
+    "parent": "cat_2",
+    "label": "Cundinamarca",
+    "type": "depto",
+    "code": "dcun",
+    "value": 34
+  },
+  {
+    "id": "cat_2dgua",
+    "parent": "cat_2",
+    "label": "Guaviare",
+    "type": "depto",
+    "code": "dgua",
+    "value": 2
+  },
+  {
+    "id": "cat_2dhui",
+    "parent": "cat_2",
+    "label": "Huila",
+    "type": "depto",
+    "code": "dhui",
+    "value": 25
+  },
+  {
+    "id": "cat_2dla",
+    "parent": "cat_2",
+    "label": "La Guajira",
+    "type": "depto",
+    "code": "dla",
+    "value": 1
+  },
+  {
+    "id": "cat_2dmag",
+    "parent": "cat_2",
+    "label": "Magdalena",
+    "type": "depto",
+    "code": "dmag",
+    "value": 9
+  },
+  {
+    "id": "cat_2dmet",
+    "parent": "cat_2",
+    "label": "Meta",
+    "type": "depto",
+    "code": "dmet",
+    "value": 19
+  },
+  {
+    "id": "cat_2dnar",
+    "parent": "cat_2",
+    "label": "Nariño",
+    "type": "depto",
+    "code": "dnar",
+    "value": 24
+  },
+  {
+    "id": "cat_2dnor",
+    "parent": "cat_2",
+    "label": "Norte de Santander",
+    "type": "depto",
+    "code": "dnor",
+    "value": 60
+  },
+  {
+    "id": "cat_2dput",
+    "parent": "cat_2",
+    "label": "Putumayo",
+    "type": "depto",
+    "code": "dput",
+    "value": 6
+  },
+  {
+    "id": "cat_2dqui",
+    "parent": "cat_2",
+    "label": "Quindío",
+    "type": "depto",
+    "code": "dqui",
+    "value": 11
+  },
+  {
+    "id": "cat_2dris",
+    "parent": "cat_2",
+    "label": "Risaralda",
+    "type": "depto",
+    "code": "dris",
+    "value": 8
+  },
+  {
+    "id": "cat_2dsan",
+    "parent": "cat_2",
+    "label": "Santander",
+    "type": "depto",
+    "code": "dsan",
+    "value": 27
+  },
+  {
+    "id": "cat_2dsuc",
+    "parent": "cat_2",
+    "label": "Sucre",
+    "type": "depto",
+    "code": "dsuc",
+    "value": 9
+  },
+  {
+    "id": "cat_2dtol",
+    "parent": "cat_2",
+    "label": "Tolima",
+    "type": "depto",
+    "code": "dtol",
+    "value": 37
+  },
+  {
+    "id": "cat_2dval",
+    "parent": "cat_2",
+    "label": "Valle del Cauca",
+    "type": "depto",
+    "code": "dval",
+    "value": 94
+  },
+  {
+    "id": "cat_3",
+    "parent": 0,
+    "label": "Resultados Electorales",
+    "type": "category",
+    "code": "cat_3",
+    "value": 10
+  },
+  {
+    "id": "cat_3dama",
+    "parent": "cat_3",
+    "label": "Amazonas",
+    "type": "depto",
+    "code": "dama",
+    "value": 2
+  },
+  {
+    "id": "cat_3datl",
+    "parent": "cat_3",
+    "label": "Atlántico",
+    "type": "depto",
+    "code": "datl",
+    "value": 2
+  },
+  {
+    "id": "cat_3dbog",
+    "parent": "cat_3",
+    "label": "Bogotá D.C.",
+    "type": "depto",
+    "code": "dbog",
+    "value": 2
+  },
+  {
+    "id": "cat_3dcaq",
+    "parent": "cat_3",
+    "label": "Caquetá",
+    "type": "depto",
+    "code": "dcaq",
+    "value": 1
+  },
+  {
+    "id": "cat_3dnor",
+    "parent": "cat_3",
+    "label": "Norte de Santander",
+    "type": "depto",
+    "code": "dnor",
+    "value": 2
+  },
+  {
+    "id": "cat_3dtol",
+    "parent": "cat_3",
+    "label": "Tolima",
+    "type": "depto",
+    "code": "dtol",
+    "value": 1
+  },
+  {
+    "id": "cat_4",
+    "parent": 0,
+    "label": "Educación",
+    "type": "category",
+    "code": "cat_4",
+    "value": 874
+  },
+  {
+    "id": "cat_4dama",
+    "parent": "cat_4",
+    "label": "Amazonas",
+    "type": "depto",
+    "code": "dama",
+    "value": 3
+  },
+  {
+    "id": "cat_4dant",
+    "parent": "cat_4",
+    "label": "Antioquia",
+    "type": "depto",
+    "code": "dant",
+    "value": 74
+  },
+  {
+    "id": "cat_4dara",
+    "parent": "cat_4",
+    "label": "Arauca",
+    "type": "depto",
+    "code": "dara",
+    "value": 7
+  },
+  {
+    "id": "cat_4darc",
+    "parent": "cat_4",
+    "label": "Archipiélago de San Andrés, Providencia y Santa Catalina",
+    "type": "depto",
+    "code": "darc",
+    "value": 8
+  },
+  {
+    "id": "cat_4datl",
+    "parent": "cat_4",
+    "label": "Atlántico",
+    "type": "depto",
+    "code": "datl",
+    "value": 40
+  },
+  {
+    "id": "cat_4dbog",
+    "parent": "cat_4",
+    "label": "Bogotá D.C.",
+    "type": "depto",
+    "code": "dbog",
+    "value": 201
+  },
+  {
+    "id": "cat_4dbol",
+    "parent": "cat_4",
+    "label": "Bolívar",
+    "type": "depto",
+    "code": "dbol",
+    "value": 4
+  },
+  {
+    "id": "cat_4dboy",
+    "parent": "cat_4",
+    "label": "Boyacá",
+    "type": "depto",
+    "code": "dboy",
+    "value": 119
+  },
+  {
+    "id": "cat_4dcal",
+    "parent": "cat_4",
+    "label": "Caldas",
+    "type": "depto",
+    "code": "dcal",
+    "value": 8
+  },
+  {
+    "id": "cat_4dcaq",
+    "parent": "cat_4",
+    "label": "Caquetá",
+    "type": "depto",
+    "code": "dcaq",
+    "value": 7
+  },
+  {
+    "id": "cat_4dcas",
+    "parent": "cat_4",
+    "label": "Casanare",
+    "type": "depto",
+    "code": "dcas",
+    "value": 18
+  },
+  {
+    "id": "cat_4dcau",
+    "parent": "cat_4",
+    "label": "Cauca",
+    "type": "depto",
+    "code": "dcau",
+    "value": 13
+  },
+  {
+    "id": "cat_4dces",
+    "parent": "cat_4",
+    "label": "Cesar",
+    "type": "depto",
+    "code": "dces",
+    "value": 7
+  },
+  {
+    "id": "cat_4dcho",
+    "parent": "cat_4",
+    "label": "Chocó",
+    "type": "depto",
+    "code": "dcho",
+    "value": 1
+  },
+  {
+    "id": "cat_4dcór",
+    "parent": "cat_4",
+    "label": "Córdoba",
+    "type": "depto",
+    "code": "dcór",
+    "value": 8
+  },
+  {
+    "id": "cat_4dcun",
+    "parent": "cat_4",
+    "label": "Cundinamarca",
+    "type": "depto",
+    "code": "dcun",
+    "value": 31
+  },
+  {
+    "id": "cat_4dgua",
+    "parent": "cat_4",
+    "label": "Guaviare",
+    "type": "depto",
+    "code": "dgua",
+    "value": 4
+  },
+  {
+    "id": "cat_4dhui",
+    "parent": "cat_4",
+    "label": "Huila",
+    "type": "depto",
+    "code": "dhui",
+    "value": 17
+  },
+  {
+    "id": "cat_4dla",
+    "parent": "cat_4",
+    "label": "La Guajira",
+    "type": "depto",
+    "code": "dla",
+    "value": 7
+  },
+  {
+    "id": "cat_4dmag",
+    "parent": "cat_4",
+    "label": "Magdalena",
+    "type": "depto",
+    "code": "dmag",
+    "value": 4
+  },
+  {
+    "id": "cat_4dmet",
+    "parent": "cat_4",
+    "label": "Meta",
+    "type": "depto",
+    "code": "dmet",
+    "value": 22
+  },
+  {
+    "id": "cat_4dnar",
+    "parent": "cat_4",
+    "label": "Nariño",
+    "type": "depto",
+    "code": "dnar",
+    "value": 14
+  },
+  {
+    "id": "cat_4dnor",
+    "parent": "cat_4",
+    "label": "Norte de Santander",
+    "type": "depto",
+    "code": "dnor",
+    "value": 26
+  },
+  {
+    "id": "cat_4dput",
+    "parent": "cat_4",
+    "label": "Putumayo",
+    "type": "depto",
+    "code": "dput",
+    "value": 8
+  },
+  {
+    "id": "cat_4dqui",
+    "parent": "cat_4",
+    "label": "Quindío",
+    "type": "depto",
+    "code": "dqui",
+    "value": 23
+  },
+  {
+    "id": "cat_4dris",
+    "parent": "cat_4",
+    "label": "Risaralda",
+    "type": "depto",
+    "code": "dris",
+    "value": 28
+  },
+  {
+    "id": "cat_4dsan",
+    "parent": "cat_4",
+    "label": "Santander",
+    "type": "depto",
+    "code": "dsan",
+    "value": 54
+  },
+  {
+    "id": "cat_4dsuc",
+    "parent": "cat_4",
+    "label": "Sucre",
+    "type": "depto",
+    "code": "dsuc",
+    "value": 8
+  },
+  {
+    "id": "cat_4dtol",
+    "parent": "cat_4",
+    "label": "Tolima",
+    "type": "depto",
+    "code": "dtol",
+    "value": 42
+  },
+  {
+    "id": "cat_4dval",
+    "parent": "cat_4",
+    "label": "Valle del Cauca",
+    "type": "depto",
+    "code": "dval",
+    "value": 67
+  },
+  {
+    "id": "cat_4dvic",
+    "parent": "cat_4",
+    "label": "Vichada",
+    "type": "depto",
+    "code": "dvic",
+    "value": 1
+  },
+  {
+    "id": "cat_5",
+    "parent": 0,
+    "label": "Inclusión Social y Reconciliación",
+    "type": "category",
+    "code": "cat_5",
+    "value": 335
+  },
+  {
+    "id": "cat_5dant",
+    "parent": "cat_5",
+    "label": "Antioquia",
+    "type": "depto",
+    "code": "dant",
+    "value": 27
+  },
+  {
+    "id": "cat_5dara",
+    "parent": "cat_5",
+    "label": "Arauca",
+    "type": "depto",
+    "code": "dara",
+    "value": 1
+  },
+  {
+    "id": "cat_5datl",
+    "parent": "cat_5",
+    "label": "Atlántico",
+    "type": "depto",
+    "code": "datl",
+    "value": 11
+  },
+  {
+    "id": "cat_5dbog",
+    "parent": "cat_5",
+    "label": "Bogotá D.C.",
+    "type": "depto",
+    "code": "dbog",
+    "value": 87
+  },
+  {
+    "id": "cat_5dbol",
+    "parent": "cat_5",
+    "label": "Bolívar",
+    "type": "depto",
+    "code": "dbol",
+    "value": 3
+  },
+  {
+    "id": "cat_5dboy",
+    "parent": "cat_5",
+    "label": "Boyacá",
+    "type": "depto",
+    "code": "dboy",
+    "value": 26
+  },
+  {
+    "id": "cat_5dcal",
+    "parent": "cat_5",
+    "label": "Caldas",
+    "type": "depto",
+    "code": "dcal",
+    "value": 16
+  },
+  {
+    "id": "cat_5dcas",
+    "parent": "cat_5",
+    "label": "Casanare",
+    "type": "depto",
+    "code": "dcas",
+    "value": 7
+  },
+  {
+    "id": "cat_5dcau",
+    "parent": "cat_5",
+    "label": "Cauca",
+    "type": "depto",
+    "code": "dcau",
+    "value": 14
+  },
+  {
+    "id": "cat_5dces",
+    "parent": "cat_5",
+    "label": "Cesar",
+    "type": "depto",
+    "code": "dces",
+    "value": 2
+  },
+  {
+    "id": "cat_5dcho",
+    "parent": "cat_5",
+    "label": "Chocó",
+    "type": "depto",
+    "code": "dcho",
+    "value": 1
+  },
+  {
+    "id": "cat_5dcun",
+    "parent": "cat_5",
+    "label": "Cundinamarca",
+    "type": "depto",
+    "code": "dcun",
+    "value": 7
+  },
+  {
+    "id": "cat_5dgua",
+    "parent": "cat_5",
+    "label": "Guaviare",
+    "type": "depto",
+    "code": "dgua",
+    "value": 1
+  },
+  {
+    "id": "cat_5dla",
+    "parent": "cat_5",
+    "label": "La Guajira",
+    "type": "depto",
+    "code": "dla",
+    "value": 12
+  },
+  {
+    "id": "cat_5dmag",
+    "parent": "cat_5",
+    "label": "Magdalena",
+    "type": "depto",
+    "code": "dmag",
+    "value": 1
+  },
+  {
+    "id": "cat_5dmet",
+    "parent": "cat_5",
+    "label": "Meta",
+    "type": "depto",
+    "code": "dmet",
+    "value": 28
+  },
+  {
+    "id": "cat_5dnar",
+    "parent": "cat_5",
+    "label": "Nariño",
+    "type": "depto",
+    "code": "dnar",
+    "value": 3
+  },
+  {
+    "id": "cat_5dnor",
+    "parent": "cat_5",
+    "label": "Norte de Santander",
+    "type": "depto",
+    "code": "dnor",
+    "value": 22
+  },
+  {
+    "id": "cat_5dput",
+    "parent": "cat_5",
+    "label": "Putumayo",
+    "type": "depto",
+    "code": "dput",
+    "value": 1
+  },
+  {
+    "id": "cat_5dqui",
+    "parent": "cat_5",
+    "label": "Quindío",
+    "type": "depto",
+    "code": "dqui",
+    "value": 10
+  },
+  {
+    "id": "cat_5dris",
+    "parent": "cat_5",
+    "label": "Risaralda",
+    "type": "depto",
+    "code": "dris",
+    "value": 8
+  },
+  {
+    "id": "cat_5dsan",
+    "parent": "cat_5",
+    "label": "Santander",
+    "type": "depto",
+    "code": "dsan",
+    "value": 7
+  },
+  {
+    "id": "cat_5dtol",
+    "parent": "cat_5",
+    "label": "Tolima",
+    "type": "depto",
+    "code": "dtol",
+    "value": 6
+  },
+  {
+    "id": "cat_5dval",
+    "parent": "cat_5",
+    "label": "Valle del Cauca",
+    "type": "depto",
+    "code": "dval",
+    "value": 34
+  },
+  {
+    "id": "cat_6",
+    "parent": 0,
+    "label": "Minas y Energía",
+    "type": "category",
+    "code": "cat_6",
+    "value": 182
+  },
+  {
+    "id": "cat_6dant",
+    "parent": "cat_6",
+    "label": "Antioquia",
+    "type": "depto",
+    "code": "dant",
+    "value": 2
+  },
+  {
+    "id": "cat_6dbog",
+    "parent": "cat_6",
+    "label": "Bogotá D.C.",
+    "type": "depto",
+    "code": "dbog",
+    "value": 152
+  },
+  {
+    "id": "cat_6dboy",
+    "parent": "cat_6",
+    "label": "Boyacá",
+    "type": "depto",
+    "code": "dboy",
+    "value": 1
+  },
+  {
+    "id": "cat_6dcal",
+    "parent": "cat_6",
+    "label": "Caldas",
+    "type": "depto",
+    "code": "dcal",
+    "value": 1
+  },
+  {
+    "id": "cat_6dcas",
+    "parent": "cat_6",
+    "label": "Casanare",
+    "type": "depto",
+    "code": "dcas",
+    "value": 1
+  },
+  {
+    "id": "cat_6dces",
+    "parent": "cat_6",
+    "label": "Cesar",
+    "type": "depto",
+    "code": "dces",
+    "value": 1
+  },
+  {
+    "id": "cat_6dcun",
+    "parent": "cat_6",
+    "label": "Cundinamarca",
+    "type": "depto",
+    "code": "dcun",
+    "value": 1
+  },
+  {
+    "id": "cat_6dnor",
+    "parent": "cat_6",
+    "label": "Norte de Santander",
+    "type": "depto",
+    "code": "dnor",
+    "value": 3
+  },
+  {
+    "id": "cat_6dqui",
+    "parent": "cat_6",
+    "label": "Quindío",
+    "type": "depto",
+    "code": "dqui",
+    "value": 9
+  },
+  {
+    "id": "cat_6dsan",
+    "parent": "cat_6",
+    "label": "Santander",
+    "type": "depto",
+    "code": "dsan",
+    "value": 9
+  },
+  {
+    "id": "cat_6dsuc",
+    "parent": "cat_6",
+    "label": "Sucre",
+    "type": "depto",
+    "code": "dsuc",
+    "value": 1
+  },
+  {
+    "id": "cat_6dtol",
+    "parent": "cat_6",
+    "label": "Tolima",
+    "type": "depto",
+    "code": "dtol",
+    "value": 1
+  },
+  {
+    "id": "cat_7",
+    "parent": 0,
+    "label": "Función pública",
+    "type": "category",
+    "code": "cat_7",
+    "value": 670
+  },
+  {
+    "id": "cat_7dama",
+    "parent": "cat_7",
+    "label": "Amazonas",
+    "type": "depto",
+    "code": "dama",
+    "value": 3
+  },
+  {
+    "id": "cat_7dant",
+    "parent": "cat_7",
+    "label": "Antioquia",
+    "type": "depto",
+    "code": "dant",
+    "value": 47
+  },
+  {
+    "id": "cat_7dara",
+    "parent": "cat_7",
+    "label": "Arauca",
+    "type": "depto",
+    "code": "dara",
+    "value": 4
+  },
+  {
+    "id": "cat_7datl",
+    "parent": "cat_7",
+    "label": "Atlántico",
+    "type": "depto",
+    "code": "datl",
+    "value": 31
+  },
+  {
+    "id": "cat_7dbog",
+    "parent": "cat_7",
+    "label": "Bogotá D.C.",
+    "type": "depto",
+    "code": "dbog",
+    "value": 109
+  },
+  {
+    "id": "cat_7dbol",
+    "parent": "cat_7",
+    "label": "Bolívar",
+    "type": "depto",
+    "code": "dbol",
+    "value": 1
+  },
+  {
+    "id": "cat_7dboy",
+    "parent": "cat_7",
+    "label": "Boyacá",
+    "type": "depto",
+    "code": "dboy",
+    "value": 35
+  },
+  {
+    "id": "cat_7dcal",
+    "parent": "cat_7",
+    "label": "Caldas",
+    "type": "depto",
+    "code": "dcal",
+    "value": 5
+  },
+  {
+    "id": "cat_7dcas",
+    "parent": "cat_7",
+    "label": "Casanare",
+    "type": "depto",
+    "code": "dcas",
+    "value": 8
+  },
+  {
+    "id": "cat_7dcau",
+    "parent": "cat_7",
+    "label": "Cauca",
+    "type": "depto",
+    "code": "dcau",
+    "value": 31
+  },
+  {
+    "id": "cat_7dces",
+    "parent": "cat_7",
+    "label": "Cesar",
+    "type": "depto",
+    "code": "dces",
+    "value": 7
+  },
+  {
+    "id": "cat_7dcho",
+    "parent": "cat_7",
+    "label": "Chocó",
+    "type": "depto",
+    "code": "dcho",
+    "value": 1
+  },
+  {
+    "id": "cat_7dcór",
+    "parent": "cat_7",
+    "label": "Córdoba",
+    "type": "depto",
+    "code": "dcór",
+    "value": 1
+  },
+  {
+    "id": "cat_7dcun",
+    "parent": "cat_7",
+    "label": "Cundinamarca",
+    "type": "depto",
+    "code": "dcun",
+    "value": 32
+  },
+  {
+    "id": "cat_7dgua",
+    "parent": "cat_7",
+    "label": "Guaviare",
+    "type": "depto",
+    "code": "dgua",
+    "value": 15
+  },
+  {
+    "id": "cat_7dhui",
+    "parent": "cat_7",
+    "label": "Huila",
+    "type": "depto",
+    "code": "dhui",
+    "value": 6
+  },
+  {
+    "id": "cat_7dla",
+    "parent": "cat_7",
+    "label": "La Guajira",
+    "type": "depto",
+    "code": "dla",
+    "value": 7
+  },
+  {
+    "id": "cat_7dmag",
+    "parent": "cat_7",
+    "label": "Magdalena",
+    "type": "depto",
+    "code": "dmag",
+    "value": 11
+  },
+  {
+    "id": "cat_7dmet",
+    "parent": "cat_7",
+    "label": "Meta",
+    "type": "depto",
+    "code": "dmet",
+    "value": 36
+  },
+  {
+    "id": "cat_7dnar",
+    "parent": "cat_7",
+    "label": "Nariño",
+    "type": "depto",
+    "code": "dnar",
+    "value": 55
+  },
+  {
+    "id": "cat_7dnor",
+    "parent": "cat_7",
+    "label": "Norte de Santander",
+    "type": "depto",
+    "code": "dnor",
+    "value": 19
+  },
+  {
+    "id": "cat_7dput",
+    "parent": "cat_7",
+    "label": "Putumayo",
+    "type": "depto",
+    "code": "dput",
+    "value": 3
+  },
+  {
+    "id": "cat_7dqui",
+    "parent": "cat_7",
+    "label": "Quindío",
+    "type": "depto",
+    "code": "dqui",
+    "value": 11
+  },
+  {
+    "id": "cat_7dris",
+    "parent": "cat_7",
+    "label": "Risaralda",
+    "type": "depto",
+    "code": "dris",
+    "value": 112
+  },
+  {
+    "id": "cat_7dsan",
+    "parent": "cat_7",
+    "label": "Santander",
+    "type": "depto",
+    "code": "dsan",
+    "value": 11
+  },
+  {
+    "id": "cat_7dsuc",
+    "parent": "cat_7",
+    "label": "Sucre",
+    "type": "depto",
+    "code": "dsuc",
+    "value": 5
+  },
+  {
+    "id": "cat_7dtol",
+    "parent": "cat_7",
+    "label": "Tolima",
+    "type": "depto",
+    "code": "dtol",
+    "value": 11
+  },
+  {
+    "id": "cat_7dval",
+    "parent": "cat_7",
+    "label": "Valle del Cauca",
+    "type": "depto",
+    "code": "dval",
+    "value": 50
+  },
+  {
+    "id": "cat_7dvic",
+    "parent": "cat_7",
+    "label": "Vichada",
+    "type": "depto",
+    "code": "dvic",
+    "value": 3
+  },
+  {
+    "id": "cat_8",
+    "parent": 0,
+    "label": "Estadísticas Nacionales",
+    "type": "category",
+    "code": "cat_8",
+    "value": 218
+  },
+  {
+    "id": "cat_8dant",
+    "parent": "cat_8",
+    "label": "Antioquia",
+    "type": "depto",
+    "code": "dant",
+    "value": 7
+  },
+  {
+    "id": "cat_8datl",
+    "parent": "cat_8",
+    "label": "Atlántico",
+    "type": "depto",
+    "code": "datl",
+    "value": 1
+  },
+  {
+    "id": "cat_8dbog",
+    "parent": "cat_8",
+    "label": "Bogotá D.C.",
+    "type": "depto",
+    "code": "dbog",
+    "value": 99
+  },
+  {
+    "id": "cat_8dboy",
+    "parent": "cat_8",
+    "label": "Boyacá",
+    "type": "depto",
+    "code": "dboy",
+    "value": 4
+  },
+  {
+    "id": "cat_8dcal",
+    "parent": "cat_8",
+    "label": "Caldas",
+    "type": "depto",
+    "code": "dcal",
+    "value": 1
+  },
+  {
+    "id": "cat_8dcaq",
+    "parent": "cat_8",
+    "label": "Caquetá",
+    "type": "depto",
+    "code": "dcaq",
+    "value": 1
+  },
+  {
+    "id": "cat_8dcas",
+    "parent": "cat_8",
+    "label": "Casanare",
+    "type": "depto",
+    "code": "dcas",
+    "value": 1
+  },
+  {
+    "id": "cat_8dcun",
+    "parent": "cat_8",
+    "label": "Cundinamarca",
+    "type": "depto",
+    "code": "dcun",
+    "value": 82
+  },
+  {
+    "id": "cat_8dla",
+    "parent": "cat_8",
+    "label": "La Guajira",
+    "type": "depto",
+    "code": "dla",
+    "value": 1
+  },
+  {
+    "id": "cat_8dnar",
+    "parent": "cat_8",
+    "label": "Nariño",
+    "type": "depto",
+    "code": "dnar",
+    "value": 2
+  },
+  {
+    "id": "cat_8dnor",
+    "parent": "cat_8",
+    "label": "Norte de Santander",
+    "type": "depto",
+    "code": "dnor",
+    "value": 1
+  },
+  {
+    "id": "cat_8dput",
+    "parent": "cat_8",
+    "label": "Putumayo",
+    "type": "depto",
+    "code": "dput",
+    "value": 1
+  },
+  {
+    "id": "cat_8dqui",
+    "parent": "cat_8",
+    "label": "Quindío",
+    "type": "depto",
+    "code": "dqui",
+    "value": 2
+  },
+  {
+    "id": "cat_8dsan",
+    "parent": "cat_8",
+    "label": "Santander",
+    "type": "depto",
+    "code": "dsan",
+    "value": 2
+  },
+  {
+    "id": "cat_8dtol",
+    "parent": "cat_8",
+    "label": "Tolima",
+    "type": "depto",
+    "code": "dtol",
+    "value": 4
+  },
+  {
+    "id": "cat_8dval",
+    "parent": "cat_8",
+    "label": "Valle del Cauca",
+    "type": "depto",
+    "code": "dval",
+    "value": 6
+  },
+  {
+    "id": "cat_9",
+    "parent": 0,
+    "label": "Trabajo",
+    "type": "category",
+    "code": "cat_9",
+    "value": 32
+  },
+  {
+    "id": "cat_9dbog",
+    "parent": "cat_9",
+    "label": "Bogotá D.C.",
+    "type": "depto",
+    "code": "dbog",
+    "value": 19
+  },
+  {
+    "id": "cat_9dcal",
+    "parent": "cat_9",
+    "label": "Caldas",
+    "type": "depto",
+    "code": "dcal",
+    "value": 1
+  },
+  {
+    "id": "cat_9dcaq",
+    "parent": "cat_9",
+    "label": "Caquetá",
+    "type": "depto",
+    "code": "dcaq",
+    "value": 1
+  },
+  {
+    "id": "cat_9dces",
+    "parent": "cat_9",
+    "label": "Cesar",
+    "type": "depto",
+    "code": "dces",
+    "value": 1
+  },
+  {
+    "id": "cat_9dcun",
+    "parent": "cat_9",
+    "label": "Cundinamarca",
+    "type": "depto",
+    "code": "dcun",
+    "value": 2
+  },
+  {
+    "id": "cat_9dmet",
+    "parent": "cat_9",
+    "label": "Meta",
+    "type": "depto",
+    "code": "dmet",
+    "value": 1
+  },
+  {
+    "id": "cat_9dnor",
+    "parent": "cat_9",
+    "label": "Norte de Santander",
+    "type": "depto",
+    "code": "dnor",
+    "value": 1
+  },
+  {
+    "id": "cat_9dqui",
+    "parent": "cat_9",
+    "label": "Quindío",
+    "type": "depto",
+    "code": "dqui",
+    "value": 1
+  },
+  {
+    "id": "cat_9dris",
+    "parent": "cat_9",
+    "label": "Risaralda",
+    "type": "depto",
+    "code": "dris",
+    "value": 1
+  },
+  {
+    "id": "cat_9dsan",
+    "parent": "cat_9",
+    "label": "Santander",
+    "type": "depto",
+    "code": "dsan",
+    "value": 1
+  },
+  {
+    "id": "cat_9dtol",
+    "parent": "cat_9",
+    "label": "Tolima",
+    "type": "depto",
+    "code": "dtol",
+    "value": 1
+  },
+  {
+    "id": "cat_9dval",
+    "parent": "cat_9",
+    "label": "Valle del Cauca",
+    "type": "depto",
+    "code": "dval",
+    "value": 2
+  }
+]
