@@ -20,7 +20,7 @@
         "options": ["line", "curve", "diagonal", "orthogonal"]
       }
     } 
-  ], 
+  ],  
 
   "data": [
     {
@@ -54,7 +54,7 @@
       ]
     }
   ],
-
+ 
   "scales": [
     {
       "name": "color",

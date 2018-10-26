@@ -510,5 +510,397 @@
     "type": "category",
     "code": "cat_23",
     "value": 1
+  },
+  {
+    "id": "y",
+    "parent": 0,
+    "label": "year",
+    "type": "year",
+    "code": "d",
+    "value": 7266
+  },
+  {
+    "id": 2017,
+    "parent": "y",
+    "label": 2017,
+    "type": "year",
+    "code": 2017,
+    "value": 2783
+  },
+  {
+    "id": 2016,
+    "parent": "y",
+    "label": 2016,
+    "type": "year",
+    "code": 2016,
+    "value": 2550
+  },
+  {
+    "id": 2018,
+    "parent": "y",
+    "label": 2018,
+    "type": "year",
+    "code": 2018,
+    "value": 1933
+  },
+  {
+    "id": "s",
+    "parent": 0,
+    "label": "orden",
+    "type": "orden",
+    "code": "d",
+    "value": 7266
+  },
+  {
+    "id": "ote",
+    "parent": "s",
+    "label": "Territorial",
+    "type": "orden",
+    "code": "ote",
+    "value": 4670
+  },
+  {
+    "id": "ona",
+    "parent": "s",
+    "label": "Nacional",
+    "type": "orden",
+    "code": "ona",
+    "value": 2463
+  },
+  {
+    "id": "oin",
+    "parent": "s",
+    "label": "Internacional",
+    "type": "orden",
+    "code": "oin",
+    "value": 26
+  },
+  {
+    "id": "o",
+    "parent": 0,
+    "label": "organization",
+    "type": "organization",
+    "code": "d",
+    "value": 7266
+  },
+  {
+    "id": "org1",
+    "parent": "o",
+    "label": "Alcaldía Municipal de Santiago de Cali",
+    "type": "organization",
+    "code": "org1",
+    "value": 279
+  },
+  {
+    "id": "org2",
+    "parent": "o",
+    "label": "Dirección General de la Policía Nacional",
+    "type": "organization",
+    "code": "org2",
+    "value": 226
+  },
+  {
+    "id": "org3",
+    "parent": "o",
+    "label": "Alcaldía Municipal de Chía",
+    "type": "organization",
+    "code": "org3",
+    "value": 204
+  },
+  {
+    "id": "org4",
+    "parent": "o",
+    "label": "Ministerio de Tecnologías de La Información y Las Comunicaciones",
+    "type": "organization",
+    "code": "org4",
+    "value": 130
+  },
+  {
+    "id": "org5",
+    "parent": "o",
+    "label": "Gobernación del Valle del Cauca",
+    "type": "organization",
+    "code": "org5",
+    "value": 117
+  },
+  {
+    "id": "org6",
+    "parent": "o",
+    "label": "Instituto Colombiano para la Evaluación de la Educación",
+    "type": "organization",
+    "code": "org6",
+    "value": 115
+  },
+  {
+    "id": "org7",
+    "parent": "o",
+    "label": "E.S.P. Empresa de Acueducto y Alcantarillado de Pereira S.A.",
+    "type": "organization",
+    "code": "org7",
+    "value": 108
+  },
+  {
+    "id": "org9",
+    "parent": "o",
+    "label": "Superintendencia de la Economía Solidaria",
+    "type": "organization",
+    "code": "org9",
+    "value": 102
+  },
+  {
+    "id": "org10",
+    "parent": "o",
+    "label": "Alcaldía Municipal de Tunja",
+    "type": "organization",
+    "code": "org10",
+    "value": 98
+  },
+  {
+    "id": "org11",
+    "parent": "o",
+    "label": "Ministerio de Agricultura y Desarrollo Rural",
+    "type": "organization",
+    "code": "org11",
+    "value": 89
+  },
+  {
+    "id": "org12",
+    "parent": "o",
+    "label": "Gobernación del Meta",
+    "type": "organization",
+    "code": "org12",
+    "value": 89
+  },
+  {
+    "id": "org13",
+    "parent": "o",
+    "label": "Gobernación del Risaralda",
+    "type": "organization",
+    "code": "org13",
+    "value": 69
+  },
+  {
+    "id": "org15",
+    "parent": "o",
+    "label": "Instituto Caro y Cuervo",
+    "type": "organization",
+    "code": "org15",
+    "value": 65
+  },
+  {
+    "id": "org14",
+    "parent": "o",
+    "label": "Ministerio de Salud y Protección Social",
+    "type": "organization",
+    "code": "org14",
+    "value": 65
+  },
+  {
+    "id": "org16",
+    "parent": "o",
+    "label": "Superintendencia de Servicios Públicos Domiciliarios",
+    "type": "organization",
+    "code": "org16",
+    "value": 63
+  },
+  {
+    "id": "org17",
+    "parent": "o",
+    "label": "Alcaldía Municipal de Gramalote",
+    "type": "organization",
+    "code": "org17",
+    "value": 60
+  },
+  {
+    "id": "org18",
+    "parent": "o",
+    "label": "Instituto Nacional de Vigilancia de Medicamentos y Alimentos",
+    "type": "organization",
+    "code": "org18",
+    "value": 60
+  },
+  {
+    "id": "org19",
+    "parent": "o",
+    "label": "Alcaldía Municipal de Medellín",
+    "type": "organization",
+    "code": "org19",
+    "value": 58
+  },
+  {
+    "id": "org20",
+    "parent": "o",
+    "label": "Gobernación del Norte de Santander",
+    "type": "organization",
+    "code": "org20",
+    "value": 57
+  },
+  {
+    "id": "m",
+    "parent": 0,
+    "label": "municipio",
+    "type": "municipio",
+    "code": "d",
+    "value": 7266
+  },
+  {
+    "id": "dbog_bogo",
+    "parent": "m",
+    "label": "Bogotá D.C.",
+    "type": "municipio",
+    "code": "dbog_bogo",
+    "value": 2238
+  },
+  {
+    "id": "dval_cali",
+    "parent": "m",
+    "label": "Cali",
+    "type": "municipio",
+    "code": "dval_cali",
+    "value": 449
+  },
+  {
+    "id": "dris_pere",
+    "parent": "m",
+    "label": "Pereira",
+    "type": "municipio",
+    "code": "dris_pere",
+    "value": 210
+  },
+  {
+    "id": "dcun_chía",
+    "parent": "m",
+    "label": "Chía",
+    "type": "municipio",
+    "code": "dcun_chía",
+    "value": 204
+  },
+  {
+    "id": "dboy_tunj",
+    "parent": "m",
+    "label": "Tunja",
+    "type": "municipio",
+    "code": "dboy_tunj",
+    "value": 191
+  },
+  {
+    "id": "dant_mede",
+    "parent": "m",
+    "label": "Medellín",
+    "type": "municipio",
+    "code": "dant_mede",
+    "value": 143
+  },
+  {
+    "id": "dmet_vill",
+    "parent": "m",
+    "label": "Villavicencio",
+    "type": "municipio",
+    "code": "dmet_vill",
+    "value": 108
+  },
+  {
+    "id": "dcal_mani",
+    "parent": "m",
+    "label": "Manizales",
+    "type": "municipio",
+    "code": "dcal_mani",
+    "value": 104
+  },
+  {
+    "id": "dsan_buca",
+    "parent": "m",
+    "label": "Bucaramanga",
+    "type": "municipio",
+    "code": "dsan_buca",
+    "value": 98
+  },
+  {
+    "id": "dnor_cúcu",
+    "parent": "m",
+    "label": "Cúcuta",
+    "type": "municipio",
+    "code": "dnor_cúcu",
+    "value": 76
+  },
+  {
+    "id": "dnar_past",
+    "parent": "m",
+    "label": "Pasto",
+    "type": "municipio",
+    "code": "dnar_past",
+    "value": 75
+  },
+  {
+    "id": "dcau_popa",
+    "parent": "m",
+    "label": "Popayán",
+    "type": "municipio",
+    "code": "dcau_popa",
+    "value": 66
+  },
+  {
+    "id": "dsuc_sinc",
+    "parent": "m",
+    "label": "Sincelejo",
+    "type": "municipio",
+    "code": "dsuc_sinc",
+    "value": 63
+  },
+  {
+    "id": "dnor_gram",
+    "parent": "m",
+    "label": "Gramalote",
+    "type": "municipio",
+    "code": "dnor_gram",
+    "value": 60
+  },
+  {
+    "id": "dqui_arme",
+    "parent": "m",
+    "label": "Armenia",
+    "type": "municipio",
+    "code": "dqui_arme",
+    "value": 58
+  },
+  {
+    "id": "dhui_neiv",
+    "parent": "m",
+    "label": "Neiva",
+    "type": "municipio",
+    "code": "dhui_neiv",
+    "value": 57
+  },
+  {
+    "id": "dant_copa",
+    "parent": "m",
+    "label": "Copacabana",
+    "type": "municipio",
+    "code": "dant_copa",
+    "value": 56
+  },
+  {
+    "id": "dval_tulu",
+    "parent": "m",
+    "label": "Tuluá",
+    "type": "municipio",
+    "code": "dval_tulu",
+    "value": 54
+  },
+  {
+    "id": "dcas_yopa",
+    "parent": "m",
+    "label": "Yopal",
+    "type": "municipio",
+    "code": "dcas_yopa",
+    "value": 51
+  },
+  {
+    "id": "datl_barr",
+    "parent": "m",
+    "label": "Barranquilla",
+    "type": "municipio",
+    "code": "datl_barr",
+    "value": 46
   }
 ]

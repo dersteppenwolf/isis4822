@@ -109,7 +109,7 @@
       "name": "x2",
       "type": "linear",
       "domain": {"data": "tree", "field": "value"},
-      "range": [0, 1200], 
+      "range": [0, 100], 
       "nice": true
     }
 
@@ -145,25 +145,9 @@
         }
       }
     }
-    ,
+  
 
-    {
-      "type": "rect",
-      "from": {"data": "tree"},
-      "encode": {
-        "update": {
-          "y": {"field": "y"}, 
-         
-          "dx": {"signal": "(datum.leftside ? -1 : 1) * 6"},
-          "height": {"value":  10},
-          "width": {"scale": "x2", "field": "value"},
-          "x": {"field": "x"} ,
-          "opacity": {"signal": "datum.depth < 2 ? 0 : 1"},
-          "angle": {"signal": "datum.leftside ? datum.angle - 180 : datum.angle"}
-
-        }
-      }
-    }
+  
     
     
     ,
@@ -182,8 +166,11 @@
           "dx": {"signal": "(datum.leftside ? -1 : 1) * 6"},
           "angle": {"signal": "datum.leftside ? datum.angle - 180 : datum.angle"},
           "align": {"signal": "datum.leftside ? 'right' : 'left'"},
-          "opacity": {"signal": "datum.depth < 3 ? 1 : 0.1"},
-          "fontSize": {"signal": "datum.depth < 2 ? 10 : 7"}
+          "opacity": {"signal": "datum.depth > 1 ? 1 : 0"},
+          
+
+
+          "fontSize": {"scale": "x2", "field": "value"}
         } 
       }
     }
