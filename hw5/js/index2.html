@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type="text/css">
+        .node {}
+
+        .link {
+            stroke: #999;
+            stroke-opacity: .2;
+            stroke-width: 0.5px;
+        }
+    </style>
+</head>
+
+<body>
+    <svg width="1024" height="600"></svg>
+
+    <script src="//d3js.org/d3.v4.min.js"></script>
+
+    <script type="text/javascript">
+
+
+
+
+
+
+        var svg = d3.select("svg"),
+            width = +svg.attr("width"),
+            height = +svg.attr("height"),
+            node,
+            link, simulation;
+
+
+
+
+
+
+
+
+
+        d3.json("data.json", function (error, graph) {
+            if (error) throw error;
+            update(graph.links, graph.nodes);
+        })
+
+        function update(links, nodes) {
+            var strengthScale = d3.scaleLog()
+                .domain([1, d3.max(links, d => d.value)])
+                .range([0.1, 1]);
+
+            var distanceScale = d3.scalePow()
+                .domain([1, d3.max(links, d => d.value)])
+                .range([100, 50]);
+
+            function customStrength(d) {
+                console.log(d.value);
+                console.log(strengthScale(d.value))
+                return strengthScale(d.value)
+            }
+
+            
+
+            function customStrength(d) {
+                //console.log(d.value);
+                //console.log(strengthScale(d.value))
+                return strengthScale(d.value)
+            }
+
+            function customDistance(d) {
+              //  console.log(d.value);
+               // console.log(distanceScale(d.value))
+                return distanceScale(d.value)
+            }
+
+
+
+            link = svg.selectAll(".link")
+                .data(links)
+                .enter()
+                .append("line")
+                .attr("class", "link")
+
+
+
+            node = svg.selectAll(".node")
+                .data(nodes)
+                .enter()
+                .append("g")
+                .attr("class", "node")
+                .call(d3.drag()
+                    .on("start", dragstarted)
+                    .on("drag", dragged)
+                    //.on("end", dragended)
+                ).append("circle")
+                .attr("r", function (d) {
+                    return (d.group === 'c') ? 5 : 8;
+                })
+                .attr("fill", function (d) {
+                    return (d.group === 'c') ? '#FF7F50' : "dodgerblue";
+                }).on("mouseover", mouseOver(.2))
+                .on("mouseout", mouseOut)
+
+            // hover text for the node
+            node.append("title")
+                .text(function (d) {
+                    return d.label;
+                });
+
+
+            simulation = d3.forceSimulation()
+                .force("link", d3.forceLink().id(function (d) { return d.id; })
+                    .distance(customDistance)
+                    .strength(customStrength))
+                // push nodes apart to space them out
+                .force("charge", d3.forceManyBody()
+                        .strength(-60)
+                        .distanceMin(40))
+                        
+                // add some collision detection so they don't overlap
+                .force("collide", d3.forceCollide().radius(15))
+                .force("center", d3.forceCenter(width / 2, height / 2));
+            simulation
+                .nodes(nodes)
+                .on("tick", ticked);
+
+            simulation.force("link")
+                .links(links);
+
+
+            // https://bl.ocks.org/martinjc/7aa53c7bf3e411238ac8aef280bd6581
+            // build a dictionary of nodes that are linked
+            var linkedByIndex = {};
+            links.forEach(function (d) {
+                linkedByIndex[d.source.index + "," + d.target.index] = 1;
+            });
+
+            // check the dictionary to see if nodes are linked
+            function isConnected(a, b) {
+                return linkedByIndex[a.index + "," + b.index] || linkedByIndex[b.index + "," + a.index] || a.index == b.index;
+            }
+
+            // fade nodes on hover
+            function mouseOver(opacity) {
+                return function (d) {
+                    // check all other nodes to see if they're connected
+                    // to this one. if so, keep the opacity at 1, otherwise
+                    // fade
+                    node.style("stroke-opacity", function (o) {
+                        thisOpacity = isConnected(d, o) ? 1 : opacity;
+                        return thisOpacity;
+                    });
+                    node.style("fill-opacity", function (o) {
+                        thisOpacity = isConnected(d, o) ? 1 : opacity;
+                        return thisOpacity;
+                    });
+                    // also style link accordingly
+                    link.style("stroke-opacity", function (o) {
+                        return o.source === d || o.target === d ? 1 : opacity;
+                    });
+                    link.style("stroke", function (o) {
+                        return o.source === d || o.target === d ? o.source.colour : "#ddd";
+                    });
+                };
+            }
+
+            function mouseOut() {
+                node.style("stroke-opacity", 1);
+                node.style("fill-opacity", 1);
+                link.style("stroke-opacity", 1);
+                link.style("stroke", "#ddd");
+            }
+        }
+
+        function ticked() {
+            link
+                .attr("x1", function (d) { return d.source.x; })
+                .attr("y1", function (d) { return d.source.y; })
+                .attr("x2", function (d) { return d.target.x; })
+                .attr("y2", function (d) { return d.target.y; });
+
+            node
+                .attr("transform", function (d) { return "translate(" + d.x + ", " + d.y + ")"; });
+
+        }
+
+        function dragstarted(d) {
+            if (!d3.event.active) simulation.alphaTarget(0.3).restart()
+            d.fx = d.x;
+            d.fy = d.y;
+        }
+
+        function dragged(d) {
+            d.fx = d3.event.x;
+            d.fy = d3.event.y;
+        }
+
+//    function dragended(d) {
+//        if (!d3.event.active) simulation.alphaTarget(0);
+//        d.fx = undefined;
+//        d.fy = undefined;
+//    }
+
+    </script>
+
+</body>
+
+</html>

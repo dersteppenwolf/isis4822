@@ -1,0 +1,921 @@
+id,label,group
+cat_1,Ambiente y Desarrollo Sostenible,c
+cat_10,"Comercio, Industria y Turismo",c
+cat_12,Mapas Nacionales,c
+cat_13,Ordenamiento Territorial,c
+cat_14,Gastos Gubernamentales,c
+cat_15,"Vivienda, Ciudad y Territorio",c
+cat_16,Seguridad y Defensa,c
+cat_17,"Ciencia, Tecnología e Innovación",c
+cat_18,Agricultura y Desarrollo Rural,c
+cat_19,Organismos de Control,c
+cat_2,Salud y Protección Social,c
+cat_20,Deporte y Recreación,c
+cat_21,Economía y Finanzas,c
+cat_22,Transporte,c
+cat_24,Presupuestos Gubernamentales,c
+cat_25,Cultura,c
+cat_26,Hacienda y Crédito Público,c
+cat_27,Justicia y Derecho,c
+cat_28,Participación ciudadana,c
+cat_3,Resultados Electorales,c
+cat_4,Educación,c
+cat_5,Inclusión Social y Reconciliación,c
+cat_6,Minas y Energía,c
+cat_7,Función pública,c
+cat_8,Estadísticas Nacionales,c
+cat_9,Trabajo,c
+o1,Alcaldía Municipal de Santiago de Cali,c
+o10,Gobernación del Meta,c
+o100,Superintendencia de Industria y Comercio,c
+o101,Alcaldía Municipal de Flandes,c
+o102,Instituto Nacional de Metrología,c
+o103,Alcaldía Municipal de Ortega,c
+o104,Alcaldía Municipal de San José del Guaviare,c
+o105,Alcaldía Municipal de Envigado,c
+o106,Ministerio de Educación Nacional,c
+o107,Alcaldía Municipal de Baranoa,c
+o108,Alcaldía Municipal de Tubará,c
+o109,Agencia Nacional de Infraestructura,c
+o11,Ministerio de Agricultura y Desarrollo Rural,c
+o110,Universidad del Quindío,c
+o111,Instituto Distrital de Gestión de Riesgos y Cambio Climático,c
+o112,Alcaldía Municipal de Güepsa Santander,c
+o113,Alcaldía Municipal de Armenia Antioquia,c
+o114,Secretaría Distrital de Movilidad,c
+o115,Alcaldía Municipal de Neiva,c
+o116,Alcaldía Municipal de Barbosa Antioquia,c
+o117,Ministerio de Ambiente y Desarrollo Sostenible,c
+o118,Ministerio del Trabajo,c
+o119,Alcaldía Municipal de Urumita,c
+o12,Gobernación del Risaralda,c
+o120,Contraloría Departamental del Valle del Cauca,c
+o121,Alcaldía Municipal de Los Patios,c
+o122,Alcaldía Municipal de Facatativá,c
+o123,Alcaldía Municipal de Chiquinquirá,c
+o124,Cámara de Representantes,c
+o125,Gobernación del Quindío,c
+o126,Alcaldía Municipal de Calamar Guaviare,c
+o127,Gobernación del Caquetá,c
+o128,Alcaldía Municipal de Sevilla Valle,c
+o129,Alcaldía Municipal de Santa Rosa de Cabal,c
+o13,Instituto Caro y Cuervo,c
+o130,Empresa de Energía del Quindío S.A. E.S.P.,c
+o131,Sociedad Radio Televisión Nacional de Colombia,c
+o132,Instituto Colombiano de Crédito Educativo y Estudios Técnicos en el Exterior Mariano Ospina Pérez,c
+o133,Alcaldía Municipal de Mapiripán,c
+o134,Fondo Financiero de Proyectos de Desarrollo,c
+o135,Alcaldía Municipal de Palmar de Varela Atlántico,c
+o136,Alcaldía Municipal de Bucaramanga,c
+o137,Alcaldía Municipal de Algarrobo,c
+o138,Agencia Nacional de Minería,c
+o139,Alcaldía Municipal de Palmira,c
+o14,Ministerio de Salud y Protección Social,c
+o140,Superintendencia Nacional de Salud,c
+o141,Universidad Nacional Abierta y a Distancia,c
+o142,Alcaldía Municipal de Ocaña,c
+o143,Alcaldía Municipal de Abejorral Antioquia,c
+o144,Alcaldía Municipal de Popayán,c
+o145,"Ministerio de Vivienda, Ciudad y Territorio",c
+o146,"Instituto de Hidrología, Meteorología y Estudios Ambientales",c
+o147,Alcaldía Municipal de Ibagué,c
+o148,Alcaldía Municipal de Zipaquirá,c
+o149,Alcaldía Municipal de Santa María,c
+o15,Superintendencia de Servicios Públicos Domiciliarios,c
+o150,Alcaldía Municipal de Inzá,c
+o151,Alcaldía Municipal de Angostura,c
+o152,Unidad Administrativa Especial de Gestión de Restitución de Tierras Despojadas,c
+o153,Alcaldía Municipal de Guamal Meta,c
+o154,Gobernación de Cundinamarca,c
+o155,Alcaldía Municipal de Itagüí,c
+o156,Alcaldía Municipal de Los Córdobas,c
+o157,Instituto Colombiano Agropecuario,c
+o158,Alcaldía Municipal de Sabaneta,c
+o159,Alcaldía Municipal de Pamplonita,c
+o16,Alcaldía Municipal de Gramalote,c
+o160,Alcaldía Municipal de Subachoque,c
+o161,Alcaldía Municipal de Anzoátegui,c
+o162,Alcaldía Municipal de La Estrella,c
+o163,Alcaldía Municipal de Planadas,c
+o164,"Instituto Nacional de Cancerología, Empresa Social del Estado",c
+o165,Unidad Administrativa Especial Contaduría General de la Nación,c
+o166,Alcaldía Municipal de Yumbo,c
+o167,Alcaldía Municipal de San Pablo,c
+o168,Alcaldía Municipal de Yotoco,c
+o169,Secretaría Distrital del Hábitat,c
+o17,Instituto Nacional de Vigilancia de Medicamentos y Alimentos,c
+o170,Fondo Nacional de Garantías S.A.,c
+o171,Alcaldía Municipal de Granada Cundinamarca,c
+o172,Departamento Administrativo de la Función Pública,c
+o173,Alcaldía Municipal de Tena,c
+o174,Dirección Nacional de derecho de Autor,c
+o175,Alcaldía Municipal de Bello,c
+o176,Departamento Administrativo de la Presidencia de la República,c
+o177,Alcaldía Municipal de Villanueva Casanare,c
+o178,Corporación Autónoma Regional para la Defensa de la Meseta de Bucaramanga,c
+o179,Alcaldía Municipal de Dolores,c
+o18,Alcaldía Municipal de Medellín,c
+o180,Gobernación del Tolima,c
+o181,Alcaldía Municipal de Suan,c
+o182,Universidad de la Amazonia,c
+o183,Alcaldía Municipal de Ponedera,c
+o184,Alcaldía Municipal de La Unión Valle del Cauca,c
+o185,Alcaldía Municipal de San Calixto,c
+o186,Alcaldía Municipal de Sabanagrande,c
+o187,Contraloría Departamental del Amazonas,c
+o188,Alcaldía Municipal de Fresno,c
+o189,Escuela Nacional del Deporte,c
+o19,Gobernación del Norte de Santander,c
+o190,Alcaldía Municipal de Teorama,c
+o191,Alcaldía Mayor de Bogotá,c
+o192,Alcaldía Municipal de Tauramena,c
+o193,"Alcaldía Distrital de Barranquilla, Distrito Especial, Industrial y Portuario",c
+o194,Alcaldía Municipal de Ataco,c
+o195,Alcaldía Municipal de San Sebastián de Mariquita,c
+o196,Alcaldía Municipal de Quimbaya,c
+o197,E.S.P. Electrificadora de Santander S.A.,c
+o198,Corporación Autónoma Regional de Risaralda,c
+o199,Alcaldía Municipal de Calarcá,c
+o2,Dirección General de la Policía Nacional,c
+o20,Instituto Nacional de Medicina Legal y Ciencias Forenses,c
+o200,Instituto Departamental de Salud de Nariño,c
+o201,Instituto Nacional de Salud,c
+o202,Alcaldía Municipal de Granada Meta,c
+o203,Alcaldía Municipal de Santana,c
+o204,Alcaldía Municipal de San Juan de Rio Seco,c
+o205,E.S.E. Hospital San Rafael,c
+o206,Alcaldía Municipal de Tocancipá,c
+o207,Alcaldía Municipal de El Tambo,c
+o208,Instituto Nacional para Ciegos,c
+o209,"Secretaría de Cultura, Recreación y Deporte",c
+o21,Alcaldía Municipal de Tuluá,c
+o210,Unidad Administrativa Especial para la Atención y Reparación Integral a Las Víctimas,c
+o211,Alcaldía Municipal de Suarez Tolima,c
+o212,Instituto Nacional de Formación Técnica Profesional del Departamento de San Andrés,c
+o213,Gobernación de Caldas,c
+o214,Unidad Administrativa Especial Migración Colombia,c
+o215,Ministerio del Interior,c
+o216,Alcaldía Municipal de El Dovio,c
+o217,Alcaldía Municipal de Vista Hermosa,c
+o218,Alcaldía Municipal de San Cayetano Norte de Santander,c
+o219,Alcaldía Municipal de Vijes,c
+o22,Alcaldía Municipal de Copacabana,c
+o220,Alcaldía Municipal de Venadillo,c
+o221,Alcaldía Municipal de San Cayetano Cundinamarca,c
+o222,Empresas Publicas de Medellín,c
+o223,Ejercito Nacional de Colombia,c
+o224,Alcaldía Municipal de Castilla la Nueva,c
+o225,Alcaldía Municipal de Zona Bananera,c
+o226,Alcaldía Municipal de San Luis de Palenque,c
+o227,Banco Agrario de Colombia S.A.,c
+o228,Ministerio de Cultura,c
+o229,Alcaldía Municipal de Jericó Antioquia,c
+o23,Dirección Territorial de Salud de Caldas,c
+o230,Alcaldía Municipal de Boavita,c
+o231,Alcaldía Municipal de Cuítiva,c
+o232,Alcaldía Municipal de Armero Guayabal,c
+o233,Artesanías de Colombia S.A.,c
+o234,Unidad Nacional para la Gestión del Riesgo de Desastres,c
+o235,Archivo General de la Nación,c
+o236,Fondo de Garantías de Instituciones Financieras,c
+o237,Caja Promotora de Vivienda Militar y de Policía,c
+o238,Alcaldía Municipal de Santacruz Guachavés,c
+o239,Contraloría General del Municipio de Manizales,c
+o24,Universidad Pedagógica y Tecnológica de Colombia,c
+o240,Alcaldía Municipal de El Banco,c
+o241,Alcaldía Municipal de Argelia Antioquia,c
+o242,Alcaldía Municipal de Icononzo,c
+o243,Corporación Autónoma Regional de Chivor,c
+o244,Alcaldía Municipal de Hobo,c
+o245,Instituto Distrital de Turismo,c
+o246,Alcaldía Municipal de Fuente de Oro,c
+o247,Administradora Colombiana de Pensiones,c
+o248,Alcaldía Municipal de Toledo,c
+o249,Alcaldía Municipal de Caldas,c
+o25,Agencia Nacional de Contratación Pública Colombia Compra Eficiente,c
+o250,Alcaldía Municipal de Tibú,c
+o251,Alcaldía Municipal de El Tarra,c
+o252,Administradora del Monopolio Rentístico de Los Juegos de Suerte y Azar,c
+o253,Alcaldía Municipal de Campo de la Cruz,c
+o254,Fondo Nacional de Ahorro,c
+o255,Autoridad Nacional de Televisión,c
+o256,Comisión de Regulación de Comunicaciones,c
+o257,Alcaldía Municipal de Villahermosa,c
+o258,Alcaldía Municipal de Repelón,c
+o259,E.S.E. Hospital San Rafael de Tunja,c
+o26,Gobernación del Santander,c
+o260,Sociedad de Acueductos y Alcantarillados del Valle del Cauca S.A. E.S.P.,c
+o261,Alcaldía Municipal de El Cerrito Valle del Cauca,c
+o262,Alcaldía Municipal de San José de Cúcuta,c
+o263,Gobernación del Guaviare,c
+o264,Alcaldía Municipal de Manatí,c
+o265,Hospital Militar Central,c
+o266,Banco de la República,c
+o267,Alcaldía Municipal de El Carmen,c
+o268,Alcaldía Municipal de Tópaga,c
+o269,Alcaldía Municipal de Sopó,c
+o27,Contraloría General de Antioquia,c
+o271,Alcaldía Municipal de Ciénaga Magdalena,c
+o272,Alcaldía Municipal de Mistrató,c
+o273,Alcaldía Municipal de Chivatá,c
+o274,Registraduria Nacional del Estado Civil,c
+o275,Alcaldía Municipal de Tamalameque,c
+o276,Alcaldía Municipal de Ábrego,c
+o277,Alcaldía Municipal de Tipacoque,c
+o278,Alcaldía Municipal de Barrancabermeja,c
+o279,Alcaldía Municipal de Saboyá,c
+o28,Agencia Nacional de Hidrocarburos,c
+o280,Instituto de Casas Fiscales del Ejército,c
+o281,Alcaldía Municipal de Hato Nuevo,c
+o282,Ministerio de Defensa Nacional,c
+o283,Alcaldía Municipal de Tumaco,c
+o284,Fiscalía General de la Nación,c
+o285,Alcaldía Municipal de Valledupar,c
+o286,Alcaldía Municipal de Guateque,c
+o287,Alcaldía Municipal de Génova,c
+o288,Universidad del Valle,c
+o289,Instituto Nacional Penitenciario y Carcelario,c
+o29,Gobernación de Sucre,c
+o290,Alcaldía Municipal de Belmira,c
+o291,Instituto Tecnológico de Soledad Atlántico,c
+o292,Financiera de Desarrollo Territorial S.A.,c
+o293,Corporación de la Industria Aeronáutica Colombiana S.A.,c
+o294,Corporación Autónoma Regional de Los Valles del Sinú y del San Jorge,c
+o295,Institución Universitaria Pascual Bravo,c
+o296,Alcaldía Municipal de Villavicencio,c
+o297,Secretaría Distrital de Salud,c
+o298,Alcaldía Municipal de San Juan de Girón,c
+o299,Área Metropolitana de Bucaramanga,c
+o3,Alcaldía Municipal de Chía,c
+o30,Alcaldía Municipal de Pasto,c
+o300,Contraloría Municipal de Envigado,c
+o301,Senado de La República,c
+o302,Alcaldía Municipal de Puerto López,c
+o303,Alcaldía Municipal de Palestina Caldas,c
+o304,Contraloría Municipal de Pasto,c
+o305,Alcaldía Municipal de Puerto Guzmán,c
+o306,Alcaldía Municipal de El Líbano,c
+o307,Alcaldía Municipal de Páramo,c
+o308,Alcaldía Municipal de Caicedonia Valle del Cauca,c
+o309,Alcaldía Municipal de La Calera,c
+o31,Gobernación del Huila,c
+o310,Contraloría Municipal de Cúcuta,c
+o311,Alcaldía Municipal de Arauca,c
+o312,Personería Municipal de Ricaurte Cundinamarca,c
+o313,Armada Nacional,c
+o314,Cámara de Comercio de Valledupar,c
+o315,Alcaldía Municipal de Herrán,c
+o316,Alcaldía Municipal de Alcalá,c
+o317,Alcaldía Municipal de Sutamarchán,c
+o318,Alcaldía Municipal de Choachí,c
+o319,Contraloría Distrital de Barranquilla,c
+o32,Alcaldía Municipal de Marinilla,c
+o320,Región Administrativa y de Planeación Especial,c
+o321,Comisión de Regulación de Agua Potable y Saneamiento Básico,c
+o322,Gobernación del Magdalena,c
+o323,Instituto Nacional para Sordos,c
+o324,Alcaldía Municipal de Becerril,c
+o325,Alcaldía Municipal de Santiago,c
+o326,Servicio Geológico Colombiano,c
+o327,Secretaría Distrital de Gobierno,c
+o328,Alcaldía Municipal de Boyacá,c
+o329,Alcaldía Municipal de Colón Génova,c
+o33,Alcaldía Municipal de Guadalajara de Buga,c
+o330,Escuela Superior de Administración Pública,c
+o331,Alcaldía Municipal de Duitama,c
+o332,Alcaldía Municipal de Pacho,c
+o333,Alcaldía Municipal de Melgar Tolima,c
+o334,Alcaldía Municipal de Bolívar Valle del Cauca,c
+o335,Alcaldía Municipal de Sora,c
+o336,Alcaldía Municipal de Apartadó,c
+o337,Alcaldía Municipal de Aranzazu,c
+o338,Agencia de Desarrollo Rural,c
+o339,Industria Militar,c
+o34,Instituto de Planificación y Promoción de Soluciones Energéticas para Las Zonas no Interconectadas,c
+o340,Alcaldía Municipal de El Doncello,c
+o341,Unidad Administrativa Especial Junta Central de Contadores,c
+o342,Alcaldía Municipal de El Carmen de Viboral,c
+o343,Unidad Administrativa Especial de Catastro Distrital,c
+o344,Alcaldía Municipal de Tibasosa,c
+o345,Alcaldía Municipal de Puerto Santander,c
+o346,Alcaldía Municipal de Montería,c
+o347,Alcaldía Municipal de Bugalagrande,c
+o348,Alcaldía Municipal de Ragonvalia,c
+o349,Alcaldía Municipal de Natagaima,c
+o35,Alcaldía Municipal de Chaparral,c
+o350,Alcaldía Municipal de Anserma Caldas,c
+o351,Alcaldía Municipal de Chachagüí,c
+o352,Comisión Nacional del Servicio Civil,c
+o353,Alcaldía Municipal,c
+o354,Alcaldía Municipal de Tesalia,c
+o355,Ministerio de Tecnologías de la Información y Las Comunicaciones,c
+o356,Alcaldía Municipal de Tota,c
+o357,Alcaldía Municipal de Luruaco,c
+o358,Alcaldía Municipal de Fredonia,c
+o359,Positiva Compañía de Seguros S.A.,c
+o36,Ministerio de Transporte,c
+o360,Corporación para el Desarrollo Sostenible del Archipiélago de San Andres Providencia y Santa Catalina,c
+o361,Unidad Ejecutora de Saneamiento del Valle del Cauca,c
+o362,"Sanatorio de Contratación, Empresa Social del Estado",c
+o363,Alcaldía Municipal de Nariño,c
+o364,Alcaldía Municipal de Polonuevo,c
+o365,Parques Nacionales Naturales de Colombia,c
+o366,"Departamento Administrativo del Deporte, La Recreación, La Actividad Física y El Aprovechamiento del Tiempo Libre",c
+o368,Alcaldía Municipal de Río de Oro,c
+o369,Alcaldía Municipal de Villarrica Tolima,c
+o37,Contraloría Departamental del Cauca,c
+o370,Auditoría General de la República,c
+o371,E.S.P. Empresa de Servicios Públicos de Fusagasugá Emserfusa,c
+o372,Alcaldía Municipal de Puerto Libertador,c
+o373,Alcaldía Municipal de Cáchira,c
+o374,Alcaldía Municipal de Santuario,c
+o375,Empresa Social del Estado Centro Dermatológico Federico Lleras Acosta,c
+o376,Alcaldía Municipal de Miranda,c
+o377,Fondo de Garantías de Entidades Cooperativas,c
+o378,Alcaldía Municipal de Sibundoy,c
+o379,Alcaldía Municipal de Paipa,c
+o38,Unidad Nacional de Protección,c
+o380,Centro de Formación Integral para El Trabajo Cefit Envigado,c
+o381,E.S.E. Hospital Departamental Santa Sofía de Caldas,c
+o382,Gobernación de la Guajira,c
+o383,Dirección General de Sanidad Militar,c
+o384,Alcaldía Municipal de Tame,c
+o386,Sociedad de Activos Especiales S.A.S.,c
+o387,Alcaldía Municipal de Briceño Boyacá,c
+o388,Alcaldía Municipal de San Andrés Santander,c
+o389,Alcaldía Municipal de Mogotes,c
+o39,Contraloría Municipal de Itagüí,c
+o390,Contraloría de Bogotá D.C.,c
+o391,Corporación Autónoma Regional del Guavio,c
+o392,Alcaldía Municipal de Covarachía,c
+o393,Alcaldía Municipal de Santa Sofía,c
+o394,Secretaría de Hacienda de Bogotá,c
+o395,Alcaldía Municipal de El Águila,c
+o396,Alcaldía Municipal de Saldaña,c
+o397,Alcaldía Municipal de Girardot,c
+o398,Alcaldía Municipal de Usiacurí,c
+o399,Alcaldía Municipal de Guasca,c
+o4,Ministerio de Tecnologías de La Información y Las Comunicaciones,c
+o40,Alcaldía Municipal de Mosquera Cundinamarca,c
+o400,Instituto Departamental de Salud de Norte de Santander,c
+o401,E.S.E. Hospital Santa Lucia Roncesvalles,c
+o402,Agencia Presidencial de Cooperación Internacional de Colombia,c
+o403,Alcaldía Municipal de Puerto Leguízamo,c
+o404,Unidad Administrativa Especial de Gestión Pensional y Contribuciones Parafiscales de la Protección Social,c
+o405,Alcaldía Municipal de Trinidad,c
+o406,Contraloría General de Caldas,c
+o407,Alcaldía Municipal de Juan de Acosta,c
+o408,Corporación Autónoma Regional del Alto Magdalena Cam,c
+o409,Contraloría Departamental del Meta,c
+o41,Alcaldía Municipal de Sincelejo,c
+o410,"Ministerio de Comercio, Industria y Turismo",c
+o411,Alcaldía Municipal de Cáceres,c
+o412,Universidad de Antioquia,c
+o413,Alcaldía Municipal de Matanza,c
+o414,Alcaldía Municipal de Sabanalarga Antioquia,c
+o415,Alcaldía Municipal de El Dorado,c
+o416,Alcaldía Municipal de Motavita,c
+o417,Escuela Tecnológica Instituto Técnico Central,c
+o418,Alcaldía Municipal de Maceo,c
+o419,E.S.P. Aguas de Manizales S.A.,c
+o42,Alcaldía Municipal de Acacias,c
+o420,Alcaldía Municipal de Puerto Gaitán,c
+o421,Departamento Administrativo de la Defensoría del Espacio Público,c
+o422,Alcaldía Municipal de Andalucía,c
+o423,Alcaldía Municipal de El Molino,c
+o424,Personería Municipal de Envigado Antioquia,c
+o425,Alcaldía Municipal de Piojó,c
+o426,Alcaldía Municipal de Puerto Nariño,c
+o427,Universidad Militar Nueva Granada,c
+o428,Alcaldía Municipal de Toledo Norte de Santander,c
+o429,Unidad de Planeación Minero Energética,c
+o43,Alcaldía Municipal de Alpujarra,c
+o430,Alcaldía Municipal de Santa Cruz de Mompós,c
+o431,E.S.E. Hospital General de Medellín,c
+o432,Alcaldía Municipal de Leticia,c
+o433,Alcaldía Municipal de Togüí,c
+o434,Alcaldía Municipal de San Pedro de Cartago,c
+o435,Alcaldía Municipal de Florencia Cauca,c
+o436,Alcaldía Municipal de Murillo,c
+o437,Alcaldía Municipal de Salento,c
+o438,Semintel SAS,c
+o439,E.S.E. Red de Salud del Norte,c
+o44,Gobernación de Bolívar,c
+o440,E.S.E. Salud Pereira,c
+o441,"Alcaldía Distrital de Buenaventura Distrito Especial, Industrial, Portuario, Biodiverso y Ecoturístico",c
+o442,Alcaldía Municipal de Providencia y Santa Catalina Islas San Andres,c
+o444,Universidad Colegio Mayor de Cundinamarca,c
+o445,Alcaldía Municipal de Durania,c
+o446,Alcaldía Municipal de Yarumal,c
+o447,Alcaldía Municipal de Fortul,c
+o448,Alcaldía Municipal de Chiscas,c
+o449,Instituto de Vivienda de Interés Social y Reforma Urbana del Municipio de Copacabana Invicop,c
+o45,Alcaldía Municipal de Galapa,c
+o450,Fondo de Previsión Social del Congreso de la República,c
+o451,"Sanatorio de Agua de Dios, Empresa Social del Estado",c
+o452,Dirección General Marítima,c
+o453,Alcaldía Municipal de Aipe,c
+o454,Alcaldía Municipal de La Playa de Belén,c
+o455,Secretaría Distrital de Ambiente,c
+o456,Universidad Pedagógica Nacional,c
+o457,Alcaldía Municipal de Sabanalarga Atlántico,c
+o458,Alcaldía Municipal de Supía,c
+o459,Concejo Municipal de Riohacha,c
+o46,Alcaldía Municipal de Yopal,c
+o460,Defensa Civil Colombiana,c
+o461,Alcaldía Municipal de Santa Rosa del Sur,c
+o462,Alcaldía Municipal de Puerto Colombia,c
+o463,"Instituto del Deporte, La Educación Física y La Recreación del Valle del Cauca Indervalle",c
+o464,Alcaldía Municipal de Tangua,c
+o465,Agencia Nacional Inmobiliaria Virgilio Barco Vargas,c
+o466,"Alcaldía Distrital de Cartagena de Indias Distrito Turístico, Histórico y Cultural",c
+o467,Alcaldía Municipal de Santa Lucia,c
+o468,Instituto Distrital de La Recreación y El Deporte Idrd,c
+o469,Alcaldía Municipal de Valle de San Juan,c
+o47,Gobernación del Atlántico,c
+o470,Alcaldía Municipal de Quebradanegra,c
+o471,Alcaldía Municipal de San Vicente de Chucurí Santander,c
+o472,Alcaldía Municipal de Chinavita,c
+o473,Alcaldía Municipal de El Playón,c
+o474,Alcaldía Municipal de La Ceja del Tambo,c
+o475,Alcaldía Municipal de El Rosal,c
+o476,Alcaldía Municipal de Guarne,c
+o477,Alcaldía Municipal de Riosucio Choco,c
+o478,Alcaldía Municipal de Recetor,c
+o479,E.S.E. Hospital Departamental San Antonio Pitalito,c
+o48,Departamento Nacional de Planeación,c
+o480,Alcaldía Municipal de Timaná,c
+o481,Personería Municipal de Itagüí Antioquia,c
+o482,Alcaldía Municipal de Ginebra,c
+o483,Concejo Municipal de Santiago de Cali,c
+o484,Alcaldía Municipal de Balboa Risaralda,c
+o485,Alcaldía Municipal de Soracá,c
+o486,Agencia de Renovación del Territorio,c
+o487,Alcaldía Municipal de Coveñas,c
+o488,Contraloría Departamental de Cundinamarca,c
+o489,Alcaldía Municipal de Santa Cruz de Lorica,c
+o49,Alcaldía Municipal de Villa del Rosario,c
+o490,Fuerza Aérea Colombiana,c
+o491,Alcaldía Municipal de El Copey,c
+o492,Alcaldía Municipal de Lejanías,c
+o493,"Contraloría General del Departamento Archipielago de San Andrés, Providencia y Santa Catalina",c
+o494,Alcaldía Municipal de Herveo,c
+o495,Agencia Nacional del Espectro,c
+o496,Alcaldía Municipal de Quípama,c
+o497,Contraloría Municipal Soacha Cundinamarca,c
+o498,Alcaldía Municipal de Pajarito,c
+o499,Alcaldía Municipal de Girardota,c
+o5,Gobernación del Valle del Cauca,c
+o50,Ministerio de Justicia y del derecho,c
+o500,Universidad del Cauca,c
+o501,Alcaldía Municipal de la Dorada,c
+o502,Contraloría General de Santiago de Cali,c
+o503,Alcaldía Municipal de Norcasia,c
+o504,Superintendencia de Vigilancia y Seguridad Privada,c
+o505,Personería Distrital de Bogotá D.C.,c
+o506,Fiduciaria la Previsora S.A.,c
+o507,Contraloría Municipal de Villavicencio,c
+o508,Concejo Municipal de Castilla la Nueva Meta,c
+o509,Alcaldía Municipal de Orito,c
+o51,Instituto Colombiano de Bienestar Familiar,c
+o510,Alcaldía Municipal de Montenegro,c
+o511,Alcaldía Municipal de Florencia Caquetá,c
+o512,Alcaldía Municipal de Montelíbano,c
+o513,E.S.P. Central Hidroelectrica de Caldas S.A. Chec,c
+o514,Alcaldía Municipal de Albania Guajira,c
+o515,Empresa Inmobiliaria Cundinamarquesa,c
+o516,Alcaldía Municipal de Candelaria Atlántico,c
+o518,E.S.P. Centrales Eléctricas del Norte de Santander S.A.,c
+o519,Alcaldía Municipal de Útica,c
+o52,Alcaldía Municipal de Saravena,c
+o520,Alcaldía Municipal de San Juan de Betulia,c
+o521,Instituto de Vivienda de Interés Social y Reforma Urbana InviUnión La Unión,c
+o523,Alcaldía Municipal de La Tebaida Quindío,c
+o524,E.S.E. del Municipio de Villavicencio,c
+o525,Servicio Nacional de Aprendizaje,c
+o526,Dirección de Transito y Transporte Floridablanca,c
+o527,Alcaldía Municipal de La Primavera,c
+o528,Corporación Autónoma Regional de Caldas,c
+o529,Alcaldía Municipal de Tona,c
+o53,Alcaldía Municipal de Funza,c
+o530,Alcaldía Municipal de La Virginia,c
+o531,Alcaldía Municipal de Santiago de Tolú,c
+o532,Alcaldía Municipal de la Salina,c
+o533,Instituto Nacional de Formación Técnica Profesional de San Juan del Cesar,c
+o534,Contraloría Departamental de Córdoba,c
+o535,Alcaldía Municipal de Santo Tomas,c
+o536,Alcaldía Municipal de Chinácota,c
+o538,Alcaldía Municipal de El Carmen de Chucuri,c
+o539,Instituto de Investigaciones Marinas y Costeras José Benito Vives de Andréis,c
+o54,Gobernación del Cauca,c
+o540,Alcaldía Municipal de Puerto Carreño,c
+o541,Alcaldía Municipal de Aratoca,c
+o542,Alcaldía Municipal de Dosquebradas,c
+o543,E.S.E. Hospital Departamental de Villavicencio,c
+o544,Corporación Autónoma Regional de la Orinoquia,c
+o545,Alcaldía Municipal de Tarazá,c
+o546,Alcaldía Municipal de Puerto Rico Meta,c
+o547,Alcaldía Municipal de Risaralda Caldas,c
+o548,Alcaldía Municipal de Cucutilla,c
+o549,Alcaldía Municipal de Málaga,c
+o55,Alcaldía Municipal de Manizales,c
+o550,Defensoría del Pueblo,c
+o551,Alcaldía Municipal de Miraflores Boyacá,c
+o552,Alcaldía Municipal de Potosí,c
+o553,Centro de Formación Integral para El Trabajo,c
+o554,Unidad de Servicios Penitenciarios y Carcelarios,c
+o555,Alcaldía Municipal de Aguada Santander,c
+o556,Instituto para El Deporte y La Recreación de Yopal,c
+o557,Alcaldía Municipal de La Jagua de Ibirico,c
+o558,Megabus S.A.,c
+o559,Alcaldía Municipal de Berbeo Boyacá,c
+o56,Unidad Administrativa Especial de Servicios Públicos,c
+o560,Alcaldía Municipal de Monguí,c
+o561,Alcaldía Municipal de Firavitoba,c
+o562,Caja de Sueldos de Retiro de la Policía Nacional,c
+o563,Alcaldía Municipal de Nariño Cundinamarca,c
+o564,Alcaldía Municipal de San Luis Antioquia,c
+o565,Fondo Adaptación,c
+o566,Alcaldía Municipal de Circasia,c
+o567,Personería Municipal de Génova Quindío,c
+o568,Inspeccion de Transito y Transporte de Barrancabermeja,c
+o569,Alcaldía Municipal de Ituango,c
+o57,Gobernación de Nariño,c
+o570,Alcaldía Municipal de Buenavista Quindío,c
+o571,Alcaldía Municipal de Tibaná,c
+o572,Servicios Postales Nacionales S.A.,c
+o573,Alcaldía Municipal de la Ceja del Tambo,c
+o574,Alcaldía Municipal de San Francisco - Putumayo,c
+o575,Alcaldía Municipal de La Macarena Meta,c
+o576,Alcaldía Municipal de Urrao,c
+o577,Alcaldía Municipal de Oiba,c
+o578,Corte Constitucional,c
+o579,Corporación Autónoma Regional del Magdalena,c
+o58,"Gobernación Archipiélago de San Andrés, Providencia y Santa Catalina",c
+o580,Alcaldía Municipal de Coromoro,c
+o581,Instituto de Desarrollo Urbano Idu,c
+o582,Concejo Municipal Puerto Colombia Atlántico,c
+o583,Alcaldía Municipal de Restrepo,c
+o584,Concejo Municipal de Yopal Casanare,c
+o585,Central de Inversiones S.A.,c
+o586,Fondo Rotatorio de la Policía Nacional,c
+o588,Alcaldía Municipal de Lebrija Santander,c
+o589,Alcaldía Municipal de Puerto Salgar,c
+o59,Superintendencia de Notariado y Registro,c
+o590,Alcaldía Municipal de Medio Baudó,c
+o591,Alcaldía Municipal de Yacuanquer,c
+o592,Alcaldía Municipal de El Bagre,c
+o593,Alcaldía Municipal de Puerto Boyacá,c
+o594,Alcaldía Municipal de Cumaral,c
+o595,Alcaldía Municipal de Chameza,c
+o596,Gobernación del Choco,c
+o597,Alcaldía Municipal de Palocabildo,c
+o598,Empresa Colombiana de Productos Veterinarios Vecol S.A..,c
+o599,Alcaldía Municipal de Guática,c
+o6,Instituto Colombiano para la Evaluación de la Educación,c
+o60,Corporación Autónoma Regional de Cundinamarca,c
+o600,Alcaldía Municipal de Barichara,c
+o601,Alcaldía Municipal de Pitalito,c
+o602,Alcaldía Municipal de Valdivia,c
+o603,Alcaldía Municipal de Cucunubá,c
+o604,Empresas Publicas Municipales de Armenia,c
+o605,Alcaldía Municipal de Nechí,c
+o606,"Agencia del Inspector General de Tributos, Rentas y Contribuciones Parafiscales",c
+o607,Departamento Administrativo Dirección Nacional de Inteligencia,c
+o608,Contraloría Distrital de Buenaventura,c
+o609,Alcaldía Municipal de Calima del Darién,c
+o61,Gobernación de Boyacá,c
+o610,Alcaldía Municipal de El Cocuy,c
+o611,Fondo para el Financiamiento del Sector Agropecuario,c
+o612,Canal Regional de Televisión Tv Andina Ltda.,c
+o613,Alcaldía Municipal de Mesetas,c
+o614,Instituto Nacional de Vías,c
+o615,Alcaldía Municipal de Turmequé,c
+o616,Secretaría Distrital de Planeación,c
+o617,E.S.E. Hospital Universitario La Samaritana,c
+o618,Alcaldía Municipal de Riofrío Valle,c
+o619,Corporación Nacional para la Reconstrucción de la Cuenca del Río Páez y Zonas Aledañas,c
+o62,Alcaldía Municipal de Chinchiná,c
+o620,Unidad Administrativa Especial de Organizaciones Solidarias,c
+o621,Politécnico Colombiano Jaime Isaza Cadavid,c
+o622,Alcaldía Municipal de Victoria,c
+o623,Alcaldía Municipal de San Vicente del Caguan,c
+o624,Alcaldía Municipal de Rondón,c
+o625,Alcaldía Municipal de San Miguel Putumayo,c
+o626,Alcaldía Municipal de San Pedro Valle del Cauca,c
+o627,Alcaldía Municipal de Sesquilé,c
+o628,Centro de Memoria Histórica,c
+o629,Alcaldía Municipal de Santo Domingo Antioquia,c
+o63,Gobernación del Cesar,c
+o630,Alcaldía Municipal de Cartago,c
+o631,Agencia de Desarrollo Local de Itagüí,c
+o632,Gobernación del Guainía,c
+o633,Alcaldía Municipal de Cimitarra,c
+o634,Alcaldía Municipal de San Antero,c
+o635,Servicio Aéreo A Territorios Nacionales S.A.,c
+o636,Alcaldía Municipal de Enciso,c
+o637,Concejo Municipal la Primavera Vichada,c
+o638,Alcaldía Municipal de Palmas del Socorro,c
+o639,Alcaldía Municipal de San Eduardo,c
+o64,Gobernación del Amazonas,c
+o640,Escuela Superior de Guerra 'General Rafael Reyes Prieto',c
+o641,Alcaldía Municipal de Floresta,c
+o642,Alcaldía Municipal de Pore,c
+o643,Alcaldía Municipal de La Mesa,c
+o644,Alcaldía Municipal de Taminango,c
+o645,Observatorio Colombiano de Ciencia y Tecnología,c
+o646,E.S.E. Centro de Salud San Miguel de Sema,c
+o647,Alcaldía Municipal de Puerto Wilches,c
+o648,Alcaldía Municipal de Arjona,c
+o649,E.S.P. Empresa de Aseo de Pereira S.A.,c
+o65,Alcaldía Municipal de Puerres,c
+o650,INSTITUCIÓN EDUCATIVA I.E GABRIELA MISTRAL,c
+o651,Alcaldía Municipal de La Capilla,c
+o652,Alcaldía Municipal de Villa de Leyva,c
+o653,Caja de Retiro de Las Fuerzas Militares,c
+o654,Alcaldía Municipal de Tinjacá,c
+o655,E.S.P. Empresa Ibaguéreña de Acueducto y Alcantarillado S.A.,c
+o656,Alcaldía Municipal de San Francisco Antioquia,c
+o657,E.S.P. Aguas de Barrancabermeja S.A.,c
+o658,Concejo Municipal de Leticia,c
+o659,"Empresa de Acueducto, Alcantarillado y Aseo de Bogotá Esp",c
+o66,Departamento Administrativo Nacional de Estadística,c
+o660,Secretaría Distrital de Mujer,c
+o661,Alcaldía Municipal de San Luis de Gaceno,c
+o662,Instituto Distrital de Patrimonio Cultural,c
+o664,Alcaldía Municipal de California,c
+o665,E.S.E. Hospital San Jose - San José del Guaviare,c
+o666,Alcaldía Municipal de Caloto,c
+o667,Alcaldía Municipal de Capitanejo,c
+o668,Alcaldía Municipal de Cabrera Santander,c
+o669,Unidad de Información y Análisis Financiero,c
+o67,Superintendencia Financiera de Colombia,c
+o670,Alcaldía Municipal de Villamaría,c
+o671,E.S.E. Red Salud Casanare,c
+o672,Alcaldía Municipal de Cerrito,c
+o673,Alcaldía Municipal de Simacota,c
+o675,Alcaldía Municipal de Sabanalarga Casanare,c
+o676,Alcaldía Municipal de Ventaquemada,c
+o677,Secretaría Distrital de Desarrollo Económico,c
+o678,Alcaldia Municipal de El Carmen,c
+o679,Alcaldía Municipal de Mongua,c
+o68,Alcaldía Municipal de Candelaria Valle del Cauca,c
+o680,Alcaldía Municipal de Santa Helena de Opón,c
+o681,Alcaldía Municipal de Sucre Sucre,c
+o682,Alcaldía Municipal de Sativasur,c
+o683,Junta Municipal de Deportes de Copacabana,c
+o684,Alcaldía Municipal de la Macarena Meta,c
+o685,E.S.P. Empresa de Servicios Públicos Domiciliarios de Melgar Empumelgar,c
+o686,Alcaldía Municipal de Floridablanca,c
+o687,Procuraduría General de la Nación,c
+o688,"Alcaldía Distrital Especial, Turístico y Cultural de Riohacha",c
+o689,Alcaldía Municipal de Orocué,c
+o69,Alcaldía Municipal de Sogamoso,c
+o690,Alcaldía Municipal de Florida,c
+o692,Alcaldía Municipal de Tutazá,c
+o693,Alcaldía Municipal de Contratación,c
+o694,Alcaldía Municipal de San Miguel Santander,c
+o695,Alcaldía Municipal de Pesca,c
+o697,Alcaldía Municipal de Puerto Escondido,c
+o698,Alcaldía Municipal de Santiago Putumayo,c
+o699,Alcaldía Municipal de Moniquirá,c
+o7,E.S.P. Empresa de Acueducto y Alcantarillado de Pereira S.A.,c
+o70,Gobernación del Casanare,c
+o700,Alcaldía Municipal de San Pablo de Borbur,c
+o701,Alcaldía Municipal de la Estrella,c
+o702,E.S.E. Hospital Regional de Duitama,c
+o703,Área Metropolitana del Valle de Aburra,c
+o704,Alcaldía Municipal de Villanueva Santander,c
+o705,Alcaldía Municipal de Zapatoca,c
+o706,Alcaldía Municipal de la Primavera,c
+o707,Terminal de Transportes de Manizales Ltda.,c
+o708,Alcaldia Municipal de Puerto López,c
+o709,Corporación para el Desarrollo Sostenible del Área de Manejo Especial la Macarena,c
+o71,Superintendencia del Subsidio Familiar,c
+o710,Alcaldía Municipal de Los Santos,c
+o711,Alcaldía Municipal de Arboleda Nariño,c
+o712,Alcaldía Municipal de Confines,c
+o713,Alcaldía Municipal de Tasco,c
+o714,Alcaldía Municipal de Santa Rosa de Viterbo,c
+o715,Alcaldía Municipal de Alejandría,c
+o717,Alcaldía Municipal de Ramiriquí,c
+o718,Alcaldía Municipal de Cocorná,c
+o719,Alcaldía Municipal de Sampués,c
+o72,Ministerio de Minas y Energía,c
+o720,Alcaldía Municipal de Cunday,c
+o721,Contraloría Municipal de Palmira,c
+o722,Alcaldía Municipal de Sativanorte,c
+o723,"E.S.P. Argelia de Maria, Acueducto Alcantarillado y Aseo",c
+o724,Alcaldía Municipal de Corrales,c
+o725,E.S.E. Centro Hospital Divino Niño Tumaco,c
+o726,Alcaldía Municipal de Puerto Concordia,c
+o727,Alcaldía Municipal de Ciénega Boyacá,c
+o728,Alcaldía Municipal de Otanche,c
+o729,Contraloría General de Medellín,c
+o73,Alcaldía Municipal de Rioblanco,c
+o730,Alcaldía Municipal de Sonsón,c
+o731,Alcaldía Municipal de Belén de Umbría,c
+o732,Alcaldía Municipal de El Carmen.,c
+o733,Alcaldía Municipal de El Zulia,c
+o734,Alcaldía Municipal de Cumaribo,c
+o735,Alcaldía Municipal de Morales Cauca,c
+o736,Concejo Municipal de Medellín,c
+o737,Instituto Municipal de Deportes - Coldeportes Gachetá,c
+o738,Alcaldía Municipal de San Mateo,c
+o739,Alcaldía Municipal de Betulia Antioquia,c
+o74,Corporación Colombiana de Investigación Agropecuaria,c
+o740,Alcaldía Municipal de San Vicente de Chucurí - Santander,c
+o741,Alcaldía Municipal de Fómeque,c
+o742,Alcaldía Municipal de Guatavita,c
+o743,Alcaldía Municipal de Valle de San José,c
+o744,Alcaldía Municipal de Alto Baudó,c
+o745,Alcaldía Municipal de Socorro,c
+o746,Empresa de Desarrollo Urbano de Barrancabermeja,c
+o747,Fundación Gilberto Álzate Avendaño,c
+o748,Alcaldía Municipal de Chitaraque,c
+o749,Alcaldía Municipal de Chivor,c
+o75,Alcaldía Municipal de Quinchia,c
+o750,Alcaldía Municipal de San Joaquín,c
+o751,Alcaldía Municipal de Pedraza,c
+o752,Alcaldía Municipal de Cerro de San Antonio,c
+o753,Alcaldía Municipal de Cajicá,c
+o754,Alcaldía Municipal de Aquitania,c
+o756,Alcaldía Municipal de Chíquiza,c
+o757,Alcaldía Municipal de Condoto,c
+o758,Alcaldía Municipal de El Paso,c
+o759,Concejo Municipal de Itagüí,c
+o76,Alcaldía Municipal de Roncesvalles,c
+o761,Alcaldía Municipal de San Vicente Antioquia,c
+o762,Universidad Surcolombiana,c
+o763,Epm Inversiones S.A.,c
+o764,Unidad Administrativa Especial de Rehabilitación y Mantenimiento Vial,c
+o765,Alcaldía Municipal de Guacamayas,c
+o766,Alcaldía Municipal de la Victoria - Boyacá,c
+o767,Generadora y Comercializadora de Energía del Caribe S.A. E.S.P.,c
+o768,Alcaldía Municipal de Charta,c
+o769,Alcaldía Municipal de Gama,c
+o77,Departamento Administrativo para la Prosperidad Social,c
+o770,Alcaldía Municipal de Maripí,c
+o771,Alcaldía Municipal de Maní,c
+o772,Alcaldía Municipal de Ciénaga de Oro,c
+o773,E.S.E. Centro de Salud Santa Bárbara,c
+o774,Alcaldía Municipal de Socotá,c
+o775,Alcaldía Municipal de Suaita,c
+o776,Abastos Guadalajara de Buga,c
+o777,Alcaldía Municipal de Paz de Río,c
+o778,Alcaldía Municipal de Belén de Los Andaquíes,c
+o779,Alcaldía Municipal de San Juanito,c
+o78,Alcaldía Municipal de Pijao,c
+o780,Alcaldía Municipal de Sácama,c
+o781,Alcaldía Municipal de Viracachá,c
+o782,Alcaldía Municipal de Palmar Santander,c
+o784,Alcaldía Municipal de La Belleza,c
+o785,Fondo de Pasivo Social de Ferrocarriles Nacionales de Colombia,c
+o786,Alcaldía Municipal de Apía,c
+o787,Personería Municipal de Barrancabermeja Santander,c
+o788,Alcaldía Municipal de Charalá,c
+o789,Alcaldía Municipal de El Castillo,c
+o79,Ministerio de Relaciones Exteriores,c
+o790,Alcaldía Municipal de Momíl,c
+o791,Alcaldía Municipal de Labranzagrande,c
+o792,Banco Inmobiliario de Folridablanca,c
+o793,Red Salud Casanare E.S.E,c
+o794,Universidad Distrital Francisco José de Caldas,c
+o795,La Previsora S.A. Compañía de Seguros,c
+o796,Alcaldía Municipal de Corinto,c
+o797,Alcaldía Municipal de Ubalá,c
+o798,Empresa Social del Estado Centro dermatológico Federico Lleras Acosta,c
+o799,Agencia Colombiana para la Reintegración de Personas y Grupos Alzados en Armas,c
+o8,Superintendencia de la Economía Solidaria,c
+o80,Secretaría de Educación Distrital,c
+o800,Alcaldía Municipal de Salazar de Las Palmas,c
+o801,Alcaldía Municipal de Guatapé,c
+o802,Alcaldía Municipal de Uribe,c
+o803,Alcaldía Municipal de Chimá,c
+o804,Fondo de Desarrollo de la Educación Superior,c
+o805,Alcaldía Municipal de Guaca,c
+o806,Alcaldía Municipal de San José de Miranda,c
+o807,Alcaldía Municipal de Arauquita,c
+o808,Alcaldía de Santo Tomas,c
+o809,Alcaldía Municipal de Quibdó,c
+o81,Alcaldía Municipal de Monterrey,c
+o810,ALCALDIA MUNICIPAL DE FUENTE DE ORO,c
+o811,Alcaldía Municipal de Ovejas,c
+o812,Alcaldía Municipal de Amalfi,c
+o813,Concejo Municipal San José del Guaviare,c
+o815,Contraloría General del Departamento de la Guajira,c
+o816,Alcaldía Municipal de Iza,c
+o817,Unidad Administrativa Especial de Pensiones del Departamento de Cundinamarca,c
+o818,Contraloría Departamental del Huila,c
+o819,Alcaldía Municipal de San Francisco Cundinamarca,c
+o82,Alcaldía Municipal de Armenia Quindío,c
+o820,Alcaldía Municipal de Arcabuco,c
+o821,Alcaldía Municipal de Buena Vista Boyacá,c
+o822,E.S.E. Hospital Regional del Líbano,c
+o823,Alcaldía Municipal de Distracción,c
+o824,Alcaldía Municipal de Muzo,c
+o825,Contraloría Municipal de Montería,c
+o826,Alcaldía Municipal de San Carlos de Guaroa,c
+o827,Alcaldía Municipal de Zaragoza,c
+o828,Alcaldía Municipal de Suesca,c
+o829,Alcaldía Municipal de Bolívar Santander,c
+o83,Alcaldía Municipal de Aguazul,c
+o830,"Unidad de Planificación de Tierras Rurales, Adecuación de Tierras y Usos Agropecuarios",c
+o831,Alcaldía Municipal de Betéitiva,c
+o832,Concejo Municipal Viterbo Caldas,c
+o833,Departamento Administrativo Distrital del Medio Ambiente Magdalena,c
+o834,Alcaldía Municipal de La Uvita,c
+o835,Alcaldía Municipal de Panqueba,c
+o836,Alcaldía Municipal de Caucasia,c
+o837,Alcaldía Municipal de González,c
+o84,Alcaldía Municipal de Filandia,c
+o840,Alcaldía Municipal de Pachavita,c
+o841,Alcaldía Municipal de Silvania,c
+o843,Alcaldía Municipal de Neira,c
+o844,Centro de Recepción de Menores,c
+o845,Alcaldía Municipal de San José de Pare,c
+o846,Personería Municipal de Floridablanca Santander,c
+o847,Orquesta Filarmónica de Bogotá,c
+o848,Contraloría Municipal de Barrancabermeja,c
+o849,Alcaldía Municipal de San Martin Cesar,c
+o85,Gobernación del Putumayo,c
+o850,Alcaldía Municipal de Toca,c
+o851,Alcaldía Municipal de Landázuri,c
+o852,Alcaldía Municipal de San Luis Tolima,c
+o853,Alcaldía Municipal de Paya,c
+o854,Contraloría General del Quindío,c
+o855,Alcaldía Municipal de Ocamonte,c
+o856,Alcaldía Municipal de San Benito,c
+o857,Instituto de Valorización de Manizales Invama,c
+o858,Alcaldía Municipal de Tenza,c
+o859,Alcaldía Municipal de Puerto Lleras,c
+o86,Alcaldía Municipal de Rovira,c
+o860,Alcaldía Municipal de El Peñol,c
+o861,Agencia Logística de Las Fuerzas Militares,c
+o862,Alcaldía Municipal de El Guacamayo,c
+o863,Corporación Autónoma Regional del Atlántico,c
+o864,Alcaldía Municipal de Sucre Cauca,c
+o865,Alcaldía Municipal de Cácota,c
+o866,Alcaldía Municipal de Somondoco,c
+o867,SECRETARIA DE INFRAESTRUCTURA,c
+o868,Concejo Municipal Vista Hermosa Meta,c
+o869,Alcaldía Municipal de Pauna,c
+o87,Alcaldía Municipal de Rionegro Antioquia,c
+o870,Alcaldía Municipal de San Jerónimo,c
+o871,Alcaldía Municipal de Concepción Santander,c
+o872,Instituto Colombiano de Antropología e Historia,c
+o873,Contraloría Departamental del Atlántico,c
+o874,Alcaldía Municipal de Belén Nariño,c
+o875,Alcaldía Municipal de San Miguel de Sema,c
+o876,Administración Cooperativa de Entidades de Salud de Caldas y Quindío,c
+o877,Alcaldía Municipal de la Esperanza,c
+o878,Alcaldía Municipal de Susacón,c
+o879,Instituto Municipal de Deporte y Recreación Restrepo Valle,c
+o88,Alcaldía Municipal de Pereira,c
+o880,Alcaldía Municipal de Jenesano,c
+o881,Alcaldía Municipal de San Gil,c
+o882,Alcaldía Municipal de Soledad,c
+o883,Fondo para El Financiamiento del Sector Agropecuario,c
+o884,Agencia Nacional de Defensa Jurídica del Estado,c
+o885,Alcaldía Municipal de Contadero,c
+o887,Alcaldía Municipal de El Retorno,c
+o888,Instituto para la Investigación Educativa y El Desarrollo Pedagógico,c
+o89,E.S.E. Empresa Social del Estado Instituto de Salud de Bucaramanga Isabu,c
+o890,Contraloría General del Departamento Norte de Santander,c
+o891,Alcaldía Municipal de Convención,c
+o892,Alcaldía Municipal de Úmbita,c
+o893,Alcaldía Municipal de Fusagasugá,c
+o894,Alcaldía Municipal de Tibirita,c
+o895,Alcaldía Municipal de Sutatenza,c
+o896,Instituto Municipal de Transito y Transporte de Pereira,c
+o897,Leasing Bancoldex S.A. Compañía de Financiamiento Comercial,c
+o898,Alcaldía Municipal de Paz de Ariporo,c
+o899,Alcaldía Municipal de Molagavita,c
+o9,Alcaldía Municipal de Tunja,c
+o90,Alcaldía Municipal de San Roque,c
+o900,Alcaldía Municipal de Oicatá,c
+o901,Alcaldía Municipal de Pamplona,c
+o902,Acuavalle S.A. E.S.P.,c
+o903,Alcaldía Municipal de Ráquira,c
+o904,E.S.E. Hospital Universitario Hernando Moncaleano Perdomo Neiva,c
+o905,Alcaldía Municipal de Támesis,c
+o906,Alcaldía Municipal de Vetas,c
+o907,Alcaldía Municipal de Encino,c
+o908,Beneficencia del Valle del Cauca E.I.C.E.,c
+o909,Instituto de Planificación y Promoción de Soluciones Energéticas para Las Zonas No Interconectadas,c
+o91,E.S.E. Hospital Emiro Quintero Cañizares Ocaña,c
+o910,Alcaldía Municipal de San Antonio,c
+o911,E.S.E. Hospital del Sur Gabriel Jaramillo Piedrahita,c
+o912,Concejo Municipal El Retorno,c
+o913,Alcaldía Municipal de Zetaquira,c
+o914,Alcaldía Municipal de Cómbita Boyacá,c
+o915,Universidad de Córdoba,c
+o916,Autoridad Nacional de Licencias Ambientales,c
+o92,"Departamento Administrativo de Ciencia, Tecnología e Innovación",c
+o93,Gobernación de Antioquia,c
+o94,Superintendencia de Puertos y Transporte,c
+o95,Comisión de Regulación de Energía y Gas,c
+o96,Alcaldía Municipal de Santa Isabel,c
+o97,Alcaldía Municipal de Malambo,c
+o98,Alcaldía Municipal de La Dorada,c
+o99,Corporación Autónoma Regional de Boyacá,c
