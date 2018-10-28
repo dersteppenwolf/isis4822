@@ -101,7 +101,8 @@
                 })
                 .attr("fill", function (d) {
                     return (d.group === 'c') ? '#FF7F50' : "dodgerblue";
-                }).on("mouseover", mouseOver(.2))
+                })
+                .on("mouseover", mouseOver(.2))
                 .on("mouseout", mouseOut)
 
             // hover text for the node
