@@ -202,8 +202,6 @@ dataViz.controller('homeController', function (
     let links = graph.links
     let nodes = graph.nodes
 
-
-
     var svg = d3.select("#svgNetwork"),
       width = +svg.attr("width"),
       height = +svg.attr("height"),
@@ -237,7 +235,7 @@ dataViz.controller('homeController', function (
       .append("circle")
       .attr("r", 5)
       .attr("fill", function (d) {
-        return (d.group === 'c') ? '#FF7F50' : "dodgerblue";
+        return (d.group === 'c') ? '#66c2a5' : "#fc8d62";
       })
       .on("mouseover", mouseOver(.2))
       .on("mouseout", mouseOut)
@@ -251,15 +249,16 @@ dataViz.controller('homeController', function (
 
 
     simulation = d3.forceSimulation()
-      .force("link", d3.forceLink().id(function (d) { return d.id; })
-        // .distance(120)
-        .strength(customStrength))
-      .force("charge", d3.forceManyBody()
-        .strength(-50)
-        .distanceMin(1)
-        .distanceMax(700)
-      )
-      .force("center", d3.forceCenter(width / 2, height / 2));
+        .force("link", d3.forceLink().id(function (d) { return d.id; })
+          // .distance(120)
+          .strength(customStrength)
+        )
+        .force("charge", d3.forceManyBody()
+          .strength(-50)
+          .distanceMin(1)
+          .distanceMax(700)
+        )
+        .force("center", d3.forceCenter(width / 2, height / 2));
 
     simulation
       .nodes(nodes)
@@ -284,18 +283,8 @@ dataViz.controller('homeController', function (
       linkedByIndex[d.source.index + "," + d.target.index] = 1;
     });
 
-
-
-
-
     function customStrength(d) {
-      //console.log(d.value);
-      //console.log(strengthScale(d.value))
-      // return strengthScale(d.value)
-      //return d.percentaje
-      //console.log(d.percentaje)
-      //console.log(d.percentaje.toFixed(4))
-      console.log(strengthScale(d.percentaje.toFixed(4)))
+      //console.log(strengthScale(d.percentaje.toFixed(4)))
       // return 1
       return strengthScale(d.percentaje.toFixed(4))
     }
