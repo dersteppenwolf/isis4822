@@ -169,13 +169,6 @@ dataViz.controller('homeController', function (
 
 
 
-
-
-
-
-
-
-
   $scope.init = function () {
     $log.log("init - homeController");
     /*
@@ -192,7 +185,7 @@ dataViz.controller('homeController', function (
     $log.log("onresize");
     $scope.width = window.innerWidth - margin.left - margin.right;
     $log.log($scope.width);
-    return scope.$apply();
+    return $scope.$apply();
   };
 
 
@@ -240,11 +233,38 @@ dataViz.controller('homeController', function (
       .on("mouseover", mouseOver(.2))
       .on("mouseout", mouseOut)
 
+     
+
     // hover text for the node
     node.append("title")
       .text(function (d) {
+        console.log(d.label)
         return d.label;
       });
+
+      /*
+ node.append("text")
+      .attr("dy", -3)
+      .text(function (d) {return d.label;});
+
+      // add a label to each node
+    node.append("text")
+        .attr("dx", 12)
+        .attr("dy", ".35em")
+        .text(function(d) {
+            return d.label;
+        })
+        .style("stroke", "black")
+        .style("stroke-width", 0.5)
+        .style("fill", function(d) {
+            return "#ff44ff"
+        });
+
+        
+      */
+
+
+    
 
 
 
