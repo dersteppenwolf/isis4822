@@ -205,15 +205,15 @@ h2 {
   stroke-width: 1px;
 }
 
-
-
-div.parent{
+div.parent {
   position: relative;
-  left: 0px;  /* stick it wherever it was positioned by default */
+  left: 0px;
+  /* stick it wherever it was positioned by default */
   top: 0px;
   padding: 0px;
 }
-.svgNetwork{
+
+.svgNetwork {
   padding: 0px;
   margin: 0px;
 }
@@ -221,29 +221,35 @@ div.parent{
 div.tooltip {
   position: absolute;
   width: auto;
-  max-width:   120px;
+  max-width: 120px;
   height: auto;
   padding: 1px;
   margin: 1px;
-  background:rgba(255, 255, 255, 0.7);
+  background: rgba(255, 255, 255, 0.7);
   opacity: 0.5;
   border: solid 1px rgba(0, 0, 0, 0.1);
   border-radius: 2px;
-  white-space: pre-wrap;      /* CSS3 */   
-   white-space: -moz-pre-wrap; /* Firefox */    
-   white-space: -pre-wrap;     /* Opera <7 */   
-   white-space: -o-pre-wrap;   /* Opera 7 */    
-   word-wrap: break-word;      /* IE */
-   text-align: left;
-   font-size: 9px;
+  white-space: pre-wrap;
+  /* CSS3 */
+  white-space: -moz-pre-wrap;
+  /* Firefox */
+  white-space: -pre-wrap;
+  /* Opera <7 */
+  white-space: -o-pre-wrap;
+  /* Opera 7 */
+  word-wrap: break-word;
+  /* IE */
+  text-align: left;
+  font-size: 9px;
 }
 
-.datasetLink{
+.datasetLink {
   font-size: 14px;
   word-spacing: 2px;
   line-height: 2;
   color: #737373;
 }
+
 a:hover {
   color: #000000;
   text-decoration: none;
@@ -251,25 +257,33 @@ a:hover {
   background-color: white;
   margin: 5px;
   padding: 5px;
-  
 }
+
 a:active {
   color: #000;
 }
+
 a:link {
   color: #737373;
 }
 
 /* visited link */
+
 a:visited {
   color: #737373;
 }
 
-.emphasis{
+.emphasis {
   font-family: "Comfortaa";
   font-weight: 700;
   font-size: 16px;
-  font-style: italic; 
+  font-style: italic;
   padding-left: 4px;
   padding-right: 4px;
+}
+
+.treevisContainer {
+  border: #9fa9a3;
+  border: 1px;
+  border-style: solid;
 }

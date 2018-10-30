@@ -39,14 +39,11 @@ dataViz.controller('homeController', function (
       from datos_gov where ${filterColumn} = '${d.id}' 
       order by resource_name  asc `
 
-    $log.log(query);
+   // $log.log(query);
 
     $scope.progressbar.start();
     d3.json($scope.remoteServiceUrl + query).then($scope.parseDatasets);
   }
-
-
-
 
 
   $scope.init = function () {
@@ -56,10 +53,8 @@ dataViz.controller('homeController', function (
   }
 
   $scope.loadTree = function (){
-    
-    d3.json("js/hierarchy2.json").then((data) => {
-      console.log(data );
-     // vegaEmbed("#vis", data, { theme: 'dark', actions: false });
+    d3.json("js/tree-layout2.vg.json").then((data) => {
+      vegaEmbed("#treevis", data, { theme: 'white', actions: false });
     });
     
   }

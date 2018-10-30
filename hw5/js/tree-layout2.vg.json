@@ -1,17 +1,13 @@
 {
   "$schema": "https://vega.github.io/schema/vega/v4.json",
-  "width": 400,
+  "width": 410,
   "height": 1000,
   "padding": 5,
 
   "signals": [
+   
     {
-      "name": "labels", "value": true,
-      "bind": {"input": "checkbox"}
-    },
-    {
-      "name": "layout", "value": "cluster",
-      "bind": {"input": "radio", "options": ["tidy", "cluster"]}
+      "name": "layout", "value": "cluster"
     },
     {
       "name": "links", "value": "diagonal",
@@ -25,7 +21,7 @@
   "data": [
     {
       "name": "tree",
-      "url": "hierarchy2.json",
+      "url": "js/hierarchy2.json",
       "transform": [
         {
           "type": "stratify",
