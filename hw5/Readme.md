@@ -42,7 +42,7 @@ Run for local development:
 
 ## Architecture
 
-![alt text](https://raw.githubusercontent.com/dersteppenwolf/isis4822/master/hw4/images/architecture.png "Architecture")
+![alt text](https://raw.githubusercontent.com/dersteppenwolf/isis4822/master/hw4/images/architecture2.png "Architecture")
 
 ## Screenshots
 
@@ -53,7 +53,7 @@ Run for local development:
 ![alt text](https://raw.githubusercontent.com/dersteppenwolf/isis4822/master/hw4/images/c.png "Visualization")
 
 
-![alt text](https://raw.githubusercontent.com/dersteppenwolf/isis4822/master/hw4/images/page_screenshot.png "Visualization")
+![alt text](https://raw.githubusercontent.com/dersteppenwolf/isis4822/master/hw4/images/page_screenshot2.png "Visualization")
 
 
 
