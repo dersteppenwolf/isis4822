@@ -114,7 +114,7 @@ dataViz.controller('homeController', function (
       .on("click", handleClick)
 
 
-
+     // var xScale = d3.scalePow().domain([0, 1]).range([0, 600]);
 
     simulation = d3.forceSimulation()
       .force("link", d3.forceLink().id(function (d) { return d.id; })
@@ -128,7 +128,23 @@ dataViz.controller('homeController', function (
       )
       // add some collision detection so they don't overlap
       .force("collide", d3.forceCollide().radius(5))
-      .force("center", d3.forceCenter(width / 2, height / 2));
+      .force("center", d3.forceCenter(width / 2, height / 2))
+      /*
+      .force('x', d3.forceX().x(function(d) {
+        var value = 0
+        if(d.percentaje){
+          value = d.percentaje.toFixed(4)
+        }
+        return xScale(value);
+      }))
+      .force('y', d3.forceX().x(function(d) {
+        var value = 1
+        if(d.percentaje){
+          value = d.percentaje.toFixed(4)
+        }
+        return xScale(value);
+      }))
+      */
 
     simulation
       .nodes(nodes)
