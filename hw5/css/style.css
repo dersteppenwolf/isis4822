@@ -250,7 +250,7 @@ div.tooltip {
   color: #737373;
 }
 
-a:hover {
+.datasetLinks a:hover {
   color: #000000;
   text-decoration: none;
   font-size: 14px;
@@ -259,17 +259,17 @@ a:hover {
   padding: 5px;
 }
 
-a:active {
+.datasetLinks a:active {
   color: #000;
 }
 
-a:link {
+.datasetLinks a:link {
   color: #737373;
 }
 
 /* visited link */
 
-a:visited {
+.datasetLinks a:visited {
   color: #737373;
 }
 
