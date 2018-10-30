@@ -13,65 +13,54 @@
 		road traffic crashes cost most countries 3% of their gross domestic product.</p>
 
 	<p class="subtitle">
-		How are we driving in Bogotá? 
+		How are we driving in Bogotá?
 		The following dashboard allows to explore some facts about traffic accidents in Bogotá using temporal data from 2017.
 	</p>
 
 
 
-	<div class="row">
-		<h1>Traffic Accidents Trends </h1>
-	</div>
-
-	<div class="row">
-
-
-		<div class="w-40 p-3">
-			<label>Localities:
-				<select name="singleSelect" id="singleSelect" ng-model="selectedLocality" ng-change="selectLocality()">
-					<option value="">---Please select---</option> <!-- not selected / blank option -->
-					<option ng-repeat="option in localities" value="{{option.id}}">{{option.label}}</option>
-				</select>
-			</label>
-		</div>
-
-		<div class="w-40 p-3">
-			<label>Severity:
-				<select name="sSeverity" id="sSeverity" ng-model="selectedSeverity" ng-change="selectSeverity()">
-					<option value="">---Please select---</option> <!-- not selected / blank option -->
-					<option ng-repeat="option in severity" value="{{option.id}}">{{option.label}}</option>
-				</select>
-			</label>
-		</div>
-
-		<div class="w-40 p-3">
-			<label>Day of Week :
-				<select name="sday" id="sday" ng-model="selectedDay" ng-change="selectDay()">
-					<option value="">---Please select---</option> <!-- not selected / blank option -->
-					<option ng-repeat="option in days" value="{{option.id}}">{{option.label}}</option>
-				</select>
-			</label>
-		</div>
-
-
-	</div>
-	
-	
-
 
 
 	<div class="row">
-		<h1 class="col-12">Network </h1>
+		<div class="col-12">
+			<h1>Network </h1>
+			<p>Use <span class="emphasis">Mouse Over</span> to see relationships between categories and organizations.</p>
+			<p>Use <span class="emphasis">Mouse Click</span> to retrieve datasets for a category or organization.</p>
+			<p>
+				<i class="fas fa-circle" style="color:#66c2a5"><span class="emphasis">Organization</span> </i>
+				<i class="fas fa-circle" style="color:#fc8d62"><span class="emphasis">Category </span> </i>
+			</p>
+		</div>
 	</div>
+
+
 
 
 
 	<div class="row">
 		<div id="nDiv" class="chart-container col-9 div.parent">
-			<svg id="svgNetwork" width="1200" height="650"></svg>
+			<svg id="svgNetwork" width="1200" height="600"></svg>
 		</div>
 
 	</div>
+
+	<div class="row">
+
+		<div class="w-40 col-12">
+			<br />
+			<label>Datasets:</label>
+			<h2 class="col-12">{{selectedNode.label}} </h2>
+			<div>
+				<a class="datasetLink" ng-repeat="l in datasets" target="_blank" href="{{ l.link }}">{{ l.label }} , </a>
+			</div>
+			<br />
+		</div>
+
+
+
+	</div>
+
+
 
 
 

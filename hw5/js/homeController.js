@@ -2,167 +2,41 @@
 dataViz.controller('homeController', function (
   $scope, $interval, $rootScope, $http, $log, $filter) {
 
-  $scope.trends = []
-  $scope.localities = []
-  $scope.days = []
-  $scope.selectedLocality = ""
-  $scope.selectedSeverity = ""
-  $scope.selectedDay = ""
+  $scope.datasets = [] 
+  $scope.selectedNode = {}
 
-
-  $scope.heatmapOver = {}
   var margin = { top: 20, right: 40, bottom: 10, left: 20 }
   $scope.width = 800
 
-
-
   $scope.remoteServiceUrl = "https://kudosg.carto.com/api/v2/sql?q="
+ 
 
-  $scope.parseDate = d3.timeParse("%Y-%m-%d");
-  $scope.parseYear = d3.timeParse("%Y");
-
-  $scope.slider = {
-    value: 1,
-    options: {
-      floor: 1,
-      ceil: 30,
-      onEnd: function (id, newValue, highValue, pointerType) {
-        $log.log('change', id, newValue, pointerType)
-        $scope.loadTrends();
-      }
-    },
-  }
-
-
-  $scope.selectLocality = function () {
-    $log.log("selectLocality");
-    $log.log($scope.selectedLocality);
-    $scope.loadTrends()
-
-  }
-
-  $scope.selectSeverity = function () {
-    $log.log("selectSeverity");
-    $log.log($scope.selectedSeverity);
-    $scope.loadTrends()
-
-  }
-
-  $scope.selectDay = function () {
-    $log.log("selectDay");
-    $log.log($scope.selectedDay);
-    $scope.loadTrends()
-
+  $scope.parseDatasets = (d) => {
+    $log.log("parseDatasets");
+    $scope.datasets = d.rows
+    $log.log($scope.datasets);
+    $scope.$apply();
   }
 
 
 
 
+  $scope.loadDatasets = function (d) {
+    $scope.selectedNode = d
+    
+    var filterColumn = ""
+    if(d.id.substring(0,1) == 'o'){
+      filterColumn = "organization_code"
+    }else{
+      filterColumn = "category_code"
+    }
 
+    let query = ` select resource_id as id, permalink as link, INITCAP(resource_name) as label, resource_createdat as creationDate
+      from datos_gov where ${filterColumn} = '${d.id}' 
+      order by resource_name  asc `
 
-
-
-  $scope.parseTrends = (d) => {
-    $log.log("parseTrends");
-    let rows = d.rows
-    //$log.log(rows);
-    rows.forEach(function (v) {
-      v.date = $scope.parseDate(v.event_day)
-      v.label = v.event_day
-      //v.count = v.total
-      v.count = v.trend
-      v.radius = v.totalmuertos
-    });
-    $log.log(rows);
-    return rows
-  }
-
-  $scope.parseLocalities = (d) => {
-    $log.log("parseLocalities");
-    let rows = d.rows
-    //$log.log(rows);
-    rows.forEach(function (v) {
-      v.label = v.localidad + " (" + v.total + ")"
-      v.id = v.localidad
-      v.value = v.total
-    });
-    //$log.log(rows);
-    $scope.localities = rows
-    return rows
-  }
-
-  $scope.parseSeverity = (d) => {
-    $log.log("parseSeverity");
-    let rows = d.rows
-    //$log.log(rows);
-    rows.forEach(function (v) {
-      v.label = v.gravedadnombre + " (" + v.total + ")"
-      v.id = v.gravedadnombre
-      v.value = v.total
-    });
-    //$log.log(rows);
-    $scope.severity = rows
-    return rows
-  }
-
-  $scope.parseDays = (d) => {
-    $log.log("parseDays");
-    let rows = d.rows
-    //$log.log(rows);
-    rows.forEach(function (v) {
-      v.label = v.event_day_name + " (" + v.total + ")"
-      v.id = v.event_day_name
-      v.value = v.total
-    });
-    //$log.log(rows);
-    $scope.days = rows
-    return rows
-  }
-
-
-
-  $scope.parseHeatmapData = (d) => {
-    $log.log("parseHeatmapData");
-    let rows = d.rows
-    //$log.log(rows);
-    rows.forEach(function (v) {
-      v.end = v.start + 1
-    });
-
-    $scope.heatmapData = rows
-    //$log.log($scope.heatmapData);
-    return rows
-  }
-
-
-
-
-
-
-  $scope.loadTrends = function () {
-    var localityFilter = ($scope.selectedLocality == "") ? "" : "  and localidad = '" + $scope.selectedLocality + "' "
-    var severityFilter = ($scope.selectedSeverity == "") ? "" : "  and gravedadnombre = '" + $scope.selectedSeverity + "' "
-    var dayFilter = ($scope.selectedDay == "") ? "" : "  and event_day_name = '" + $scope.selectedDay + "' "
-
-
-
-    let query = ` with events as (
-      SELECT to_char(event_time, 'YYYY-MM-DD')  as event_day, cartodb_id as id, totalmuertos
-      FROM kudosg.accidentes_bta where 1 = 1 ${localityFilter}  ${severityFilter} ${dayFilter} 
-        )
-      , events_agg as ( 
-       select event_day, count(id) as total , sum(totalmuertos) as totalmuertos
-       from events 
-      group by event_day
-      order by event_day
-      )
-      select  event_day, total, totalmuertos, avg(total) over 
-        (order by event_day rows between ${$scope.slider.value} preceding and 0 following )::float as trend
-      from events_agg
-      order by 1 asc `
-
-    //$log.log(query);
-    $scope.trends = d3.json($scope.remoteServiceUrl + query).then($scope.parseTrends);
+    $log.log(query);
+    d3.json($scope.remoteServiceUrl + query).then($scope.parseDatasets);
   }
 
 
@@ -171,13 +45,6 @@ dataViz.controller('homeController', function (
 
   $scope.init = function () {
     $log.log("init - homeController");
-    /*
-    $scope.loadLocalities()
-    $scope.loadTrends()
-    $scope.loadLSeverity()
-    $scope.loadLDays()
-    */
-
     $scope.loadNetworkData()
   }
 
@@ -189,12 +56,10 @@ dataViz.controller('homeController', function (
   };
 
 
-
   $scope.drawNetwork = function (graph) {
     $log.log("drawNetwork");
     let links = graph.links
     let nodes = graph.nodes
-
 
 
     var svg = d3.select("#svgNetwork"),
@@ -202,9 +67,6 @@ dataViz.controller('homeController', function (
       height = +svg.attr("height"),
       node,
       link, simulation;
-
-
-
 
 
     var strengthScale = d3.scaleLinear()
@@ -231,27 +93,17 @@ dataViz.controller('homeController', function (
         //.on("end", dragended)
       )
       .append("circle")
-      .attr("r", 6)
+      .attr("r", 7)
       .attr("fill", function (d) {
         return (d.group === 'c') ? '#66c2a5' : "#fc8d62";
       })
       .on("mouseover", mouseOver(.2))
       .on("mouseout", mouseOut)
-      .on("mousemove", function(d){mousemove(d);})
+     //.on("mousemove", function (d) { mousemove(d); })
+      .on("click", handleClick)
 
-
-
-
-    // hover text for the node
-    /*
-    node.append("title")
-      .text(function (d) {
-        return d.label;
-      });
-      */
-
-
-
+   
+      
 
     simulation = d3.forceSimulation()
       .force("link", d3.forceLink().id(function (d) { return d.id; })
@@ -274,15 +126,7 @@ dataViz.controller('homeController', function (
     simulation.force("link")
       .links(links);
 
-    // force
-    // https://bl.ocks.org/mbostock/aba1a8d1a484f5c5f294eebd353842da
-    // http://bl.ocks.org/sathomas/774d02a21dc1c714def8 
 
-
-    // cluster
-    // https://bl.ocks.org/ericsoco/d2d49d95d2f75552ac64f0125440b35e
-
-    // https://bl.ocks.org/martinjc/7aa53c7bf3e411238ac8aef280bd6581
 
     // build a dictionary of nodes that are linked
     var linkedByIndex = {};
@@ -301,6 +145,11 @@ dataViz.controller('homeController', function (
       return linkedByIndex[a.index + "," + b.index] || linkedByIndex[b.index + "," + a.index] || a.index == b.index;
     }
 
+    function handleClick(d){
+      console.log(d)
+      $scope.loadDatasets(d)
+    }
+
     // fade nodes on hover
     function mouseOver(opacity) {
       return function (d) {
@@ -316,13 +165,13 @@ dataViz.controller('homeController', function (
         node.style("fill-opacity", function (o) {
           var connected = isConnected(d, o)
           if (connected && d != o) {
-            if(!dTip){
+            if (!dTip) {
               var div = d3.select("#nDiv").append("div")
-              .attr("class", "tooltip")
-              .style("opacity", 1)
-              .style("left", (d.x + 10) + "px")
-              .style("top", (d.y -10 ) + "px")
-              .html(d.label  );
+                .attr("class", "tooltip")
+                .style("opacity", 1)
+                .style("left", (d.x + 10) + "px")
+                .style("top", (d.y - 10) + "px")
+                .html(d.label);
               dTip = true
             }
 
@@ -330,24 +179,15 @@ dataViz.controller('homeController', function (
               .attr("class", "tooltip")
               .style("opacity", 1)
               .style("left", (o.x + 10) + "px")
-              .style("top", (o.y -10 ) + "px")
-              .html(o.label  );
+              .style("top", (o.y - 10) + "px")
+              .html(o.label);
           }
           thisOpacity = connected ? 1 : opacity;
           return thisOpacity;
         });
-        // also style link accordingly
-        /*
-        link.style("stroke-opacity", function (o) {
-          return o.source === d || o.target === d ? 1 : opacity;
-        });
-        link.style("stroke", function (o) {
-          return o.source === d || o.target === d ? "#fff": "#ddd";
-        });
-        */
 
         link.attr("class", function (o) {
-          return o.source === d || o.target === d ? "linkOver": "link";
+          return o.source === d || o.target === d ? "linkOver" : "link";
         });
       };
     }
@@ -355,8 +195,8 @@ dataViz.controller('homeController', function (
     function mouseOut() {
       node.style("stroke-opacity", 0.6);
       node.style("fill-opacity", 1);
-     // link.style("stroke-opacity", 1);
-     // link.style("stroke", "#ddd");
+      // link.style("stroke-opacity", 1);
+      // link.style("stroke", "#ddd");
       link.attr("class", "link");
       d3.select("body").selectAll('div.tooltip').remove();
     }
@@ -394,14 +234,8 @@ dataViz.controller('homeController', function (
 
   $scope.loadNetworkData = function () {
     $log.log("loadNetworkData");
-
     d3.json("js/data.json").then($scope.drawNetwork)
-
-
-
   }
-
-
 
 
 
