@@ -1,6 +1,9 @@
 // create the controller and inject Angular's $scope
 dataViz.controller('homeController', function (
-  $scope, $interval, $rootScope, $http, $log, $filter) {
+  $scope, $interval, $rootScope, $http, $log, $filter, ngProgressFactory) {
+
+    $scope.progressbar = ngProgressFactory.createInstance();
+    $scope.progressbar.setHeight("5px");
 
   $scope.datasets = [] 
   $scope.selectedNode = {}
@@ -12,6 +15,7 @@ dataViz.controller('homeController', function (
  
 
   $scope.parseDatasets = (d) => {
+    $scope.progressbar.stop();
     $log.log("parseDatasets");
     $scope.datasets = d.rows
     $log.log($scope.datasets);
@@ -36,6 +40,8 @@ dataViz.controller('homeController', function (
       order by resource_name  asc `
 
     $log.log(query);
+    
+    $scope.progressbar.start();
     d3.json($scope.remoteServiceUrl + query).then($scope.parseDatasets);
   }
 

@@ -6,7 +6,7 @@ angular.module('d3', [])
   }]);
 	
 var dataViz = angular.module('dataViz', [ 'ngRoute', 'angular-loading-bar', 
-'ui.bootstrap' ,'d3' ]);
+'ui.bootstrap' ,'d3', 'ngProgress' ]);
 
 	// configure our routes
 	dataViz.config(function($routeProvider) {
