@@ -320,7 +320,7 @@ dataViz.controller('homeController', function (
               var div = d3.select("#nDiv").append("div")
               .attr("class", "tooltip")
               .style("opacity", 1)
-              .style("left", (d.x + 5) + "px")
+              .style("left", (d.x + 10) + "px")
               .style("top", (d.y -10 ) + "px")
               .html(d.label  );
               dTip = true
@@ -329,7 +329,7 @@ dataViz.controller('homeController', function (
             var div = d3.select("#nDiv").append("div")
               .attr("class", "tooltip")
               .style("opacity", 1)
-              .style("left", (o.x + 5) + "px")
+              .style("left", (o.x + 10) + "px")
               .style("top", (o.y -10 ) + "px")
               .html(o.label  );
           }
