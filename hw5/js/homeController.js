@@ -104,7 +104,7 @@ dataViz.controller('homeController', function (
         //.on("end", dragended)
       )
       .append("circle")
-      .attr("r", 7)
+      .attr("r", 5)
       .attr("fill", function (d) {
         return (d.group === 'c') ? '#66c2a5' : "#fc8d62";
       })
@@ -127,7 +127,7 @@ dataViz.controller('homeController', function (
         .distanceMax(700)
       )
       // add some collision detection so they don't overlap
-      .force("collide", d3.forceCollide().radius(6))
+      .force("collide", d3.forceCollide().radius(5))
       .force("center", d3.forceCenter(width / 2, height / 2));
 
     simulation
