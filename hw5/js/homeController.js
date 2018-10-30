@@ -15,7 +15,7 @@ dataViz.controller('homeController', function (
  
 
   $scope.parseDatasets = (d) => {
-    $scope.progressbar.stop();
+    $scope.progressbar.complete();
     $log.log("parseDatasets");
     $scope.datasets = d.rows
     $log.log($scope.datasets);

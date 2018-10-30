@@ -241,7 +241,29 @@ div.tooltip {
   font-size: 14px;
   word-spacing: 2px;
   line-height: 2;
+  color: #737373;
 }
+a:hover {
+  color: #000000;
+  text-decoration: none;
+  font-size: 14px;
+  background-color: white;
+  margin: 5px;
+  padding: 5px;
+  
+}
+a:active {
+  color: #000;
+}
+a:link {
+  color: #737373;
+}
+
+/* visited link */
+a:visited {
+  color: #737373;
+}
+
 .emphasis{
   font-family: "Comfortaa";
   font-weight: 700;
