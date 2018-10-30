@@ -4,9 +4,9 @@
 
 According to 
 
-* Demo: http://jcmendez.gkudos.com/hw4/
-* Slides: https://github.com/dersteppenwolf/isis4822/blob/master/hw4/slides_hw4.jc.mendez_fall_2018.pdf
-* Video: https://youtu.be/8T0eAf4_CHw
+* Demo: http://jcmendez.gkudos.com/hw5/
+* Slides: https://github.com/dersteppenwolf/isis4822/blob/master/hw5/hw5.jc.mendez_fall_2018.pdf
+* Video: 
 
 ## About the Author 
 
@@ -46,13 +46,12 @@ Run for local development:
 
 ## Screenshots
 
-![alt text](https://raw.githubusercontent.com/dersteppenwolf/isis4822/master/hw4/images/timeline.png "Visualization")
+![alt text](https://raw.githubusercontent.com/dersteppenwolf/isis4822/master/hw4/images/a.png "Visualization")
 
-![alt text](https://raw.githubusercontent.com/dersteppenwolf/isis4822/master/hw4/images/timeline_filtered.png "Visualization")
+![alt text](https://raw.githubusercontent.com/dersteppenwolf/isis4822/master/hw4/images/b.png "Visualization")
 
-![alt text](https://raw.githubusercontent.com/dersteppenwolf/isis4822/master/hw4/images/radial_timeline_heatmap.png "Visualization")
+![alt text](https://raw.githubusercontent.com/dersteppenwolf/isis4822/master/hw4/images/c.png "Visualization")
 
-![alt text](https://raw.githubusercontent.com/dersteppenwolf/isis4822/master/hw4/images/filter.png "Visualization")
 
 ![alt text](https://raw.githubusercontent.com/dersteppenwolf/isis4822/master/hw4/images/page_screenshot.png "Visualization")
 
@@ -60,12 +59,12 @@ Run for local development:
 
 ## Related Links
 
-// force
+force
 // https://bl.ocks.org/mbostock/aba1a8d1a484f5c5f294eebd353842da
 // http://bl.ocks.org/sathomas/774d02a21dc1c714def8 
 
 
-// cluster
+cluster
 // https://bl.ocks.org/ericsoco/d2d49d95d2f75552ac64f0125440b35e
 // https://bl.ocks.org/martinjc/7aa53c7bf3e411238ac8aef280bd6581
 
