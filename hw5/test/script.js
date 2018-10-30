@@ -22,10 +22,10 @@ height = height - margin.top - margin.bottom;
 
 var simulation = d3.forceSimulation()
     // pull nodes together based on the links between them
-    .force("link", d3.forceLink().id(function(d) {
+    .force("link", d3.forceLink().id(function (d) {
         return d.id;
     })
-    .strength(0.025))
+        .strength(0.025))
     // push nodes apart to space them out
     .force("charge", d3.forceManyBody().strength(-200))
     // add some collision detection so they don't overlap
@@ -34,19 +34,19 @@ var simulation = d3.forceSimulation()
     .force("center", d3.forceCenter(width / 2, height / 2));
 
 // load the graph
-d3.json("mention_network.json", function(error, graph) {
+d3.json("mention_network.json", function (error, graph) {
     // set the nodes
     var nodes = graph.nodes;
     // links between nodes
     var links = graph.links;
-    
+
     // add the curved links to our graphic
     var link = svg.selectAll(".link")
         .data(links)
         .enter()
         .append("path")
         .attr("class", "link")
-        .attr('stroke', function(d){
+        .attr('stroke', function (d) {
             return "#ddd";
         });
 
@@ -59,7 +59,7 @@ d3.json("mention_network.json", function(error, graph) {
     node.append("circle")
         .attr("class", "node")
         .attr("r", 8)
-        .attr("fill", function(d) {
+        .attr("fill", function (d) {
             return d.colour;
         })
         .on("mouseover", mouseOver(.2))
@@ -67,22 +67,23 @@ d3.json("mention_network.json", function(error, graph) {
 
     // hover text for the node
     node.append("title")
-        .text(function(d) {
+        .text(function (d) {
             return d.twitter;
         });
 
-    // add a label to each node
+    // add a label to each node 
     node.append("text")
         .attr("dx", 12)
         .attr("dy", ".35em")
-        .text(function(d) {
+        .text(function (d) {
             return d.name;
         })
         .style("stroke", "black")
         .style("stroke-width", 0.5)
-        .style("fill", function(d) {
+        .style("fill", function (d) {
             return d.colour;
         });
+
 
     // add the nodes to the simulation and
     // tell it what to do on each tick
@@ -114,8 +115,8 @@ d3.json("mention_network.json", function(error, graph) {
 
         var normalise = Math.sqrt((dx * dx) + (dy * dy));
 
-        var offSetX = midpoint_x + offset*(dy/normalise);
-        var offSetY = midpoint_y - offset*(dx/normalise);
+        var offSetX = midpoint_x + offset * (dy / normalise);
+        var offSetY = midpoint_y - offset * (dx / normalise);
 
         return "M" + d.source.x + "," + d.source.y +
             "S" + offSetX + "," + offSetY +
@@ -142,7 +143,7 @@ d3.json("mention_network.json", function(error, graph) {
 
     // build a dictionary of nodes that are linked
     var linkedByIndex = {};
-    links.forEach(function(d) {
+    links.forEach(function (d) {
         linkedByIndex[d.source.index + "," + d.target.index] = 1;
     });
 
@@ -153,23 +154,23 @@ d3.json("mention_network.json", function(error, graph) {
 
     // fade nodes on hover
     function mouseOver(opacity) {
-        return function(d) {
+        return function (d) {
             // check all other nodes to see if they're connected
             // to this one. if so, keep the opacity at 1, otherwise
             // fade
-            node.style("stroke-opacity", function(o) {
+            node.style("stroke-opacity", function (o) {
                 thisOpacity = isConnected(d, o) ? 1 : opacity;
                 return thisOpacity;
             });
-            node.style("fill-opacity", function(o) {
+            node.style("fill-opacity", function (o) {
                 thisOpacity = isConnected(d, o) ? 1 : opacity;
                 return thisOpacity;
             });
             // also style link accordingly
-            link.style("stroke-opacity", function(o) {
+            link.style("stroke-opacity", function (o) {
                 return o.source === d || o.target === d ? 1 : opacity;
             });
-            link.style("stroke", function(o){
+            link.style("stroke", function (o) {
                 return o.source === d || o.target === d ? o.source.colour : "#ddd";
             });
         };

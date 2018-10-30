@@ -186,10 +186,52 @@ h2 {
   stroke-width: 0;
 }
 
-.node {}
+.node {
+  stroke: #000;
+  stroke-width: 1px;
+  stroke-opacity: 0.6;
+}
 
 .link {
-  stroke: #999;
-  stroke-opacity: .3;
-  stroke-width: 0.5px;
+  stroke: #d9d9d9;
+  stroke-opacity: 1;
+  stroke-width: 1px;
+}
+
+.linkOver {
+  stroke: #737373;
+  stroke-opacity: 1;
+  stroke-width: 1px;
+}
+
+
+
+div.parent{
+  position: relative;
+  left: 0px;  /* stick it wherever it was positioned by default */
+  top: 0px;
+  padding: 0px;
+}
+.svgNetwork{
+  padding: 0px;
+  margin: 0px;
+}
+
+div.tooltip {
+  position: absolute;
+  width: 120px;
+  height: auto;
+  padding: 0px;
+  margin: 0px;
+  background:rgba(255, 255, 255, 0.6);
+  opacity: 0.5;
+  border: solid 1px rgba(0, 0, 0, 0.1);
+  border-radius: 2px;
+  white-space: pre-wrap;      /* CSS3 */   
+   white-space: -moz-pre-wrap; /* Firefox */    
+   white-space: -pre-wrap;     /* Opera <7 */   
+   white-space: -o-pre-wrap;   /* Opera 7 */    
+   word-wrap: break-word;      /* IE */
+   text-align: center;
+   font-size: 9px;
 }

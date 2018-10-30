@@ -182,9 +182,9 @@ dataViz.controller('homeController', function (
   }
 
   window.onresize = function () {
-    $log.log("onresize");
+    //$log.log("onresize");
     $scope.width = window.innerWidth - margin.left - margin.right;
-    $log.log($scope.width);
+    //$log.log($scope.width);
     return $scope.$apply();
   };
 
@@ -195,13 +195,17 @@ dataViz.controller('homeController', function (
     let links = graph.links
     let nodes = graph.nodes
 
+
+
     var svg = d3.select("#svgNetwork"),
       width = +svg.attr("width"),
       height = +svg.attr("height"),
       node,
       link, simulation;
 
-    console.log(svg)
+
+
+
 
     var strengthScale = d3.scaleLinear()
       .domain([0, 1])
@@ -219,66 +223,49 @@ dataViz.controller('homeController', function (
       .data(nodes)
       .enter()
       .append("g")
-      .attr("class", "node")
+
+    node.attr("class", "node")
       .call(d3.drag()
         .on("start", dragstarted)
         .on("drag", dragged)
         //.on("end", dragended)
       )
       .append("circle")
-      .attr("r", 5)
+      .attr("r", 6)
       .attr("fill", function (d) {
         return (d.group === 'c') ? '#66c2a5' : "#fc8d62";
       })
       .on("mouseover", mouseOver(.2))
       .on("mouseout", mouseOut)
+      .on("mousemove", function(d){mousemove(d);})
 
-     
+
+
 
     // hover text for the node
+    /*
     node.append("title")
       .text(function (d) {
-        console.log(d.label)
         return d.label;
       });
-
-      /*
- node.append("text")
-      .attr("dy", -3)
-      .text(function (d) {return d.label;});
-
-      // add a label to each node
-    node.append("text")
-        .attr("dx", 12)
-        .attr("dy", ".35em")
-        .text(function(d) {
-            return d.label;
-        })
-        .style("stroke", "black")
-        .style("stroke-width", 0.5)
-        .style("fill", function(d) {
-            return "#ff44ff"
-        });
-
-        
       */
 
-
-    
 
 
 
     simulation = d3.forceSimulation()
-        .force("link", d3.forceLink().id(function (d) { return d.id; })
-          // .distance(120)
-          .strength(customStrength)
-        )
-        .force("charge", d3.forceManyBody()
-          .strength(-50)
-          .distanceMin(1)
-          .distanceMax(700)
-        )
-        .force("center", d3.forceCenter(width / 2, height / 2));
+      .force("link", d3.forceLink().id(function (d) { return d.id; })
+        // .distance(120)
+        .strength(customStrength)
+      )
+      .force("charge", d3.forceManyBody()
+        .strength(-50)
+        .distanceMin(1)
+        .distanceMax(700)
+      )
+      // add some collision detection so they don't overlap
+      .force("collide", d3.forceCollide().radius(6))
+      .force("center", d3.forceCenter(width / 2, height / 2));
 
     simulation
       .nodes(nodes)
@@ -320,29 +307,62 @@ dataViz.controller('homeController', function (
         // check all other nodes to see if they're connected
         // to this one. if so, keep the opacity at 1, otherwise
         // fade
+        var dTip = false;
+
         node.style("stroke-opacity", function (o) {
           thisOpacity = isConnected(d, o) ? 1 : opacity;
           return thisOpacity;
         });
         node.style("fill-opacity", function (o) {
-          thisOpacity = isConnected(d, o) ? 1 : opacity;
+          var connected = isConnected(d, o)
+          if (connected && d != o) {
+            if(!dTip){
+              var div = d3.select("#nDiv").append("div")
+              .attr("class", "tooltip")
+              .style("opacity", 1)
+              .style("left", (d.x + 5) + "px")
+              .style("top", (d.y -10 ) + "px")
+              .html(d.label  );
+              dTip = true
+            }
+
+            var div = d3.select("#nDiv").append("div")
+              .attr("class", "tooltip")
+              .style("opacity", 1)
+              .style("left", (o.x + 5) + "px")
+              .style("top", (o.y -10 ) + "px")
+              .html(o.label  );
+          }
+          thisOpacity = connected ? 1 : opacity;
           return thisOpacity;
         });
         // also style link accordingly
+        /*
         link.style("stroke-opacity", function (o) {
           return o.source === d || o.target === d ? 1 : opacity;
         });
         link.style("stroke", function (o) {
-          return o.source === d || o.target === d ? o.source.colour : "#ddd";
+          return o.source === d || o.target === d ? "#fff": "#ddd";
+        });
+        */
+
+        link.attr("class", function (o) {
+          return o.source === d || o.target === d ? "linkOver": "link";
         });
       };
     }
 
     function mouseOut() {
-      node.style("stroke-opacity", 1);
+      node.style("stroke-opacity", 0.6);
       node.style("fill-opacity", 1);
-      link.style("stroke-opacity", 1);
-      link.style("stroke", "#ddd");
+     // link.style("stroke-opacity", 1);
+     // link.style("stroke", "#ddd");
+      link.attr("class", "link");
+      d3.select("body").selectAll('div.tooltip').remove();
+    }
+
+    function mousemove(d) {
+      d3.select("body").selectAll('div.tooltip').style("opacity", 1);
     }
 
     function dragstarted(d) {
