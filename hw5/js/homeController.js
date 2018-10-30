@@ -2,17 +2,17 @@
 dataViz.controller('homeController', function (
   $scope, $interval, $rootScope, $http, $log, $filter, ngProgressFactory) {
 
-    $scope.progressbar = ngProgressFactory.createInstance();
-    $scope.progressbar.setHeight("5px");
+  $scope.progressbar = ngProgressFactory.createInstance();
+  $scope.progressbar.setHeight("5px");
 
-  $scope.datasets = [] 
+  $scope.datasets = []
   $scope.selectedNode = {}
 
   var margin = { top: 20, right: 40, bottom: 10, left: 20 }
   $scope.width = 800
 
   $scope.remoteServiceUrl = "https://kudosg.carto.com/api/v2/sql?q="
- 
+
 
   $scope.parseDatasets = (d) => {
     $scope.progressbar.complete();
@@ -27,11 +27,11 @@ dataViz.controller('homeController', function (
 
   $scope.loadDatasets = function (d) {
     $scope.selectedNode = d
-    
+
     var filterColumn = ""
-    if(d.id.substring(0,1) == 'o'){
+    if (d.id.substring(0, 1) == 'o') {
       filterColumn = "organization_code"
-    }else{
+    } else {
       filterColumn = "category_code"
     }
 
@@ -40,7 +40,7 @@ dataViz.controller('homeController', function (
       order by resource_name  asc `
 
     $log.log(query);
-    
+
     $scope.progressbar.start();
     d3.json($scope.remoteServiceUrl + query).then($scope.parseDatasets);
   }
@@ -52,6 +52,16 @@ dataViz.controller('homeController', function (
   $scope.init = function () {
     $log.log("init - homeController");
     $scope.loadNetworkData()
+    $scope.loadTree()
+  }
+
+  $scope.loadTree = function (){
+    
+    d3.json("js/hierarchy2.json").then((data) => {
+      console.log(data );
+     // vegaEmbed("#vis", data, { theme: 'dark', actions: false });
+    });
+    
   }
 
   window.onresize = function () {
@@ -105,11 +115,11 @@ dataViz.controller('homeController', function (
       })
       .on("mouseover", mouseOver(.2))
       .on("mouseout", mouseOut)
-     //.on("mousemove", function (d) { mousemove(d); })
+      //.on("mousemove", function (d) { mousemove(d); })
       .on("click", handleClick)
 
-   
-      
+
+
 
     simulation = d3.forceSimulation()
       .force("link", d3.forceLink().id(function (d) { return d.id; })
@@ -151,7 +161,7 @@ dataViz.controller('homeController', function (
       return linkedByIndex[a.index + "," + b.index] || linkedByIndex[b.index + "," + a.index] || a.index == b.index;
     }
 
-    function handleClick(d){
+    function handleClick(d) {
       console.log(d)
       $scope.loadDatasets(d)
     }

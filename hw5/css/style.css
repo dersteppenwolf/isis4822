@@ -4,8 +4,9 @@ html {
 }
 
 body {
-  /* Margin bottom by footer height */
+  /* Margin bottom by footer height 
   margin-bottom: 60px;
+  */
   font-family: 'Comfortaa', cursive;
   color: black;
 }

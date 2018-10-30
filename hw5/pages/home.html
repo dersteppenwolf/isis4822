@@ -17,8 +17,11 @@
 		The following dashboard allows to explore some facts about traffic accidents in Bogotá using temporal data from 2017.
 	</p>
 
-
-
+	<div class="row">
+		<div class="col-12">
+			<div id="vis"  width="1200" height="600" ></div>
+		</div>
+	</div>
 
 
 	<div class="row">
@@ -46,11 +49,11 @@
 
 	<div class="row">
 
-		<div class="w-40 col-12">
+		<div class="w-40 col-12 " style="margin:20px">
 			<br />
 			<label>Datasets:</label>
 			<h2 class="col-12">{{selectedNode.label}} </h2>
-			<div class="datasetLink" >
+			<div class="datasetLink">
 				<a class="datasetLink" ng-repeat="l in datasets" target="_blank" href="{{ l.link }}">{{ l.label }} , </a>
 			</div>
 			<br />
