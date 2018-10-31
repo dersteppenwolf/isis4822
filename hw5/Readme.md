@@ -6,7 +6,7 @@ According to
 
 * Demo: http://jcmendez.gkudos.com/hw5/
 * Slides: https://github.com/dersteppenwolf/isis4822/blob/master/hw5/hw5.jc.mendez_fall_2018.pdf
-* Video: 
+* Video: https://youtu.be/niO_3RRNwUw
 
 ## About the Author 
 
