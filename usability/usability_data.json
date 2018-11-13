@@ -1,0 +1,92 @@
+[ 
+    {"question": "Pregunta 01", "type": "Totalmente en desacuerdo",  "percentage": 0},
+    {"question": "Pregunta 01", "type": "Desacuerdo", "percentage": 0},
+    {"question": "Pregunta 01", "type": "Neutral",  "percentage": 16.667},
+    {"question": "Pregunta 01", "type": "De acuerdo",  "percentage": 50.001  },
+    {"question": "Pregunta 01", "type": "Totalmente de Acuerdo",  "percentage": 33.334},
+
+    {"question": "Pregunta 02", "type": "Totalmente en desacuerdo",  "percentage": 16.667},
+    {"question": "Pregunta 02", "type": "Desacuerdo", "percentage": 0},
+    {"question": "Pregunta 02", "type": "Neutral",  "percentage": 16.667},
+    {"question": "Pregunta 02", "type": "De acuerdo",  "percentage": 50.001},
+    {"question": "Pregunta 02", "type": "Totalmente de Acuerdo",  "percentage": 16.667},
+
+    {"question": "Pregunta 03", "type": "Totalmente en desacuerdo",  "percentage": 16.667},
+    {"question": "Pregunta 03", "type": "Desacuerdo", "percentage": 0},
+    {"question": "Pregunta 03", "type": "Neutral",  "percentage": 0},
+    {"question": "Pregunta 03", "type": "De acuerdo",  "percentage": 50.001},
+    {"question": "Pregunta 03", "type": "Totalmente de Acuerdo",  "percentage": 33.334},
+
+    {"question": "Pregunta 04", "type": "Totalmente en desacuerdo",  "percentage": 33.334},
+    {"question": "Pregunta 04", "type": "Desacuerdo", "percentage": 0},
+    {"question": "Pregunta 04", "type": "Neutral",  "percentage": 0},
+    {"question": "Pregunta 04", "type": "De acuerdo",  "percentage": 33.334},
+    {"question": "Pregunta 04", "type": "Totalmente de Acuerdo",  "percentage": 33.334},
+
+    {"question": "Pregunta 05", "type": "Totalmente en desacuerdo",  "percentage": 16.667},
+    {"question": "Pregunta 05", "type": "Desacuerdo", "percentage": 33.334},
+    {"question": "Pregunta 05", "type": "Neutral",  "percentage": 16.667},
+    {"question": "Pregunta 05", "type": "De acuerdo",  "percentage": 0},
+    {"question": "Pregunta 05", "type": "Totalmente de Acuerdo",  "percentage": 33.334},
+
+    {"question": "Pregunta 06", "type": "Totalmente en desacuerdo",  "percentage": 33.334},
+    {"question": "Pregunta 06", "type": "Desacuerdo", "percentage": 0},
+    {"question": "Pregunta 06", "type": "Neutral",  "percentage": 16.667},
+    {"question": "Pregunta 06", "type": "De acuerdo",  "percentage": 33.334},
+    {"question": "Pregunta 06", "type": "Totalmente de Acuerdo",  "percentage": 16.667},
+
+    {"question": "Pregunta 07", "type": "Totalmente en desacuerdo",  "percentage": 0},
+    {"question": "Pregunta 07", "type": "Desacuerdo", "percentage": 33.334},
+    {"question": "Pregunta 07", "type": "Neutral",  "percentage": 16.667},
+    {"question": "Pregunta 07", "type": "De acuerdo",  "percentage": 0},
+    {"question": "Pregunta 07", "type": "Totalmente de Acuerdo",  "percentage": 50.001},
+
+    {"question": "Pregunta 08", "type": "Totalmente en desacuerdo",  "percentage": 0},
+    {"question": "Pregunta 08", "type": "Desacuerdo", "percentage": 0},
+    {"question": "Pregunta 08", "type": "Neutral",  "percentage": 0},
+    {"question": "Pregunta 08", "type": "De acuerdo",  "percentage": 0},
+    {"question": "Pregunta 08", "type": "Totalmente de Acuerdo",  "percentage": 0},
+
+    {"question": "Pregunta 09", "type": "Totalmente en desacuerdo",  "percentage": 0},
+    {"question": "Pregunta 09", "type": "Desacuerdo", "percentage": 0},
+    {"question": "Pregunta 09", "type": "Neutral",  "percentage": 0},
+    {"question": "Pregunta 09", "type": "De acuerdo",  "percentage": 0},
+    {"question": "Pregunta 09", "type": "Totalmente de Acuerdo",  "percentage": 0},
+
+    {"question": "Pregunta 10", "type": "Totalmente en desacuerdo",  "percentage": 0},
+    {"question": "Pregunta 10", "type": "Desacuerdo", "percentage": 0},
+    {"question": "Pregunta 10", "type": "Neutral",  "percentage": 0},
+    {"question": "Pregunta 10", "type": "De acuerdo",  "percentage": 0},
+    {"question": "Pregunta 10", "type": "Totalmente de Acuerdo",  "percentage": 0},
+
+    {"question": "Pregunta 11", "type": "Totalmente en desacuerdo",  "percentage": 0},
+    {"question": "Pregunta 11", "type": "Desacuerdo", "percentage": 0},
+    {"question": "Pregunta 11", "type": "Neutral",  "percentage": 0},
+    {"question": "Pregunta 11", "type": "De acuerdo",  "percentage": 0},
+    {"question": "Pregunta 11", "type": "Totalmente de Acuerdo",  "percentage": 0},
+
+    
+
+    {"question": "Pregunta 12", "type": "Totalmente en desacuerdo",  "percentage": 0},
+    {"question": "Pregunta 12", "type": "Desacuerdo", "percentage": 0},
+    {"question": "Pregunta 12", "type": "Neutral",  "percentage": 0},
+    {"question": "Pregunta 12", "type": "De acuerdo",  "percentage": 0},
+    {"question": "Pregunta 12", "type": "Totalmente de Acuerdo",  "percentage": 0},
+
+    {"question": "Pregunta 13", "type": "Totalmente en desacuerdo",  "percentage": 0},
+    {"question": "Pregunta 13", "type": "Desacuerdo", "percentage": 0},
+    {"question": "Pregunta 13", "type": "Neutral",  "percentage": 0},
+    {"question": "Pregunta 13", "type": "De acuerdo",  "percentage": 0},
+    {"question": "Pregunta 13", "type": "Totalmente de Acuerdo",  "percentage": 0},
+
+    {"question": "Pregunta 14", "type": "Totalmente en desacuerdo",  "percentage": 0},
+    {"question": "Pregunta 14", "type": "Desacuerdo", "percentage": 0},
+    {"question": "Pregunta 14", "type": "Neutral",  "percentage": 0},
+    {"question": "Pregunta 14", "type": "De acuerdo",  "percentage": 0},
+    {"question": "Pregunta 14", "type": "Totalmente de Acuerdo",  "percentage": 0}
+
+
+
+  
+
+  ]
