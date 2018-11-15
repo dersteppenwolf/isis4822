@@ -38,7 +38,7 @@ Projects for  Class *ISIS 4822 -  Visual Analytics - Universidad de los Andes* h
 
 [We are getting hotter!!](midterm/)
 
-![alt text](https://raw.githubusercontent.com/dersteppenwolf/isis4822/master/midterm/images/1.png "Visualization")
+![alt text](https://raw.githubusercontent.com/dersteppenwolf/isis4822/master/midterm/images/3b.png "Visualization")
 
 
 
