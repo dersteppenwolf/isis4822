@@ -20,9 +20,7 @@ Projects for  Class *ISIS 4822 -  Visual Analytics - Universidad de los Andes* h
 
 ## Homework 2 : Basic interactive Viz
 
-A Visual tool for Data Quality Checking of Geomagnetic Data
-
-[I'm a relative reference to a repository file](../blob/master/hw2)
+[A Visual tool for Data Quality Checking of Geomagnetic Data](hw2/)
 
 ![alt text](https://raw.githubusercontent.com/dersteppenwolf/isis4822/master/hw2/images/s1.png "Visualization")
 
