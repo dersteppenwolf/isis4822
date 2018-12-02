@@ -56,3 +56,10 @@ Projects for  Class *ISIS 4822 -  Visual Analytics - Universidad de los Andes* h
 
 ![alt text](https://raw.githubusercontent.com/dersteppenwolf/isis4822/master/hw5/images/a.png "Visualization")
 
+
+### Final Project
+
+[Rheumatoid Arthritis in Colombia](https://github.com/dersteppenwolf/isis4822_final_project)
+
+![alt text](https://raw.githubusercontent.com/dersteppenwolf/isis4822_final_project/master/media/dashboard.png  "Visualization")
+
