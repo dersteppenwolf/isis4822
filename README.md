@@ -2,6 +2,16 @@
 
 Projects for  Class *ISIS 4822 -  Visual Analytics - Universidad de los Andes* http://johnguerra.co/classes/visual_analytics_fall_2018/
 
+- [isis4822](#isis4822)
+    - [About the Author](#about-the-author)
+        - [Juan Carlos Méndez](#juan-carlos-m%C3%A9ndez)
+    - [Projects](#projects)
+        - [Homework 2 : Basic interactive Viz](#homework-2--basic-interactive-viz)
+        - [Homework 3 : Multidimensional data](#homework-3--multidimensional-data)
+        - [Midterm](#midterm)
+        - [Homework 4 : Temporal Data](#homework-4--temporal-data)
+        - [Homework 5 : Networks/Trees](#homework-5--networkstrees)
+        - [Final Project](#final-project)
 
 ## About the Author
 
